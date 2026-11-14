@@ -1,0 +1,47 @@
+{
+  "id": "orcs",
+  "name": "Орки",
+  "sections": [
+    {
+      "name": "Стойбище Сидящих на камнях",
+      "data": "data/orcs/stoybische_sidyaschih_na_kamnyah.json"
+    },
+    {
+      "name": "Военный лагерь",
+      "data": "data/orcs/voennyy_lager.json"
+    },
+    {
+      "name": "Орочий тракт",
+      "data": "data/orcs/orochiy_trakt.json"
+    },
+    {
+      "name": "Орочья степь",
+      "data": "data/orcs/orochya_step.json"
+    },
+    {
+      "name": "Деревня Буревестников",
+      "data": "data/orcs/derevnya_burevestnikov.json"
+    },
+    {
+      "name": "Угольная шахта",
+      "data": "data/orcs/ugolnaya_shahta.json"
+    },
+    {
+      "name": "Стойбище Ходящих по Огню",
+      "data": "data/orcs/stoybische_hodyaschih_po_ognyu.json"
+    },
+    {
+      "name": "Стойбище Пьющих Ветер",
+      "data": "data/orcs/stoybische_pyuschih_veter.json"
+    },
+    {
+      "name": "Стойбище Грызущих Кости",
+      "data": "data/orcs/stoybische_gryzuschih_kosti.json"
+    },
+    {
+      "name": "Горные земли",
+      "data": "data/orcs/gornye_zemli.json"
+    }
+  ],
+  "items": []
+}

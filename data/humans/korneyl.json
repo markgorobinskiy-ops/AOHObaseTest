@@ -1,0 +1,11 @@
+{
+  "id": "humans/1",
+  "name": "Корнейл",
+  "sections": [
+    {
+      "name": "Пещеры",
+      "data": "data/humans/korneyl/peschery.json"
+    }
+  ],
+  "items": []
+}

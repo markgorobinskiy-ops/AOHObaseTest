@@ -1,0 +1,39 @@
+{
+  "id": "dwarves",
+  "name": "Гномы",
+  "sections": [
+    {
+      "name": "Дварфхилл пост",
+      "data": "data/dwarves/dvarfhill_post.json"
+    },
+    {
+      "name": "Каррагвур пост",
+      "data": "data/dwarves/karragvur_post.json"
+    },
+    {
+      "name": "Пещеры Каррагвура",
+      "data": "data/dwarves/peschery_karragvura.json"
+    },
+    {
+      "name": "Гарргрин пост",
+      "data": "data/dwarves/garrgrin_post.json"
+    },
+    {
+      "name": "Гарргрин",
+      "data": "data/dwarves/garrgrin.json"
+    },
+    {
+      "name": "Южный Пик",
+      "data": "data/dwarves/yuzhnyy_pik.json"
+    },
+    {
+      "name": "Сангард пост",
+      "data": "data/dwarves/sangard_post.json"
+    },
+    {
+      "name": "Кил’м’Аат",
+      "data": "data/dwarves/kilmaat.json"
+    }
+  ],
+  "items": []
+}

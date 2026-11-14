@@ -1,0 +1,27 @@
+{
+  "id": "undead",
+  "name": "Нежить",
+  "sections": [
+    {
+      "name": "Мойбад",
+      "data": "data/undead/moybad.json"
+    },
+    {
+      "name": "Иссохшее озеро",
+      "data": "data/undead/issohshee_ozero.json"
+    },
+    {
+      "name": "Кладбища",
+      "data": "data/undead/kladbischa.json"
+    },
+    {
+      "name": "Поселение в Дельте",
+      "data": "data/undead/poselenie_v_delte.json"
+    },
+    {
+      "name": "Медиланское Нагорье",
+      "data": "data/undead/medilanskoe_nagore.json"
+    }
+  ],
+  "items": []
+}

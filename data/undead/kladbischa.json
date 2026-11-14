@@ -1,0 +1,11 @@
+{
+  "id": "undead/2",
+  "name": "Кладбища",
+  "sections": [
+    {
+      "name": "Грот Вечной тишины",
+      "data": "data/undead/kladbischa/grot_vechnoy_tishiny.json"
+    }
+  ],
+  "items": []
+}

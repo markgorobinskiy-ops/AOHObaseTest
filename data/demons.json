@@ -1,0 +1,43 @@
+{
+  "id": "demons",
+  "name": "Демониды",
+  "sections": [
+    {
+      "name": "Ошт’Ун",
+      "data": "data/demons/oshtun.json"
+    },
+    {
+      "name": "Шан’Хатт",
+      "data": "data/demons/shanhatt.json"
+    },
+    {
+      "name": "Ута’Хатт",
+      "data": "data/demons/utahatt.json"
+    },
+    {
+      "name": "Шак’Од",
+      "data": "data/demons/shakod.json"
+    },
+    {
+      "name": "Тха’Хашш",
+      "data": "data/demons/thahashsh.json"
+    },
+    {
+      "name": "Кхор’Аат",
+      "data": "data/demons/khoraat.json"
+    },
+    {
+      "name": "Тгум’Од",
+      "data": "data/demons/tgumod.json"
+    },
+    {
+      "name": "Торговый пост",
+      "data": "data/demons/torgovyy_post.json"
+    },
+    {
+      "name": "Уоха’Тумх",
+      "data": "data/demons/uohatumh.json"
+    }
+  ],
+  "items": []
+}

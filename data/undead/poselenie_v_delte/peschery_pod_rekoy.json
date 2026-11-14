@@ -1,0 +1,11 @@
+{
+  "id": "undead/3/0",
+  "name": "Пещеры под рекой",
+  "sections": [
+    {
+      "name": "Фамильный склеп Бошей",
+      "data": "data/undead/poselenie_v_delte/peschery_pod_rekoy/familnyy_sklep_boshey.json"
+    }
+  ],
+  "items": []
+}

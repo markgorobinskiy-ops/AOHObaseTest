@@ -1,0 +1,11 @@
+{
+  "id": "undead/3",
+  "name": "Поселение в Дельте",
+  "sections": [
+    {
+      "name": "Пещеры под рекой",
+      "data": "data/undead/poselenie_v_delte/peschery_pod_rekoy.json"
+    }
+  ],
+  "items": []
+}

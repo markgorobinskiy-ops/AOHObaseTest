@@ -1,0 +1,11 @@
+{
+  "id": "elves/4",
+  "name": "Ильвир",
+  "sections": [
+    {
+      "name": "Пещеры Эльфов",
+      "data": "data/elves/ilvir/peschery_elfov.json"
+    }
+  ],
+  "items": []
+}

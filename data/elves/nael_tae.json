@@ -1,0 +1,11 @@
+{
+  "id": "elves/1",
+  "name": "Наэль Таэ",
+  "sections": [
+    {
+      "name": "Переход от Эльфов к Демонидам — Унх’Да",
+      "data": "data/elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda.json"
+    }
+  ],
+  "items": []
+}

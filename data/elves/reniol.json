@@ -1,0 +1,11 @@
+{
+  "id": "elves/5",
+  "name": "Рениоль",
+  "sections": [
+    {
+      "name": "Ауренфей",
+      "data": "data/elves/reniol/aurenfey.json"
+    }
+  ],
+  "items": []
+}

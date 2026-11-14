@@ -1,0 +1,55 @@
+{
+  "id": "humans",
+  "name": "Люди",
+  "sections": [
+    {
+      "name": "Перекрестье",
+      "data": "data/humans/perekreste.json"
+    },
+    {
+      "name": "Корнейл",
+      "data": "data/humans/korneyl.json"
+    },
+    {
+      "name": "Таннервилль",
+      "data": "data/humans/tannervill.json"
+    },
+    {
+      "name": "Ривервиль",
+      "data": "data/humans/rivervil.json"
+    },
+    {
+      "name": "Рейден",
+      "data": "data/humans/reyden.json"
+    },
+    {
+      "name": "Айронхольд",
+      "data": "data/humans/ayronhold.json"
+    },
+    {
+      "name": "Амиссвуд",
+      "data": "data/humans/amissvud.json"
+    },
+    {
+      "name": "Пограничье, Север",
+      "data": "data/humans/pograniche_sever.json"
+    },
+    {
+      "name": "Дерденхол",
+      "data": "data/humans/derdenhol.json"
+    },
+    {
+      "name": "Хидевельд",
+      "data": "data/humans/hideveld.json"
+    },
+    {
+      "name": "Грейхилл",
+      "data": "data/humans/greyhill.json"
+    },
+    {
+      "name": "Кромельвуд",
+      "data": "data/humans/kromelvud.json"
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,46 @@
+{
+  "races": {
+    "elves": {
+      "name": "Эльфы",
+      "icon": "🌿",
+      "bg": "images/elves.jpg",
+      "tagline": "Лесные стрелки Айвейла",
+      "data": "data/elves.json"
+    },
+    "demons": {
+      "name": "Демониды",
+      "icon": "🔥",
+      "bg": "images/demons.jpg",
+      "tagline": "Дети Врат, изменивших мир",
+      "data": "data/demons.json"
+    },
+    "undead": {
+      "name": "Нежить",
+      "icon": "💀",
+      "bg": "images/undead.jpg",
+      "tagline": "Те, кто не принял покоя",
+      "data": "data/undead.json"
+    },
+    "humans": {
+      "name": "Люди",
+      "icon": "🛡",
+      "bg": "images/humans.jpg",
+      "tagline": "Упорство против судьбы",
+      "data": "data/humans.json"
+    },
+    "dwarves": {
+      "name": "Гномы",
+      "icon": "⚒",
+      "bg": "images/dwarves.jpg",
+      "tagline": "Молот и камень",
+      "data": "data/dwarves.json"
+    },
+    "orcs": {
+      "name": "Орки",
+      "icon": "⚔",
+      "bg": "images/orcs.jpg",
+      "tagline": "Степь не прощает слабых",
+      "data": "data/orcs.json"
+    }
+  }
+}

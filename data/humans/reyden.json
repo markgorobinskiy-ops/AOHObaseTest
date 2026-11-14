@@ -1,0 +1,11 @@
+{
+  "id": "humans/4",
+  "name": "Рейден",
+  "sections": [
+    {
+      "name": "Форвуд",
+      "data": "data/humans/reyden/forvud.json"
+    }
+  ],
+  "items": []
+}

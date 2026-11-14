@@ -1,0 +1,39 @@
+{
+  "id": "elves",
+  "name": "Эльфы",
+  "sections": [
+    {
+      "name": "Айнали",
+      "data": "data/elves/aynali.json"
+    },
+    {
+      "name": "Наэль Таэ",
+      "data": "data/elves/nael_tae.json"
+    },
+    {
+      "name": "Людьен Эмиль",
+      "data": "data/elves/lyuden_emil.json"
+    },
+    {
+      "name": "Монтсильвар",
+      "data": "data/elves/montsilvar.json"
+    },
+    {
+      "name": "Ильвир",
+      "data": "data/elves/ilvir.json"
+    },
+    {
+      "name": "Рениоль",
+      "data": "data/elves/reniol.json"
+    },
+    {
+      "name": "Лорделейн",
+      "data": "data/elves/lordeleyn.json"
+    },
+    {
+      "name": "Кильч",
+      "data": "data/elves/kilch.json"
+    }
+  ],
+  "items": []
+}
