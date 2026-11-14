@@ -1,0 +1,8 @@
+/* Орки — стили раздела */
+body[data-race="orcs"] {
+  --bg:#221a12;
+  --panel:#31261a;
+  --panel2:#3f3222;
+  --accent:#e0b466;
+  --text:#f4ecdf;
+}

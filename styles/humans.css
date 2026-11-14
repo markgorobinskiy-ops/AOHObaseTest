@@ -1,0 +1,28 @@
+/* Люди — светлая тема раздела */
+body[data-race="humans"] {
+  --bg:#d8d3c4;
+  --panel:#efe9da;
+  --panel2:#e2dcc9;
+  --accent:#8a6d3b;
+  --text:#2e2a22;
+}
+
+/* светлые оверлеи */
+body[data-race="humans"] .bg::before {
+  background:linear-gradient(rgba(255,255,255,.28), rgba(255,255,255,.38));
+}
+body[data-race="humans"] .bg::after {
+  background:radial-gradient(ellipse at center, transparent 60%, rgba(80,70,50,.25) 100%);
+}
+body[data-race="humans"] header { background:rgba(255,255,255,.65); }
+body[data-race="humans"] .card { background:rgba(255,255,255,.6); }
+body[data-race="humans"] .card:hover { background:rgba(255,255,255,.85); }
+body[data-race="humans"] .sub-item:hover { background:rgba(0,0,0,.06); }
+body[data-race="humans"] .itable { background:rgba(255,255,255,.6); }
+body[data-race="humans"] .irow:hover { background:rgba(0,0,0,.06); }
+
+/* приглушённые цвета редкостей на светлом фоне */
+body[data-race="humans"] .r-green  { color:#2e7d32; border-color:#2e7d32; }
+body[data-race="humans"] .r-blue   { color:#1565c0; border-color:#1565c0; }
+body[data-race="humans"] .r-purple { color:#7b1fa2; border-color:#7b1fa2; }
+body[data-race="humans"] .r-orange { color:#e65100; border-color:#e65100; }

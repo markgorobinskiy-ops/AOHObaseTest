@@ -1,0 +1,8 @@
+/* Демониды — стили раздела */
+body[data-race="demons"] {
+  --bg:#2a1012;
+  --panel:#3a171a;
+  --panel2:#4b1f22;
+  --accent:#e8a87a;
+  --text:#f5e9e4;
+}

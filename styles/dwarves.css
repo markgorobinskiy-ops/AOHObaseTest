@@ -1,0 +1,8 @@
+/* Гномы — стили раздела */
+body[data-race="dwarves"] {
+  --bg:#26211a;
+  --panel:#332c22;
+  --panel2:#41382b;
+  --accent:#d9a94e;
+  --text:#f2ead9;
+}

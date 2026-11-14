@@ -1,0 +1,8 @@
+/* Нежить — стили раздела */
+body[data-race="undead"] {
+  --bg:#1b1d22;
+  --panel:#262a30;
+  --panel2:#31363e;
+  --accent:#9fb8c9;
+  --text:#eef1f4;
+}

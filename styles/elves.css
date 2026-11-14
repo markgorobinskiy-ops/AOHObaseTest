@@ -1,0 +1,8 @@
+/* Эльфы — стили раздела */
+body[data-race="elves"] {
+  --bg:#1a2618;
+  --panel:#22301f;
+  --panel2:#2c3d29;
+  --accent:#b8d47a;
+  --text:#eef2e2;
+}
