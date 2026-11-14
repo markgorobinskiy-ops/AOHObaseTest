@@ -367,29 +367,46 @@ function render(){
 }
 
 init();
-</script>
- <!-- Просмотр картинки предмета крупно -->
+<!-- Просмотр картинки предмета крупно -->
 <style>
-  img[src*="items/"]{cursor:zoom-in}
-  #lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.87);display:none;z-index:9999;align-items:center;justify-content:center;cursor:zoom-out}
+  #lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.87);display:none;z-index:99999;align-items:center;justify-content:center;cursor:zoom-out}
   #lightbox-overlay.active{display:flex}
   #lightbox-overlay img{max-width:92vw;max-height:92vh;border:2px solid #8a6d3b;border-radius:6px;box-shadow:0 0 50px rgba(0,0,0,.9);background:#1a120b;image-rendering:pixelated}
+  #pimg img{cursor:zoom-in}
 </style>
 <script>
 (function(){
   var ov=document.createElement('div');
   ov.id='lightbox-overlay';
+  ov.innerHTML='<img alt="">';
   document.body.appendChild(ov);
+  function show(src){ ov.querySelector('img').src=src; ov.classList.add('active'); }
   ov.addEventListener('click',function(){ov.classList.remove('active');});
   document.addEventListener('keydown',function(e){if(e.key==='Escape')ov.classList.remove('active');});
+
+  /* основной способ: после открытия карточки вешаем клик прямо на её картинку */
+  var origOpenItem=window.openItem;
+  window.openItem=function(raceId,key,j){
+    if(origOpenItem) origOpenItem.apply(this,arguments);
+    setTimeout(function(){
+      var im=document.querySelector('#pimg img');
+      if(im) im.onclick=function(ev){ev.stopPropagation();show(im.src);};
+    },0);
+  };
+
+  /* страховка: клик по любой картинке или фону с items/ в пути */
+  function extractSrc(el){
+    if(el.tagName==='IMG'){var s=el.getAttribute('src')||'';return s.indexOf('items/')>-1?s:null;}
+    var bg=getComputedStyle(el).backgroundImage||'';
+    if(bg&&bg.indexOf('items/')>-1){var m=bg.match(/url$["']?([^"')]+)["']?$/);return m?m[1]:null;}
+    return null;
+  }
   document.addEventListener('click',function(e){
-    var img=e.target;
-    if(!img||!img.tagName||img.tagName!=='IMG'||ov.contains(img))return;
-    var src=img.getAttribute('src')||'';
-    if(src.indexOf('items/')>-1){
-      e.preventDefault();e.stopPropagation();
-      ov.innerHTML='';var big=new Image();big.src=src;ov.appendChild(big);
-      ov.classList.add('active');
+    var el=e.target;
+    while(el&&el!==document.body){
+      var src=extractSrc(el);
+      if(src){e.preventDefault();e.stopPropagation();show(src);return;}
+      el=el.parentElement;
     }
   },true);
 })();
