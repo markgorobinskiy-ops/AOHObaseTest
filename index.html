@@ -167,24 +167,35 @@
 </div>
 
 <script>
-/* ——— данные сайта: загружаются из data.json ——— */
-let RACES = {}, ITEMS = {};
-const RARITY_CLASS = {'Особый':'r-green','Редкий':'r-blue','Эпический':'r-purple','Легендарный':'r-orange'};
+/* ——— данные сайта: дерево файлов (races.json + папка data/) ——— */
+let RACES = {};
+const RARITY_CLASS =
+  {'Особый':'r-green','Редкий':'r-blue','Эпический':'r-purple','Легендарный':'r-orange'};
 const ITEM_DIR = 'images/items/';
+const CACHE = {};
 
-fetch('data.json?_=' + Date.now())
+function cleanData(p){ return String(p).replace(/^data\//, '').replace(/\.json$/, ''); }
+function fileUrl(path){ return 'data/' + path + '.json'; }
+
+fetch('races.json?_=' + Date.now())
   .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-  .then(json => {
-    RACES = json.races;
-    ITEMS = json.items || {};
-    init();
-  })
+  .then(json => { RACES = json.races; init(); })
   .catch(() => {
     document.getElementById('app').innerHTML =
-      '<div class="placeholder" style="margin-top:60px">\u26A0 Не удалось загрузить data.json.<br>'
+      '<div class="placeholder" style="margin-top:60px">\u26A0 Не удалось загрузить races.json.<br>'
       + 'Если сайт открыт с диска (file://), браузер блокирует чтение локальных файлов.<br>'
       + 'Открой ресурсы через GitHub Pages.</div>';
   });
+
+/* узел дерева с кэшем: грузится один раз за сессию */
+async function loadNode(path){
+  if(CACHE[path]) return CACHE[path];
+  const r = await fetch(fileUrl(path) + '?_=' + Date.now());
+  if(!r.ok) throw new Error('HTTP ' + r.status);
+  const json = await r.json();
+  CACHE[path] = json;
+  return json;
+}
 
 function init(){
   try {
@@ -229,53 +240,68 @@ function setBody(raceId){
   buildRaceButton();
 }
 
-/* ——— счётчики ——— */
-function countSubs(subs){
-  if(!subs) return 0;
-  let c = subs.length;
-  subs.forEach(s => { c += countSubs(s.subs); });
-  return c;
-}
-function countLocItems(raceId, i, loc){
-  let c = (ITEMS[raceId + '/' + i] || []).length;
-  (loc.subs || []).forEach((s, j) => {
-    c += (ITEMS[raceId + '/' + i + '/' + j] || []).length;
-    c += countSubItems(raceId + '/' + i + '/' + j, s.subs || []);
-  });
-  return c;
-}
-function countSubItems(key, subs){
-  let c = 0;
-  subs.forEach((s, k) => {
-    c += (ITEMS[key + '/' + k] || []).length;
-    c += countSubItems(key + '/' + k, s.subs || []);
-  });
-  return c;
+/* ——— счётчики: рекурсивный обход дерева файлов (с кэшем) ——— */
+async function walkStats(path){
+  let node;
+  try { node = await loadNode(path); } catch(e){ return {items:0, subs:0}; }
+  let items = (node.items || []).length;
+  let subs = (node.sections || []).length;
+  for(const s of (node.sections || [])){
+    const st = await walkStats(cleanData(s.data));
+    items += st.items; subs += st.subs;
+  }
+  return {items, subs};
 }
 function badge(n){ return n > 0 ? '<span class="cnt">' + n + ' пред.</span>' : '<span class="soon">скоро</span>'; }
 
-/* ——— подлокации (любая глубина) ——— */
-function subsHtml(subs, raceId, locIdx, path, depth){
-  if(!subs || !subs.length) return '';
+/* ——— хлебные крошки: имена всех узлов по пути ——— */
+async function breadcrumb(path){
+  const parts = path.split('/');
+  const out = [];
+  const race = RACES[parts[0]];
+  if(race) out.push({name: race.name, hash: '#/race/' + parts[0]});
+  let acc = parts[0];
+  for(let i = 1; i < parts.length; i++){
+    acc += '/' + parts[i];
+    let name = parts[i];
+    try { const n = await loadNode(acc); if(n.name) name = n.name; } catch(e){}
+    out.push({name: name, hash: '#/loc/' + acc});
+  }
+  return out;
+}
+
+/* ——— превью подразделов узла (один уровень) ——— */
+async function subsPreview(path){
+  let node;
+  try { node = await loadNode(path); } catch(e){ return ''; }
+  const secs = node.sections || [];
+  if(!secs.length) return '';
   let html = '<div class="subs">';
-  subs.forEach((s, j) => {
-    const key = raceId + '/' + locIdx + path + '/' + j;
-    const n = (ITEMS[key] || []).length + countSubItems(key, s.subs || []);
-    html += '<div class="sub-item"><span><span class="arrow">\u21B3</span>' + s.name + '</span>' + badge(n) + '</div>';
-    html += subsHtml(s.subs, raceId, locIdx, path + '/' + j, depth + 1);
-  });
+  for(const s of secs){
+    const p = cleanData(s.data);
+    html += '<div class="sub-item" onclick="location.hash=\'#/loc/' + p + '\'">'
+          + '<span><span class="arrow">\u21B3</span>' + s.name + '</span>'
+          + '<span data-badge="' + p + '"><span class="soon">…</span></span></div>';
+  }
   return html + '</div>';
 }
 
-/* ——— таблица предметов ——— */
-function itemsTable(raceId, key, locName){
-  const items = ITEMS[key] || [];
-  if(!items.length){
-    return '<div class="placeholder">\u{1F4E6} Предметы появятся скоро.<br>Здесь будет таблица выпадающих предметов из этой локации.</div>';
-  }
+/* ——— заполнение бейджей с количеством предметов ——— */
+function fillBadges(){
+  document.querySelectorAll('[data-badge]').forEach(el => {
+    const p = el.getAttribute('data-badge');
+    walkStats(p).then(st => { el.innerHTML = badge(st.items); });
+  });
+}
+
+/* ——— таблица предметов узла ——— */
+async function itemsTable(path){
+  const node = await loadNode(path);
+  const items = node.items || [];
+  if(!items.length) return '';
   let html = '<div class="itable"><div class="ihead"><span>Предмет</span><span>Редкость</span></div>';
   items.forEach((it, j) => {
-    html += '<div class="irow" style="animation-delay:' + (j * 0.07) + 's" onclick="openItem(\'' + raceId + '\',\'' + key + '\',' + j + ')">'
+    html += '<div class="irow" style="animation-delay:' + (j * 0.07) + 's" onclick="openItem(\'' + path + '\',' + j + ')">'
           + '<span class="iname">' + it.n + '</span>'
           + '<span class="rchip ' + (RARITY_CLASS[it.r] || 'r-green') + '">' + it.r + '</span></div>';
   });
@@ -283,25 +309,21 @@ function itemsTable(raceId, key, locName){
 }
 
 /* ——— панель объекта ——— */
-function openItem(raceId, key, j){
-  const it = (ITEMS[key] || [])[j];
+async function openItem(path, j){
+  let it;
+  try { const node = await loadNode(path); it = (node.items || [])[j]; } catch(e){ return; }
   if(!it) return;
-  const parts = key.split('/');
-  const race = RACES[raceId];
-  const loc = race.locations[+parts[1]];
-  let locName = loc.name;
-  if(parts.length > 2){
-    let node = loc.subs[+parts[2]];
-    locName = node.name;
-    for(let d = 3; d < parts.length; d++){ node = node.subs[+parts[d]]; locName = node.name; }
-  }
+  const crumbs = await breadcrumb(path);
+  const trail = crumbs.map(c => c.name).join(' \u2192 ');
+  const race = RACES[path.split('/')[0]];
   document.getElementById('pname').textContent = it.n;
   const imgBox = document.getElementById('pimg');
   imgBox.innerHTML = '<img src="' + ITEM_DIR + it.img + '" alt="' + it.n + '">';
   imgBox.querySelector('img').onerror = function(){ imgBox.innerHTML = '\u{1F5BC} Картинка не найдена:<br>' + it.img; };
   document.getElementById('pmeta').innerHTML =
     '<span class="rchip ' + (RARITY_CLASS[it.r] || 'r-green') + '">' + it.r + '</span><br>'
-    + 'Выпадает в: ' + locName + '<br>Раса: ' + race.icon + ' ' + race.name;
+    + 'Выпадает в: ' + trail + '<br>'
+    + (race ? 'Раса: ' + race.icon + ' ' + race.name : '');
   document.getElementById('panel').classList.add('show');
   document.getElementById('overlay').classList.add('show');
 }
@@ -311,64 +333,100 @@ function closeItem(){
 }
 document.addEventListener('keydown', e => { if(e.key === 'Escape') closeItem(); });
 
-/* ——— маршрутизация ——— */
-function render(){
-  const app = document.getElementById('app');
-  const hash = location.hash.replace(/^#\//,'');
-  const [kind, raceId, idxS] = hash.split('/');
+/* ——— общая отрисовка узла (Вторичный и Третичный) ——— */
+async function nodePage(app, path, isRace){
+  let node;
+  try { node = await loadNode(path); } catch(e){ return; }
+  const race = RACES[path.split('/')[0]];
+  const items = node.items || [];
+  const secs = node.sections || [];
+  let html = '';
 
-  if(!raceId || !RACES[raceId]){
-    let html = '<h2>Выберите расу</h2><div class="tagline">Мир Айвейла ждёт наблюдения</div><div class="orn"><span class="line"></span><span class="gem">\u25C6</span><span class="line"></span></div>';
+  if(isRace){
+    html += '<a class="back" href="#/">\u2190 Все расы</a>'
+          + '<h2>' + race.icon + ' ' + race.name + '</h2>'
+          + '<div class="tagline">' + (race.tagline || '') + '</div>'
+          + '<div class="orn"><span class="line"></span><span class="gem">\u25C6</span><span class="line"></span></div>';
+  } else {
+    const crumbs = await breadcrumb(path);
+    html += '<a class="back" href="#/race/' + path.split('/')[0] + '">\u2190 ' + race.name + '</a>'
+          + '<h2>\u{1F4CD} ' + (node.name || path) + '</h2>'
+          + '<div class="crumbs">';
+    crumbs.forEach((c, i) => {
+      if(i) html += '<span class="sep">\u203A</span>';
+      html += '<a href="' + c.hash + '">' + c.name + '</a>';
+    });
+    html += '</div>';
+  }
+
+  if(items.length){
+    html += await itemsTable(path);
+  } else if(!secs.length){
+    html += '<div class="placeholder">\u{1F4E6} Предметы появятся скоро.<br>Здесь будет таблица выпадающих предметов из этой локации.</div>';
+  }
+
+  let j = 0;
+  for(const s of secs){
+    const p = cleanData(s.data);
+    html += '<div class="card" style="animation-delay:' + (j * 0.06) + 's" onclick="location.hash=\'#/loc/' + p + '\'">'
+          + '<div class="title">\u{1F4CD} ' + s.name + '</div>'
+          + '<div class="meta" data-badge="' + p + '"><span class="soon">…</span></div>'
+          + await subsPreview(p)
+          + '</div>';
+    j++;
+  }
+
+  app.innerHTML = html;
+  fillBadges();
+}
+
+/* ——— маршрутизация ——— */
+async function render(){
+  const app = document.getElementById('app');
+  const hash = location.hash.replace(/^#\//, '');
+  const parts = hash.split('/').filter(Boolean);
+  const kind = parts[0];
+
+  /* главная: список рас */
+  if(kind !== 'race' && kind !== 'loc'){
+    let html = '<h2>Выберите расу</h2><div class="tagline">Мир Айвейла ждёт наблюдения</div>'
+             + '<div class="orn"><span class="line"></span><span class="gem">\u25C6</span><span class="line"></span></div>';
+    let k = 0;
     for(const id in RACES){
       const r = RACES[id];
-      let items = 0, subs = 0;
-      r.locations.forEach((loc, i) => {
-        items += countLocItems(id, i, loc);
-        subs += (loc.subs || []).length + countSubItems(id + '/' + i, loc.subs || []);
-      });
-      html += '<div class="card" onclick="location.hash=\'/race/' + id + '\'">'
+      html += '<div class="card" style="animation-delay:' + (k * 0.06) + 's" onclick="location.hash=\'#/race/' + id + '\'">'
             + '<div class="title">' + r.icon + ' ' + r.name + '</div>'
-            + '<div class="meta">Локаций: ' + r.locations.length
-            + ' \u00b7 Подлокаций: ' + subs + ' \u00b7 Предметов: ' + items + '</div></div>';
+            + '<div class="meta" data-stats="' + id + '"><span class="soon">Загрузка…</span></div></div>';
+      k++;
     }
     app.innerHTML = html;
+    for(const id in RACES){
+      const st = await walkStats(id);
+      const el = document.querySelector('[data-stats="' + id + '"]');
+      if(el) el.innerHTML = 'Локаций: ' + st.subs + ' \u00b7 Предметов: ' + st.items;
+    }
     return;
   }
 
-  const race = RACES[raceId];
+  const raceId = parts[1];
+  if(!raceId || !RACES[raceId]){ location.hash = '#/'; return; }
   setBody(raceId);
 
-  if(kind === 'race' || !idxS){
-    let html = '<a class="back" href="#/">\u2190 Все расы</a>'
-             + '<h2>' + race.icon + ' ' + race.name + '</h2>'
-             + '<div class="tagline">' + race.tagline + '</div>'
-             + '<div class="orn"><span class="line"></span><span class="gem">\u25C6</span><span class="line"></span></div>'
-             + '<div class="crumbs">Раса \u00b7 ' + race.locations.length + ' локаций</div>';
-    race.locations.forEach((loc, i) => {
-      html += '<div class="card" style="animation-delay:' + (i * 0.06) + 's" onclick="location.hash=\'/loc/' + raceId + '/' + i + '\'">'
-            + '<div class="title">\u{1F4CD} ' + loc.name + '</div>';
-      html += subsHtml(loc.subs, raceId, i, '', 1);
-      html += '<div class="meta" style="margin-top:' + (loc.subs ? '8px' : '0') + '">Предметы: ' + badge(countLocItems(raceId, i, loc)) + '</div></div>';
-    });
-    app.innerHTML = html;
+  /* Вторичный: страница расы */
+  if(kind === 'race'){
+    await nodePage(app, raceId, true);
     return;
   }
 
-  if(kind === 'loc'){
-    const i = parseInt(idxS, 10);
-    const loc = race.locations[i];
-    if(!loc){ location.hash = '/race/' + raceId; return; }
-    let html = '<a class="back" href="#/race/' + raceId + '">\u2190 ' + race.name + '</a>'
-             + '<h2>\u{1F4CD} ' + loc.name + '</h2>'
-             + '<div class="crumbs"><a href="#/">Расы</a><span class="sep">\u203A</span>'
-             + '<a href="#/race/' + raceId + '">' + race.name + '</a><span class="sep">\u203A</span>' + loc.name + '</div>';
-    html += itemsTable(raceId, raceId + '/' + i, loc.name);
-    html += subsHtml(loc.subs, raceId, i, '', 1);
-    app.innerHTML = html;
-  }
+  /* Третичный и глубже: путь = части хеша */
+  const path = parts.slice(1).join('/');
+  try { await loadNode(path); }
+  catch(e){ location.hash = '#/race/' + raceId; return; }
+  await nodePage(app, path, false);
 }
 
 init();
+
 </script>
 
 <!-- Просмотр картинки предмета крупно -->
