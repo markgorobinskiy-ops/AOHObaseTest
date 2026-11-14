@@ -368,5 +368,31 @@ function render(){
 
 init();
 </script>
+ <!-- Просмотр картинки предмета крупно -->
+<style>
+  img[src*="items/"]{cursor:zoom-in}
+  #lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.87);display:none;z-index:9999;align-items:center;justify-content:center;cursor:zoom-out}
+  #lightbox-overlay.active{display:flex}
+  #lightbox-overlay img{max-width:92vw;max-height:92vh;border:2px solid #8a6d3b;border-radius:6px;box-shadow:0 0 50px rgba(0,0,0,.9);background:#1a120b;image-rendering:pixelated}
+</style>
+<script>
+(function(){
+  var ov=document.createElement('div');
+  ov.id='lightbox-overlay';
+  document.body.appendChild(ov);
+  ov.addEventListener('click',function(){ov.classList.remove('active');});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')ov.classList.remove('active');});
+  document.addEventListener('click',function(e){
+    var img=e.target;
+    if(!img||!img.tagName||img.tagName!=='IMG'||ov.contains(img))return;
+    var src=img.getAttribute('src')||'';
+    if(src.indexOf('items/')>-1){
+      e.preventDefault();e.stopPropagation();
+      ov.innerHTML='';var big=new Image();big.src=src;ov.appendChild(big);
+      ov.classList.add('active');
+    }
+  },true);
+})();
+</script>
 </body>
 </html>
