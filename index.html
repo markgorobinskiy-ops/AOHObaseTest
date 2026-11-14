@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>База данных предметов by SEGUNAT</title>
 <style>
   /* ============ ПАЛИТРЫ РАС ============ */
@@ -12,8 +13,6 @@
     --panel: #1a3129; --panel-hover: #224034;
     --border: #2f5443;
     --text: #d9efe4; --text-muted: #7fa596;
-    --table-stripe: #1f382e; --table-hover: #284639;
-    --th-bg: #1e4a38; --td-border: #2a463a;
     --shadow: rgba(0,0,0,0.45);
     --overlay: rgba(6, 18, 14, 0.62);
   }
@@ -24,8 +23,6 @@
     --panel: #2c1a16; --panel-hover: #3d231d;
     --border: #5c3333;
     --text: #f0ddd0; --text-muted: #9a7a6a;
-    --table-stripe: #34201c; --table-hover: #44261f;
-    --th-bg: #5a1a12; --td-border: #4a2822;
     --shadow: rgba(0,0,0,0.45);
     --overlay: rgba(12, 4, 3, 0.6);
   }
@@ -36,8 +33,6 @@
     --panel: #241d15; --panel-hover: #31281d;
     --border: #4d3f28;
     --text: #e6d9bd; --text-muted: #8f8064;
-    --table-stripe: #2b241a; --table-hover: #372d20;
-    --th-bg: #3d2c14; --td-border: #40351f;
     --shadow: rgba(0,0,0,0.5);
     --overlay: rgba(10, 8, 4, 0.6);
   }
@@ -48,8 +43,6 @@
     --panel: #ffffff; --panel-hover: #eef0e7;
     --border: #c9c4b2;
     --text: #2f3a2a; --text-muted: #8a8a7a;
-    --table-stripe: #f3f4ee; --table-hover: #e8ecdf;
-    --th-bg: #37424e; --td-border: #e2e0d5;
     --shadow: rgba(40,50,40,0.18);
     --overlay: rgba(244, 242, 233, 0.45);
   }
@@ -60,8 +53,6 @@
     --panel: #2a180d; --panel-hover: #3a2413;
     --border: #5c3a1e;
     --text: #f2ddc2; --text-muted: #a07a56;
-    --table-stripe: #33200f; --table-hover: #442a14;
-    --th-bg: #5c2e10; --td-border: #4a2c14;
     --shadow: rgba(0,0,0,0.5);
     --overlay: rgba(14, 7, 2, 0.55);
   }
@@ -72,8 +63,6 @@
     --panel: #2a221a; --panel-hover: #382c20;
     --border: #55452f;
     --text: #e8d9c0; --text-muted: #97836a;
-    --table-stripe: #32281e; --table-hover: #403426;
-    --th-bg: #4a3820; --td-border: #443626;
     --shadow: rgba(0,0,0,0.45);
     --overlay: rgba(12, 10, 7, 0.55);
   }
@@ -147,9 +136,10 @@
     transform: translateY(-2px);
   }
 
+  /* Главная: крупные карточки рас */
   .menu {
     display: grid;
-    grid-template-columns: 1fr;   /* один столбец */
+    grid-template-columns: 1fr;
     gap: 14px;
     max-width: 480px;
     margin: 0 auto;
@@ -169,34 +159,66 @@
     transition: 0.15s;
   }
   .menu a:hover { background: var(--panel-hover); transform: translateY(-2px); box-shadow: 0 4px 10px var(--shadow); }
-  .menu a .icon { color: var(--accent); }
-  .menu a .icon {
-    width: 2.2em;
-    height: 2.2em;
-    vertical-align: -0.42em;
-    margin-right: 14px;
-  }
+  .menu a .icon { color: var(--accent); width: 2.2em; height: 2.2em; vertical-align: -0.42em; margin-right: 14px; }
 
-  .db-view { display: none; }
-  .db-view.active { display: block; }
-  .db-view h2 { color: var(--text); border-bottom: 2px solid var(--accent); padding-bottom: 8px; }
-  .db-view h2 .icon { color: var(--accent); }
+  /* Страница расы: список локаций */
   .back { display: inline-block; margin-bottom: 12px; color: var(--accent); text-decoration: none; }
   .back:hover { text-decoration: underline; }
-  .search {
-    padding: 8px 12px; width: 300px;
-    border: 1px solid var(--border); border-radius: 6px;
-    margin-bottom: 15px; font-size: 14px;
-    background: var(--panel); color: var(--text);
-    font-family: inherit;
+  h2.race-title { border-bottom: 2px solid var(--accent); padding-bottom: 8px; margin-top: 4px; }
+  h2.race-title .icon { color: var(--accent); }
+  .crumbs { color: var(--text-muted); font-style: italic; margin: 6px 0 18px; font-size: 14px; }
+
+  .loc-list { display: grid; grid-template-columns: 1fr; gap: 10px; max-width: 620px; margin: 0 auto; }
+  .loc-group {}
+  .loc-item {
+    display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    padding: 16px 20px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 8px;
+    color: var(--text); text-decoration: none;
+    font-weight: bold; font-size: 18px;
+    transition: 0.15s;
   }
-  .search::placeholder { color: var(--text-muted); }
-  table { border-collapse: collapse; width: 100%; background: var(--panel); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px var(--shadow); }
-  th { background: var(--th-bg); color: var(--text); padding: 10px 14px; text-align: left; }
-  td { padding: 9px 14px; border-bottom: 1px solid var(--td-border); }
-  tr:nth-child(even) td { background: var(--table-stripe); }
-  tr:hover td { background: var(--table-hover); }
-  .status { color: var(--accent); margin: 10px 0; font-style: italic; }
+  .loc-item:hover { background: var(--panel-hover); transform: translateY(-2px); box-shadow: 0 4px 10px var(--shadow); }
+  .loc-item .icon { color: var(--accent); margin-right: 10px; }
+  .loc-item .name { flex: 1; }
+  .soon-badge {
+    font-size: 11px; font-weight: normal; font-style: italic;
+    padding: 3px 10px; border-radius: 20px;
+    border: 1px solid var(--border); color: var(--text-muted);
+    white-space: nowrap;
+  }
+  .loc-subs { display: grid; gap: 6px; margin-top: 6px; }
+  .loc-sub {
+    display: flex; align-items: center; gap: 8px;
+    padding: 10px 14px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text); text-decoration: none;
+    font-size: 15px;
+    transition: 0.15s;
+  }
+  .loc-sub:hover { background: var(--panel-hover); }
+  .loc-sub.d1 { margin-left: 26px; }
+  .loc-sub.d2 { margin-left: 52px; }
+  .loc-sub .arr { color: var(--accent); font-weight: bold; }
+  .loc-sub .name { flex: 1; }
+
+  /* Страница локации */
+  .loc-page .soon {
+    border: 1px dashed var(--border);
+    border-radius: 8px;
+    padding: 26px;
+    text-align: center;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .loc-page h3 { margin-top: 24px; font-size: 17px; color: var(--text); }
 </style>
 </head>
 <body>
@@ -222,6 +244,9 @@
   <symbol id="i-axe" viewBox="0 0 24 24">
     <path d="M6 3h4v3l12 12-3 3L7 9H3V6zM5 15l4 4-2 3-3-3z"/>
   </symbol>
+  <symbol id="i-flag" viewBox="0 0 24 24">
+    <path d="M5 2h2v20H5zM7 3h12l-3.5 4.5L19 12H7z"/>
+  </symbol>
   <symbol id="i-back" viewBox="0 0 24 24">
     <path d="M11 4l-8 8 8 8v-5h9V9h-9z"/>
   </symbol>
@@ -236,202 +261,125 @@
     <p>Список предметов и локаций, в которых они выпадают</p>
   </div>
   <button class="theme-btn" id="themeBtn">
-    <svg class="icon"><use href="#i-palette"/></svg><span id="themeName">Тема: Эльфы</span>
+    <svg class="icon"><use href="#i-palette"/></svg><span id="themeName">Раса: Эльфы</span>
   </button>
 </header>
 
 <div class="container">
-
-  <!-- ГЛАВНАЯ СТРАНИЦА: список рас -->
-  <div id="home" class="db-view active">
-    <div class="menu" id="raceMenu"></div>
-  </div>
-
+  <div id="view"></div>
 </div>
 
 <script>
-  // ================== ТЕМЫ-РАСЫ ==================
-  const THEMES = [
-    { id: 'elves',   name: 'Эльфы'    },
-    { id: 'demons',  name: 'Демониды' },
-    { id: 'undead',  name: 'Нежить'   },
-    { id: 'humans',  name: 'Люди'     },
-    { id: 'dwarves', name: 'Гномы'    },
-    { id: 'orcs',    name: 'Орки'     },
-  ];
+  // ================== ДАННЫЕ: РАСЫ → ЛОКАЦИИ → ПОДЛОКАЦИИ ==================
+  // Подлокации могут вкладываться друг в друга (поле "sub").
+  const RACES = [{"id": "elves", "name": "Эльфы", "icon": "i-leaf", "locations": [{"name": "Айнали"}, {"name": "Наэль Таэ", "sub": [{"name": "Переход от Эльфов к Демонидам — Унх'Да"}]}, {"name": "Людьен Эмиль"}, {"name": "Монтсильвар"}, {"name": "Ильвир", "sub": [{"name": "Пещеры Эльфов"}]}, {"name": "Рениоль", "sub": [{"name": "Ауренфей"}]}, {"name": "Лорделейн"}, {"name": "Кильч"}]}, {"id": "demons", "name": "Демониды", "icon": "i-flame", "locations": [{"name": "Ошт'Ун"}, {"name": "Шан'Хатт"}, {"name": "Ута'Хатт"}, {"name": "Шак'Од"}, {"name": "Тха'Хашш"}, {"name": "Кхор'Аат"}, {"name": "Тгум'Од"}, {"name": "Торговый пост"}]}, {"id": "undead", "name": "Нежить", "icon": "i-skull", "locations": [{"name": "Мойбад"}, {"name": "Иссохшее озеро"}, {"name": "Кладбища", "sub": [{"name": "Грот Вечной тишины"}]}, {"name": "Поселение в Дельте", "sub": [{"name": "Пещеры под рекой", "sub": [{"name": "Фамильный склеп Бошей"}]}]}, {"name": "Медиланское Нагорье"}]}, {"id": "humans", "name": "Люди", "icon": "i-shield", "locations": [{"name": "Перекрестье"}, {"name": "Корнейл", "sub": [{"name": "Пещеры"}]}, {"name": "Таннервилль"}, {"name": "Ривервиль"}, {"name": "Рейден", "sub": [{"name": "Форвуд"}]}, {"name": "Айронхольд"}, {"name": "Амиссвуд"}, {"name": "Пограничье, Север"}, {"name": "Дерденхол"}, {"name": "Хидевельд"}, {"name": "Грейхилл"}, {"name": "Кромельвуд"}]}, {"id": "dwarves", "name": "Гномы", "icon": "i-hammer", "locations": [{"name": "Дварфхилл пост"}, {"name": "Каррагвур пост"}, {"name": "Пещеры Каррагвура"}, {"name": "Гарргрин пост"}, {"name": "Гарргрин"}, {"name": "Южный Пик"}, {"name": "Сангард пост"}, {"name": "Кил'м'Аат"}]}, {"id": "orcs", "name": "Орки", "icon": "i-axe", "locations": [{"name": "Стойбище Сидящих на камнях"}, {"name": "Военный лагерь"}, {"name": "Орочий тракт"}, {"name": "Орочья степь"}, {"name": "Деревня Буревестников"}, {"name": "Угольная шахта"}, {"name": "Стойбище Ходящих по Огню"}, {"name": "Стойбище Пьющих Ветер"}, {"name": "Стойбище Грызущих Кости"}, {"name": "Горные земли"}]}];
 
   const themeBtn  = document.getElementById('themeBtn');
   const themeName = document.getElementById('themeName');
+  const view = document.getElementById('view');
 
+  // ================== ТЕМЫ ==================
   function setBg(id) {
     document.documentElement.style.setProperty('--bg-image', "url('images/" + id + ".jpg')");
   }
 
-  function applyTheme(id) {
+  function applyTheme(id, save) {
     document.documentElement.setAttribute('data-theme', id);
-    const t = THEMES.find(t => t.id === id);
-    themeName.textContent = 'Тема: ' + (t ? t.name : id);
-    try { localStorage.setItem('segunat-theme', id); } catch (e) {}
-    // фон: на главной — гора, на странице расы — картинка расы
-    const page = location.hash.slice(1) || 'home';
-    setBg(page === 'home' ? 'home' : (t ? id : id));
+    const r = RACES.find(r => r.id === id);
+    themeName.textContent = 'Раса: ' + (r ? r.name : id);
+    if (save !== false) { try { localStorage.setItem('segunat-theme', id); } catch (e) {} }
   }
 
+  // ================== СБОРКА СПИСКА ЛОКАЦИЙ ==================
+  function esc(s) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+  // items — массив локаций, pathPrefix — путь к ним, depth — уровень вложенности (0 = локации расы)
+  function locListHTML(items, raceId, pathPrefix, depth) {
+    let html = depth === 0 ? '<div class="loc-list">' : '<div class="loc-subs">';
+    items.forEach((loc, i) => {
+      const myPath = pathPrefix + '/' + i;
+      const cls = depth === 0 ? 'loc-item' : 'loc-sub d' + Math.min(depth, 2);
+      const arr = depth > 0 ? '<span class="arr">↳</span>' : '';
+      const icon = depth === 0 ? '<svg class="icon"><use href="#i-flag"/></svg>' : '';
+      html += '<div class="loc-group">';
+      html += '<a class="' + cls + '" href="#' + raceId + myPath + '">' + icon + arr +
+              '<span class="name">' + esc(loc.name) + '</span><span class="soon-badge">скоро</span></a>';
+      if (loc.sub && loc.sub.length) html += locListHTML(loc.sub, raceId, myPath, depth + 1);
+      html += '</div>';
+    });
+    return html + '</div>';
+  }
+
+  // ================== МАРШРУТИЗАЦИЯ ==================
+  function renderRoute() {
+    const hash = location.hash.slice(1) || 'home';
+    const parts = hash.split('/').filter(Boolean);
+
+    // Главная
+    if (parts[0] === 'home' || parts.length === 0) {
+      view.innerHTML = '<div class="menu">' + RACES.map(r =>
+        '<a href="#' + r.id + '"><svg class="icon"><use href="#' + r.icon + '"/></svg>' + esc(r.name) + '</a>'
+      ).join('') + '</div>';
+      setBg('home');
+      return;
+    }
+
+    const race = RACES.find(r => r.id === parts[0]);
+    if (!race) { location.hash = 'home'; return; }
+
+    applyTheme(race.id);
+    setBg(race.id);
+
+    // Страница расы: список локаций
+    if (parts.length === 1) {
+      view.innerHTML =
+        '<a class="back" href="#home"><svg class="icon"><use href="#i-back"/></svg>Назад к списку рас</a>' +
+        '<h2 class="race-title"><svg class="icon"><use href="#' + race.icon + '"/></svg>' + esc(race.name) + '</h2>' +
+        '<p class="crumbs">Локации расы «' + esc(race.name) + '» · всего: ' + race.locations.length + '</p>' +
+        locListHTML(race.locations, race.id, '', 0);
+      return;
+    }
+
+    // Страница локации (или подлокации)
+    const idxPath = parts.slice(1).map(Number);
+    let list = race.locations, node = null;
+    for (const i of idxPath) {
+      if (!list || !list[i]) { location.hash = '#' + race.id; return; }
+      node = list[i];
+      list = node.sub || [];
+    }
+
+    const parentPath = idxPath.slice(0, -1);
+    const backHash = parentPath.length ? '#' + race.id + '/' + parentPath.join('/') : '#' + race.id;
+    const isSub = idxPath.length > 1;
+    const posText = isSub
+      ? 'Подлокация расы «' + esc(race.name) + '»'
+      : 'Локация расы «' + esc(race.name) + '» · ' + (idxPath[0] + 1) + ' из ' + race.locations.length;
+
+    view.innerHTML =
+      '<a class="back" href="' + backHash + '"><svg class="icon"><use href="#i-back"/></svg>' +
+      (isSub ? 'Назад' : 'К списку локаций') + '</a>' +
+      '<h2 class="race-title"><svg class="icon"><use href="#i-flag"/></svg>' + esc(node.name) + '</h2>' +
+      '<p class="crumbs">' + posText + '</p>' +
+      (node.sub && node.sub.length
+        ? '<h3>Подлокации:</h3>' + locListHTML(node.sub, race.id, '/' + idxPath.join('/'), 1)
+        : '') +
+      '<div class="soon">Предметы появятся скоро</div>';
+  }
+
+  // ================== ЗАПУСК ==================
   let savedTheme = null;
   try { savedTheme = localStorage.getItem('segunat-theme'); } catch (e) {}
-  applyTheme(THEMES.some(t => t.id === savedTheme) ? savedTheme : 'elves');
+  applyTheme(RACES.some(r => r.id === savedTheme) ? savedTheme : 'elves', false);
 
   themeBtn.addEventListener('click', () => {
     const current = document.documentElement.getAttribute('data-theme');
-    const idx = THEMES.findIndex(t => t.id === current);
-    applyTheme(THEMES[(idx + 1) % THEMES.length].id);
+    const idx = RACES.findIndex(r => r.id === current);
+    applyTheme(RACES[(idx + 1) % RACES.length].id);
   });
 
-  // ================== СПИСОК РАС ==================
-  const RACES = [
-    { id: 'elves',   name: 'Эльфы',    icon: 'i-leaf'   },
-    { id: 'demons',  name: 'Демониды', icon: 'i-flame'  },
-    { id: 'undead',  name: 'Нежить',   icon: 'i-skull'  },
-    { id: 'humans',  name: 'Люди',     icon: 'i-shield' },
-    { id: 'dwarves', name: 'Гномы',    icon: 'i-hammer' },
-    { id: 'orcs',    name: 'Орки',     icon: 'i-axe'    },
-  ];
-
-  // ================== СБОРКА СТРАНИЦ ==================
-  const menu = document.getElementById('raceMenu');
-  const container = document.querySelector('.container');
-
-  for (const race of RACES) {
-    menu.insertAdjacentHTML('beforeend',
-      '<a href="#' + race.id + '"><svg class="icon"><use href="#' + race.icon + '"/></svg>' + race.name + '</a>');
-
-    container.insertAdjacentHTML('beforeend',
-      '<div id="' + race.id + '" class="db-view">' +
-      '<a class="back" href="#home"><svg class="icon"><use href="#i-back"/></svg>Назад к списку</a>' +
-      '<h2><svg class="icon"><use href="#' + race.icon + '"/></svg>' + race.name + '</h2>' +
-      '<input class="search" placeholder="Поиск по предмету или локации..." />' +
-      '<p class="status"></p>' +
-      '<table><thead></thead><tbody></tbody></table>' +
-      '</div>');
-  }
-
-  // ================== ПАРСЕР XML ==================
-  function parseXML(text) {
-    const xmlDoc = new DOMParser().parseFromString(text, 'text/xml');
-    if (xmlDoc.querySelector('parsererror')) return { headers: [], rows: [] };
-
-    const all = Array.from(xmlDoc.querySelectorAll('*'));
-    const counts = {};
-    all.forEach(el => counts[el.tagName] = (counts[el.tagName] || 0) + 1);
-
-    let bestTag = null, maxCount = 0;
-    all.forEach(el => {
-      const n = counts[el.tagName];
-      if (n > maxCount && el.children.length > 0) { maxCount = n; bestTag = el.tagName; }
-    });
-    if (!bestTag) return { headers: [], rows: [] };
-
-    const recordElements = all.filter(el => el.tagName === bestTag);
-    const fields = new Set();
-    recordElements.forEach(r => r.querySelectorAll('*').forEach(c => fields.add(c.tagName)));
-    const headers = Array.from(fields);
-
-    if (!headers.length) return { headers: [bestTag], rows: recordElements.map(el => [el.textContent.trim()]) };
-
-    const rows = recordElements.map(r => headers.map(h => {
-      const el = r.querySelector(h);
-      return el ? el.textContent.trim() : '';
-    }));
-    return { headers, rows };
-  }
-
-  // ================== ОТОБРАЖЕНИЕ ==================
-  function renderView(id) {
-    document.querySelectorAll('.db-view').forEach(v => v.classList.remove('active'));
-    const view = document.getElementById(id);
-    if (!view) return;
-    view.classList.add('active');
-
-    // фон: главная — гора, страница расы — её картинка
-    setBg(id === 'home' ? 'home' : id);
-
-    if (id !== 'home') {
-      const input = view.querySelector('.search');
-      if (input) input.value = '';
-
-      const dataEl = document.getElementById('data-' + id);
-      const { headers, rows } = dataEl ? parseXML(dataEl.textContent) : { headers: [], rows: [] };
-      const thead = view.querySelector('thead');
-      const tbody = view.querySelector('tbody');
-      const status = view.querySelector('.status');
-      view.dataset.headers = JSON.stringify(headers);
-      view.dataset.rows = JSON.stringify(rows);
-      status.textContent = 'Записей: ' + rows.length;
-      thead.innerHTML = headers.map(h => '<th>' + h + '</th>').join('');
-      tbody.innerHTML = rows.map(r =>
-        '<tr>' + r.map(c => '<td>' + c + '</td>').join('') + '</tr>'
-      ).join('');
-    }
-  }
-
-  function filterView(view, query) {
-    const headers = JSON.parse(view.dataset.headers || '[]');
-    const rows = JSON.parse(view.dataset.rows || '[]');
-    const q = query.toLowerCase();
-    const filtered = rows.filter(r => r.some(c => c.toLowerCase().includes(q)));
-    const tbody = view.querySelector('tbody');
-    tbody.innerHTML = filtered.length
-      ? filtered.map(r => '<tr>' + r.map(c => '<td>' + c + '</td>').join('') + '</tr>').join('')
-      : '<tr><td colspan="' + (headers.length || 1) + '">Ничего не найдено</td></tr>';
-    view.querySelector('.status').textContent = 'Найдено: ' + filtered.length + ' из ' + rows.length;
-  }
-
-  window.addEventListener('hashchange', () => {
-    renderView(location.hash.slice(1) || 'home');
-  });
-  renderView(location.hash.slice(1) || 'home');
-
-  document.querySelectorAll('.search').forEach(input => {
-    input.addEventListener('input', () => filterView(input.closest('.db-view'), input.value));
-  });
-</script>
-
-<!-- ЗДЕСЬ ЛЕЖАТ САМИ БАЗЫ. Меняешь содержимое — меняется таблица -->
-<script type="text/xml" id="data-elves">
-<records>
-  <record><item>Лунный лук</item><location>Вечный лес</location><rarity>редкий</rarity></record>
-  <record><item>Плащ теней</item><location>Вечный лес</location><rarity>эпический</rarity></record>
-</records>
-</script>
-
-<script type="text/xml" id="data-demons">
-<records>
-  <record><item>Клинок бездны</item><location>Огненные пещеры</location><rarity>легендарный</rarity></record>
-</records>
-</script>
-
-<script type="text/xml" id="data-undead">
-<records>
-  <record><item>Череп правителя</item><location>Забытые катакомбы</location><rarity>редкий</rarity></record>
-</records>
-</script>
-
-<script type="text/xml" id="data-humans">
-<records>
-  <record><item>Стальной меч</item><location>Королевский замок</location><rarity>обычный</rarity></record>
-</records>
-</script>
-
-<script type="text/xml" id="data-dwarves">
-<records>
-  <record><item>Молот кузнеца</item><location>Подгорные кузни</location><rarity>редкий</rarity></record>
-</records>
-</script>
-
-<script type="text/xml" id="data-orcs">
-<records>
-  <record><item>Топич войны</item><location>Ржавые пустоши</location><rarity>обычный</rarity></record>
-</records>
+  window.addEventListener('hashchange', renderRoute);
+  renderRoute();
 </script>
 
 </body>
