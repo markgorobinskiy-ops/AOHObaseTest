@@ -4,7 +4,8 @@
 Таблица (Google Sheets) -> data/*.json
 
 Читает опубликованную таблицу (CSV или TSV), сопоставляет строки с расами из
-races.json и перезаписывает json-файлы рас (поле "data" у каждой расы).
+races.json и перезаписывает json-файлы рас (поле "data" у каждой расы),
+а также раскладывает предметы по файлам локаций из sections расы.
 Один предмет в нескольких локациях = несколько строк с одинаковым названием.
 """
 
@@ -35,6 +36,7 @@ def norm(s):
     if s is None:
         return ""
     s = str(s).replace("\u00a0", " ")
+    s = s.replace("\u2019", "'").replace("\u02bc", "'")  # ’ -> ' (апострофы)
     s = re.sub(r"\s+", " ", s)
     return s.strip()
 
@@ -133,9 +135,10 @@ def main():
 
     print("Уникальных предметов: %d" % len(items))
 
-    # раскладываем предметы по файлам рас
+    # раскладываем предметы по файлам
     touched = set(key[0] for key in row_order)
-    updated_files = 0
+    updated_races = 0
+    updated_locs = 0
     for race_key, r in race_entries:
         race_id = norm_key(r.get("data", "")) or norm_key(race_key)
         if race_id not in touched:
@@ -160,17 +163,50 @@ def main():
                     "m": v["m"],
                 }
             )
-        if isinstance(doc, dict):
-            doc["items"] = new_items
-        elif isinstance(doc, list):
-            doc = new_items
-        else:
+        if not isinstance(doc, dict):
             warn("Файл %s: неожиданная структура, пропущен" % path)
             continue
-        save_json(path, doc)
-        updated_files += 1
 
-    print("Обновлено файлов рас: %d" % updated_files)
+        # каноничные имена локаций из sections (чтобы ' и ’ не различались)
+        loc_canon = {}
+        for sec in doc.get("sections", []) or []:
+            if isinstance(sec, dict) and sec.get("name"):
+                loc_canon[norm_key(sec["name"])] = sec["name"]
+        for it in new_items:
+            it["locs"] = [loc_canon.get(norm_key(l), l) for l in it["locs"]]
+
+        doc["items"] = new_items
+        save_json(path, doc)
+        updated_races += 1
+
+        # файлы локаций
+        for sec in doc.get("sections", []) or []:
+            if not isinstance(sec, dict) or not sec.get("data") or not sec.get("name"):
+                continue
+            sec_path = sec["data"]
+            loc_n = sec["name"]
+            loc_items = [
+                it for it in new_items
+                if any(norm_key(l) == norm_key(loc_n) for l in it["locs"])
+            ]
+            if not loc_items:
+                continue  # локация пустая в таблице — файл не трогаем
+            if not os.path.isfile(sec_path):
+                warn("Файл локации не найден, пропущен: %s" % sec_path)
+                continue
+            loc_doc = load_json(sec_path)
+            if isinstance(loc_doc, dict) and "items" in loc_doc:
+                loc_doc["items"] = loc_items
+                save_json(sec_path, loc_doc)
+                updated_locs += 1
+            elif isinstance(loc_doc, list):
+                save_json(sec_path, loc_items)
+                updated_locs += 1
+            else:
+                warn("Файл %s: неожиданная структура, пропущен" % sec_path)
+
+    print("Обновлено файлов рас: %d" % updated_races)
+    print("Обновлено файлов локаций: %d" % updated_locs)
     if warnings:
         print("Предупреждений: %d (см. выше)" % len(warnings))
     else:
