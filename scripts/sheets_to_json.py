@@ -1,16 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Таблица -> JSON, версия 3.1 (автосоздание локаций по знаку "+")
+Таблица -> JSON, версия 3.2
 
 Правила колонки «Локация»:
-  - «Пещеры»               — поиск существующей локации по всему дереву расы;
-                             если не найдена — предупреждение, предмет ждёт в файле расы;
-  - «Корнейл/Пещеры»       — путь через слэши: каждый шаг без «+» должен существовать;
-  - «Эльфы/+Болота»        — «+» после слэша: создать локацию, если её нет;
-  - «Эльфы/+Болота/+Топи»  — после первого «+» создание идёт до конца пути,
-                             предмет кладётся в ПОСЛЕДНЮЮ локацию пути;
-  - «+» в самом начале ячейки (без слэша) запрещён;
-  - имя расы в начале пути писать не обязательно, но если написано — должно совпадать.
+  - «Пещеры»                 — поиск существующей локации по всему дереву расы;
+  - «Корнейл/Пещеры»         — путь через слэши: шаги без «+» должны существовать;
+  - «+Болота» или «/+Болота» — создать верхнеуровневую локацию расы;
+  - «Эльфы/+Болота»          — найти Эльфов, создать Болота внутри;
+  - «+Болота/+Топи»          — после первого «+» создание идёт до конца пути,
+                               предмет кладётся в ПОСЛЕДНЮЮ локацию пути;
+  - имя расы в начале пути писать не обязательно, но если написано — сверяется.
 """
 import csv
 import io
@@ -29,6 +28,7 @@ IMAGES_DIR = "images/items"
 warnings = []
 created_count = 0
 used_ids = set()
+groups = {}
 
 
 def warn(msg):
@@ -94,6 +94,35 @@ def save_json(path, obj):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=2)
         f.write("\n")
+
+
+def normalize_races(raw_cfg):
+    """Приводит races.json к списку словарей с ключами id/name,
+    какой бы формы ни был файл: список словарей, {"races": ...},
+    словарь «id -> раса» или список названий."""
+    if isinstance(raw_cfg, dict) and "races" in raw_cfg:
+        raw_cfg = raw_cfg["races"]
+    entries = []
+    if isinstance(raw_cfg, dict):
+        for k, v in raw_cfg.items():
+            if isinstance(v, dict):
+                e = dict(v)
+                if not norm(e.get("id")):
+                    e["id"] = norm(k)
+                entries.append(e)
+            elif isinstance(v, str):
+                entries.append({"id": norm(k) or slugify(v), "name": norm(v)})
+    elif isinstance(raw_cfg, list):
+        for rc in raw_cfg:
+            if isinstance(rc, dict):
+                entries.append(rc)
+            elif isinstance(rc, str):
+                entries.append({"id": slugify(rc), "name": norm(rc)})
+            else:
+                warn("races.json: непонятная запись расы, пропускаю")
+    else:
+        warn("races.json: неожиданный формат файла")
+    return entries
 
 
 # ---------- дерево расы ----------
@@ -179,20 +208,19 @@ def resolve(race, cell):
     if not segs:
         return None, ""
     # необязательный префикс расы
-    if len(segs) > 1 and norm_key(segs[0]) == race["key"]:
+    if norm_key(segs[0].lstrip(" +")) == race["key"]:
         segs = segs[1:]
-    elif len(segs) == 1 and norm_key(segs[0]) == race["key"]:
-        warn("в ячейке указано имя расы «%s», а не локация" % norm(segs[0]))
+    if not segs:
+        warn("в ячейке указано имя расы «%s», а не локация" % race["name"])
         return None, ""
     cur = race["root"]
     creating = False
-    for i, seg in enumerate(segs):
+    for seg in segs:
         if seg.startswith("+"):
             creating = True
-            if i == 0:
-                warn("знак «+» пишется только после слэша: «%s» (пример: Эльфы/+Болота)" % raw)
-                return None, ""
-        name = seg[1:].strip() if seg.startswith("+") else seg
+            name = seg[1:].strip()
+        else:
+            name = seg
         if not name:
             warn("пустое звено в пути «%s»" % raw)
             return None, ""
@@ -270,7 +298,7 @@ def items_for_race(race):
 # ---------- главный поток ----------
 
 def main():
-    global created_count
+    global created_count, groups
     if "PASTE_" in SHEET_URL:
         print("! Не задан SHEET_URL — впишите ссылку на опубликованную таблицу")
         sys.exit(1)
@@ -281,14 +309,13 @@ def main():
     rows = [r for r in rows if norm(r.get("Раса")) and norm(r.get("Предмет"))]
     print("Загружено строк из таблицы: %d" % len(rows))
 
-    races_cfg = load_json(RACES_PATH, [])
-    if isinstance(races_cfg, dict):
-        races_cfg = races_cfg.get("races", [])
+    races_cfg = normalize_races(load_json(RACES_PATH, []))
     race_map = {}
     for rc in races_cfg:
-        rid = norm(rc.get("id", ""))
+        rid = norm(rc.get("id", "")) or slugify(rc.get("name", ""))
         rname = norm(rc.get("name", "")) or rid
         if not rid:
+            warn("races.json: у одной из рас не указан id — пропускаю")
             continue
         root = make_node(rname, rid)
         race = {"id": rid, "name": rname, "key": norm_key(rname),
@@ -301,7 +328,6 @@ def main():
 
     # --- проход 1: разбор строк, сборка групп предметов ---
     groups = {}
-    order = []
     for r in rows:
         race = race_map.get(norm_key(r.get("Раса")))
         if race is None:
@@ -318,7 +344,6 @@ def main():
                 "mob": norm(r.get("Моб")),
                 "locs": [],
             }
-            order.append(gkey)
         g = groups[gkey]
         if not g["rarity"]:
             g["rarity"] = norm(r.get("Редкость"))
