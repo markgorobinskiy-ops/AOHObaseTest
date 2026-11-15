@@ -1,0 +1,18 @@
+{
+  "id": "dwarves/koldstoun-post/istoschennyy-rudnik",
+  "name": "Истощенный рудник",
+  "sections": [],
+  "items": [
+    {
+      "n": "Кинжал Трёх Печатей",
+      "name": "Кинжал Трёх Печатей",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik"
+      ],
+      "m": "Мёртвый Рудокоп"
+    }
+  ]
+}

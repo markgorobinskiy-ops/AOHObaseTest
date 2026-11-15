@@ -33,7 +33,23 @@
     {
       "name": "Кил’м’Аат",
       "data": "data/dwarves/kilmaat.json"
+    },
+    {
+      "id": "dwarves/koldstoun-post",
+      "name": "Колдстоун Пост"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "n": "Кинжал Трёх Печатей",
+      "name": "Кинжал Трёх Печатей",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik"
+      ],
+      "m": "Мёртвый Рудокоп"
+    }
+  ]
 }

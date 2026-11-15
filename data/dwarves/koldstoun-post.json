@@ -1,0 +1,11 @@
+{
+  "id": "dwarves/koldstoun-post",
+  "name": "Колдстоун Пост",
+  "sections": [
+    {
+      "id": "dwarves/koldstoun-post/istoschennyy-rudnik",
+      "name": "Истощенный рудник"
+    }
+  ],
+  "items": []
+}
