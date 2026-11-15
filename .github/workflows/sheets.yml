@@ -1,0 +1,39 @@
+name: Таблица -> JSON
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # каждые 30 минут
+  workflow_dispatch:          # кнопка "Run workflow" вручную
+  push:
+    paths:
+      - ".github/workflows/sheets.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Конвертация таблицы
+        env:
+          SHEET_URL: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTYV-0pQvs_2bMuK5SKgVqYvcFxJq7g4in95Gz5RMIVMrNydVVySJ64NoJGXQAQbCCY4vZ-w8sg4M11/pub?output=tsv"
+        run: python scripts/sheets_to_json.py
+
+      - name: Коммит изменений
+        run: |
+          git config user.name "sheets-bot"
+          git config user.email "actions@github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Изменений нет — коммит не нужен"
+          else
+            git commit -m "Данные из таблицы: автообновление"
+            git push
+          fi
