@@ -4,8 +4,12 @@
 Таблица (Google Sheets) -> data/*.json
 
 Читает опубликованную таблицу (CSV или TSV), сопоставляет строки с расами из
-races.json и перезаписывает json-файлы рас (поле "data" у каждой расы),
-а также раскладывает предметы по файлам локаций из sections расы.
+races.json и раскладывает предметы по файлам локаций (sections) каждой расы —
+в том формате, который ждёт сайт:
+  n/name  — название,  r/rarity — редкость,  img — картинка,
+  locs    — ПУТИ локаций (например "demons/uohatumh"),  m — мобы.
+Файл расы держит items: [] (или «сироты» без локаций из sections) —
+сайт считает предметы по файлам локаций, иначе всё задваивается.
 Один предмет в нескольких локациях = несколько строк с одинаковым названием.
 """
 
@@ -43,6 +47,11 @@ def norm(s):
 
 def norm_key(s):
     return norm(s).lower()
+
+
+def clean_data(p):
+    """data/demons/uohatumh.json -> demons/uohatumh (как cleanData на сайте)."""
+    return re.sub(r"^data/", "", str(p)).replace(".json", "")
 
 
 def fetch_sheet():
@@ -94,7 +103,6 @@ def main():
     if not race_entries:
         sys.exit("Не нашёл список рас в races.json — проверь структуру файла.")
 
-    # индекс: нормализованное имя (ключ или name) -> (идентификатор, словарь расы)
     race_by_name = {}
     for race_key, r in race_entries:
         race_id = norm_key(r.get("data", "")) or norm_key(race_key)
@@ -102,8 +110,7 @@ def main():
             if variant:
                 race_by_name[norm_key(variant)] = (race_id, r)
 
-    # группировка строк таблицы
-    items = {}  # (race_id, name, rarity, img) -> {"m": моб, "locs": [...]}
+    items = {}  # (race_id, name, rarity, img) -> {"m": моб, "locs": [имена]}
     row_order = []
     for i, row in enumerate(rows, start=2):
         race_n = norm(row.get("Раса"))
@@ -135,75 +142,92 @@ def main():
 
     print("Уникальных предметов: %d" % len(items))
 
-    # раскладываем предметы по файлам
     touched = set(key[0] for key in row_order)
     updated_races = 0
     updated_locs = 0
     for race_key, r in race_entries:
         race_id = norm_key(r.get("data", "")) or norm_key(race_key)
         if race_id not in touched:
-            continue  # расы нет в таблице — её файл не трогаем
+            continue
         path = r.get("data")
         if not path:
             warn("У расы «%s» не указан файл data — пропущена" % r.get("name", race_id))
             continue
-        doc = load_json(path) if os.path.isfile(path) else {}
-        new_items = []
+        if not os.path.isfile(path):
+            warn("Файл расы не найден, пропущен: %s" % path)
+            continue
+        doc = load_json(path)
+        if not isinstance(doc, dict):
+            warn("Файл %s: неожиданная структура, пропущен" % path)
+            continue
+
+        # каноничные имена и ПУТИ локаций из sections расы
+        loc_canon, loc_path = {}, {}
+        for sec in doc.get("sections", []) or []:
+            if isinstance(sec, dict) and sec.get("name"):
+                loc_canon[norm_key(sec["name"])] = sec["name"]
+                if sec.get("data"):
+                    loc_path[norm_key(sec["name"])] = clean_data(sec["data"])
+
+        # раскладка предметов по путям локаций
+        by_loc = {}   # путь -> [предметы]
+        orphans = []  # предметы без известной локации — остаются в файле расы
         for key in row_order:
             r_id, name, rarity, img = key
             if r_id != race_id:
                 continue
             v = items[key]
-            new_items.append(
-                {
-                    "name": name,
-                    "rarity": rarity,
-                    "img": img,
-                    "locs": list(v["locs"]),
-                    "m": v["m"],
-                }
-            )
-        if not isinstance(doc, dict):
-            warn("Файл %s: неожиданная структура, пропущен" % path)
-            continue
-
-        # каноничные имена локаций из sections (чтобы ' и ’ не различались)
-        loc_canon = {}
-        for sec in doc.get("sections", []) or []:
-            if isinstance(sec, dict) and sec.get("name"):
-                loc_canon[norm_key(sec["name"])] = sec["name"]
-        for it in new_items:
-            it["locs"] = [loc_canon.get(norm_key(l), l) for l in it["locs"]]
-
-        doc["items"] = new_items
-        save_json(path, doc)
-        updated_races += 1
+            paths = []
+            for l in v["locs"]:
+                p = loc_path.get(norm_key(l))
+                if p is None:
+                    warn("Предмет «%s»: локация «%s» не найдена в sections расы «%s» — предмет не попадёт в файл локации" % (name, l, r.get("name", race_id)))
+                    continue
+                if p not in paths:
+                    paths.append(p)
+            entry = {
+                "n": name, "name": name,
+                "r": rarity, "rarity": rarity,
+                "img": img,
+                "locs": paths,
+                "m": v["m"],
+            }
+            if paths:
+                for p in paths:
+                    by_loc.setdefault(p, []).append(entry)
+            else:
+                orphans.append(entry)
 
         # файлы локаций
         for sec in doc.get("sections", []) or []:
-            if not isinstance(sec, dict) or not sec.get("data") or not sec.get("name"):
+            if not (isinstance(sec, dict) and sec.get("data")):
                 continue
+            p = clean_data(sec["data"])
             sec_path = sec["data"]
-            loc_n = sec["name"]
-            loc_items = [
-                it for it in new_items
-                if any(norm_key(l) == norm_key(loc_n) for l in it["locs"])
-            ]
-            if not loc_items:
-                continue  # локация пустая в таблице — файл не трогаем
+            if p not in by_loc:
+                continue  # в этой локации предметов нет — файл не трогаем
             if not os.path.isfile(sec_path):
                 warn("Файл локации не найден, пропущен: %s" % sec_path)
                 continue
             loc_doc = load_json(sec_path)
-            if isinstance(loc_doc, dict) and "items" in loc_doc:
-                loc_doc["items"] = loc_items
-                save_json(sec_path, loc_doc)
-                updated_locs += 1
+            if isinstance(loc_doc, dict):
+                loc_doc["items"] = by_loc[p]
             elif isinstance(loc_doc, list):
-                save_json(sec_path, loc_items)
-                updated_locs += 1
+                loc_doc = by_loc[p]
             else:
                 warn("Файл %s: неожиданная структура, пропущен" % sec_path)
+                continue
+            save_json(sec_path, loc_doc)
+            updated_locs += 1
+
+        # файл расы: сайт берёт предметы из файлов локаций, поэтому items
+        # держим пустым — иначе счётчики и таблицы задваиваются
+        old = doc.get("items") or []
+        doc["items"] = orphans
+        save_json(path, doc)
+        updated_races += 1
+        print("  · %s: локаций с предметами %d, без привязки %d, прежних записей очищено %d"
+              % (path, len(by_loc), len(orphans), len(old)))
 
     print("Обновлено файлов рас: %d" % updated_races)
     print("Обновлено файлов локаций: %d" % updated_locs)
