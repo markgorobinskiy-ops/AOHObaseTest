@@ -3,8 +3,8 @@
 """
 Таблица (Google Sheets) -> data/*.json
 
-Читает опубликованную таблицу (CSV или TSV), сопоставляет строки с расами и
-локациями из data/races.json и перезаписывает json-файлы локаций.
+Читает опубликованную таблицу (CSV или TSV), сопоставляет строки с расами из
+races.json и перезаписывает json-файлы рас (поле "data" у каждой расы).
 Один предмет в нескольких локациях = несколько строк с одинаковым названием.
 """
 
@@ -55,7 +55,6 @@ def fetch_sheet():
     return list(csv.DictReader(io.StringIO(text), delimiter=delim))
 
 
-
 def load_json(path):
     with open(path, encoding="utf-8") as f:
         return json.load(f)
@@ -69,15 +68,17 @@ def save_json(path, obj):
 
 
 def iter_races(races_doc):
-    """Достаёт список рас из data/races.json независимо от точной структуры."""
-    if isinstance(races_doc, list):
-        return races_doc
+    """Достаёт расы из races.json: список пар (ключ, словарь расы)."""
     if isinstance(races_doc, dict):
-        for key in ("races", "items", "data"):
-            if isinstance(races_doc.get(key), list):
-                return races_doc[key]
-        # словарь вида {"dwarves": {...}, ...}
-        return [v for v in races_doc.values() if isinstance(v, dict)]
+        for key in ("расы", "races"):
+            v = races_doc.get(key)
+            if isinstance(v, dict):
+                return list(v.items())
+            if isinstance(v, list):
+                return [("", r) for r in v if isinstance(r, dict)]
+        return [(k, v) for k, v in races_doc.items() if isinstance(v, dict)]
+    if isinstance(races_doc, list):
+        return [("", r) for r in races_doc if isinstance(r, dict)]
     return []
 
 
@@ -87,29 +88,20 @@ def main():
     if not rows:
         sys.exit("Таблица пустая — обновление не выполнялось.")
 
-    races_doc = load_json(RACES_PATH)
-    races = iter_races(races_doc)
-    if not races:
-        sys.exit("Не нашёл список рас в data/races.json — проверь структуру файла.")
+    race_entries = iter_races(load_json(RACES_PATH))
+    if not race_entries:
+        sys.exit("Не нашёл список рас в races.json — проверь структуру файла.")
 
-    # индекс: нормализованное имя расы -> запись расы
+    # индекс: нормализованное имя (ключ или name) -> (идентификатор, словарь расы)
     race_by_name = {}
-    for r in races:
-        if isinstance(r, dict) and r.get("name"):
-            race_by_name[norm_key(r["name"])] = r
-
-    # индекс: нормализованное имя локации -> (запись расы, секция)
-    loc_index = {}
-    for r in races:
-        for sec in r.get("sections", []) or []:
-            if isinstance(sec, dict) and sec.get("name"):
-                loc_index[(norm_key(r.get("name", "")), norm_key(sec["name"]))] = (
-                    r,
-                    sec,
-                )
+    for race_key, r in race_entries:
+        race_id = norm_key(r.get("data", "")) or norm_key(race_key)
+        for variant in (race_key, r.get("name")):
+            if variant:
+                race_by_name[norm_key(variant)] = (race_id, r)
 
     # группировка строк таблицы
-    items = {}  # key=(race_key, name, rarity, img) -> {"locs": [имена локаций], "m": моб}
+    items = {}  # (race_id, name, rarity, img) -> {"m": моб, "locs": [...]}
     row_order = []
     for i, row in enumerate(rows, start=2):
         race_n = norm(row.get("Раса"))
@@ -123,19 +115,14 @@ def main():
         if not (race_n and loc_n and name):
             warn("Строка %d: пустые Раса/Локация/Предмет — пропущена" % i)
             continue
-        race = race_by_name.get(norm_key(race_n))
-        if race is None:
+        found = race_by_name.get(norm_key(race_n))
+        if found is None:
             warn("Строка %d: раса «%s» не найдена в races.json" % (i, race_n))
             continue
-        if (norm_key(race_n), norm_key(loc_n)) not in loc_index:
-            warn(
-                "Строка %d: локация «%s» не найдена у расы «%s» — проверь написание"
-                % (i, loc_n, race_n)
-            )
-            continue
+        race_id, race = found
         if img and not os.path.isfile(os.path.join(IMAGES_DIR, img)):
             warn("Строка %d: картинки нет в %s: %s" % (i, IMAGES_DIR, img))
-        key = (norm_key(race_n), name, rarity, img)
+        key = (race_id, name, rarity, img)
         if key not in items:
             items[key] = {"m": mob, "locs": []}
             row_order.append(key)
@@ -146,54 +133,43 @@ def main():
 
     print("Уникальных предметов: %d" % len(items))
 
-    # собираем json по локациям
-    loc_names_by_race = {}
-    for (race_key, name, rarity, img), v in items.items():
-        for loc_n in v["locs"]:
-            loc_names_by_race.setdefault(race_key, set()).add(loc_n)
-
+    # раскладываем предметы по файлам рас
+    touched = set(key[0] for key in row_order)
     updated_files = 0
-    for r in races:
-        race_key = norm_key(r.get("name", ""))
-        wanted = loc_names_by_race.get(race_key, set())
-        for sec in r.get("sections", []) or []:
-            if not isinstance(sec, dict) or not sec.get("data"):
+    for race_id, r in race_entries:
+        if race_id not in touched:
+            continue  # расы нет в таблице — её файл не трогаем
+        path = r.get("data")
+        if not path:
+            warn("У расы «%s» не указан файл data — пропущена" % r.get("name", race_id))
+            continue
+        doc = load_json(path) if os.path.isfile(path) else {}
+        new_items = []
+        for key in row_order:
+            r_id, name, rarity, img = key
+            if r_id != race_id:
                 continue
-            loc_n = norm(sec.get("name", ""))
-            if loc_n and loc_n not in wanted:
-                continue  # локация пустая в таблице — не трогаем её json
-            path = sec["data"]
-            if not os.path.isfile(path):
-                warn("Файл локации не найден, пропущен: %s" % path)
-                continue
-            doc = load_json(path)
-            new_items = []
-            for key in row_order:
-                race_k, name, rarity, img = key
-                if race_k != race_key:
-                    continue
-                v = items[key]
-                if loc_n in v["locs"]:
-                    new_items.append(
-                        {
-                            "name": name,
-                            "rarity": rarity,
-                            "img": img,
-                            "locs": list(v["locs"]),
-                            "m": v["m"],
-                        }
-                    )
-            if isinstance(doc, dict) and "items" in doc:
-                doc["items"] = new_items
-            elif isinstance(doc, list):
-                doc = new_items
-            else:
-                warn("Файл %s: неожиданная структура, пропущен" % path)
-                continue
-            save_json(path, doc)
-            updated_files += 1
+            v = items[key]
+            new_items.append(
+                {
+                    "name": name,
+                    "rarity": rarity,
+                    "img": img,
+                    "locs": list(v["locs"]),
+                    "m": v["m"],
+                }
+            )
+        if isinstance(doc, dict):
+            doc["items"] = new_items
+        elif isinstance(doc, list):
+            doc = new_items
+        else:
+            warn("Файл %s: неожиданная структура, пропущен" % path)
+            continue
+        save_json(path, doc)
+        updated_files += 1
 
-    print("Обновлено файлов локаций: %d" % updated_files)
+    print("Обновлено файлов рас: %d" % updated_files)
     if warnings:
         print("Предупреждений: %d (см. выше)" % len(warnings))
     else:
