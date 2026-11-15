@@ -136,7 +136,8 @@ def main():
     # раскладываем предметы по файлам рас
     touched = set(key[0] for key in row_order)
     updated_files = 0
-    for race_id, r in race_entries:
+    for race_key, r in race_entries:
+        race_id = norm_key(r.get("data", "")) or norm_key(race_key)
         if race_id not in touched:
             continue  # расы нет в таблице — её файл не трогаем
         path = r.get("data")
