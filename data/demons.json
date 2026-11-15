@@ -46,7 +46,9 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "luk_prizrak.png",
-      "locs": [],
+      "locs": [
+        "demons/uohatumh"
+      ],
       "m": "Каратели, Миссионеры"
     },
     {
@@ -55,7 +57,9 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "beliy_luk.png",
-      "locs": [],
+      "locs": [
+        "demons/uohatumh"
+      ],
       "m": "Каратели, Миссионеры"
     },
     {
@@ -64,7 +68,9 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "jelezniy_luk.png",
-      "locs": [],
+      "locs": [
+        "demons/uohatumh"
+      ],
       "m": "Каратели, Миссионеры"
     }
   ]

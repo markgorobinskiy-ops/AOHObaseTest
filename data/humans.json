@@ -58,7 +58,9 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "",
-      "locs": [],
+      "locs": [
+        "humans/perekreste"
+      ],
       "m": "Варги"
     },
     {
@@ -67,7 +69,9 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "",
-      "locs": [],
+      "locs": [
+        "humans/perekreste"
+      ],
       "m": "Варги"
     },
     {
@@ -76,7 +80,9 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "",
-      "locs": [],
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
       "m": "Банда Скелетов"
     },
     {
@@ -85,7 +91,9 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "",
-      "locs": [],
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
       "m": "Толпа Зомби"
     },
     {
@@ -94,7 +102,9 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "",
-      "locs": [],
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
       "m": "Банда Скелетов"
     },
     {
@@ -103,7 +113,9 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "",
-      "locs": [],
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
       "m": "Послушник Тьмы"
     }
   ]

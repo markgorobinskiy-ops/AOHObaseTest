@@ -4,7 +4,8 @@
   "sections": [
     {
       "id": "dwarves/koldstoun-post/istoschennyy-rudnik",
-      "name": "Истощенный рудник"
+      "name": "Истощенный рудник",
+      "data": "data/dwarves/koldstoun-post/istoschennyy-rudnik.json"
     }
   ],
   "items": []

@@ -42,7 +42,9 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "",
-      "locs": [],
+      "locs": [
+        "elves/montsilvar"
+      ],
       "m": "Зверь"
     }
   ]
