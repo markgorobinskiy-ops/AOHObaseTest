@@ -51,7 +51,9 @@ def fetch_sheet():
         raw = resp.read()
     text = raw.decode("utf-8-sig", errors="replace")
     delim = "\t" if "\t" in text.splitlines()[0] else ","
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
     return list(csv.DictReader(io.StringIO(text), delimiter=delim))
+
 
 
 def load_json(path):
