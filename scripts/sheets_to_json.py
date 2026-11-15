@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Таблица (Google Sheets) -> data/*.json
+Таблица (Google Sheets) -> data/*.json  ·  версия с поддержкой подлокаций
 
-Читает опубликованную таблицу (CSV или TSV), сопоставляет строки с расами из
-races.json и раскладывает предметы по файлам локаций (sections) каждой расы —
-в том формате, который ждёт сайт:
-  n/name  — название,  r/rarity — редкость,  img — картинка,
-  locs    — ПУТИ локаций (например "demons/uohatumh"),  m — мобы.
-Файл расы держит items: [] (или «сироты» без локаций из sections) —
-сайт считает предметы по файлам локаций, иначе всё задваивается.
-Один предмет в нескольких локациях = несколько строк с одинаковым названием.
+Что умеет:
+  - Читает опубликованную таблицу (CSV/TSV) с колонками:
+    Раса | Локация | Предмет | Редкость | Картинка | Моб
+  - Рекурсивно обходит дерево локаций расы на ЛЮБУЮ глубину
+    (файл расы -> локации -> подлокации -> ...), собирая пары «имя -> путь».
+  - В колонке «Локация» можно писать:
+      * просто имя:      Пещеры            — если такое имя одно на всю расу
+      * полный путь:     Корнейл/Пещеры    — если имён-близнецов несколько
+    Регистр, апострофы и лишние пробелы не важны.
+  - Предметы пишет в формате сайта: n/name, r/rarity, img, locs (ПУТИ), m.
+  - Предметы живут ТОЛЬКО в файлах локаций; в файле расы items очищается,
+    иначе сайт задваивает счётчики.
+  - «Сироты» остаются в файле расы с пустым locs и попадают в предупреждения.
 """
 
 import csv
@@ -21,12 +26,13 @@ import re
 import sys
 import urllib.request
 
-SHEET_URL = os.environ.get(
-    "SHEET_URL",
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vTYV-0pQvs_2bMuK5SKgVqYvcFxJq7g4in95Gz5RMIVMrNydVVySJ64NoJGXQAQbCCY4vZ-w8sg4M11/pub?output=csv",
-)
+# ─────────────────────────────────────────────────────────────────────────────
+# НАСТРОЙКИ: перенесите сюда строку SHEET_URL из предыдущей версии скрипта
+# (публичная ссылка «Опубликовать в сети» вашей таблицы, output=csv).
+SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTYV-0pQvs_2bMuK5SKgVqYvcFxJq7g4in95Gz5RMIVMrNydVVySJ64NoJGXQAQbCCY4vZ-w8sg4M11/pub?output=csv"
 RACES_PATH = "races.json"
 IMAGES_DIR = "images/items"
+# ─────────────────────────────────────────────────────────────────────────────
 
 warnings = []
 
@@ -40,7 +46,7 @@ def norm(s):
     if s is None:
         return ""
     s = str(s).replace("\u00a0", " ")
-    s = s.replace("\u2019", "'").replace("\u02bc", "'")  # ’ -> ' (апострофы)
+    s = s.replace("\u2019", "'").replace("\u02bc", "'")
     s = re.sub(r"\s+", " ", s)
     return s.strip()
 
@@ -61,8 +67,8 @@ def fetch_sheet():
     with urllib.request.urlopen(req, timeout=30) as resp:
         raw = resp.read()
     text = raw.decode("utf-8-sig", errors="replace")
-    delim = "\t" if "\t" in text.splitlines()[0] else ","
     text = text.replace("\r\n", "\n").replace("\r", "\n")
+    delim = "\t" if "\t" in text.splitlines()[0] else ","
     return list(csv.DictReader(io.StringIO(text), delimiter=delim))
 
 
@@ -93,7 +99,53 @@ def iter_races(races_doc):
     return []
 
 
+def collect_locations(file_path, visited=None):
+    """Рекурсивный обход дерева локаций.
+    Возвращает список пар (цепочка_имён, путь):
+        ("Корнейл", "humans/korneil"),
+        ("Корнейл/Пещеры", "humans/korneil/pesheri"), ...
+    """
+    if visited is None:
+        visited = set()
+    key = str(file_path).replace("\\", "/")
+    if key in visited:
+        return []
+    visited.add(key)
+    out = []
+    if not os.path.isfile(file_path):
+        return out
+    try:
+        node = load_json(file_path)
+    except Exception as e:
+        warn("Не удалось прочитать %s: %s" % (file_path, e))
+        return out
+    if not isinstance(node, dict):
+        return out
+    for sec in node.get("sections", []) or []:
+        if not (isinstance(sec, dict) and sec.get("name") and sec.get("data")):
+            continue
+        child_id = clean_data(sec["data"])
+        out.append((sec["name"], child_id))
+        out.extend(collect_locations(sec["data"], visited))
+    return out
+
+
+def all_data_files():
+    out = []
+    for root, _dirs, files in os.walk("data"):
+        for f in files:
+            if f.endswith(".json"):
+                out.append(os.path.join(root, f))
+    return out
+
+
 def main():
+    if "PASTE_YOUR" in SHEET_URL:
+        sys.exit(
+            "Не задана ссылка на таблицу (SHEET_URL). "
+            "Перенесите строку SHEET_URL из предыдущей версии скрипта."
+        )
+
     rows = fetch_sheet()
     print("Загружено строк из таблицы: %d" % len(rows))
     if not rows:
@@ -110,7 +162,8 @@ def main():
             if variant:
                 race_by_name[norm_key(variant)] = (race_id, r)
 
-    items = {}  # (race_id, name, rarity, img) -> {"m": моб, "locs": [имена]}
+    # ── читаем таблицу ──────────────────────────────────────────────────────
+    items = {}   # (race_id, name, rarity, img) -> {"m": моб, "locs": [строки]}
     row_order = []
     for i, row in enumerate(rows, start=2):
         race_n = norm(row.get("Раса"))
@@ -143,35 +196,64 @@ def main():
     print("Уникальных предметов: %d" % len(items))
 
     touched = set(key[0] for key in row_order)
+
+    # ── раскладываем предметы по дереву локаций ─────────────────────────────
     updated_races = 0
     updated_locs = 0
+    total_locations = 0
+
     for race_key, r in race_entries:
         race_id = norm_key(r.get("data", "")) or norm_key(race_key)
         if race_id not in touched:
             continue
-        path = r.get("data")
-        if not path:
+        race_file = r.get("data")
+        if not race_file:
             warn("У расы «%s» не указан файл data — пропущена" % r.get("name", race_id))
             continue
-        if not os.path.isfile(path):
-            warn("Файл расы не найден, пропущен: %s" % path)
+        if not os.path.isfile(race_file):
+            warn("Файл расы не найден, пропущен: %s" % race_file)
             continue
-        doc = load_json(path)
+        doc = load_json(race_file)
         if not isinstance(doc, dict):
-            warn("Файл %s: неожиданная структура, пропущен" % path)
+            warn("Файл %s: неожиданная структура, пропущен" % race_file)
             continue
 
-        # каноничные имена и ПУТИ локаций из sections расы
-        loc_canon, loc_path = {}, {}
-        for sec in doc.get("sections", []) or []:
-            if isinstance(sec, dict) and sec.get("name"):
-                loc_canon[norm_key(sec["name"])] = sec["name"]
-                if sec.get("data"):
-                    loc_path[norm_key(sec["name"])] = clean_data(sec["data"])
+        entries = collect_locations(race_file)
+        total_locations += len(entries)
 
-        # раскладка предметов по путям локаций
-        by_loc = {}   # путь -> [предметы]
-        orphans = []  # предметы без известной локации — остаются в файле расы
+        by_name = {}
+        by_chain = {}
+        for chain, p in entries:
+            last = chain.split("/")[-1]
+            by_name.setdefault(norm_key(last), []).append((chain, p))
+            by_chain.setdefault(norm_key(chain), []).append(p)
+
+        def resolve(loc_str, item_name):
+            if "/" in loc_str:
+                paths = by_chain.get(norm_key(loc_str), [])
+                if len(paths) == 1:
+                    return paths[0]
+                if len(paths) > 1:
+                    warn("Предмет «%s»: путь «%s» неоднозначен" % (item_name, loc_str))
+                    return None
+                warn("Предмет «%s»: путь «%s» не найден в дереве расы «%s»"
+                     % (item_name, loc_str, r.get("name", race_id)))
+                return None
+            cands = by_name.get(norm_key(loc_str), [])
+            if len(cands) == 1:
+                return cands[0][1]
+            if len(cands) > 1:
+                opts = " или ".join(c[0] for c in cands)
+                warn("Предмет «%s»: имя «%s» встречается несколько раз (%s). "
+                     "Укажите в таблице полный путь через «/»"
+                     % (item_name, loc_str, r.get("name", race_id), opts))
+                return None
+            warn("Предмет «%s»: локация «%s» не найдена в дереве расы «%s»"
+                 % (item_name, loc_str, r.get("name", race_id)))
+            return None
+
+        by_loc = {}
+        orphans = []
         for key in row_order:
             r_id, name, rarity, img = key
             if r_id != race_id:
@@ -179,11 +261,8 @@ def main():
             v = items[key]
             paths = []
             for l in v["locs"]:
-                p = loc_path.get(norm_key(l))
-                if p is None:
-                    warn("Предмет «%s»: локация «%s» не найдена в sections расы «%s» — предмет не попадёт в файл локации" % (name, l, r.get("name", race_id)))
-                    continue
-                if p not in paths:
+                p = resolve(l, name)
+                if p and p not in paths:
                     paths.append(p)
             entry = {
                 "n": name, "name": name,
@@ -198,39 +277,42 @@ def main():
             else:
                 orphans.append(entry)
 
-        # файлы локаций
-        for sec in doc.get("sections", []) or []:
-            if not (isinstance(sec, dict) and sec.get("data")):
-                continue
-            p = clean_data(sec["data"])
-            sec_path = sec["data"]
+        # файлы локаций: только те, куда попали предметы
+        sec_files = all_data_files()
+        sec_by_id = {}
+        for sf in sec_files:
+            sec_by_id[clean_data(sf)] = sf
+        for chain, p in entries:
             if p not in by_loc:
-                continue  # в этой локации предметов нет — файл не трогаем
-            if not os.path.isfile(sec_path):
-                warn("Файл локации не найден, пропущен: %s" % sec_path)
                 continue
-            loc_doc = load_json(sec_path)
+            sec_file = sec_by_id.get(p)
+            if not sec_file:
+                warn("Файл локации не найден для пути «%s» (%s)" % (chain, p))
+                continue
+            loc_doc = load_json(sec_file)
             if isinstance(loc_doc, dict):
                 loc_doc["items"] = by_loc[p]
             elif isinstance(loc_doc, list):
                 loc_doc = by_loc[p]
             else:
-                warn("Файл %s: неожиданная структура, пропущен" % sec_path)
+                warn("Файл %s: неожиданная структура, пропущен" % sec_file)
                 continue
-            save_json(sec_path, loc_doc)
+            save_json(sec_file, loc_doc)
             updated_locs += 1
+            print("  · %s: записано предметов %d (%s)"
+                  % (sec_file, len(by_loc[p]), chain))
 
-        # файл расы: сайт берёт предметы из файлов локаций, поэтому items
-        # держим пустым — иначе счётчики и таблицы задваиваются
+        # файл расы: items только для сирот
         old = doc.get("items") or []
         doc["items"] = orphans
-        save_json(path, doc)
+        save_json(race_file, doc)
         updated_races += 1
         print("  · %s: локаций с предметами %d, без привязки %d, прежних записей очищено %d"
-              % (path, len(by_loc), len(orphans), len(old)))
+              % (race_file, len(by_loc), len(orphans), len(old)))
 
     print("Обновлено файлов рас: %d" % updated_races)
     print("Обновлено файлов локаций: %d" % updated_locs)
+    print("Локаций найдено в деревьях рас: %d" % total_locations)
     if warnings:
         print("Предупреждений: %d (см. выше)" % len(warnings))
     else:
