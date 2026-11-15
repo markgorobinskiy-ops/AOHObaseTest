@@ -33,7 +33,7 @@
       "icon": "⚒",
       "bg": "images/dwarves.jpg",
       "tagline": "Молот и камень",
-      "data": "data/dwarves.json"
+      "data": "data/dwaves.json"
     },
     "orcs": {
       "name": "Орки",
