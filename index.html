@@ -384,9 +384,10 @@ async function nodePage(app, path, isRace){
     html += '</div>';
   }
 
-  if(items.length){
+  if(items.length || secs.length){
     html += await itemsTable(path);
-  } else if(!secs.length){
+  }
+  if(!items.length && !secs.length){
     html += '<div class="placeholder">\u{1F4E6} Предметы появятся скоро.<br>Здесь будет таблица выпадающих предметов из этой локации.</div>';
   }
 
@@ -449,8 +450,6 @@ async function render(){
   catch(e){ location.hash = '#/race/' + raceId; return; }
   await nodePage(app, path, false);
 }
-
-init();
 
 </script>
 
