@@ -40,17 +40,5 @@
       "data": "data/dwarves/koldstoun-post.json"
     }
   ],
-  "items": [
-    {
-      "n": "Кинжал Трёх Печатей",
-      "name": "Кинжал Трёх Печатей",
-      "r": "Особый",
-      "rarity": "Особый",
-      "img": "",
-      "locs": [
-        "dwarves/koldstoun-post/istoschennyy-rudnik"
-      ],
-      "m": "Мёртвый Рудокоп"
-    }
-  ]
+  "items": []
 }

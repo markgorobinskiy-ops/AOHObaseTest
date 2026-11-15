@@ -35,17 +35,5 @@
       "data": "data/elves/kilch.json"
     }
   ],
-  "items": [
-    {
-      "n": "Пернатые Перчатки",
-      "name": "Пернатые Перчатки",
-      "r": "Особый",
-      "rarity": "Особый",
-      "img": "",
-      "locs": [
-        "elves/montsilvar"
-      ],
-      "m": "Зверь"
-    }
-  ]
+  "items": []
 }

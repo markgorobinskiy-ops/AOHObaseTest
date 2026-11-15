@@ -39,39 +39,5 @@
       "data": "data/demons/uohatumh.json"
     }
   ],
-  "items": [
-    {
-      "n": "Лук-Призрак",
-      "name": "Лук-Призрак",
-      "r": "Особый",
-      "rarity": "Особый",
-      "img": "luk_prizrak.png",
-      "locs": [
-        "demons/uohatumh"
-      ],
-      "m": "Каратели, Миссионеры"
-    },
-    {
-      "n": "Белый Лук",
-      "name": "Белый Лук",
-      "r": "Особый",
-      "rarity": "Особый",
-      "img": "beliy_luk.png",
-      "locs": [
-        "demons/uohatumh"
-      ],
-      "m": "Каратели, Миссионеры"
-    },
-    {
-      "n": "Железный Лук",
-      "name": "Железный Лук",
-      "r": "Особый",
-      "rarity": "Особый",
-      "img": "jelezniy_luk.png",
-      "locs": [
-        "demons/uohatumh"
-      ],
-      "m": "Каратели, Миссионеры"
-    }
-  ]
+  "items": []
 }
