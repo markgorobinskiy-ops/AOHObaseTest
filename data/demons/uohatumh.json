@@ -6,19 +6,19 @@
     {
       "n": "Лук-Призрак",
       "r": "Особый",
-      "img": "images/items/luk_prizrak.png",
+      "img": "luk_prizrak.png",
       "m": "Каратаели, Миссионеры"
     },
     {
       "n": "Белый Лук",
       "r": "Особый",
-      "img": "images/items/beliy_luk.png",
+      "img": "beliy_luk.png",
       "m": "Каратаели, Миссионеры"
     },
     {
       "n": "Железный Лук",
       "r": "Особый",
-      "img": "images/items/jelezniy_luk.png",
+      "img": "jelezniy_luk.png",
       "m": "Каратаели, Миссионеры"
     }
   ]
