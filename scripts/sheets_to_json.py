@@ -20,7 +20,7 @@ SHEET_URL = os.environ.get(
     "SHEET_URL",
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vTYV-0pQvs_2bMuK5SKgVqYvcFxJq7g4in95Gz5RMIVMrNydVVySJ64NoJGXQAQbCCY4vZ-w8sg4M11/pub?output=csv",
 )
-RACES_PATH = "data/races.json"
+RACES_PATH = "races.json"
 IMAGES_DIR = "images/items"
 
 warnings = []
