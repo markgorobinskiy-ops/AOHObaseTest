@@ -1,15 +1,19 @@
 # -*- coding: utf-8 -*-
 """
-Таблица -> JSON, версия 3.2
+Таблица -> JSON, версия 3.3 (поддержка реальных форматов репозитория)
 
 Правила колонки «Локация»:
   - «Пещеры»                 — поиск существующей локации по всему дереву расы;
   - «Корнейл/Пещеры»         — путь через слэши: шаги без «+» должны существовать;
-  - «+Болота» или «/+Болота» — создать верхнеуровневую локацию расы;
+  - «+Кодстоун Пост»         — создать верхнеуровневую локацию расы;
   - «Эльфы/+Болота»          — найти Эльфов, создать Болота внутри;
   - «+Болота/+Топи»          — после первого «+» создание идёт до конца пути,
                                предмет кладётся в ПОСЛЕДНЮЮ локацию пути;
   - имя расы в начале пути писать не обязательно, но если написано — сверяется.
+
+Понимаемые форматы:
+  - races.json: {"расы"/"races": {ключ: {"name", "icon", "bg", "data"}}} и т.п.;
+  - секции в файлах рас: {"name": ..., "data": "data/..."} или {"id": ..., "name": ...}.
 """
 import csv
 import io
@@ -76,6 +80,14 @@ def slugify(name):
     return slug or "loc"
 
 
+def path_from_data(data):
+    """'data/humans/perekreste.json' -> 'humans/perekreste'"""
+    p = norm(data).replace("\\", "/")
+    p = re.sub(r"^data/", "", p)
+    p = re.sub(r"\.json$", "", p)
+    return p.strip("/")
+
+
 def load_json(path, default):
     if os.path.exists(path):
         with open(path, encoding="utf-8") as f:
@@ -97,25 +109,25 @@ def save_json(path, obj):
 
 
 def normalize_races(raw_cfg):
-    """Приводит races.json к списку словарей с ключами id/name,
-    какой бы формы ни был файл: список словарей, {"races": ...},
-    словарь «id -> раса» или список названий."""
-    if isinstance(raw_cfg, dict) and "races" in raw_cfg:
-        raw_cfg = raw_cfg["races"]
+    """Приводит races.json к списку словарей рас, какой бы формы ни был файл."""
+    if isinstance(raw_cfg, dict):
+        for k in ("races", "расы"):
+            if k in raw_cfg and isinstance(raw_cfg[k], dict):
+                raw_cfg = raw_cfg[k]
+                break
     entries = []
     if isinstance(raw_cfg, dict):
         for k, v in raw_cfg.items():
             if isinstance(v, dict):
                 e = dict(v)
-                if not norm(e.get("id")):
-                    e["id"] = norm(k)
+                e["_key"] = k
                 entries.append(e)
             elif isinstance(v, str):
-                entries.append({"id": norm(k) or slugify(v), "name": norm(v)})
+                entries.append({"_key": k, "id": norm(k) or slugify(v), "name": norm(v)})
     elif isinstance(raw_cfg, list):
         for rc in raw_cfg:
             if isinstance(rc, dict):
-                entries.append(rc)
+                entries.append(dict(rc))
             elif isinstance(rc, str):
                 entries.append({"id": slugify(rc), "name": norm(rc)})
             else:
@@ -123,6 +135,20 @@ def normalize_races(raw_cfg):
     else:
         warn("races.json: неожиданный формат файла")
     return entries
+
+
+def race_id_of(e):
+    """id расы: из поля data, затем из id, затем из латинского ключа, затем из имени."""
+    if norm(e.get("data")):
+        rid = path_from_data(e["data"])
+        if rid:
+            return rid.rsplit("/", 1)[-1]
+    if norm(e.get("id")):
+        return norm(e["id"])
+    key = norm(e.get("_key", ""))
+    if key and re.fullmatch(r"[a-z0-9_-]+", key):
+        return key
+    return slugify(e.get("name", "")) or slugify(e.get("_key", ""))
 
 
 # ---------- дерево расы ----------
@@ -145,11 +171,24 @@ def node_children(node):
         kids = []
         f = node["file"] or {}
         for sec in (f.get("sections") or []):
-            sid = norm(sec.get("id", ""))
-            sname = norm(sec.get("name", ""))
-            if not sid:
+            if not isinstance(sec, dict):
                 continue
-            kids.append(make_node(sname or sid, sid))
+            sname = norm(sec.get("name", ""))
+            path = ""
+            if norm(sec.get("data")):
+                path = path_from_data(sec["data"])
+            elif norm(sec.get("id")):
+                path = norm(sec["id"])
+            if not path:
+                warn("%s: у секции «%s» нет ни data, ни id — пропущена"
+                     % (node["file_path"].replace("\\", "/"), sname or "?"))
+                continue
+            if not sname:
+                sname = path.rsplit("/", 1)[-1]
+            if not norm(sec.get("data")):
+                sec["data"] = "data/" + path + ".json"
+                node["dirty"] = True
+            kids.append(make_node(sname, path))
         node["children"] = kids
     return node["children"]
 
@@ -184,7 +223,11 @@ def create_child(parent, race, name):
     while sid in used_ids or any(ch["path"] == sid for ch in node_children(parent)):
         sid = parent["path"] + "/" + base + "-" + str(n)
         n += 1
-    pf.setdefault("sections", []).append({"id": sid, "name": name})
+    pf.setdefault("sections", []).append({
+        "name": name,
+        "id": sid,
+        "data": "data/" + sid + ".json",
+    })
     parent["dirty"] = True
 
     child = make_node(name, sid)
@@ -312,10 +355,10 @@ def main():
     races_cfg = normalize_races(load_json(RACES_PATH, []))
     race_map = {}
     for rc in races_cfg:
-        rid = norm(rc.get("id", "")) or slugify(rc.get("name", ""))
+        rid = race_id_of(rc)
         rname = norm(rc.get("name", "")) or rid
         if not rid:
-            warn("races.json: у одной из рас не указан id — пропускаю")
+            warn("races.json: у одной из рас не удалось определить id — пропускаю")
             continue
         root = make_node(rname, rid)
         race = {"id": rid, "name": rname, "key": norm_key(rname),
