@@ -174,9 +174,6 @@ const RARITY_CLASS =
 const ITEM_DIR = 'images/items/';
 const CACHE = {};
 
-function cleanData(p){ return String(p).replace(/^data\//, '').replace(/\.json$/, ''); }
-function fileUrl(path){ return 'data/' + path + '.json'; }
-
 fetch('races.json?_=' + Date.now())
   .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
   .then(json => { RACES = json.races; init(); })
@@ -294,16 +291,33 @@ function fillBadges(){
   });
 }
 
-/* ——— таблица предметов узла ——— */
+/* ——— сбор предметов всей расы (для показа во всех локациях) ——— */
+async function raceItemIndex(raceId){
+  const out = [];
+  async function walk(p){
+    let node;
+    try { node = await loadNode(p); } catch(e){ return; }
+    (node.items || []).forEach((it, j) => out.push({path: p, j: j, it: it}));
+    for(const s of (node.sections || [])) await walk(cleanData(s.data));
+  }
+  await walk(raceId);
+  return out;
+}
+
+/* ——— таблица предметов узла: свои + чужие, у которых эта локация в списке ——— */
 async function itemsTable(path){
-  const node = await loadNode(path);
-  const items = node.items || [];
-  if(!items.length) return '';
+  const raceId = path.split('/')[0];
+  const all = await raceItemIndex(raceId);
+  const shown = all.filter(e => {
+    const locs = (e.it.locs && e.it.locs.length) ? e.it.locs : [e.path];
+    return locs.indexOf(path) !== -1;
+  });
+  if(!shown.length) return '';
   let html = '<div class="itable"><div class="ihead"><span>Предмет</span><span>Редкость</span></div>';
-  items.forEach((it, j) => {
-    html += '<div class="irow" style="animation-delay:' + (j * 0.07) + 's" onclick="openItem(\'' + path + '\',' + j + ')">'
-          + '<span class="iname">' + it.n + '</span>'
-          + '<span class="rchip ' + (RARITY_CLASS[it.r] || 'r-green') + '">' + it.r + '</span></div>';
+  shown.forEach((e, j) => {
+    html += '<div class="irow" style="animation-delay:' + (j * 0.07) + 's" onclick="openItem(\'' + e.path + '\',' + e.j + ')">'
+          + '<span class="iname">' + e.it.n + '</span>'
+          + '<span class="rchip ' + (RARITY_CLASS[e.it.r] || 'r-green') + '">' + e.it.r + '</span></div>';
   });
   return html + '</div>';
 }
@@ -313,17 +327,28 @@ async function openItem(path, j){
   let it;
   try { const node = await loadNode(path); it = (node.items || [])[j]; } catch(e){ return; }
   if(!it) return;
-  const crumbs = await breadcrumb(path);
-  const trail = crumbs.map(c => c.name).join(' \u2192 ');
-  const race = RACES[path.split('/')[0]];
   document.getElementById('pname').textContent = it.n;
   const imgBox = document.getElementById('pimg');
-  imgBox.innerHTML = '<img src="' + ITEM_DIR + it.img + '" alt="' + it.n + '">';
-  imgBox.querySelector('img').onerror = function(){ imgBox.innerHTML = '\u{1F5BC} Картинка не найдена:<br>' + it.img; };
+  if(it.img){
+    imgBox.innerHTML = '<img src="' + ITEM_DIR + it.img + '" alt="' + it.n + '">';
+    imgBox.querySelector('img').onerror = function(){ imgBox.innerHTML = '\u{1F5BC} Картинка не найдена:<br>' + it.img; };
+  } else {
+    imgBox.innerHTML = '\u{1F5BC} Картинка появится позже';
+  }
+  let locHtml = (await breadcrumb(path)).map(c => c.name).join(' \u2192 ');
+  if(it.locs && it.locs.length){
+    const names = [];
+    for(const p of it.locs){
+      let nm = p.split('/').pop();
+      try { const n = await loadNode(p); if(n.name) nm = n.name; } catch(e){}
+      names.push(nm);
+    }
+    locHtml = names.join(' \u00b7 ');
+  }
   document.getElementById('pmeta').innerHTML =
     '<span class="rchip ' + (RARITY_CLASS[it.r] || 'r-green') + '">' + it.r + '</span><br>'
-    + 'Выпадает в: ' + trail + '<br>'
-    + (race ? 'Раса: ' + race.icon + ' ' + race.name : '');
+    + 'Выпадает в: ' + locHtml + '<br>'
+    + 'Моб: ' + (it.m || '\u2014');
   document.getElementById('panel').classList.add('show');
   document.getElementById('overlay').classList.add('show');
 }
