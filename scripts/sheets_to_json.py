@@ -1,19 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Таблица -> JSON, версия 3.3 (поддержка реальных форматов репозитория)
+Таблица -> JSON, версия 3.4 (устранение дублирования)
 
-Правила колонки «Локация»:
-  - «Пещеры»                 — поиск существующей локации по всему дереву расы;
-  - «Корнейл/Пещеры»         — путь через слэши: шаги без «+» должны существовать;
-  - «+Кодстоун Пост»         — создать верхнеуровневую локацию расы;
-  - «Эльфы/+Болота»          — найти Эльфов, создать Болота внутри;
-  - «+Болота/+Топи»          — после первого «+» создание идёт до конца пути,
-                               предмет кладётся в ПОСЛЕДНЮЮ локацию пути;
-  - имя расы в начале пути писать не обязательно, но если написано — сверяется.
-
-Понимаемые форматы:
-  - races.json: {"расы"/"races": {ключ: {"name", "icon", "bg", "data"}}} и т.п.;
-  - секции в файлах рас: {"name": ..., "data": "data/..."} или {"id": ..., "name": ...}.
+Принцип единого хранения:
+  - предмет с привязкой живёт ТОЛЬКО в файле своей локации;
+  - в файле расы хранятся только предметы без привязки (сироты);
+  - при прогоне предметы, получившие локацию, из файла расы убираются.
 """
 import csv
 import io
@@ -330,14 +322,6 @@ def items_for_node(race, node):
     return inc
 
 
-def items_for_race(race):
-    inc = {}
-    for g in groups.values():
-        if g["race"]["id"] == race["id"]:
-            inc[norm_key(g["name"])] = make_item(g)
-    return inc
-
-
 # ---------- главный поток ----------
 
 def main():
@@ -408,28 +392,36 @@ def main():
     # --- проход 2: запись в файлы ---
     updated_races = 0
     updated_locs = 0
+    cleaned_total = 0
     for race in race_map.values():
         nodes = collect_nodes(race["root"], [])
+
+        # локации: вливаем предметы
         for nd in nodes[1:]:
             inc = items_for_node(race, nd)
             if inc:
-                n_wr = merge_items(nd, inc)
+                merge_items(nd, inc)
                 print("  - %s: записано предметов %d (%s)"
-                      % (nd["file_path"].replace("\\", "/"), n_wr, nd["name"]))
-        inc = items_for_race(race)
-        if inc:
-            merge_items(race["root"], inc)
-            f = race["root"]["file"]
-            locs_set = set()
-            orphan = 0
-            for it in (f.get("items") or []):
-                ls = it.get("locs") or []
-                if ls:
-                    locs_set.update(ls)
-                else:
-                    orphan += 1
-            print("  - data/%s.json: локаций с предметами %d, без привязки %d, прежних записей очищено 0"
-                  % (race["id"], len(locs_set), orphan))
+                      % (nd["file_path"].replace("\\", "/"), len(inc), nd["name"]))
+
+        # файл расы: только сироты; всё с привязкой — вычищаем
+        orphans = {}
+        for g in groups.values():
+            if g["race"]["id"] == race["id"] and not g["locs"]:
+                orphans[norm_key(g["name"])] = make_item(g)
+        f = get_file(race["root"])
+        if orphans:
+            merge_items(race["root"], orphans)
+            f = get_file(race["root"])
+        items = f.get("items") or []
+        kept = [it for it in items if not (it.get("locs") or [])]
+        removed = len(items) - len(kept)
+        cleaned_total += removed
+        if removed:
+            f["items"] = kept
+            race["root"]["dirty"] = True
+        print("  - data/%s.json: сирот %d, вычищено дубликатов с привязкой %d"
+              % (race["id"], len(kept), removed))
 
     for race in race_map.values():
         for nd in collect_nodes(race["root"], []):
@@ -443,6 +435,7 @@ def main():
     print("Обновлено файлов рас: %d" % updated_races)
     print("Обновлено файлов локаций: %d" % updated_locs)
     print("Создано локаций: %d" % created_count)
+    print("Вычищено дубликатов из файлов рас: %d" % cleaned_total)
     print("Предупреждений: %d" % len(warnings))
     print("Синхронизировано предметов: %d" % len(groups))
 
