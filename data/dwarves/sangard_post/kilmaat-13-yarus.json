@@ -35,6 +35,17 @@
         "dwarves/sangard_post/kilmaat-13-yarus"
       ],
       "m": "Тень"
+    },
+    {
+      "n": "Солнечный Орб",
+      "name": "Солнечный Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sun_Orb.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Привратник"
     }
   ]
 }

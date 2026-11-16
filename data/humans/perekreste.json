@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Sapogi_Kot_Pohodki.jpg",
       "locs": [
-        "humans/perekreste"
+        "humans/perekreste",
+        "humans/reyden"
       ],
-      "m": "Варги"
+      "m": "Варги, Бешеные Черные Варги"
     },
     {
       "n": "Доспех из шкур Варгов",

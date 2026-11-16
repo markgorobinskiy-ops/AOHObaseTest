@@ -7,5 +7,40 @@
       "data": "data/humans/reyden/forvud.json"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "n": "Сапоги Кошачьей Походки",
+      "name": "Сапоги Кошачьей Походки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sapogi_Kot_Pohodki.jpg",
+      "locs": [
+        "humans/perekreste",
+        "humans/reyden"
+      ],
+      "m": "Варги, Бешеные Черные Варги"
+    },
+    {
+      "n": "Колчан Тьмы",
+      "name": "Колчан Тьмы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_TbmbI.jpg",
+      "locs": [
+        "humans/reyden"
+      ],
+      "m": "Толпа Скелетов"
+    },
+    {
+      "n": "Ритуальный Клинок",
+      "name": "Ритуальный Клинок",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Ritualniy_Klinok.jpg",
+      "locs": [
+        "humans/reyden"
+      ],
+      "m": "Жестокие Демоны"
+    }
+  ]
 }
