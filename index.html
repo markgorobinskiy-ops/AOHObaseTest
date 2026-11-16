@@ -13,12 +13,13 @@
     background-color:var(--bg);
     transition: background-color .5s;
   }
-  body[data-race="elves"] { --bg:#1a2618; --panel:#22301f; --panel2:#2c3d29; --accent:#b8d47a; --text:#eef2e2; }
-  body[data-race="demons"] { --bg:#2a1012; --panel:#3a171a; --panel2:#4b1f22; --accent:#e8a87a; --text:#f5e9e4; }
-  body[data-race="undead"] { --bg:#1b1d22; --panel:#262a30; --panel2:#31363e; --accent:#9fb8c9; --text:#eef1f4; }
-  body[data-race="humans"] { --bg:#d8d3c4; --panel:#efe9da; --panel2:#e2dcc9; --accent:#8a6d3b; --text:#2e2a22; }
-  body[data-race="dwarves"] { --bg:#26211a; --panel:#332c22; --panel2:#41382b; --accent:#d9a94e; --text:#f2ead9; }
-  body[data-race="orcs"] { --bg:#221a12; --panel:#31261a; --panel2:#3f3222; --accent:#e0b466; --text:#f4ecdf; }
+  /* ——— темы: теперь привязаны к data-theme (выбор пользователя), а не к расе ——— */
+  body[data-theme="elves"] { --bg:#1a2618; --panel:#22301f; --panel2:#2c3d29; --accent:#b8d47a; --text:#eef2e2; }
+  body[data-theme="demons"] { --bg:#2a1012; --panel:#3a171a; --panel2:#4b1f22; --accent:#e8a87a; --text:#f5e9e4; }
+  body[data-theme="undead"] { --bg:#1b1d22; --panel:#262a30; --panel2:#31363e; --accent:#9fb8c9; --text:#eef1f4; }
+  body[data-theme="humans"] { --bg:#d8d3c4; --panel:#efe9da; --panel2:#e2dcc9; --accent:#8a6d3b; --text:#2e2a22; }
+  body[data-theme="dwarves"] { --bg:#26211a; --panel:#332c22; --panel2:#41382b; --accent:#d9a94e; --text:#f2ead9; }
+  body[data-theme="orcs"] { --bg:#221a12; --panel:#31261a; --panel2:#3f3222; --accent:#e0b466; --text:#f4ecdf; }
 
   /* фон с кроссфейдом и виньеткой */
   .bg { position:fixed; inset:0; z-index:-1; background-size:cover; background-position:center;
@@ -27,8 +28,8 @@
         background:linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.55)); }
   .bg::after { content:''; position:absolute; inset:0;
         background:radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,.5) 100%); }
-  body[data-race="humans"] .bg::before { background:linear-gradient(rgba(255,255,255,.28), rgba(255,255,255,.38)); }
-  body[data-race="humans"] .bg::after { background:radial-gradient(ellipse at center, transparent 60%, rgba(80,70,50,.25) 100%); }
+  body[data-theme="humans"] .bg::before { background:linear-gradient(rgba(255,255,255,.28), rgba(255,255,255,.38)); }
+  body[data-theme="humans"] .bg::after { background:radial-gradient(ellipse at center, transparent 60%, rgba(80,70,50,.25) 100%); }
 
   header {
     position:sticky; top:0; z-index:40;
@@ -38,7 +39,7 @@
     border-bottom:1px solid var(--accent);
     display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap;
   }
-  body[data-race="humans"] header { background:rgba(255,255,255,.65); }
+  body[data-theme="humans"] header { background:rgba(255,255,255,.65); }
   header h1 { font-size:1.4rem; letter-spacing:.5px; display:flex; align-items:center; gap:10px;
     font-variant:small-caps; }
   header h1 .crown { color:var(--accent); }
@@ -86,9 +87,9 @@
     transition:transform .15s, background .15s, box-shadow .15s;
     animation:rise .4s ease both;
   }
-  body[data-race="humans"] .card { background:rgba(255,255,255,.6); }
+  body[data-theme="humans"] .card { background:rgba(255,255,255,.6); }
   .card:hover { transform:translateY(-3px); background:rgba(0,0,0,.5); box-shadow:0 6px 18px rgba(0,0,0,.35); }
-  body[data-race="humans"] .card:hover { background:rgba(255,255,255,.85); }
+  body[data-theme="humans"] .card:hover { background:rgba(255,255,255,.85); }
   .card .title { font-weight:bold; font-size:1.05rem; display:flex; align-items:center; gap:10px; }
   .card .meta { font-size:.82rem; opacity:.8; margin-top:4px; }
 
@@ -99,7 +100,7 @@
     display:flex; justify-content:space-between; align-items:center;
   }
   .sub-item:hover { background:rgba(255,255,255,.08); }
-  body[data-race="humans"] .sub-item:hover { background:rgba(0,0,0,.06); }
+  body[data-theme="humans"] .sub-item:hover { background:rgba(0,0,0,.06); }
   .arrow { color:var(--accent); margin-right:6px; }
   .soon { font-size:.75rem; opacity:.7; font-style:italic; white-space:nowrap; margin-left:12px; }
   .cnt { font-size:.75rem; border:1px solid var(--accent); border-radius:999px; padding:2px 9px;
@@ -115,7 +116,7 @@
   /* таблица предметов */
   .itable { border:1px solid var(--accent); border-radius:12px; overflow:hidden; margin-top:6px;
             background:rgba(0,0,0,.35); }
-  body[data-race="humans"] .itable { background:rgba(255,255,255,.6); }
+  body[data-theme="humans"] .itable { background:rgba(255,255,255,.6); }
   .ihead { display:flex; justify-content:space-between; padding:9px 16px; font-size:.78rem;
            opacity:.75; font-style:italic; border-bottom:1px solid var(--accent); }
   .irow { display:flex; justify-content:space-between; align-items:center; gap:12px;
@@ -123,17 +124,17 @@
           border-bottom:1px solid rgba(255,255,255,.08); animation:rise .35s ease both; }
   .irow:last-child { border-bottom:none; }
   .irow:hover { background:rgba(255,255,255,.09); }
-  body[data-race="humans"] .irow:hover { background:rgba(0,0,0,.06); }
+  body[data-theme="humans"] .irow:hover { background:rgba(0,0,0,.06); }
   .irow .iname { font-weight:bold; }
   .rchip { font-size:.72rem; padding:3px 10px; border-radius:999px; border:1px solid; white-space:nowrap; }
   .r-green { color:#8fd694; border-color:#8fd694; }
   .r-blue { color:#7cc0f0; border-color:#7cc0f0; }
   .r-purple { color:#c79bf0; border-color:#c79bf0; }
   .r-orange { color:#f0b27a; border-color:#f0b27a; }
-  body[data-race="humans"] .r-green { color:#2e7d32; border-color:#2e7d32; }
-  body[data-race="humans"] .r-blue { color:#1565c0; border-color:#1565c0; }
-  body[data-race="humans"] .r-purple { color:#7b1fa2; border-color:#7b1fa2; }
-  body[data-race="humans"] .r-orange { color:#e65100; border-color:#e65100; }
+  body[data-theme="humans"] .r-green { color:#2e7d32; border-color:#2e7d32; }
+  body[data-theme="humans"] .r-blue { color:#1565c0; border-color:#1565c0; }
+  body[data-theme="humans"] .r-purple { color:#7b1fa2; border-color:#7b1fa2; }
+  body[data-theme="humans"] .r-orange { color:#e65100; border-color:#e65100; }
 
   /* панель объекта */
   #overlay { position:fixed; inset:0; background:rgba(0,0,0,.45); opacity:0; pointer-events:none;
@@ -156,7 +157,7 @@
   #panel .pmeta { font-size:.85rem; opacity:.85; margin-top:10px; line-height:1.5; }
 </style>
 </head>
-<body data-race="elves">
+<body data-theme="elves">
 <div class="bg" id="bgA"></div>
 <div class="bg" id="bgB"></div>
 
@@ -218,11 +219,8 @@ async function loadNode(path){
 }
 
 function init(){
-  try {
-    const saved = localStorage.getItem('aoho_race');
-    if(saved && RACES[saved]) document.body.dataset.race = saved;
-  } catch(e){}
-  setBody(document.body.dataset.race);
+  /* тема — личный выбор пользователя, восстанавливаем из памяти (не от расы) */
+  applyTheme(localStorage.getItem('aoho_theme') || 'elves');
   window.addEventListener('hashchange', () => {
     /* навигация сбрасывает поиск */
     searching = false;
@@ -250,24 +248,27 @@ function setBgFor(raceId){
   bgCur = nxt;
 }
 
-/* ——— шапка: кнопка расы (листает по кругу) ——— */
+/* ——— тема: меняется ТОЛЬКО кнопкой, навигация её не трогает ——— */
+function applyTheme(themeId){
+  if(!RACES[themeId]) themeId = Object.keys(RACES)[0];
+  document.body.dataset.theme = themeId;
+  setBgFor(themeId);
+  try { localStorage.setItem('aoho_theme', themeId); } catch(e){}
+  buildRaceButton();
+}
+
+/* ——— шапка: кнопка темы (листает по кругу) ——— */
 function buildRaceButton(){
   const box = document.getElementById('chips');
   box.innerHTML = '';
   const ids = Object.keys(RACES);
-  const cur = RACES[document.body.dataset.race] ? document.body.dataset.race : ids[0];
+  const cur = RACES[document.body.dataset.theme] ? document.body.dataset.theme : ids[0];
   const next = ids[(ids.indexOf(cur) + 1) % ids.length];
   const b = document.createElement('button');
   b.className = 'chip active';
-  b.innerHTML = RACES[cur].icon + ' Раса: ' + RACES[cur].name;
-  b.onclick = () => { location.hash = '/race/' + next; };
+  b.innerHTML = RACES[cur].icon + ' Тема: ' + RACES[cur].name;
+  b.onclick = () => { applyTheme(next); };
   box.appendChild(b);
-}
-function setBody(raceId){
-  document.body.dataset.race = raceId;
-  setBgFor(raceId);
-  try { localStorage.setItem('aoho_race', raceId); } catch(e){}
-  buildRaceButton();
 }
 
 /* ——— счётчики: уникальные предметы поддерева (с кэшем) ——— */
@@ -553,7 +554,7 @@ async function render(){
 
   const raceId = parts[1];
   if(!raceId || !RACES[raceId]){ location.hash = '#/'; return; }
-  setBody(raceId);
+  /* ВАЖНО: тему здесь не трогаем — она меняется только кнопкой */
 
   /* Вторичный: страница расы */
   if(kind === 'race'){
@@ -601,7 +602,7 @@ async function render(){
   function extractSrc(el){
     if(el.tagName==='IMG'){var s=el.getAttribute('src')||'';return s.indexOf('items/')>-1?s:null;}
     var bg=getComputedStyle(el).backgroundImage||'';
-    if(bg&&bg.indexOf('items/')>-1){var m=bg.match(/url$["']?([^"')]+)["']?$/);return m?m[1]:null;}
+    if(bg&&bg.indexOf('items/')>-1){var m=bg.match(/url\(["']?([^"')]+)["']?\)/);return m?m[1]:null;}
     return null;
   }
   document.addEventListener('click',function(e){
