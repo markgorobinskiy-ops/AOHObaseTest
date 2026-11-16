@@ -46,6 +46,17 @@
         "humans/korneyl/peschery"
       ],
       "m": "Послушник Тьмы"
+    },
+    {
+      "n": "Перстень Глубинного Ужаса",
+      "name": "Перстень Глубинного Ужаса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perst_Glubinnogo_Ujasa.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Банда Скелетов"
     }
   ]
 }

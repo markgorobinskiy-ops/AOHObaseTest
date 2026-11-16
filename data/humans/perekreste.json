@@ -19,8 +19,9 @@
       "name": "Доспех из шкур Варгов",
       "r": "Особый",
       "rarity": "Особый",
-      "img": "",
+      "img": "Dospeh_iz_Shkur_Vargov.jpg",
       "locs": [
+        "humans/korneyl/peschery-vargov",
         "humans/perekreste"
       ],
       "m": "Варги"

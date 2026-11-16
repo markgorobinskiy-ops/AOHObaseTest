@@ -1,0 +1,30 @@
+{
+  "id": "humans/korneyl/peschery-vargov",
+  "name": "Пещеры Варгов",
+  "sections": [],
+  "items": [
+    {
+      "n": "Доспех из шкур Варгов",
+      "name": "Доспех из шкур Варгов",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Dospeh_iz_Shkur_Vargov.jpg",
+      "locs": [
+        "humans/korneyl/peschery-vargov",
+        "humans/perekreste"
+      ],
+      "m": "Варги"
+    },
+    {
+      "n": "Каменные сапоги",
+      "name": "Каменные сапоги",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamen_Sapogi.jpg",
+      "locs": [
+        "humans/korneyl/peschery-vargov"
+      ],
+      "m": "Королевская Свора"
+    }
+  ]
+}

@@ -13,6 +13,28 @@
         "dwarves/sangard_post/kilmaat-13-yarus"
       ],
       "m": "Страж"
+    },
+    {
+      "n": "Колчан из Рога",
+      "name": "Колчан из Рога",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_iz_Roga.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Страж"
+    },
+    {
+      "n": "Белый Шар",
+      "name": "Белый Шар",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Beliy_Shar.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Тень"
     }
   ]
 }

@@ -5,7 +5,35 @@
     {
       "name": "Пещеры",
       "data": "data/humans/korneyl/peschery.json"
+    },
+    {
+      "name": "Пещеры Варгов",
+      "id": "humans/korneyl/peschery-vargov",
+      "data": "data/humans/korneyl/peschery-vargov.json"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "n": "Гномий Кузнечный Молот",
+      "name": "Гномий Кузнечный Молот",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gnomiy_Kuznechniy_Molot.jpg",
+      "locs": [
+        "humans/korneyl"
+      ],
+      "m": "Толпа Зомби"
+    },
+    {
+      "n": "Султаримский Меч",
+      "name": "Султаримский Меч",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sultarimskiy_Mech.jpg",
+      "locs": [
+        "humans/korneyl"
+      ],
+      "m": "Разбойник"
+    }
+  ]
 }
