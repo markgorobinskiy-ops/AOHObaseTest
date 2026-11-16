@@ -2,5 +2,28 @@
   "id": "humans/6",
   "name": "Амиссвуд",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Камзол с Языками Пламени",
+      "name": "Камзол с Языками Пламени",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamzol_s_Yazik_Plameni.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Волк"
+    },
+    {
+      "n": "Перчатки из Скальпа Барда",
+      "name": "Перчатки из Скальпа Барда",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_iz_Skalp_Bard.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Энт"
+    }
+  ]
 }

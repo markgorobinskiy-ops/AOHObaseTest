@@ -1,6 +1,12 @@
 {
   "id": "dwarves/6",
   "name": "Сангард пост",
-  "sections": [],
+  "sections": [
+    {
+      "name": "Кил'м'Аат 13 ярус",
+      "id": "dwarves/sangard_post/kilmaat-13-yarus",
+      "data": "data/dwarves/sangard_post/kilmaat-13-yarus.json"
+    }
+  ],
   "items": []
 }
