@@ -2,5 +2,17 @@
   "id": "orcs/3",
   "name": "Орочья степь",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Сапоги Кошачьей Походки",
+      "name": "Сапоги Кошачьей Походки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sapogi_Kot_Pohodki.jpg",
+      "locs": [
+        "orcs/orochya_step"
+      ],
+      "m": "Кровожадные Варги"
+    }
+  ]
 }

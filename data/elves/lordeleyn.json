@@ -2,5 +2,17 @@
   "id": "elves/6",
   "name": "Лорделейн",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Каменный Панцирь",
+      "name": "Каменный Панцирь",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamenniy_Pancir.jpg",
+      "locs": [
+        "elves/lordeleyn"
+      ],
+      "m": "Изгнанник"
+    }
+  ]
 }

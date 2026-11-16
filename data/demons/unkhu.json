@@ -1,0 +1,18 @@
+{
+  "id": "demons/unkhu",
+  "name": "Ун'Кху",
+  "sections": [],
+  "items": [
+    {
+      "n": "Сумеречный Плащ",
+      "name": "Сумеречный Плащ",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sumerechniy_Plasch.jpg",
+      "locs": [
+        "demons/unkhu"
+      ],
+      "m": "Рейдер"
+    }
+  ]
+}

@@ -37,6 +37,11 @@
     {
       "name": "Уоха’Тумх",
       "data": "data/demons/uohatumh.json"
+    },
+    {
+      "name": "Ун'Кху",
+      "id": "demons/unkhu",
+      "data": "data/demons/unkhu.json"
     }
   ],
   "items": []
