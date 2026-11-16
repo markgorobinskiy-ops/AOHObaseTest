@@ -33,6 +33,11 @@
     {
       "name": "Кильч",
       "data": "data/elves/kilch.json"
+    },
+    {
+      "name": "Йорденские Поля",
+      "id": "elves/yordenskie-polya",
+      "data": "data/elves/yordenskie-polya.json"
     }
   ],
   "items": []
