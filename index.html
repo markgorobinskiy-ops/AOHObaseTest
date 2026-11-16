@@ -176,6 +176,8 @@ const CACHE = {};
 
 function cleanData(p){ return String(p).replace(/^data\//, '').replace(/\.json$/, ''); }
 function fileUrl(path){ return 'data/' + path + '.json'; }
+/* ключ имени предмета для дедупликации: пробелы схлопнуты, регистр не важен */
+function itemKey(it){ return String(it.n || it.name || '').replace(/\s+/g,' ').trim().toLowerCase(); }
 
 fetch('races.json?_=' + Date.now())
   .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
@@ -301,13 +303,23 @@ function fillBadges(){
   });
 }
 
-/* ——— сбор предметов всей расы (для показа во всех локациях) ——— */
+/* ——— сбор предметов всей расы (для показа во всех локациях) ———
+   Дедупликация: один предмет может лежать в нескольких файлах локаций
+   (это наш принцип хранения: предмет целиком в каждой своей локации).
+   Чтобы он не рисовался дважды на одной странице, показываем только
+   первый встреченный экземпляр — по нормализованному имени. */
 async function raceItemIndex(raceId){
   const out = [];
+  const seen = {};
   async function walk(p){
     let node;
     try { node = await loadNode(p); } catch(e){ return; }
-    (node.items || []).forEach((it, j) => out.push({path: p, j: j, it: it}));
+    (node.items || []).forEach((it, j) => {
+      const k = itemKey(it);
+      if(!k || seen[k]) return;
+      seen[k] = true;
+      out.push({path: p, j: j, it: it});
+    });
     for(const s of (node.sections || [])) await walk(cleanData(s.data));
   }
   await walk(raceId);
