@@ -52,6 +52,17 @@
   .chip:hover { background: var(--panel2); }
   .chip.active { background:var(--accent); color:#1a1a10; font-weight:bold; }
 
+  /* строка поиска */
+  #q {
+    background: var(--panel); color: var(--text); border: 1px solid var(--accent);
+    border-radius: 999px; padding: 8px 16px; font-family: inherit; font-size: .9rem;
+    width: 230px; outline: none; transition: box-shadow .15s;
+  }
+  #q:focus { box-shadow: 0 0 0 2px var(--accent); }
+  #q::placeholder { opacity: .55; }
+  mark { background: var(--accent); color: #1a1a10; border-radius: 3px; padding: 0 2px; font-weight: bold; }
+  .snote { font-size:.85rem; opacity:.8; font-style:italic; margin-top:10px; }
+
   main { max-width:820px; margin:0 auto; padding:28px 18px 60px; }
   h2 { font-size:1.5rem; margin-bottom:4px; font-variant:small-caps; letter-spacing:1.5px; }
   .tagline { font-style:italic; opacity:.8; font-size:.9rem; margin-bottom:12px; }
@@ -154,6 +165,7 @@
     <h1><span class="crown">♛</span> База данных предметов от сообщества очень веселых Энтузиастов</h1>
     <div class="sub">Список предметов и локаций, в которых они выпадают</div>
   </div>
+  <input id="q" type="text" placeholder="Поиск предмета..." autocomplete="off">
   <div class="chips" id="chips"></div>
 </header>
 <main id="app"></main>
@@ -176,6 +188,9 @@ const CACHE = {};
 
 function cleanData(p){ return String(p).replace(/^data\//, '').replace(/\.json$/, ''); }
 function fileUrl(path){ return 'data/' + path + '.json'; }
+function itemKey(it){
+  return String((it && (it.n || it.name)) || '').replace(/\s+/g, ' ').trim().toLowerCase();
+}
 
 fetch('races.json?_=' + Date.now())
   .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
@@ -208,7 +223,15 @@ function init(){
     if(saved && RACES[saved]) document.body.dataset.race = saved;
   } catch(e){}
   setBody(document.body.dataset.race);
-  window.addEventListener('hashchange', render);
+  window.addEventListener('hashchange', () => {
+    /* навигация сбрасывает поиск */
+    searching = false;
+    const q = document.getElementById('q');
+    if(q) q.value = '';
+    render();
+  });
+  const qEl = document.getElementById('q');
+  if(qEl) qEl.addEventListener('input', onSearchInput);
   render();
 }
 
@@ -247,55 +270,21 @@ function setBody(raceId){
   buildRaceButton();
 }
 
-/* ——— нормализованное имя предмета: ключ для дедупликации ——— */
-function itemKey(it){
-  return String(it.n || it.name || '').replace(/\s+/g,' ').trim().toLowerCase();
-}
-
-/* ——— сбор предметов всей расы с дедупликацией по имени: ——— */
-/* один предмет = одна запись, где бы он ни лежал (файлы локаций) */
-async function raceItemIndex(raceId){
-  const out = [];
-  const seen = {};
-  async function walk(p){
-    let node;
-    try { node = await loadNode(p); } catch(e){ return; }
-    (node.items || []).forEach((it, j) => {
-      const k = itemKey(it);
-      if(k && seen[k]) return;
-      if(k) seen[k] = 1;
-      out.push({path: p, j: j, it: it});
-    });
-    for(const s of (node.sections || [])) await walk(cleanData(s.data));
-  }
-  await walk(raceId);
-  return out;
-}
-
-/* ——— счётчики: уникальные предметы поддерева, а не записи в файлах ——— */
-/* один предмет, лежащий в нескольких файлах локаций, считается один раз; */
-/* благодаря принципу единого хранения обход файла узла даёт ровно то, */
-/* что показывает таблица на его странице */
+/* ——— счётчики: уникальные предметы поддерева (с кэшем) ——— */
 const STATS = {};
 async function walkStats(path){
   if(STATS[path]) return STATS[path];
-  const seen = {};
-  let items = 0, subs = 0;
-  async function walk(p){
-    let node;
-    try { node = await loadNode(p); } catch(e){ return; }
-    (node.items || []).forEach(it => {
-      const k = itemKey(it);
-      if(!k || seen[k]) return;
-      seen[k] = 1;
-      items++;
-    });
-    const secs = node.sections || [];
-    subs += secs.length;
-    for(const s of secs) await walk(cleanData(s.data));
+  let node;
+  try { node = await loadNode(path); } catch(e){ return {items:0, subs:0, keys:[]}; }
+  const keys = new Set();
+  (node.items || []).forEach(it => keys.add(itemKey(it)));
+  let subs = (node.sections || []).length;
+  for(const s of (node.sections || [])){
+    const st = await walkStats(cleanData(s.data));
+    (st.keys || []).forEach(k => keys.add(k));
+    subs += st.subs;
   }
-  await walk(path);
-  const res = {items: items, subs: subs};
+  const res = {items: keys.size, subs: subs, keys: Array.from(keys)};
   STATS[path] = res;
   return res;
 }
@@ -341,6 +330,25 @@ function fillBadges(){
   });
 }
 
+/* ——— сбор предметов всей расы (с дедупликацией по имени) ——— */
+async function raceItemIndex(raceId){
+  const out = [];
+  const seen = new Set();
+  async function walk(p){
+    let node;
+    try { node = await loadNode(p); } catch(e){ return; }
+    (node.items || []).forEach((it, j) => {
+      const k = itemKey(it);
+      if(!k || seen.has(k)) return;
+      seen.add(k);
+      out.push({path: p, j: j, it: it});
+    });
+    for(const s of (node.sections || [])) await walk(cleanData(s.data));
+  }
+  await walk(raceId);
+  return out;
+}
+
 /* ——— таблица предметов узла: свои + чужие, у которых эта локация в списке ——— */
 async function itemsTable(path){
   const raceId = path.split('/')[0];
@@ -357,6 +365,79 @@ async function itemsTable(path){
           + '<span class="rchip ' + (RARITY_CLASS[e.it.r] || 'r-green') + '">' + e.it.r + '</span></div>';
   });
   return html + '</div>';
+}
+
+/* ——— поиск по предметам ——— */
+let searching = false;
+let searchQ = '';
+let GLOBAL_IDX = null;
+
+function esc(s){
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function normq(s){
+  return String(s || '').replace(/\s+/g, ' ').trim().toLowerCase();
+}
+function highlight(name, q){
+  const pat = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').split(/\s+/).join('\\s+');
+  let m;
+  try { m = name.match(new RegExp(pat, 'i')); } catch(e){ return esc(name); }
+  if(!m) return esc(name);
+  const i = m.index;
+  return esc(name.slice(0, i)) + '<mark>' + esc(m[0]) + '</mark>' + esc(name.slice(i + m[0].length));
+}
+async function globalItemIndex(){
+  if(GLOBAL_IDX) return GLOBAL_IDX;
+  const out = [];
+  const seen = new Set();
+  for(const rid in RACES){
+    const idx = await raceItemIndex(rid);
+    idx.forEach(e => {
+      const k = itemKey(e.it);
+      if(seen.has(k)) return;
+      seen.add(k);
+      out.push(e);
+    });
+  }
+  GLOBAL_IDX = out;
+  return out;
+}
+function onSearchInput(){
+  const el = document.getElementById('q');
+  searchQ = el.value;
+  if(searchQ.trim().length >= 2){
+    renderSearch();
+  } else if(searching){
+    searching = false;
+    render();
+  }
+}
+async function renderSearch(){
+  const app = document.getElementById('app');
+  searching = true;
+  const q = searchQ.trim();
+  const nq = normq(q);
+  const all = await globalItemIndex();
+  const hits = all.filter(e => normq(e.it.n || e.it.name || '').indexOf(nq) !== -1);
+  let html = '<h2>Поиск</h2>'
+           + '<div class="tagline">Запрос: «' + esc(q) + '»</div>'
+           + '<div class="orn"><span class="line"></span><span class="gem">\u25C6</span><span class="line"></span></div>';
+  if(!hits.length){
+    html += '<div class="placeholder">\u{1F50D} Ничего не найдено.<br>Попробуйте другую часть названия предмета.</div>';
+  } else {
+    const lim = hits.slice(0, 50);
+    html += '<div class="itable"><div class="ihead"><span>Предмет</span><span>Редкость</span></div>';
+    lim.forEach((e, j) => {
+      const name = e.it.n || e.it.name || '';
+      html += '<div class="irow" style="animation-delay:' + (j * 0.05) + 's" onclick="openItem(\'' + e.path + '\',' + e.j + ')">'
+            + '<span class="iname">' + highlight(name, q) + '</span>'
+            + '<span class="rchip ' + (RARITY_CLASS[e.it.r] || 'r-green') + '">' + esc(e.it.r || '') + '</span></div>';
+    });
+    html += '</div>';
+    html += '<div class="snote">Найдено: ' + hits.length
+          + (hits.length > 50 ? ' — показаны первые 50, уточните запрос' : '') + '</div>';
+  }
+  app.innerHTML = html;
 }
 
 /* ——— панель объекта ——— */
@@ -520,7 +601,7 @@ async function render(){
   function extractSrc(el){
     if(el.tagName==='IMG'){var s=el.getAttribute('src')||'';return s.indexOf('items/')>-1?s:null;}
     var bg=getComputedStyle(el).backgroundImage||'';
-    if(bg&&bg.indexOf('items/')>-1){var m=bg.match(/url\(["']?([^"')]+)["']?\)/);return m?m[1]:null;}
+    if(bg&&bg.indexOf('items/')>-1){var m=bg.match(/url$["']?([^"')]+)["']?$/);return m?m[1]:null;}
     return null;
   }
   document.addEventListener('click',function(e){
