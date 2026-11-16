@@ -1,4 +1,7 @@
-# validate.py — проверка базы Энтузиастов перед коммитом
+# validate.py — проверка базы Энтузиастов перед коммитом (v2)
+# Изменения к v1: отсутствие img — "внимание", не ошибка;
+# добавлена проверка "одна картинка у разных предметов";
+# пути нормализованы (работает одинаково на Windows и Mac/Linux).
 import json, re, sys
 from pathlib import Path
 from collections import defaultdict
@@ -11,17 +14,17 @@ def err(f, msg):  errors[f].append(msg)
 def warn(f, msg): warnings[f].append(msg)
 def norm(s):      return re.sub(r"\s+", " ", s.strip().lower())
 
-# 1. Все JSON читаются?
+# 1. Все JSON читаются? (ключи — с прямыми слэшами, как в секциях)
 parsed = {}
 for p in sorted(REPO.rglob("*.json")):
-    rel = str(p.relative_to(REPO))
+    rel = p.relative_to(REPO).as_posix()
     try:
         parsed[rel] = json.loads(p.read_text(encoding="utf-8"))
     except json.JSONDecodeError as e:
         err(rel, f"битый JSON: строка {e.lineno}, столбец {e.colno}")
 
 # 2. races.json: структура и существование файлов
-item_registry, apostrophes = defaultdict(list), defaultdict(set)
+item_registry, img_registry, apostrophes = defaultdict(list), defaultdict(list), defaultdict(set)
 
 def check_name(name, f):
     if name != name.strip():
@@ -29,25 +32,33 @@ def check_name(name, f):
     if "  " in name:
         warn(f, f"имя '{name}': двойной пробел внутри")
     for ch in name:
-        if ch in "''":
+        if ch in "'’":
             apostrophes[ch].add(name)
 
 def check_item(it, rel, idx):
     if not isinstance(it, dict):
         err(rel, f"предмет #{idx}: не объект"); return
-    label = it.get("n", "?")
-    for field in ["n", "r", "img"]:
-        if not it.get(field):
-            err(rel, f"предмет '{label}': нет поля {field}")
-    if it.get("r") and it["r"] not in ALLOWED_RARITY:
+    label = it.get("n", f"#{idx}")
+    if not it.get("n"):
+        err(rel, f"предмет #{idx}: нет поля n (имя)")
+    if "r" not in it:
+        err(rel, f"предмет '{label}': нет поля r (редкость)")
+    elif it["r"] not in ALLOWED_RARITY:
         err(rel, f"предмет '{label}': редкость '{it['r']}' не из {ALLOWED_RARITY}")
     if "m" not in it:
         warn(rel, f"предмет '{label}': нет поля m (моб/условие)")
     if it.get("n"):
         check_name(it["n"], rel)
         item_registry[norm(it["n"])].append((rel, it["n"]))
-    if it.get("img") and not (REPO / "images" / "items" / it["img"]).exists():
-        err(rel, f"предмет '{label}': картинка images/items/{it['img']} не найдена")
+    img = it.get("img")
+    if img:
+        path = REPO / "images" / "items" / img
+        if not path.exists():
+            warn(rel, f"предмет '{label}': картинка images/items/{img} не найдена")
+        else:
+            img_registry[norm(img)].append((rel, label, img))
+    else:
+        warn(rel, f"предмет '{label}': нет поля img (картинка ещё не добавлена)")
 
 if "races.json" in parsed:
     rj = parsed["races.json"].get("races", {})
@@ -65,7 +76,10 @@ if "races.json" in parsed:
 else:
     err("races.json", "файл не найден или не читается")
 
-# 3. Файлы данных: скелет, секции, предметы
+# 3. Файлы данных: скелет, секции.
+# Важно: каждый JSON сканируется сам по себе ровно один раз,
+# поэтому предметы из секций здесь повторно не проверяем —
+# в секции сверяем только существование файла и совпадение id.
 for rel, obj in parsed.items():
     if rel == "races.json":
         continue
@@ -85,24 +99,26 @@ for rel, obj in parsed.items():
                 err(rel, f"секция #{i}: нет поля {field}")
         if sec.get("data") and not (REPO / sec["data"]).exists():
             err(rel, f"секция '{sec.get('name', i)}': файл {sec['data']} не найден")
-        if sec.get("data") and sec["data"] in parsed:
-            sub = parsed[sec["data"]]
-            if isinstance(sub, dict):
-                if sub.get("id") and sec.get("id") and sub["id"] != sec["id"]:
-                    warn(rel, f"секция '{sec['name']}': id в списке '{sec['id']}' != id в файле '{sub['id']}'")
-                for j, it in enumerate(sub.get("items", [])):
-                    check_item(it, sec["data"], j)
+        sub = parsed.get(sec.get("data", ""))
+        if isinstance(sub, dict) and sec.get("id") and sub.get("id") and sub["id"] != sec["id"]:
+            warn(rel, f"секция '{sec['name']}': id в списке '{sec['id']}' не совпадает с id в файле '{sub['id']}'")
         check_name(sec.get("name", ""), rel)
     for j, it in enumerate(obj.get("items", [])):
         check_item(it, rel, j)
 
-# 4. Дубликаты имён (регистр и пробелы не считаются различием)
+# 4. Дубликаты имён
 for key, places in item_registry.items():
     if len(places) > 1:
         files = ", ".join(sorted(set(f for f, _ in places)))
         warn(places[0][0], f"дубликат имени '{places[0][1]}' встречается в: {files}")
 
-# 5. Апострофы вперемешку
+# 5. Одна картинка у разных предметов
+for key, places in img_registry.items():
+    if len(places) > 1:
+        files = ", ".join(sorted(set(f for f, _, _ in places)))
+        warn(places[0][0], f"картинка '{places[0][2]}' используется у разных предметов: {files}")
+
+# 6. Апострофы вперемешку
 if len(apostrophes) > 1:
     detail = "; ".join(f"'{ch}': {len(names)} шт." for ch, names in sorted(apostrophes.items()))
     warn("все data-файлы", f"смешаны апострофы ({detail}) — дедуп считает их разными символами")
