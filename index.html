@@ -176,8 +176,6 @@ const CACHE = {};
 
 function cleanData(p){ return String(p).replace(/^data\//, '').replace(/\.json$/, ''); }
 function fileUrl(path){ return 'data/' + path + '.json'; }
-/* ключ имени предмета для дедупликации: пробелы схлопнуты, регистр не важен */
-function itemKey(it){ return String(it.n || it.name || '').replace(/\s+/g,' ').trim().toLowerCase(); }
 
 fetch('races.json?_=' + Date.now())
   .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
@@ -249,17 +247,57 @@ function setBody(raceId){
   buildRaceButton();
 }
 
-/* ——— счётчики: рекурсивный обход дерева файлов (с кэшем) ——— */
-async function walkStats(path){
-  let node;
-  try { node = await loadNode(path); } catch(e){ return {items:0, subs:0}; }
-  let items = (node.items || []).length;
-  let subs = (node.sections || []).length;
-  for(const s of (node.sections || [])){
-    const st = await walkStats(cleanData(s.data));
-    items += st.items; subs += st.subs;
+/* ——— нормализованное имя предмета: ключ для дедупликации ——— */
+function itemKey(it){
+  return String(it.n || it.name || '').replace(/\s+/g,' ').trim().toLowerCase();
+}
+
+/* ——— сбор предметов всей расы с дедупликацией по имени: ——— */
+/* один предмет = одна запись, где бы он ни лежал (файлы локаций) */
+async function raceItemIndex(raceId){
+  const out = [];
+  const seen = {};
+  async function walk(p){
+    let node;
+    try { node = await loadNode(p); } catch(e){ return; }
+    (node.items || []).forEach((it, j) => {
+      const k = itemKey(it);
+      if(k && seen[k]) return;
+      if(k) seen[k] = 1;
+      out.push({path: p, j: j, it: it});
+    });
+    for(const s of (node.sections || [])) await walk(cleanData(s.data));
   }
-  return {items, subs};
+  await walk(raceId);
+  return out;
+}
+
+/* ——— счётчики: уникальные предметы поддерева, а не записи в файлах ——— */
+/* один предмет, лежащий в нескольких файлах локаций, считается один раз; */
+/* благодаря принципу единого хранения обход файла узла даёт ровно то, */
+/* что показывает таблица на его странице */
+const STATS = {};
+async function walkStats(path){
+  if(STATS[path]) return STATS[path];
+  const seen = {};
+  let items = 0, subs = 0;
+  async function walk(p){
+    let node;
+    try { node = await loadNode(p); } catch(e){ return; }
+    (node.items || []).forEach(it => {
+      const k = itemKey(it);
+      if(!k || seen[k]) return;
+      seen[k] = 1;
+      items++;
+    });
+    const secs = node.sections || [];
+    subs += secs.length;
+    for(const s of secs) await walk(cleanData(s.data));
+  }
+  await walk(path);
+  const res = {items: items, subs: subs};
+  STATS[path] = res;
+  return res;
 }
 function badge(n){ return n > 0 ? '<span class="cnt">' + n + ' пред.</span>' : '<span class="soon">скоро</span>'; }
 
@@ -301,29 +339,6 @@ function fillBadges(){
     const p = el.getAttribute('data-badge');
     walkStats(p).then(st => { el.innerHTML = badge(st.items); });
   });
-}
-
-/* ——— сбор предметов всей расы (для показа во всех локациях) ———
-   Дедупликация: один предмет может лежать в нескольких файлах локаций
-   (это наш принцип хранения: предмет целиком в каждой своей локации).
-   Чтобы он не рисовался дважды на одной странице, показываем только
-   первый встреченный экземпляр — по нормализованному имени. */
-async function raceItemIndex(raceId){
-  const out = [];
-  const seen = {};
-  async function walk(p){
-    let node;
-    try { node = await loadNode(p); } catch(e){ return; }
-    (node.items || []).forEach((it, j) => {
-      const k = itemKey(it);
-      if(!k || seen[k]) return;
-      seen[k] = true;
-      out.push({path: p, j: j, it: it});
-    });
-    for(const s of (node.sections || [])) await walk(cleanData(s.data));
-  }
-  await walk(raceId);
-  return out;
 }
 
 /* ——— таблица предметов узла: свои + чужие, у которых эта локация в списке ——— */
