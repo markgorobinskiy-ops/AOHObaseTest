@@ -1,11 +1,17 @@
 # -*- coding: utf-8 -*-
 """
-Таблица -> JSON, версия 3.4 (устранение дублирования)
+Таблица -> JSON, версия 3.5 (склейка предмета из нескольких строк)
 
 Принцип единого хранения:
   - предмет с привязкой живёт ТОЛЬКО в файле своей локации;
   - в файле расы хранятся только предметы без привязки (сироты);
   - при прогоне предметы, получившие локацию, из файла расы убираются.
+
+Новое в 3.5:
+  - несколько строк таблицы с одним и тем же предметом (в рамках одной расы)
+    склеиваются в ОДИН объект: суммируются локации и мобы;
+  - поле "m" хранит всех мобов одной строкой через запятую — так карточка
+    предмета и вкладки локаций остаются читаемыми без правок сайта.
 """
 import csv
 import io
@@ -283,12 +289,15 @@ def resolve(race, cell):
 # ---------- предметы ----------
 
 def make_item(g):
+    mobs = g["mob"]
+    if isinstance(mobs, str):
+        mobs = [mobs] if mobs else []
     return {
         "n": g["name"], "name": g["name"],
         "r": g["rarity"], "rarity": g["rarity"],
         "img": g["img"],
         "locs": sorted(set(g["locs"])),
-        "m": g["mob"],
+        "m": ", ".join(mobs),
     }
 
 
@@ -298,18 +307,26 @@ def merge_items(node, incoming):
     f = get_file(node)
     old = f.get("items", []) or []
     inc = dict(incoming)
-    total = len(inc)
     result = []
+    seen = set()
+    # сначала проходим по старым записям: совпавшие по имени обновляем из incoming,
+    # несовпавшие — бережно сохраняем, а повторы с тем же именем выбрасываем
     for it in old:
         k = norm_key(it.get("name") or it.get("n") or "")
-        result.append(inc.pop(k) if k in inc else it)
+        if k in inc:
+            result.append(inc.pop(k))
+            seen.add(k)
+        elif k not in seen:
+            result.append(it)
+            seen.add(k)
+    # оставшиеся в incoming — новые предметы, дописываем в конец
     for it in inc.values():
         result.append(it)
     if json.dumps(result, ensure_ascii=False, sort_keys=True) != \
        json.dumps(old, ensure_ascii=False, sort_keys=True):
         f["items"] = result
         node["dirty"] = True
-    return total
+    return len(result)
 
 
 def items_for_node(race, node):
@@ -318,6 +335,8 @@ def items_for_node(race, node):
         if g["race"]["id"] != race["id"]:
             continue
         if node["path"] in g["locs"]:
+            # предмет добавляется ЦЕЛИКОМ: со всеми своими локациями и мобами,
+            # поэтому в каждой локации он будет одной строкой, без дублей
             inc[norm_key(g["name"])] = make_item(g)
     return inc
 
@@ -354,6 +373,8 @@ def main():
     print("Локаций найдено в деревьях рас: %d" % sum(len(r["index"]) for r in race_map.values()))
 
     # --- проход 1: разбор строк, сборка групп предметов ---
+    # строки с одним и тем же предметом (в рамках одной расы) склеиваются:
+    # суммируются локации и мобы, берётся первая непустая редкость/картинка
     groups = {}
     for r in rows:
         race = race_map.get(norm_key(r.get("Раса")))
@@ -368,7 +389,7 @@ def main():
                 "name": name,
                 "rarity": norm(r.get("Редкость")),
                 "img": norm(r.get("Картинка")),
-                "mob": norm(r.get("Моб")),
+                "mob": [],
                 "locs": [],
             }
         g = groups[gkey]
@@ -376,8 +397,9 @@ def main():
             g["rarity"] = norm(r.get("Редкость"))
         if not g["img"]:
             g["img"] = norm(r.get("Картинка"))
-        if not g["mob"]:
-            g["mob"] = norm(r.get("Моб"))
+        mob = norm(r.get("Моб"))
+        if mob and mob not in g["mob"]:
+            g["mob"].append(mob)
         node, path = resolve(race, r.get("Локация"))
         if node is not None and path not in g["locs"]:
             g["locs"].append(path)
