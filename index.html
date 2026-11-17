@@ -53,6 +53,13 @@
   .chip:hover { background: var(--panel2); }
   .chip.active { background:var(--accent); color:#1a1a10; font-weight:bold; }
 
+  /* плашка общей статистики */
+  .statbox { display:flex; gap:8px; flex-wrap:wrap; }
+  .statbox .stat {
+    background: var(--panel); color: var(--text); border: 1px solid var(--accent);
+    padding:7px 14px; border-radius:999px; font-size:.85rem; font-style:italic; opacity:.95;
+  }
+
   /* строка поиска */
   #q {
     background: var(--panel); color: var(--text); border: 1px solid var(--accent);
@@ -167,6 +174,7 @@
     <div class="sub">Список предметов и локаций, в которых они выпадают</div>
   </div>
   <input id="q" type="text" placeholder="Поиск предмета..." autocomplete="off">
+  <div class="statbox"><span class="stat" id="statAll">\u{1F4CA} Считаю статистику\u2026</span></div>
   <div class="chips" id="chips"></div>
 </header>
 <main id="app"></main>
@@ -231,6 +239,24 @@ function init(){
   const qEl = document.getElementById('q');
   if(qEl) qEl.addEventListener('input', onSearchInput);
   render();
+  updateGlobalStats();
+}
+
+/* ——— общая статистика в шапке: уникальные предметы и локации ——— */
+async function updateGlobalStats(){
+  const el = document.getElementById('statAll');
+  if(!el) return;
+  try {
+    const idx = await globalItemIndex();
+    let locs = 0;
+    for(const rid in RACES){
+      const st = await walkStats(rid);
+      locs += st.subs;
+    }
+    el.innerHTML = '\u{1F4CA} Предметов: ' + idx.length + ' \u00b7 Локаций: ' + locs;
+  } catch(e){
+    el.innerHTML = '\u{1F4CA} Статистика недоступна';
+  }
 }
 
 /* ——— фон с кроссфейдом ——— */
