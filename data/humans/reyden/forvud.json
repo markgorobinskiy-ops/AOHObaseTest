@@ -2,5 +2,17 @@
   "id": "humans/4/0",
   "name": "Форвуд",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Призрачные Латы",
+      "name": "Призрачные Латы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Prizrak_Lati.jpg",
+      "locs": [
+        "humans/reyden/forvud"
+      ],
+      "m": "Яростные Разбойники"
+    }
+  ]
 }

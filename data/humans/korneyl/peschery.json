@@ -30,7 +30,7 @@
       "name": "Эльфийский Лук",
       "r": "Особый",
       "rarity": "Особый",
-      "img": "",
+      "img": "Elf_Luk.jpg",
       "locs": [
         "humans/korneyl/peschery"
       ],
@@ -196,6 +196,51 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "Perst_Lovkogo_Boica.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Скелетов"
+    },
+    {
+      "n": "Мизерикорд",
+      "name": "Мизерикорд",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Meziricord.jpg",
+      "locs": [
+        "humans/korneyl/peschery",
+        "humans/reyden"
+      ],
+      "m": "Толпы Скелетов, Толпа Зомби"
+    },
+    {
+      "n": "Посох Священного Пламени",
+      "name": "Посох Священного Пламени",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Posoh_Svjatogo_Plameni.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Послушник Тьмы"
+    },
+    {
+      "n": "Змеиные Перчатки",
+      "name": "Змеиные Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Zmei_Perchatki.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Скелетов, Послушник Тьмы, Толпа Зомби"
+    },
+    {
+      "n": "Искрящийся Кортик",
+      "name": "Искрящийся Кортик",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Iskr_Kortik.jpg",
       "locs": [
         "humans/korneyl/peschery"
       ],

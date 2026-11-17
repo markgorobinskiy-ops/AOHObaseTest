@@ -2,5 +2,17 @@
   "id": "humans/2",
   "name": "Таннервилль",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Золотой Кафтан",
+      "name": "Золотой Кафтан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Zolotoi_Kaftan.jpg",
+      "locs": [
+        "humans/tannervill"
+      ],
+      "m": "Вепрь"
+    }
+  ]
 }

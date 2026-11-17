@@ -22,9 +22,10 @@
       "rarity": "Особый",
       "img": "Kaftan_Akademika.jpg",
       "locs": [
+        "humans/amissvud",
         "humans/hizhina-lesnika"
       ],
-      "m": "Зверь"
+      "m": "Зверь, Энт"
     }
   ]
 }

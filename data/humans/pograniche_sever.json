@@ -2,5 +2,17 @@
   "id": "humans/7",
   "name": "Пограничье, Север",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Молот Бедствий",
+      "name": "Молот Бедствий",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Molot_Bedstviy.jpg",
+      "locs": [
+        "humans/pograniche_sever"
+      ],
+      "m": "Злой Пограничник"
+    }
+  ]
 }

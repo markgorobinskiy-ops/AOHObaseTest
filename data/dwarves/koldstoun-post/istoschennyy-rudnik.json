@@ -69,6 +69,28 @@
         "dwarves/koldstoun-post/istoschennyy-rudnik"
       ],
       "m": "Мёртвый Рудокоп"
+    },
+    {
+      "n": "Каменный Топор",
+      "name": "Каменный Топор",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamen_Topor.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik"
+      ],
+      "m": "Мёртвый Рудокоп"
+    },
+    {
+      "n": "Обсидиановый Молот",
+      "name": "Обсидиановый Молот",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Obsidian_Molot.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik"
+      ],
+      "m": "Мёртвый Рудокоп"
     }
   ]
 }

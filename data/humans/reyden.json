@@ -49,9 +49,10 @@
       "rarity": "Особый",
       "img": "Meziricord.jpg",
       "locs": [
+        "humans/korneyl/peschery",
         "humans/reyden"
       ],
-      "m": "Толпы Скелетов"
+      "m": "Толпы Скелетов, Толпа Зомби"
     }
   ]
 }

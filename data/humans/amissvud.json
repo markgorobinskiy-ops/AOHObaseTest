@@ -69,6 +69,62 @@
         "humans/amissvud"
       ],
       "m": "Энт"
+    },
+    {
+      "n": "Кафтан Академика",
+      "name": "Кафтан Академика",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kaftan_Akademika.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/hizhina-lesnika"
+      ],
+      "m": "Зверь, Энт"
+    },
+    {
+      "n": "Перчатки Вечной Зимы",
+      "name": "Перчатки Вечной Зимы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Vechnoi_Zimi.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Энт"
+    },
+    {
+      "n": "Сфера Шепотов",
+      "name": "Сфера Шепотов",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sphere_Shopot.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Энт"
+    },
+    {
+      "n": "Атласный Кафтан",
+      "name": "Атласный Кафтан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Atlas_Kaftan.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Волк"
+    },
+    {
+      "n": "Лиственная Туника",
+      "name": "Лиственная Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Listvennaja_Tunika.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Волк"
     }
   ]
 }

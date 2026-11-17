@@ -1,0 +1,18 @@
+{
+  "id": "undead/pograniche-yug",
+  "name": "Пограничье, Юг",
+  "sections": [],
+  "items": [
+    {
+      "n": "Молот Бедствий",
+      "name": "Молот Бедствий",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Molot_Bedstviy.jpg",
+      "locs": [
+        "undead/pograniche-yug"
+      ],
+      "m": "Злой Пограничник"
+    }
+  ]
+}
