@@ -49,6 +49,11 @@
     {
       "name": "Кромельвуд",
       "data": "data/humans/kromelvud.json"
+    },
+    {
+      "name": "Хижина Лесника",
+      "id": "humans/hizhina-lesnika",
+      "data": "data/humans/hizhina-lesnika.json"
     }
   ],
   "items": []

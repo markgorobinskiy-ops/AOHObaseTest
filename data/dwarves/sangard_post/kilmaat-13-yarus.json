@@ -32,9 +32,10 @@
       "rarity": "Особый",
       "img": "Beliy_Shar.jpg",
       "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
         "dwarves/sangard_post/kilmaat-13-yarus"
       ],
-      "m": "Тень"
+      "m": "Тень, Мёртвый Рудокоп"
     },
     {
       "n": "Солнечный Орб",

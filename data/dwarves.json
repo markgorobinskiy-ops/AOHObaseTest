@@ -38,6 +38,11 @@
       "id": "dwarves/koldstoun-post",
       "name": "Колдстоун Пост",
       "data": "data/dwarves/koldstoun-post.json"
+    },
+    {
+      "name": "Медвежий лес",
+      "id": "dwarves/medvezhiy-les",
+      "data": "data/dwarves/medvezhiy-les.json"
     }
   ],
   "items": []

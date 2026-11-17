@@ -7,5 +7,17 @@
       "data": "data/elves/ilvir/peschery_elfov.json"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "n": "Гномий Колчан",
+      "name": "Гномий Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gnomiy_Kolchan.jpg",
+      "locs": [
+        "elves/ilvir"
+      ],
+      "m": "Древний Каменный голем"
+    }
+  ]
 }

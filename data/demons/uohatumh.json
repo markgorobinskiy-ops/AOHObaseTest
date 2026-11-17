@@ -46,6 +46,28 @@
         "demons/uohatumh"
       ],
       "m": "Каратели"
+    },
+    {
+      "n": "Короткий Лук Всадника",
+      "name": "Короткий Лук Всадника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Korotkiy_Luk_Vsadnika.jpg",
+      "locs": [
+        "demons/uohatumh"
+      ],
+      "m": "Каратели"
+    },
+    {
+      "n": "Искрящийся Орб",
+      "name": "Искрящийся Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Iskr_Orb.jpg",
+      "locs": [
+        "demons/uohatumh"
+      ],
+      "m": "Миссионеры"
     }
   ]
 }

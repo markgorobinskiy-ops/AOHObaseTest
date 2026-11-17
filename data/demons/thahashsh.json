@@ -2,5 +2,17 @@
   "id": "demons/4",
   "name": "Тха’Хашш",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Перчатки из Скальпа Барда",
+      "name": "Перчатки из Скальпа Барда",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_iz_Skalp_Bard.jpg",
+      "locs": [
+        "demons/thahashsh"
+      ],
+      "m": "Дикий Варг"
+    }
+  ]
 }

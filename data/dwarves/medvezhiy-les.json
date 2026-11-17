@@ -1,0 +1,29 @@
+{
+  "id": "dwarves/medvezhiy-les",
+  "name": "Медвежий лес",
+  "sections": [],
+  "items": [
+    {
+      "n": "Перчатки с Топазами",
+      "name": "Перчатки с Топазами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_s_Topazami.jpg",
+      "locs": [
+        "dwarves/medvezhiy-les"
+      ],
+      "m": "Медведь"
+    },
+    {
+      "n": "Шепчущие Перчатки",
+      "name": "Шепчущие Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shepchushie_Perchatki.jpg",
+      "locs": [
+        "dwarves/medvezhiy-les"
+      ],
+      "m": "Медведь"
+    }
+  ]
+}

@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Kamzol_s_Yazik_Plameni.jpg",
       "locs": [
-        "humans/amissvud"
+        "humans/amissvud",
+        "humans/hizhina-lesnika"
       ],
-      "m": "Волк"
+      "m": "Волк, Зверь"
     },
     {
       "n": "Перчатки из Скальпа Барда",
@@ -20,6 +21,28 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "Perchatki_iz_Skalp_Bard.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Энт"
+    },
+    {
+      "n": "Перчатки Архимага",
+      "name": "Перчатки Архимага",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Archmage.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Волк"
+    },
+    {
+      "n": "Шепчущие Перчатки",
+      "name": "Шепчущие Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shepchushie_Perchatki.jpg",
       "locs": [
         "humans/amissvud"
       ],

@@ -1,0 +1,40 @@
+{
+  "id": "undead/prud-utoplennikov",
+  "name": "Пруд Утопленников",
+  "sections": [],
+  "items": [
+    {
+      "n": "Терракотовые Латы",
+      "name": "Терракотовые Латы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Terrakot_Lati.jpg",
+      "locs": [
+        "undead/prud-utoplennikov"
+      ],
+      "m": "Утопленник"
+    },
+    {
+      "n": "Грозовой Панцирь",
+      "name": "Грозовой Панцирь",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Grozoboi_Pancir.jpg",
+      "locs": [
+        "undead/prud-utoplennikov"
+      ],
+      "m": "Утопленник"
+    },
+    {
+      "n": "Изумрудные Латы",
+      "name": "Изумрудные Латы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Izumrud_Lati.jpg",
+      "locs": [
+        "undead/prud-utoplennikov"
+      ],
+      "m": "Утопленник"
+    }
+  ]
+}

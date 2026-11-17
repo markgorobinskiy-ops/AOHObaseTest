@@ -1,0 +1,18 @@
+{
+  "id": "undead/topi",
+  "name": "Топи",
+  "sections": [],
+  "items": [
+    {
+      "n": "Жезл Пяти Источников",
+      "name": "Жезл Пяти Источников",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jezl_5_Istochnikov.jpg",
+      "locs": [
+        "undead/topi"
+      ],
+      "m": "Болотные Шаманы"
+    }
+  ]
+}

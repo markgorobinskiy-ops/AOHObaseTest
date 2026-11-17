@@ -1,0 +1,40 @@
+{
+  "id": "demons/podzemele-marinii",
+  "name": "Подземелье Маринии",
+  "sections": [],
+  "items": [
+    {
+      "n": "Перчатки Архимага",
+      "name": "Перчатки Архимага",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Archmage.jpg",
+      "locs": [
+        "demons/podzemele-marinii"
+      ],
+      "m": "Волк"
+    },
+    {
+      "n": "Меховые Перчатки",
+      "name": "Меховые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Meh_Perchatki.jpg",
+      "locs": [
+        "demons/podzemele-marinii"
+      ],
+      "m": "Медведь"
+    },
+    {
+      "n": "Шляпа Первого Ордена",
+      "name": "Шляпа Первого Ордена",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shlyapa_1_Orden.jpg",
+      "locs": [
+        "demons/podzemele-marinii"
+      ],
+      "m": "Дух Природы"
+    }
+  ]
+}

@@ -21,6 +21,16 @@
     {
       "name": "Медиланское Нагорье",
       "data": "data/undead/medilanskoe_nagore.json"
+    },
+    {
+      "name": "Топи",
+      "id": "undead/topi",
+      "data": "data/undead/topi.json"
+    },
+    {
+      "name": "Пруд Утопленников",
+      "id": "undead/prud-utoplennikov",
+      "data": "data/undead/prud-utoplennikov.json"
     }
   ],
   "items": []

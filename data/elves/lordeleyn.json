@@ -13,6 +13,17 @@
         "elves/lordeleyn"
       ],
       "m": "Изгнанник"
+    },
+    {
+      "n": "Медный Доспех",
+      "name": "Медный Доспех",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Medniy_Dospeh.jpg",
+      "locs": [
+        "elves/lordeleyn"
+      ],
+      "m": "Изгнанник"
     }
   ]
 }

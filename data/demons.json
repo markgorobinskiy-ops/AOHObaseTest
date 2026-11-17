@@ -42,6 +42,11 @@
       "name": "Ун’Кху",
       "id": "demons/unkhu",
       "data": "data/demons/unkhu.json"
+    },
+    {
+      "name": "Подземелье Маринии",
+      "id": "demons/podzemele-marinii",
+      "data": "data/demons/podzemele-marinii.json"
     }
   ],
   "items": []

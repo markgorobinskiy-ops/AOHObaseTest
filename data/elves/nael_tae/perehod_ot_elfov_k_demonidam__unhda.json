@@ -2,5 +2,17 @@
   "id": "elves/1/0",
   "name": "Переход от Эльфов к Демонидам — Унх’Да",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Перчатки с Серебрянными Шипами",
+      "name": "Перчатки с Серебрянными Шипами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_s_Serebryannimi_Shipami.jpg",
+      "locs": [
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
+      ],
+      "m": "Дикий Цербер"
+    }
+  ]
 }

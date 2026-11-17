@@ -7,5 +7,28 @@
       "data": "data/elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda.json"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "n": "Колчан Тьмы",
+      "name": "Колчан Тьмы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_TbmbI.jpg",
+      "locs": [
+        "elves/nael_tae"
+      ],
+      "m": "Дикие Пегасы"
+    },
+    {
+      "n": "Амулет Лекаря",
+      "name": "Амулет Лекаря",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Amulet_Lekarja.jpg",
+      "locs": [
+        "elves/nael_tae"
+      ],
+      "m": "Дикие Пегасы"
+    }
+  ]
 }
