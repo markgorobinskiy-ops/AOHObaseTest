@@ -79,6 +79,127 @@
         "humans/korneyl/peschery"
       ],
       "m": "Банда Скелетов"
+    },
+    {
+      "n": "Кольцо Солнца",
+      "name": "Кольцо Солнца",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Ring_of_Sun.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Скелетов"
+    },
+    {
+      "n": "Шляпа Мастера",
+      "name": "Шляпа Мастера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shljapa_Mastera.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Зомби"
+    },
+    {
+      "n": "Бригантина Молний",
+      "name": "Бригантина Молний",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Brigantina_Molnijii.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Свежие Зомби"
+    },
+    {
+      "n": "Шляпа Первого Ордена",
+      "name": "Шляпа Первого Ордена",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shlyapa_1_Orden.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Скелетов"
+    },
+    {
+      "n": "Пламенеющее Кольцо",
+      "name": "Пламенеющее Кольцо",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Plamen_Ring.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Зомби"
+    },
+    {
+      "n": "Вычурная Шляпа",
+      "name": "Вычурная Шляпа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Vichurnaja_Shljapa.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Зомби, Толпы Скелетов"
+    },
+    {
+      "n": "Молот Грома",
+      "name": "Молот Грома",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Molot_Groma.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Свежие Зомби"
+    },
+    {
+      "n": "Жезл Кровопролития",
+      "name": "Жезл Кровопролития",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jezl_Krovoprolitija.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Послушники Тьмы"
+    },
+    {
+      "n": "Эльфийский Стилет",
+      "name": "Эльфийский Стилет",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Elf_Stilet.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Скелетов"
+    },
+    {
+      "n": "Жезл Семи Лун",
+      "name": "Жезл Семи Лун",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jezl_Semi_Lun.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Послушники Тьмы"
+    },
+    {
+      "n": "Перстень Ловкого Бойца",
+      "name": "Перстень Ловкого Бойца",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perst_Lovkogo_Boica.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Скелетов"
     }
   ]
 }

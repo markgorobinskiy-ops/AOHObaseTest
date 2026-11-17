@@ -1,0 +1,52 @@
+{
+  "id": "demons/ashtumh",
+  "name": "Аш'тумх",
+  "sections": [],
+  "items": [
+    {
+      "n": "Жезл Веселой Ящерицы",
+      "name": "Жезл Веселой Ящерицы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jezl_Veseloi_Jasherici.jpg",
+      "locs": [
+        "demons/ashtumh"
+      ],
+      "m": "Дух Огня"
+    },
+    {
+      "n": "Матросский Колчан",
+      "name": "Матросский Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Matros_Kolchan.jpg",
+      "locs": [
+        "demons/ashtumh"
+      ],
+      "m": "Дух Огня"
+    },
+    {
+      "n": "Малахитовая Сфера",
+      "name": "Малахитовая Сфера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Malahit_Sphere.jpg",
+      "locs": [
+        "demons/ashtumh",
+        "demons/utahatt"
+      ],
+      "m": "Дух Огня, Викарии"
+    },
+    {
+      "n": "Колчан Аристократа",
+      "name": "Колчан Аристократа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_Aristo.jpg",
+      "locs": [
+        "demons/ashtumh"
+      ],
+      "m": "Дух Огня"
+    }
+  ]
+}

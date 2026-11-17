@@ -1,0 +1,18 @@
+{
+  "id": "orcs/stoybische-glyadyaschih-v-vodu",
+  "name": "Стойбище глядящих в Воду",
+  "sections": [],
+  "items": [
+    {
+      "n": "Камзол с Языками Пламени",
+      "name": "Камзол с Языками Пламени",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamzol_s_Yazik_Plameni.jpg",
+      "locs": [
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Глядящий в Воду"
+    }
+  ]
+}

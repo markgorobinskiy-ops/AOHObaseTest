@@ -1,6 +1,12 @@
 {
   "id": "dwarves/4",
   "name": "Гарргрин",
-  "sections": [],
+  "sections": [
+    {
+      "name": "Чумные Катакомбы",
+      "id": "dwarves/garrgrin/chumnye-katakomby",
+      "data": "data/dwarves/garrgrin/chumnye-katakomby.json"
+    }
+  ],
   "items": []
 }

@@ -1,0 +1,18 @@
+{
+  "id": "undead/medilanskoe_nagore/labirint",
+  "name": "Лабиринт",
+  "sections": [],
+  "items": [
+    {
+      "n": "Проклятая Сарисса",
+      "name": "Проклятая Сарисса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Prokljataja_Sarissa.jpg",
+      "locs": [
+        "undead/medilanskoe_nagore/labirint"
+      ],
+      "m": "Заблудший"
+    }
+  ]
+}

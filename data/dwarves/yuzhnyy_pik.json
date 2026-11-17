@@ -2,5 +2,17 @@
   "id": "dwarves/5",
   "name": "Южный Пик",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Перчатки из Скальпа Барда",
+      "name": "Перчатки из Скальпа Барда",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_iz_Skalp_Bard.jpg",
+      "locs": [
+        "dwarves/yuzhnyy_pik"
+      ],
+      "m": "Дикий Кабан"
+    }
+  ]
 }

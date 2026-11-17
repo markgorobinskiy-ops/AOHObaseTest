@@ -8,7 +8,7 @@
       "name": "Кинжал Трёх Печатей",
       "r": "Особый",
       "rarity": "Особый",
-      "img": "",
+      "img": "Kinjal_3_Pechatei.jpg",
       "locs": [
         "dwarves/koldstoun-post/istoschennyy-rudnik"
       ],
@@ -32,6 +32,39 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "Gnomja_Runa.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik"
+      ],
+      "m": "Мёртвый Рудокоп"
+    },
+    {
+      "n": "Стилет Убийцы",
+      "name": "Стилет Убийцы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Stilet_Ubici.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik"
+      ],
+      "m": "Мёртвый Рудокоп"
+    },
+    {
+      "n": "Каменный Панцирь",
+      "name": "Каменный Панцирь",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamenniy_Pancir.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik"
+      ],
+      "m": "Мёртвый Рудокоп"
+    },
+    {
+      "n": "Кольцо Небесной Мудрости",
+      "name": "Кольцо Небесной Мудрости",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "KNM.jpg",
       "locs": [
         "dwarves/koldstoun-post/istoschennyy-rudnik"
       ],

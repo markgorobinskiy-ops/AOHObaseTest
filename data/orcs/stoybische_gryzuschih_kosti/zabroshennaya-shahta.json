@@ -1,0 +1,24 @@
+{
+  "id": "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+  "name": "Заброшенная Шахта",
+  "sections": [
+    {
+      "name": "Залы Пустоты",
+      "id": "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+      "data": "data/orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty.json"
+    }
+  ],
+  "items": [
+    {
+      "n": "Гизарма Ужаса",
+      "name": "Гизарма Ужаса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gizarma_Ujasa.jpg",
+      "locs": [
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
+      ],
+      "m": "Стражи Подземелий"
+    }
+  ]
+}

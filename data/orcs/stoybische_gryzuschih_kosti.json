@@ -1,6 +1,12 @@
 {
   "id": "orcs/8",
   "name": "Стойбище Грызущих Кости",
-  "sections": [],
+  "sections": [
+    {
+      "name": "Заброшенная Шахта",
+      "id": "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+      "data": "data/orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta.json"
+    }
+  ],
   "items": []
 }

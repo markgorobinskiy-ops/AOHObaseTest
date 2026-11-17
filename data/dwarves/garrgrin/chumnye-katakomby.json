@@ -1,0 +1,18 @@
+{
+  "id": "dwarves/garrgrin/chumnye-katakomby",
+  "name": "Чумные Катакомбы",
+  "sections": [],
+  "items": [
+    {
+      "n": "Каменная Кожа",
+      "name": "Каменная Кожа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamennaja_Koja.jpg",
+      "locs": [
+        "dwarves/garrgrin/chumnye-katakomby"
+      ],
+      "m": "Страж Лабиринта"
+    }
+  ]
+}

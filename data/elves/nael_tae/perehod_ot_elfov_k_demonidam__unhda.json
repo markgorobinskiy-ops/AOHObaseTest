@@ -13,6 +13,28 @@
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
       ],
       "m": "Дикий Цербер"
+    },
+    {
+      "n": "Зелёный Капюшон",
+      "name": "Зелёный Капюшон",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Green_Cap.jpg",
+      "locs": [
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
+      ],
+      "m": "Дикий Цербер, Минотавр"
+    },
+    {
+      "n": "Глаз Мантикоры",
+      "name": "Глаз Мантикоры",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Glaz_Mantikori.jpg",
+      "locs": [
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
+      ],
+      "m": "Дикий Цербер, Минотавр"
     }
   ]
 }

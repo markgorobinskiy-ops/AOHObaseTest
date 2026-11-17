@@ -2,5 +2,17 @@
   "id": "elves/5/0",
   "name": "Ауренфей",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Орочий Охотничий Лук",
+      "name": "Орочий Охотничий Лук",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Orc_Ohot_Luk.jpg",
+      "locs": [
+        "elves/reniol/aurenfey"
+      ],
+      "m": "Рейнджеры Изгои"
+    }
+  ]
 }

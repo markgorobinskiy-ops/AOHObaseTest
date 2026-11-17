@@ -47,6 +47,50 @@
         "dwarves/sangard_post/kilmaat-13-yarus"
       ],
       "m": "Привратник"
+    },
+    {
+      "n": "Матросский Колчан",
+      "name": "Матросский Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Matros_Kolchan.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Страж, Привратник"
+    },
+    {
+      "n": "Гизарма Ужаса",
+      "name": "Гизарма Ужаса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gizarma_Ujasa.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Страж, Привратник"
+    },
+    {
+      "n": "Глаз Мантикоры",
+      "name": "Глаз Мантикоры",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Glaz_Mantikori.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Страж, Привратник"
+    },
+    {
+      "n": "Колчан Аристократа",
+      "name": "Колчан Аристократа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_Aristo.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Страж, Привратник"
     }
   ]
 }

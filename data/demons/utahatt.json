@@ -2,5 +2,29 @@
   "id": "demons/2",
   "name": "Ута’Хатт",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Малахитовая Сфера",
+      "name": "Малахитовая Сфера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Malahit_Sphere.jpg",
+      "locs": [
+        "demons/ashtumh",
+        "demons/utahatt"
+      ],
+      "m": "Дух Огня, Викарии"
+    },
+    {
+      "n": "Солнечный Орб",
+      "name": "Солнечный Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sun_Orb.jpg",
+      "locs": [
+        "demons/utahatt"
+      ],
+      "m": "Викарии"
+    }
+  ]
 }

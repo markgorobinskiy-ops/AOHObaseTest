@@ -47,6 +47,28 @@
         "humans/amissvud"
       ],
       "m": "Энт"
+    },
+    {
+      "n": "Дьяволовы Стопы",
+      "name": "Дьяволовы Стопы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Djavol_Stopi.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Волк"
+    },
+    {
+      "n": "Обсидиановая Сфера",
+      "name": "Обсидиановая Сфера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Obsidian_Sphere.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Энт"
     }
   ]
 }

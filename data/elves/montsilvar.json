@@ -13,6 +13,72 @@
         "elves/montsilvar"
       ],
       "m": "Зверь"
+    },
+    {
+      "n": "Кинжал Трёх Печатей",
+      "name": "Кинжал Трёх Печатей",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kinjal_3_Pechatei.jpg",
+      "locs": [
+        "elves/montsilvar"
+      ],
+      "m": "Зверь"
+    },
+    {
+      "n": "Колчан из Рога",
+      "name": "Колчан из Рога",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_iz_Roga.jpg",
+      "locs": [
+        "elves/montsilvar"
+      ],
+      "m": "Зверь"
+    },
+    {
+      "n": "Перчатки Саламандры",
+      "name": "Перчатки Саламандры",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Salamandri.jpg",
+      "locs": [
+        "elves/montsilvar"
+      ],
+      "m": "Энт"
+    },
+    {
+      "n": "Тисовый Колчан",
+      "name": "Тисовый Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Tis_Kolchan.jpg",
+      "locs": [
+        "elves/montsilvar"
+      ],
+      "m": "Зверь"
+    },
+    {
+      "n": "Отравленная Туника",
+      "name": "Отравленная Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Otravlennaja_Tunika.jpg",
+      "locs": [
+        "elves/montsilvar"
+      ],
+      "m": "Зверь"
+    },
+    {
+      "n": "Шепчущие Перчатки",
+      "name": "Шепчущие Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shepchushie_Perchatki.jpg",
+      "locs": [
+        "elves/montsilvar"
+      ],
+      "m": "Зверь"
     }
   ]
 }

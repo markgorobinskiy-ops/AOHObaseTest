@@ -1,0 +1,18 @@
+{
+  "id": "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+  "name": "Залы Пустоты",
+  "sections": [],
+  "items": [
+    {
+      "n": "Гномья Руна",
+      "name": "Гномья Руна",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gnomja_Runa.jpg",
+      "locs": [
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
+      ],
+      "m": "Стражи Подземелий"
+    }
+  ]
+}

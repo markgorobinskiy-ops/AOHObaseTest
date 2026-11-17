@@ -47,6 +47,11 @@
       "name": "Подземелье Маринии",
       "id": "demons/podzemele-marinii",
       "data": "data/demons/podzemele-marinii.json"
+    },
+    {
+      "name": "Аш'тумх",
+      "id": "demons/ashtumh",
+      "data": "data/demons/ashtumh.json"
     }
   ],
   "items": []

@@ -7,5 +7,28 @@
       "data": "data/elves/reniol/aurenfey.json"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "n": "Серебрянная Лорика",
+      "name": "Серебрянная Лорика",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Serebro_Lorika.jpg",
+      "locs": [
+        "elves/reniol"
+      ],
+      "m": "Злодеи"
+    },
+    {
+      "n": "Шляпа Мастера",
+      "name": "Шляпа Мастера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shljapa_Mastera.jpg",
+      "locs": [
+        "elves/reniol"
+      ],
+      "m": "Проклятый Энт"
+    }
+  ]
 }

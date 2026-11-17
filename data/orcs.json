@@ -41,6 +41,11 @@
     {
       "name": "Горные земли",
       "data": "data/orcs/gornye_zemli.json"
+    },
+    {
+      "name": "Стойбище глядящих в Воду",
+      "id": "orcs/stoybische-glyadyaschih-v-vodu",
+      "data": "data/orcs/stoybische-glyadyaschih-v-vodu.json"
     }
   ],
   "items": []

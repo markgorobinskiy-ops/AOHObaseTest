@@ -35,6 +35,17 @@
         "demons/podzemele-marinii"
       ],
       "m": "Дух Природы"
+    },
+    {
+      "n": "Перчатки с Топазами",
+      "name": "Перчатки с Топазами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_s_Topazami.jpg",
+      "locs": [
+        "demons/podzemele-marinii"
+      ],
+      "m": "Минотавр"
     }
   ]
 }
