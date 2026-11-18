@@ -35,6 +35,50 @@
         "undead/prud-utoplennikov"
       ],
       "m": "Утопленник"
+    },
+    {
+      "n": "Тисовый Колчан",
+      "name": "Тисовый Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Tis_Kolchan.jpg",
+      "locs": [
+        "undead/prud-utoplennikov"
+      ],
+      "m": "Утопленник"
+    },
+    {
+      "n": "Доспех Полководца",
+      "name": "Доспех Полководца",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Dospeh_Polkovodca.jpg",
+      "locs": [
+        "undead/prud-utoplennikov"
+      ],
+      "m": "Утопленник"
+    },
+    {
+      "n": "Хрустальный Доспех",
+      "name": "Хрустальный Доспех",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Hrustalniy_Dospeh.jpg",
+      "locs": [
+        "undead/prud-utoplennikov"
+      ],
+      "m": "Утопленник"
+    },
+    {
+      "n": "Искрящийся Орб",
+      "name": "Искрящийся Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Iskr_Orb.jpg",
+      "locs": [
+        "undead/prud-utoplennikov"
+      ],
+      "m": "Утопленник"
     }
   ]
 }

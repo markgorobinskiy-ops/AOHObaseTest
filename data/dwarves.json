@@ -65,5 +65,15 @@
       "data": "data/dwarves/bolshoy-razlom.json"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "n": "Око Грозы",
+      "name": "Око Грозы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Oko_Grozi.jpg",
+      "locs": [],
+      "m": "Снеговик"
+    }
+  ]
 }

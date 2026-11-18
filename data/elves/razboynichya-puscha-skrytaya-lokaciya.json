@@ -13,6 +13,17 @@
         "elves/razboynichya-puscha-skrytaya-lokaciya"
       ],
       "m": "Разбойники"
+    },
+    {
+      "n": "Каменная Коса",
+      "name": "Каменная Коса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamennaja_Kosa.jpg",
+      "locs": [
+        "elves/razboynichya-puscha-skrytaya-lokaciya"
+      ],
+      "m": "Разбойники"
     }
   ]
 }

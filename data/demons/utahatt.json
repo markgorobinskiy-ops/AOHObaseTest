@@ -44,10 +44,11 @@
       "rarity": "Особый",
       "img": "Sphere_Fei.jpg",
       "locs": [
+        "demons/ashtumh",
         "demons/podzemele-marinii",
         "demons/utahatt"
       ],
-      "m": "Викарии, Бес"
+      "m": "Викарии, Бес, Дух Огня"
     }
   ]
 }

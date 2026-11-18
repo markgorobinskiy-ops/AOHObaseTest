@@ -1,0 +1,18 @@
+{
+  "id": "orcs/zabroshennaya-stoyanka-orkov",
+  "name": "Заброшенная Стоянка Орков",
+  "sections": [],
+  "items": [
+    {
+      "n": "Колчан Аристократа",
+      "name": "Колчан Аристократа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_Aristo.jpg",
+      "locs": [
+        "orcs/zabroshennaya-stoyanka-orkov"
+      ],
+      "m": "Труп"
+    }
+  ]
+}

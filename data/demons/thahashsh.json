@@ -36,6 +36,28 @@
         "demons/thahashsh"
       ],
       "m": "Дикий Варг"
+    },
+    {
+      "n": "Перчатки Вечной Зимы",
+      "name": "Перчатки Вечной Зимы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Vechnoi_Zimi.jpg",
+      "locs": [
+        "demons/thahashsh"
+      ],
+      "m": "Дикий Варг"
+    },
+    {
+      "n": "Атласный Кафтан",
+      "name": "Атласный Кафтан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Atlas_Kaftan.jpg",
+      "locs": [
+        "demons/thahashsh"
+      ],
+      "m": "Дикий Варг"
     }
   ]
 }

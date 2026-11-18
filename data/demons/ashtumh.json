@@ -47,6 +47,30 @@
         "demons/ashtumh"
       ],
       "m": "Дух Огня"
+    },
+    {
+      "n": "Сфера Фей",
+      "name": "Сфера Фей",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sphere_Fei.jpg",
+      "locs": [
+        "demons/ashtumh",
+        "demons/podzemele-marinii",
+        "demons/utahatt"
+      ],
+      "m": "Викарии, Бес, Дух Огня"
+    },
+    {
+      "n": "Плачущий Посох",
+      "name": "Плачущий Посох",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Plaksa_Posoh.jpg",
+      "locs": [
+        "demons/ashtumh"
+      ],
+      "m": "Дух Огня"
     }
   ]
 }

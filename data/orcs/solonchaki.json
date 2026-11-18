@@ -1,0 +1,18 @@
+{
+  "id": "orcs/solonchaki",
+  "name": "Солончаки",
+  "sections": [],
+  "items": [
+    {
+      "n": "Перчатки Архимага",
+      "name": "Перчатки Архимага",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Archmage.jpg",
+      "locs": [
+        "orcs/solonchaki"
+      ],
+      "m": "Злые Кочевники"
+    }
+  ]
+}

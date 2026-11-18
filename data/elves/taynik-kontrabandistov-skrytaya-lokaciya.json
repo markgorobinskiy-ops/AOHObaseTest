@@ -47,6 +47,28 @@
         "elves/taynik-kontrabandistov-skrytaya-lokaciya"
       ],
       "m": "Охрана Торговца"
+    },
+    {
+      "n": "Сфера Фей",
+      "name": "Сфера Фей",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sphere_Fei.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+      ],
+      "m": "Охрана Торговца"
+    },
+    {
+      "n": "Сапоги из Кожи Варга",
+      "name": "Сапоги из Кожи Варга",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sapogi_iz_Koji_Varga.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+      ],
+      "m": "Охрана Торговца"
     }
   ]
 }
