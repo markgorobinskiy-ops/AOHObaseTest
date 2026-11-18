@@ -66,9 +66,10 @@
       "rarity": "Особый",
       "img": "Obsidian_Sphere.jpg",
       "locs": [
-        "humans/amissvud"
+        "humans/amissvud",
+        "humans/sredinnoe-poberezhe"
       ],
-      "m": "Энт"
+      "m": "Энт, Снеговик"
     },
     {
       "n": "Кафтан Академика",

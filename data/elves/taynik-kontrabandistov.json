@@ -1,0 +1,18 @@
+{
+  "id": "elves/taynik-kontrabandistov",
+  "name": "Тайник Контрабандистов",
+  "sections": [],
+  "items": [
+    {
+      "n": "Искрящийся Орб",
+      "name": "Искрящийся Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Iskr_Orb.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov"
+      ],
+      "m": "Охрана Торговца"
+    }
+  ]
+}

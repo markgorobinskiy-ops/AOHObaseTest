@@ -38,6 +38,16 @@
       "name": "Йорденские Поля",
       "id": "elves/yordenskie-polya",
       "data": "data/elves/yordenskie-polya.json"
+    },
+    {
+      "name": "Разбойничья пуща (Скрытая локация)",
+      "id": "elves/razboynichya-puscha-skrytaya-lokaciya",
+      "data": "data/elves/razboynichya-puscha-skrytaya-lokaciya.json"
+    },
+    {
+      "name": "Тайник Контрабандистов",
+      "id": "elves/taynik-kontrabandistov",
+      "data": "data/elves/taynik-kontrabandistov.json"
     }
   ],
   "items": []

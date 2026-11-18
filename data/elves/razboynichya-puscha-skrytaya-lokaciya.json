@@ -1,0 +1,18 @@
+{
+  "id": "elves/razboynichya-puscha-skrytaya-lokaciya",
+  "name": "Разбойничья пуща (Скрытая локация)",
+  "sections": [],
+  "items": [
+    {
+      "n": "Кровавая Туника",
+      "name": "Кровавая Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Krovavaja_Tunika.jpg",
+      "locs": [
+        "elves/razboynichya-puscha-skrytaya-lokaciya"
+      ],
+      "m": "Разбойники"
+    }
+  ]
+}

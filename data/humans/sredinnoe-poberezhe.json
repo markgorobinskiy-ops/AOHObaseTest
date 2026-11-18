@@ -1,0 +1,41 @@
+{
+  "id": "humans/sredinnoe-poberezhe",
+  "name": "Срединное Побережье",
+  "sections": [],
+  "items": [
+    {
+      "n": "Обсидиановая Сфера",
+      "name": "Обсидиановая Сфера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Obsidian_Sphere.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Энт, Снеговик"
+    },
+    {
+      "n": "Жезл Утренней Звезды",
+      "name": "Жезл Утренней Звезды",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jezl_Utrenney_Zvezdy.jpg",
+      "locs": [
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Снеговик"
+    },
+    {
+      "n": "Инеевая Кирасса",
+      "name": "Инеевая Кирасса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "",
+      "locs": [
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Снеговик"
+    }
+  ]
+}

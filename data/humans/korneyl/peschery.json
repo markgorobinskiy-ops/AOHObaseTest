@@ -8,7 +8,7 @@
       "name": "Веселый Лук",
       "r": "Особый",
       "rarity": "Особый",
-      "img": "",
+      "img": "Veseliy_Luk.jpg",
       "locs": [
         "humans/korneyl/peschery"
       ],
@@ -19,7 +19,7 @@
       "name": "Капюшон Алой Стрелы",
       "r": "Особый",
       "rarity": "Особый",
-      "img": "",
+      "img": "Kap_Aloi_Streli.jpg",
       "locs": [
         "humans/korneyl/peschery"
       ],

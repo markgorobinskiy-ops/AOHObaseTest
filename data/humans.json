@@ -54,6 +54,11 @@
       "name": "Хижина Лесника",
       "id": "humans/hizhina-lesnika",
       "data": "data/humans/hizhina-lesnika.json"
+    },
+    {
+      "name": "Срединное Побережье",
+      "id": "humans/sredinnoe-poberezhe",
+      "data": "data/humans/sredinnoe-poberezhe.json"
     }
   ],
   "items": []

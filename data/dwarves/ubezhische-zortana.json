@@ -1,0 +1,30 @@
+{
+  "id": "dwarves/ubezhische-zortana",
+  "name": "Убежище Зортана",
+  "sections": [],
+  "items": [
+    {
+      "n": "Колчан из Рога",
+      "name": "Колчан из Рога",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_iz_Roga.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/ubezhische-zortana"
+      ],
+      "m": "Страж, Охрана"
+    },
+    {
+      "n": "Куртка Ворона",
+      "name": "Куртка Ворона",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kurtka_Vorona.jpg",
+      "locs": [
+        "dwarves/ubezhische-zortana"
+      ],
+      "m": "Охрана"
+    }
+  ]
+}

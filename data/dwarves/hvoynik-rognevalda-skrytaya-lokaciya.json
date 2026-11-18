@@ -1,0 +1,29 @@
+{
+  "id": "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+  "name": "Хвойник Рогневальда (Скрытая локация)",
+  "sections": [],
+  "items": [
+    {
+      "n": "Малахитовая Сфера",
+      "name": "Малахитовая Сфера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Malahit_Sphere.jpg",
+      "locs": [
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya"
+      ],
+      "m": "Голем"
+    },
+    {
+      "n": "Медный Доспех",
+      "name": "Медный Доспех",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Medniy_Dospeh.jpg",
+      "locs": [
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya"
+      ],
+      "m": "Охрана"
+    }
+  ]
+}
