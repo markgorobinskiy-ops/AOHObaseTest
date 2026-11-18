@@ -67,9 +67,10 @@
       "rarity": "Особый",
       "img": "Gizarma_Ujasa.jpg",
       "locs": [
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
         "dwarves/sangard_post/kilmaat-13-yarus"
       ],
-      "m": "Страж, Привратник"
+      "m": "Страж, Привратник, Древний"
     },
     {
       "n": "Глаз Мантикоры",
@@ -78,9 +79,10 @@
       "rarity": "Особый",
       "img": "Glaz_Mantikori.jpg",
       "locs": [
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
         "dwarves/sangard_post/kilmaat-13-yarus"
       ],
-      "m": "Страж, Привратник"
+      "m": "Страж, Привратник, Древний"
     },
     {
       "n": "Колчан Аристократа",

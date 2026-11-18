@@ -48,6 +48,11 @@
       "name": "Тайник Контрабандистов",
       "id": "elves/taynik-kontrabandistov",
       "data": "data/elves/taynik-kontrabandistov.json"
+    },
+    {
+      "name": "Тайник Контрабандистов (Скрытая локация)",
+      "id": "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+      "data": "data/elves/taynik-kontrabandistov-skrytaya-lokaciya.json"
     }
   ],
   "items": []

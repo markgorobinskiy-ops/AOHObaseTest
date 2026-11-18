@@ -25,6 +25,28 @@
         "dwarves/ubezhische-zortana"
       ],
       "m": "Охрана"
+    },
+    {
+      "n": "Ледяной Панцирь",
+      "name": "Ледяной Панцирь",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Ice_Pancir.jpg",
+      "locs": [
+        "dwarves/ubezhische-zortana"
+      ],
+      "m": "Слуга"
+    },
+    {
+      "n": "Орочий Ятаган",
+      "name": "Орочий Ятаган",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Ork_Jatagan.jpg",
+      "locs": [
+        "dwarves/ubezhische-zortana"
+      ],
+      "m": "Слуга"
     }
   ]
 }

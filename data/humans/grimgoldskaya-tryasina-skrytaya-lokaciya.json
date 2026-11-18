@@ -1,0 +1,56 @@
+{
+  "id": "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+  "name": "Гримгольдская Трясина (Скрытая локация)",
+  "sections": [],
+  "items": [
+    {
+      "n": "Камзол с Языками Пламени",
+      "name": "Камзол с Языками Пламени",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamzol_s_Yazik_Plameni.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/hizhina-lesnika"
+      ],
+      "m": "Волк, Зверь, Варг Гримгольда"
+    },
+    {
+      "n": "Перчатки Вечной Зимы",
+      "name": "Перчатки Вечной Зимы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Vechnoi_Zimi.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya"
+      ],
+      "m": "Энт, Варг Гримгольда"
+    },
+    {
+      "n": "Атласный Кафтан",
+      "name": "Атласный Кафтан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Atlas_Kaftan.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/tannervill"
+      ],
+      "m": "Волк, Вепрь Гримгольда, Вепрь"
+    },
+    {
+      "n": "Спринтерские Сапоги",
+      "name": "Спринтерские Сапоги",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sprinter_Sapogi.jpg",
+      "locs": [
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya"
+      ],
+      "m": "Варг Гримгольда"
+    }
+  ]
+}

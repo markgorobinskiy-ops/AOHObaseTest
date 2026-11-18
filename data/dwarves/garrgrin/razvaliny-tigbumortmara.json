@@ -1,0 +1,42 @@
+{
+  "id": "dwarves/garrgrin/razvaliny-tigbumortmara",
+  "name": "Развалины Тиг'Бу'Мортмара",
+  "sections": [],
+  "items": [
+    {
+      "n": "Гизарма Ужаса",
+      "name": "Гизарма Ужаса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gizarma_Ujasa.jpg",
+      "locs": [
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Страж, Привратник, Древний"
+    },
+    {
+      "n": "Глаз Мантикоры",
+      "name": "Глаз Мантикоры",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Glaz_Mantikori.jpg",
+      "locs": [
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Страж, Привратник, Древний"
+    },
+    {
+      "n": "Серебрянная Глефа",
+      "name": "Серебрянная Глефа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Serebro_Glefa.jpg",
+      "locs": [
+        "dwarves/garrgrin/razvaliny-tigbumortmara"
+      ],
+      "m": "Древний"
+    }
+  ]
+}

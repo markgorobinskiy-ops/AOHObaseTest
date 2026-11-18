@@ -27,9 +27,10 @@
       "rarity": "Особый",
       "img": "Kolchan_TbmbI.jpg",
       "locs": [
+        "humans/hargorskaya-plesh-skrytaya-lokaciya",
         "humans/reyden"
       ],
-      "m": "Толпа Скелетов"
+      "m": "Толпа Скелетов, Мёртвый Орк"
     },
     {
       "n": "Ритуальный Клинок",
@@ -53,6 +54,74 @@
         "humans/reyden"
       ],
       "m": "Толпы Скелетов, Толпа Зомби"
+    },
+    {
+      "n": "Бригантина Молний",
+      "name": "Бригантина Молний",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Brigantina_Molnijii.jpg",
+      "locs": [
+        "humans/korneyl/peschery",
+        "humans/reyden"
+      ],
+      "m": "Свежие Зомби, Злобные Разбойники"
+    },
+    {
+      "n": "Молот Грома",
+      "name": "Молот Грома",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Molot_Groma.jpg",
+      "locs": [
+        "humans/korneyl/peschery",
+        "humans/reyden"
+      ],
+      "m": "Свежие Зомби, Одержимые Разбойники"
+    },
+    {
+      "n": "Драконий Доспех",
+      "name": "Драконий Доспех",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Drakon_Dospeh.jpg",
+      "locs": [
+        "humans/reyden"
+      ],
+      "m": "Злые Разбойники"
+    },
+    {
+      "n": "Орб Сияния",
+      "name": "Орб Сияния",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Orb_Sijania.jpg",
+      "locs": [
+        "humans/reyden"
+      ],
+      "m": "Толпы Скелетов"
+    },
+    {
+      "n": "Шляпа Чернокнижника",
+      "name": "Шляпа Чернокнижника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shljapa_Chernoknijnika.jpg",
+      "locs": [
+        "humans/reyden"
+      ],
+      "m": "Толпы Скелетов"
+    },
+    {
+      "n": "Секира Ярости",
+      "name": "Секира Ярости",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sekira_Jarosti.jpg",
+      "locs": [
+        "humans/reyden"
+      ],
+      "m": "Одержимые Разбойники"
     }
   ]
 }

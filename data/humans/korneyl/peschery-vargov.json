@@ -25,6 +25,17 @@
         "humans/korneyl/peschery-vargov"
       ],
       "m": "Королевская Свора"
+    },
+    {
+      "n": "Перчатки из Рыбьей Чешуи",
+      "name": "Перчатки из Рыбьей Чешуи",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Fish_Glowes.jpg",
+      "locs": [
+        "humans/korneyl/peschery-vargov"
+      ],
+      "m": "Королевская Свора"
     }
   ]
 }

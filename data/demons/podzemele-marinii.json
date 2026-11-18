@@ -81,6 +81,17 @@
         "demons/podzemele-marinii"
       ],
       "m": "Бес"
+    },
+    {
+      "n": "Льдистый Кортик",
+      "name": "Льдистый Кортик",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Led_Kortik.jpg",
+      "locs": [
+        "demons/podzemele-marinii"
+      ],
+      "m": "Огни Леса"
     }
   ]
 }

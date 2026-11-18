@@ -31,9 +31,10 @@
       "rarity": "Особый",
       "img": "Sultarimskiy_Mech.jpg",
       "locs": [
-        "humans/korneyl"
+        "humans/korneyl",
+        "humans/perekreste"
       ],
-      "m": "Разбойник"
+      "m": "Разбойник, Жестокие Разбойники"
     },
     {
       "n": "Грозовые Сапоги",
@@ -56,6 +57,39 @@
         "humans/korneyl"
       ],
       "m": "Голодные Варги"
+    },
+    {
+      "n": "Зачарованный Капюшон",
+      "name": "Зачарованный Капюшон",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Enchant_Cap.jpg",
+      "locs": [
+        "humans/korneyl"
+      ],
+      "m": "Сторожевые Варги"
+    },
+    {
+      "n": "Кричащее Лезвие",
+      "name": "Кричащее Лезвие",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Krik_Lezvie.jpg",
+      "locs": [
+        "humans/korneyl"
+      ],
+      "m": "Разбойники"
+    },
+    {
+      "n": "Туника из Ветра",
+      "name": "Туника из Ветра",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Tunika_iz_Vetra.jpg",
+      "locs": [
+        "humans/korneyl"
+      ],
+      "m": "Бешенные Варги"
     }
   ]
 }

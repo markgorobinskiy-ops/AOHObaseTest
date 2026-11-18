@@ -1,0 +1,18 @@
+{
+  "id": "dwarves/bolshoy-razlom",
+  "name": "Большой Разлом",
+  "sections": [],
+  "items": [
+    {
+      "n": "Рифлёный Доспех",
+      "name": "Рифлёный Доспех",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "",
+      "locs": [
+        "dwarves/bolshoy-razlom"
+      ],
+      "m": "Обитатель Разлома"
+    }
+  ]
+}

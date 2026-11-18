@@ -1,0 +1,18 @@
+{
+  "id": "undead/nizhnee-boloto-skrytaya-lokaciya",
+  "name": "Нижнее Болото (Скрытая локация)",
+  "sections": [],
+  "items": [
+    {
+      "n": "Перчатки с Серебрянными Шипами",
+      "name": "Перчатки с Серебрянными Шипами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_s_Serebryannimi_Shipami.jpg",
+      "locs": [
+        "undead/nizhnee-boloto-skrytaya-lokaciya"
+      ],
+      "m": "Тролль"
+    }
+  ]
+}

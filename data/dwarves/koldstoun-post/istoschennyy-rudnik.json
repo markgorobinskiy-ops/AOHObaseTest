@@ -91,6 +91,17 @@
         "dwarves/koldstoun-post/istoschennyy-rudnik"
       ],
       "m": "Мёртвый Рудокоп"
+    },
+    {
+      "n": "Перчатки Саламандры",
+      "name": "Перчатки Саламандры",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Salamandri.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik"
+      ],
+      "m": "Мёртвый Рудокоп"
     }
   ]
 }

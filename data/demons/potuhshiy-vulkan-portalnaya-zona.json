@@ -1,0 +1,18 @@
+{
+  "id": "demons/potuhshiy-vulkan-portalnaya-zona",
+  "name": "Потухший Вулкан (Портальная Зона)",
+  "sections": [],
+  "items": [
+    {
+      "n": "Капюшон Подлеца",
+      "name": "Капюшон Подлеца",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kap_Podleca.jpg",
+      "locs": [
+        "demons/potuhshiy-vulkan-portalnaya-zona"
+      ],
+      "m": "Страж Вулкана"
+    }
+  ]
+}

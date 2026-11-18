@@ -8,5 +8,17 @@
       "data": "data/orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta.json"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "n": "Капюшон Подлеца",
+      "name": "Капюшон Подлеца",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kap_Podleca.jpg",
+      "locs": [
+        "orcs/stoybische_gryzuschih_kosti"
+      ],
+      "m": "Варг"
+    }
+  ]
 }

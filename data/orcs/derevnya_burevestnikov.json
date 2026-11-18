@@ -1,7 +1,13 @@
 {
   "id": "orcs/4",
   "name": "Деревня Буревестников",
-  "sections": [],
+  "sections": [
+    {
+      "name": "Пещера Големов",
+      "id": "orcs/derevnya_burevestnikov/peschera-golemov",
+      "data": "data/orcs/derevnya_burevestnikov/peschera-golemov.json"
+    }
+  ],
   "items": [
     {
       "n": "Золотой Кафтан",

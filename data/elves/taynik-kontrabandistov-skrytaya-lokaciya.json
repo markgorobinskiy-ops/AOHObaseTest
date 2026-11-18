@@ -1,0 +1,52 @@
+{
+  "id": "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+  "name": "Тайник Контрабандистов (Скрытая локация)",
+  "sections": [],
+  "items": [
+    {
+      "n": "Перчатки Саламандры",
+      "name": "Перчатки Саламандры",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Salamandri.jpg",
+      "locs": [
+        "elves/montsilvar",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+      ],
+      "m": "Энт, Охрана Торговца"
+    },
+    {
+      "n": "Искрящийся Орб",
+      "name": "Искрящийся Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Iskr_Orb.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+      ],
+      "m": "Охрана Торговца"
+    },
+    {
+      "n": "Саван Мертвеца",
+      "name": "Саван Мертвеца",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Savan_Mertveca.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+      ],
+      "m": "Охрана Торговца"
+    },
+    {
+      "n": "Варварский Доспех из Шкур",
+      "name": "Варварский Доспех из Шкур",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Vararian_Dospeh_iz_Shkur.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+      ],
+      "m": "Охрана Торговца"
+    }
+  ]
+}

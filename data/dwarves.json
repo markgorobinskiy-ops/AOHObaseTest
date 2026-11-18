@@ -58,6 +58,11 @@
       "name": "Одинокая Гномья Хижина (Скрытая локация)",
       "id": "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
       "data": "data/dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya.json"
+    },
+    {
+      "name": "Большой Разлом",
+      "id": "dwarves/bolshoy-razlom",
+      "data": "data/dwarves/bolshoy-razlom.json"
     }
   ],
   "items": []

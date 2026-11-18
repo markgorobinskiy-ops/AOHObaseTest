@@ -36,6 +36,16 @@
       "name": "Пограничье, Юг",
       "id": "undead/pograniche-yug",
       "data": "data/undead/pograniche-yug.json"
+    },
+    {
+      "name": "Нижнее Болото (Скрытая локация)",
+      "id": "undead/nizhnee-boloto-skrytaya-lokaciya",
+      "data": "data/undead/nizhnee-boloto-skrytaya-lokaciya.json"
+    },
+    {
+      "name": "Лейк-Виллаж",
+      "id": "undead/leyk-villazh",
+      "data": "data/undead/leyk-villazh.json"
     }
   ],
   "items": []

@@ -13,6 +13,17 @@
         "elves/yordenskie-polya"
       ],
       "m": "Старший Сын"
+    },
+    {
+      "n": "Щит Семи Громов",
+      "name": "Щит Семи Громов",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shield_7_Gromov.jpg",
+      "locs": [
+        "elves/yordenskie-polya"
+      ],
+      "m": "Сын Йорндерна"
     }
   ]
 }

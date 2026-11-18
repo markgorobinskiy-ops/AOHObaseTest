@@ -19,6 +19,61 @@
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
       "m": "Стражи Подземелий"
+    },
+    {
+      "n": "Перчатки Саламандры",
+      "name": "Перчатки Саламандры",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Salamandri.jpg",
+      "locs": [
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
+      ],
+      "m": "Стражи Подземелий"
+    },
+    {
+      "n": "Палаческий Меч",
+      "name": "Палаческий Меч",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Palacheskiy_Sword.jpg",
+      "locs": [
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
+      ],
+      "m": "Стражи Подземелий"
+    },
+    {
+      "n": "Лазурная Шляпа",
+      "name": "Лазурная Шляпа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Lazur_Shljapa.jpg",
+      "locs": [
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
+      ],
+      "m": "Стражи Подземелий"
+    },
+    {
+      "n": "Клеймор",
+      "name": "Клеймор",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kleymor.jpg",
+      "locs": [
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
+      ],
+      "m": "Стражи Подземелий"
+    },
+    {
+      "n": "Стилет Убийцы",
+      "name": "Стилет Убийцы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Stilet_Ubici.jpg",
+      "locs": [
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
+      ],
+      "m": "Стражи Подземелий"
     }
   ]
 }

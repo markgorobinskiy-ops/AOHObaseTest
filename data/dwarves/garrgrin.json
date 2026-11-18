@@ -6,6 +6,11 @@
       "name": "Чумные Катакомбы",
       "id": "dwarves/garrgrin/chumnye-katakomby",
       "data": "data/dwarves/garrgrin/chumnye-katakomby.json"
+    },
+    {
+      "name": "Развалины Тиг'Бу'Мортмара",
+      "id": "dwarves/garrgrin/razvaliny-tigbumortmara",
+      "data": "data/dwarves/garrgrin/razvaliny-tigbumortmara.json"
     }
   ],
   "items": []

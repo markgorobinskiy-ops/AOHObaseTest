@@ -43,9 +43,10 @@
       "rarity": "Особый",
       "img": "Perchatki_Salamandri.jpg",
       "locs": [
-        "elves/montsilvar"
+        "elves/montsilvar",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
       ],
-      "m": "Энт"
+      "m": "Энт, Охрана Торговца"
     },
     {
       "n": "Тисовый Колчан",
@@ -91,6 +92,28 @@
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
       ],
       "m": "Дикий Цербер, Энт"
+    },
+    {
+      "n": "Матросский Колчан",
+      "name": "Матросский Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Matros_Kolchan.jpg",
+      "locs": [
+        "elves/montsilvar"
+      ],
+      "m": "Зверь"
+    },
+    {
+      "n": "Гоблинский Колчан",
+      "name": "Гоблинский Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Goblin_Kolchan.jpg",
+      "locs": [
+        "elves/montsilvar"
+      ],
+      "m": "Зверь"
     }
   ]
 }

@@ -11,9 +11,10 @@
       "img": "Kamzol_s_Yazik_Plameni.jpg",
       "locs": [
         "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/hizhina-lesnika"
       ],
-      "m": "Волк, Зверь"
+      "m": "Волк, Зверь, Варг Гримгольда"
     },
     {
       "n": "Перчатки из Скальпа Барда",
@@ -22,9 +23,10 @@
       "rarity": "Особый",
       "img": "Perchatki_iz_Skalp_Bard.jpg",
       "locs": [
-        "humans/amissvud"
+        "humans/amissvud",
+        "humans/tannervill"
       ],
-      "m": "Энт"
+      "m": "Энт, Вепрь"
     },
     {
       "n": "Перчатки Архимага",
@@ -46,7 +48,7 @@
       "locs": [
         "humans/amissvud"
       ],
-      "m": "Энт"
+      "m": "Энт, Волк"
     },
     {
       "n": "Дьяволовы Стопы",
@@ -90,9 +92,10 @@
       "rarity": "Особый",
       "img": "Perchatki_Vechnoi_Zimi.jpg",
       "locs": [
-        "humans/amissvud"
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya"
       ],
-      "m": "Энт"
+      "m": "Энт, Варг Гримгольда"
     },
     {
       "n": "Сфера Шепотов",
@@ -112,9 +115,11 @@
       "rarity": "Особый",
       "img": "Atlas_Kaftan.jpg",
       "locs": [
-        "humans/amissvud"
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/tannervill"
       ],
-      "m": "Волк"
+      "m": "Волк, Вепрь Гримгольда, Вепрь"
     },
     {
       "n": "Лиственная Туника",
@@ -123,9 +128,33 @@
       "rarity": "Особый",
       "img": "Listvennaja_Tunika.jpg",
       "locs": [
+        "humans/amissvud",
+        "humans/sredinnoe-poberezhe",
+        "humans/tannervill"
+      ],
+      "m": "Волк, Снеговик, Вепрь"
+    },
+    {
+      "n": "Пернатые Перчатки",
+      "name": "Пернатые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Pernatie_Perchatki.jpg",
+      "locs": [
         "humans/amissvud"
       ],
-      "m": "Волк"
+      "m": "Энт, Волк"
+    },
+    {
+      "n": "Тисовый Колчан",
+      "name": "Тисовый Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Tis_Kolchan.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Энт"
     }
   ]
 }

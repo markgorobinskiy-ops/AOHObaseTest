@@ -31,7 +31,42 @@
       "name": "Инеевая Кирасса",
       "r": "Особый",
       "rarity": "Особый",
-      "img": "",
+      "img": "Ineevaja_Kirassa.jpg",
+      "locs": [
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Снеговик"
+    },
+    {
+      "n": "Лиственная Туника",
+      "name": "Лиственная Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Listvennaja_Tunika.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/sredinnoe-poberezhe",
+        "humans/tannervill"
+      ],
+      "m": "Волк, Снеговик, Вепрь"
+    },
+    {
+      "n": "Нефритовый Молот",
+      "name": "Нефритовый Молот",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Nefrit_Molot.jpg",
+      "locs": [
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Снеговик"
+    },
+    {
+      "n": "Магнитный Жезл",
+      "name": "Магнитный Жезл",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Magnit_Jezl.jpg",
       "locs": [
         "humans/sredinnoe-poberezhe"
       ],

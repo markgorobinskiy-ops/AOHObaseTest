@@ -109,9 +109,10 @@
       "rarity": "Особый",
       "img": "Brigantina_Molnijii.jpg",
       "locs": [
-        "humans/korneyl/peschery"
+        "humans/korneyl/peschery",
+        "humans/reyden"
       ],
-      "m": "Свежие Зомби"
+      "m": "Свежие Зомби, Злобные Разбойники"
     },
     {
       "n": "Шляпа Первого Ордена",
@@ -153,9 +154,10 @@
       "rarity": "Особый",
       "img": "Molot_Groma.jpg",
       "locs": [
-        "humans/korneyl/peschery"
+        "humans/korneyl/peschery",
+        "humans/reyden"
       ],
-      "m": "Свежие Зомби"
+      "m": "Свежие Зомби, Одержимые Разбойники"
     },
     {
       "n": "Жезл Кровопролития",
@@ -267,6 +269,39 @@
         "humans/korneyl/peschery"
       ],
       "m": "Толпа Скелетов"
+    },
+    {
+      "n": "Лунный Серп",
+      "name": "Лунный Серп",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Luna_Serp.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Скелетов"
+    },
+    {
+      "n": "Перстень Святоши",
+      "name": "Перстень Святоши",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perst_Svjatoshi.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Скелетов"
+    },
+    {
+      "n": "Топор Берсерка",
+      "name": "Топор Берсерка",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Axe_of_Berserk.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Зомби"
     }
   ]
 }

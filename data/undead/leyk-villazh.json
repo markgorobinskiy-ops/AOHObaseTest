@@ -1,0 +1,18 @@
+{
+  "id": "undead/leyk-villazh",
+  "name": "Лейк-Виллаж",
+  "sections": [],
+  "items": [
+    {
+      "n": "Шлем с Рогом Единорога",
+      "name": "Шлем с Рогом Единорога",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shlem_s_Rogom_Edinoroga.jpg",
+      "locs": [
+        "undead/leyk-villazh"
+      ],
+      "m": "Страж Моста"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "orcs/derevnya_burevestnikov/peschera-golemov",
+  "name": "Пещера Големов",
+  "sections": [],
+  "items": [
+    {
+      "n": "Амулет Лекаря",
+      "name": "Амулет Лекаря",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Amulet_Lekarja.jpg",
+      "locs": [
+        "orcs/derevnya_burevestnikov/peschera-golemov"
+      ],
+      "m": "Големы"
+    },
+    {
+      "n": "Лазоревый Орб",
+      "name": "Лазоревый Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Lazorievii_Orb.jpg",
+      "locs": [
+        "orcs/derevnya_burevestnikov/peschera-golemov"
+      ],
+      "m": "Големы"
+    },
+    {
+      "n": "Колчан Скорости",
+      "name": "Колчан Скорости",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_Skorosti.jpg",
+      "locs": [
+        "orcs/derevnya_burevestnikov/peschera-golemov"
+      ],
+      "m": "Големы"
+    }
+  ]
+}

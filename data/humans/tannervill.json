@@ -13,6 +13,44 @@
         "humans/tannervill"
       ],
       "m": "Вепрь"
+    },
+    {
+      "n": "Перчатки из Скальпа Барда",
+      "name": "Перчатки из Скальпа Барда",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_iz_Skalp_Bard.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/tannervill"
+      ],
+      "m": "Энт, Вепрь"
+    },
+    {
+      "n": "Атласный Кафтан",
+      "name": "Атласный Кафтан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Atlas_Kaftan.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/tannervill"
+      ],
+      "m": "Волк, Вепрь Гримгольда, Вепрь"
+    },
+    {
+      "n": "Лиственная Туника",
+      "name": "Лиственная Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Listvennaja_Tunika.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/sredinnoe-poberezhe",
+        "humans/tannervill"
+      ],
+      "m": "Волк, Снеговик, Вепрь"
     }
   ]
 }

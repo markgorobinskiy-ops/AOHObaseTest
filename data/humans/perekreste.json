@@ -26,6 +26,29 @@
         "humans/perekreste"
       ],
       "m": "Варги, Королевская Свора"
+    },
+    {
+      "n": "Султаримский Меч",
+      "name": "Султаримский Меч",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sultarimskiy_Mech.jpg",
+      "locs": [
+        "humans/korneyl",
+        "humans/perekreste"
+      ],
+      "m": "Разбойник, Жестокие Разбойники"
+    },
+    {
+      "n": "Тяжелый Деревянный Щит",
+      "name": "Тяжелый Деревянный Щит",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Tjajoliy_Derevo_Shield.jpg",
+      "locs": [
+        "humans/perekreste"
+      ],
+      "m": "Злые Разбойники"
     }
   ]
 }

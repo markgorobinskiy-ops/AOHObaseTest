@@ -52,6 +52,11 @@
       "name": "Аш'тумх",
       "id": "demons/ashtumh",
       "data": "data/demons/ashtumh.json"
+    },
+    {
+      "name": "Потухший Вулкан (Портальная Зона)",
+      "id": "demons/potuhshiy-vulkan-portalnaya-zona",
+      "data": "data/demons/potuhshiy-vulkan-portalnaya-zona.json"
     }
   ],
   "items": []

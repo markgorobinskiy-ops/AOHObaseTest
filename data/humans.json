@@ -59,6 +59,16 @@
       "name": "Срединное Побережье",
       "id": "humans/sredinnoe-poberezhe",
       "data": "data/humans/sredinnoe-poberezhe.json"
+    },
+    {
+      "name": "Харгорская Плешь (Скрытая локация)",
+      "id": "humans/hargorskaya-plesh-skrytaya-lokaciya",
+      "data": "data/humans/hargorskaya-plesh-skrytaya-lokaciya.json"
+    },
+    {
+      "name": "Гримгольдская Трясина (Скрытая локация)",
+      "id": "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+      "data": "data/humans/grimgoldskaya-tryasina-skrytaya-lokaciya.json"
     }
   ],
   "items": []
