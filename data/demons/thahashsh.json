@@ -13,6 +13,29 @@
         "demons/thahashsh"
       ],
       "m": "Дикий Варг"
+    },
+    {
+      "n": "Меховые Перчатки",
+      "name": "Меховые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Meh_Perchatki.jpg",
+      "locs": [
+        "demons/podzemele-marinii",
+        "demons/thahashsh"
+      ],
+      "m": "Медведь, Дикий Варг"
+    },
+    {
+      "n": "Кафтан Академика",
+      "name": "Кафтан Академика",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kaftan_Akademika.jpg",
+      "locs": [
+        "demons/thahashsh"
+      ],
+      "m": "Дикий Варг"
     }
   ]
 }

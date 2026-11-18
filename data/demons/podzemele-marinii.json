@@ -21,9 +21,10 @@
       "rarity": "Особый",
       "img": "Meh_Perchatki.jpg",
       "locs": [
-        "demons/podzemele-marinii"
+        "demons/podzemele-marinii",
+        "demons/thahashsh"
       ],
-      "m": "Медведь"
+      "m": "Медведь, Дикий Варг"
     },
     {
       "n": "Шляпа Первого Ордена",
@@ -46,6 +47,40 @@
         "demons/podzemele-marinii"
       ],
       "m": "Минотавр"
+    },
+    {
+      "n": "Сфера Фей",
+      "name": "Сфера Фей",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sphere_Fei.jpg",
+      "locs": [
+        "demons/podzemele-marinii",
+        "demons/utahatt"
+      ],
+      "m": "Викарии, Бес"
+    },
+    {
+      "n": "Шепчущие Перчатки",
+      "name": "Шепчущие Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shepchushie_Perchatki.jpg",
+      "locs": [
+        "demons/podzemele-marinii"
+      ],
+      "m": "Кабан"
+    },
+    {
+      "n": "Колчан Скорости",
+      "name": "Колчан Скорости",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_Skorosti.jpg",
+      "locs": [
+        "demons/podzemele-marinii"
+      ],
+      "m": "Бес"
     }
   ]
 }

@@ -19,6 +19,17 @@
         "undead/medilanskoe_nagore"
       ],
       "m": "Горцы"
+    },
+    {
+      "n": "Сапфировая Накидка",
+      "name": "Сапфировая Накидка",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Saphir_Nakidka.jpg",
+      "locs": [
+        "undead/medilanskoe_nagore"
+      ],
+      "m": "Горцы"
     }
   ]
 }

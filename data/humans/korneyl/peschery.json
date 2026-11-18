@@ -41,7 +41,7 @@
       "name": "Сфера Абсолютного Холода",
       "r": "Особый",
       "rarity": "Особый",
-      "img": "",
+      "img": "Sphere_ABS.jpg",
       "locs": [
         "humans/korneyl/peschery"
       ],
@@ -241,6 +241,28 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "Iskr_Kortik.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Скелетов"
+    },
+    {
+      "n": "Лазоревый Орб",
+      "name": "Лазоревый Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Lazorievii_Orb.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Зомби"
+    },
+    {
+      "n": "Огненный Капюшон",
+      "name": "Огненный Капюшон",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Fire_Cap.jpg",
       "locs": [
         "humans/korneyl/peschery"
       ],

@@ -25,6 +25,29 @@
         "demons/utahatt"
       ],
       "m": "Викарии"
+    },
+    {
+      "n": "Посох Тринадцати Врат",
+      "name": "Посох Тринадцати Врат",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Posoh_13_Vrat.jpg",
+      "locs": [
+        "demons/utahatt"
+      ],
+      "m": "Викарии"
+    },
+    {
+      "n": "Сфера Фей",
+      "name": "Сфера Фей",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sphere_Fei.jpg",
+      "locs": [
+        "demons/podzemele-marinii",
+        "demons/utahatt"
+      ],
+      "m": "Викарии, Бес"
     }
   ]
 }

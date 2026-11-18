@@ -8,7 +8,7 @@
       "name": "Пернатые Перчатки",
       "r": "Особый",
       "rarity": "Особый",
-      "img": "",
+      "img": "Pernatie_Perchatki.jpg",
       "locs": [
         "elves/montsilvar"
       ],
@@ -79,6 +79,18 @@
         "elves/montsilvar"
       ],
       "m": "Зверь"
+    },
+    {
+      "n": "Перчатки с Серебрянными Шипами",
+      "name": "Перчатки с Серебрянными Шипами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_s_Serebryannimi_Shipami.jpg",
+      "locs": [
+        "elves/montsilvar",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
+      ],
+      "m": "Дикий Цербер, Энт"
     }
   ]
 }
