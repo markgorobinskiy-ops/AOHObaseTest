@@ -1,0 +1,55 @@
+{
+  "id": "dwarves/malye-tonneli",
+  "name": "Малые Тоннели",
+  "sections": [],
+  "items": [
+    {
+      "n": "Колчан Скорости",
+      "name": "Колчан Скорости",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_Skorosti.jpg",
+      "locs": [
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Страж, Проклятые Големы"
+    },
+    {
+      "n": "Белый Шар",
+      "name": "Белый Шар",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Beliy_Shar.jpg",
+      "locs": [
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Тень, Мёртвый Рудокоп, Проклятые Големы, Голем"
+    },
+    {
+      "n": "Топор Горняка",
+      "name": "Топор Горняка",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "",
+      "locs": [
+        "dwarves/malye-tonneli"
+      ],
+      "m": "Проклятые Големы"
+    },
+    {
+      "n": "Метательный Топорик",
+      "name": "Метательный Топорик",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Metatelniy_Toporik.jpg",
+      "locs": [
+        "dwarves/malye-tonneli"
+      ],
+      "m": "Проклятые Големы"
+    }
+  ]
+}

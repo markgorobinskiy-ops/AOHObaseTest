@@ -57,9 +57,10 @@
       "rarity": "Особый",
       "img": "Djavol_Stopi.jpg",
       "locs": [
-        "humans/amissvud"
+        "humans/amissvud",
+        "humans/tannervill"
       ],
-      "m": "Волк"
+      "m": "Волк, Вепрь"
     },
     {
       "n": "Обсидиановая Сфера",
@@ -152,6 +153,74 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "Tis_Kolchan.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Энт"
+    },
+    {
+      "n": "Золотой Кафтан",
+      "name": "Золотой Кафтан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Zolotoi_Kaftan.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/tannervill"
+      ],
+      "m": "Вепрь, Волк"
+    },
+    {
+      "n": "Перчатки с Серебрянными Шипами",
+      "name": "Перчатки с Серебрянными Шипами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_s_Serebryannimi_Shipami.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya"
+      ],
+      "m": "Волк, Вепрь Гримгольда"
+    },
+    {
+      "n": "Колчан из Рога",
+      "name": "Колчан из Рога",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_iz_Roga.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Энт"
+    },
+    {
+      "n": "Капюшон Подлеца",
+      "name": "Капюшон Подлеца",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kap_Podleca.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Энт"
+    },
+    {
+      "n": "Перчатки Саламандры",
+      "name": "Перчатки Саламандры",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Salamandri.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Волк"
+    },
+    {
+      "n": "Туника Духа Грозы",
+      "name": "Туника Духа Грозы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Tunika_Duha_Grozi.jpg",
       "locs": [
         "humans/amissvud"
       ],

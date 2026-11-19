@@ -49,6 +49,51 @@
         "humans/perekreste"
       ],
       "m": "Злые Разбойники"
+    },
+    {
+      "n": "Кричащее Лезвие",
+      "name": "Кричащее Лезвие",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Krik_Lezvie.jpg",
+      "locs": [
+        "humans/korneyl",
+        "humans/perekreste"
+      ],
+      "m": "Разбойники, Злые Разбойники"
+    },
+    {
+      "n": "Рунический Меч",
+      "name": "Рунический Меч",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Run_Sword.jpg",
+      "locs": [
+        "humans/perekreste"
+      ],
+      "m": "Жестокие Разбойники"
+    },
+    {
+      "n": "Копьё Триария",
+      "name": "Копьё Триария",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kopjo_Triaria.jpg",
+      "locs": [
+        "humans/perekreste"
+      ],
+      "m": "Свирепые Орки"
+    },
+    {
+      "n": "Гвардейская Сабля",
+      "name": "Гвардейская Сабля",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gvardeiskaja_Sablja.jpg",
+      "locs": [
+        "humans/perekreste"
+      ],
+      "m": "Жестокие Разбойники"
     }
   ]
 }

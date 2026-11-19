@@ -13,6 +13,18 @@
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
       "m": "Глядящий в Воду"
+    },
+    {
+      "n": "Перчатки с Топазами",
+      "name": "Перчатки с Топазами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_s_Topazami.jpg",
+      "locs": [
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
+      ],
+      "m": "Глядящий в Воду, Кабан"
     }
   ]
 }

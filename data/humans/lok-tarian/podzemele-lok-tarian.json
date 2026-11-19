@@ -1,0 +1,30 @@
+{
+  "id": "humans/lok-tarian/podzemele-lok-tarian",
+  "name": "Подземелье Лок-Тариан",
+  "sections": [],
+  "items": [
+    {
+      "n": "Топор Глубинного Холода",
+      "name": "Топор Глубинного Холода",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Topor_Glubinnogo_Holoda.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian"
+      ],
+      "m": "Гора Трупов"
+    },
+    {
+      "n": "Полумесяц",
+      "name": "Полумесяц",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Polumesjac.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian",
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Гора Трупов, Снеговик"
+    }
+  ]
+}

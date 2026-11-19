@@ -19,6 +19,40 @@
         "orcs/stoybische_gryzuschih_kosti"
       ],
       "m": "Варг"
+    },
+    {
+      "n": "Красный Кафтан",
+      "name": "Красный Кафтан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Red_Kaftan.jpg",
+      "locs": [
+        "orcs/stoybische_gryzuschih_kosti"
+      ],
+      "m": "Варг"
+    },
+    {
+      "n": "Перчатки с Топазами",
+      "name": "Перчатки с Топазами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_s_Topazami.jpg",
+      "locs": [
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
+      ],
+      "m": "Глядящий в Воду, Кабан"
+    },
+    {
+      "n": "Перчатки из Скальпа Барда",
+      "name": "Перчатки из Скальпа Барда",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_iz_Skalp_Bard.jpg",
+      "locs": [
+        "orcs/stoybische_gryzuschih_kosti"
+      ],
+      "m": "Кабан"
     }
   ]
 }

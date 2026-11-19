@@ -13,6 +13,17 @@
         "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya"
       ],
       "m": "Гардревар Гирр"
+    },
+    {
+      "n": "Гоблинский Колчан",
+      "name": "Гоблинский Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Goblin_Kolchan.jpg",
+      "locs": [
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya"
+      ],
+      "m": "Бандит"
     }
   ]
 }

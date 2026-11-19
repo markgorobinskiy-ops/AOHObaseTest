@@ -56,6 +56,11 @@
       "name": "Заброшенная Стоянка Орков",
       "id": "orcs/zabroshennaya-stoyanka-orkov",
       "data": "data/orcs/zabroshennaya-stoyanka-orkov.json"
+    },
+    {
+      "name": "Долина Волчьих Клыков (Скрытая локация)",
+      "id": "orcs/dolina-volchih-klykov-skrytaya-lokaciya",
+      "data": "data/orcs/dolina-volchih-klykov-skrytaya-lokaciya.json"
     }
   ],
   "items": []

@@ -1,0 +1,18 @@
+{
+  "id": "humans/lenino-portalnaya-zona/ploschad-imgorkogo",
+  "name": "Площадь им.Горького",
+  "sections": [],
+  "items": [
+    {
+      "n": "Орочий Ятаган",
+      "name": "Орочий Ятаган",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Ork_Jatagan.jpg",
+      "locs": [
+        "humans/lenino-portalnaya-zona/ploschad-imgorkogo"
+      ],
+      "m": "Шпана"
+    }
+  ]
+}

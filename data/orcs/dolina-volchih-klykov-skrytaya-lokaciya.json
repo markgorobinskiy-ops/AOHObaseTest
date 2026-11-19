@@ -1,0 +1,18 @@
+{
+  "id": "orcs/dolina-volchih-klykov-skrytaya-lokaciya",
+  "name": "Долина Волчьих Клыков (Скрытая локация)",
+  "sections": [],
+  "items": [
+    {
+      "n": "Семизубый Меч",
+      "name": "Семизубый Меч",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Semizybiy_Mech.jpg",
+      "locs": [
+        "orcs/dolina-volchih-klykov-skrytaya-lokaciya"
+      ],
+      "m": "Воевода"
+    }
+  ]
+}

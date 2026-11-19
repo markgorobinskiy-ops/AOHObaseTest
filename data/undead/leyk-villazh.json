@@ -13,6 +13,50 @@
         "undead/leyk-villazh"
       ],
       "m": "Страж Моста"
+    },
+    {
+      "n": "Шляпа Колдуна",
+      "name": "Шляпа Колдуна",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "",
+      "locs": [
+        "undead/leyk-villazh"
+      ],
+      "m": "Мёртвый Маг"
+    },
+    {
+      "n": "Глефа Ярости",
+      "name": "Глефа Ярости",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Glefa_Jarosti.jpg",
+      "locs": [
+        "undead/leyk-villazh"
+      ],
+      "m": "Страж Моста"
+    },
+    {
+      "n": "Копьё Триария",
+      "name": "Копьё Триария",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kopjo_Triaria.jpg",
+      "locs": [
+        "undead/leyk-villazh"
+      ],
+      "m": "Страж Моста"
+    },
+    {
+      "n": "Копьё Милосердия",
+      "name": "Копьё Милосердия",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kopje_Miloserdia.jpg",
+      "locs": [
+        "undead/leyk-villazh"
+      ],
+      "m": "Страж Моста"
     }
   ]
 }

@@ -24,6 +24,28 @@
         "elves/razboynichya-puscha-skrytaya-lokaciya"
       ],
       "m": "Разбойники"
+    },
+    {
+      "n": "Лазурная Шляпа",
+      "name": "Лазурная Шляпа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Lazur_Shljapa.jpg",
+      "locs": [
+        "elves/razboynichya-puscha-skrytaya-lokaciya"
+      ],
+      "m": "Охрана Сундука"
+    },
+    {
+      "n": "Жезл Часовщика",
+      "name": "Жезл Часовщика",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jezl_Chasovshika.jpg",
+      "locs": [
+        "elves/razboynichya-puscha-skrytaya-lokaciya"
+      ],
+      "m": "Разбойники"
     }
   ]
 }

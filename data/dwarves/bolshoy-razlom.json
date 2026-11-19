@@ -13,6 +13,28 @@
         "dwarves/bolshoy-razlom"
       ],
       "m": "Обитатель Разлома"
+    },
+    {
+      "n": "Секира Ярости",
+      "name": "Секира Ярости",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sekira_Jarosti.jpg",
+      "locs": [
+        "dwarves/bolshoy-razlom"
+      ],
+      "m": "Повелитель Разлома"
+    },
+    {
+      "n": "Молот Страха",
+      "name": "Молот Страха",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Molot_Straha.jpg",
+      "locs": [
+        "dwarves/bolshoy-razlom"
+      ],
+      "m": "Обитатель Разлома"
     }
   ]
 }

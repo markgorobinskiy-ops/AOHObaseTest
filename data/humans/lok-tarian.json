@@ -1,0 +1,12 @@
+{
+  "id": "humans/lok-tarian",
+  "name": "Лок-Тариан",
+  "sections": [
+    {
+      "name": "Подземелье Лок-Тариан",
+      "id": "humans/lok-tarian/podzemele-lok-tarian",
+      "data": "data/humans/lok-tarian/podzemele-lok-tarian.json"
+    }
+  ],
+  "items": []
+}

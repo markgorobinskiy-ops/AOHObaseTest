@@ -36,6 +36,17 @@
         "humans/korneyl/peschery-vargov"
       ],
       "m": "Королевская Свора"
+    },
+    {
+      "n": "Теневой Капюшон",
+      "name": "Теневой Капюшон",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Tenevoi_Cap.jpg",
+      "locs": [
+        "humans/korneyl/peschery-vargov"
+      ],
+      "m": "Королевская Свора"
     }
   ]
 }

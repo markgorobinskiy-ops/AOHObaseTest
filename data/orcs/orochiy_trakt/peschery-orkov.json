@@ -1,0 +1,18 @@
+{
+  "id": "orcs/orochiy_trakt/peschery-orkov",
+  "name": "Пещеры Орков",
+  "sections": [],
+  "items": [
+    {
+      "n": "Жезл Изумрудной Розы",
+      "name": "Жезл Изумрудной Розы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jezl_Izumrudnoi_Rozi.jpg",
+      "locs": [
+        "orcs/orochiy_trakt/peschery-orkov"
+      ],
+      "m": "Пещерные Шаманы"
+    }
+  ]
+}

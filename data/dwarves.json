@@ -63,6 +63,11 @@
       "name": "Большой Разлом",
       "id": "dwarves/bolshoy-razlom",
       "data": "data/dwarves/bolshoy-razlom.json"
+    },
+    {
+      "name": "Малые Тоннели",
+      "id": "dwarves/malye-tonneli",
+      "data": "data/dwarves/malye-tonneli.json"
     }
   ],
   "items": [

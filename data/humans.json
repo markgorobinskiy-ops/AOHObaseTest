@@ -69,6 +69,16 @@
       "name": "Гримгольдская Трясина (Скрытая локация)",
       "id": "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
       "data": "data/humans/grimgoldskaya-tryasina-skrytaya-lokaciya.json"
+    },
+    {
+      "name": "Лок-Тариан",
+      "id": "humans/lok-tarian",
+      "data": "data/humans/lok-tarian.json"
+    },
+    {
+      "name": "Ленино (Портальная Зона)",
+      "id": "humans/lenino-portalnaya-zona",
+      "data": "data/humans/lenino-portalnaya-zona.json"
     }
   ],
   "items": []

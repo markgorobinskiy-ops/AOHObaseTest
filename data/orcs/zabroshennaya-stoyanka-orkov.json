@@ -13,6 +13,28 @@
         "orcs/zabroshennaya-stoyanka-orkov"
       ],
       "m": "Труп"
+    },
+    {
+      "n": "Матросский Колчан",
+      "name": "Матросский Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Matros_Kolchan.jpg",
+      "locs": [
+        "orcs/zabroshennaya-stoyanka-orkov"
+      ],
+      "m": "Труп"
+    },
+    {
+      "n": "Обоюдоострый Орочий Топор",
+      "name": "Обоюдоострый Орочий Топор",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Obojudoostriy_Orochiy_Topor.jpg",
+      "locs": [
+        "orcs/zabroshennaya-stoyanka-orkov"
+      ],
+      "m": "Труп"
     }
   ]
 }

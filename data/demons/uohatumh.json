@@ -68,6 +68,29 @@
         "demons/uohatumh"
       ],
       "m": "Миссионеры"
+    },
+    {
+      "n": "Лунный Орб",
+      "name": "Лунный Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Lunniy_Orb.jpg",
+      "locs": [
+        "demons/khoraat",
+        "demons/uohatumh"
+      ],
+      "m": "Исчадие Ада, Миссионеры"
+    },
+    {
+      "n": "Каменная Коса",
+      "name": "Каменная Коса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamennaja_Kosa.jpg",
+      "locs": [
+        "demons/uohatumh"
+      ],
+      "m": "Миссионеры"
     }
   ]
 }

@@ -8,5 +8,17 @@
       "data": "data/dwarves/koldstoun-post/istoschennyy-rudnik.json"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "n": "Камзол с Кружевами",
+      "name": "Камзол с Кружевами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamzol_s_Kruhevami.jpg",
+      "locs": [
+        "dwarves/koldstoun-post"
+      ],
+      "m": "Медведь"
+    }
+  ]
 }

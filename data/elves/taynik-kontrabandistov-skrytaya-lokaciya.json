@@ -69,6 +69,17 @@
         "elves/taynik-kontrabandistov-skrytaya-lokaciya"
       ],
       "m": "Охрана Торговца"
+    },
+    {
+      "n": "Панцирь Теней",
+      "name": "Панцирь Теней",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Pancir_Tenei.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+      ],
+      "m": "Охрана Торговца"
     }
   ]
 }

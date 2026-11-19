@@ -1,0 +1,12 @@
+{
+  "id": "humans/lenino-portalnaya-zona",
+  "name": "Ленино (Портальная Зона)",
+  "sections": [
+    {
+      "name": "Площадь им.Горького",
+      "id": "humans/lenino-portalnaya-zona/ploschad-imgorkogo",
+      "data": "data/humans/lenino-portalnaya-zona/ploschad-imgorkogo.json"
+    }
+  ],
+  "items": []
+}

@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Zolotoi_Kaftan.jpg",
       "locs": [
+        "humans/amissvud",
         "humans/tannervill"
       ],
-      "m": "Вепрь"
+      "m": "Вепрь, Волк"
     },
     {
       "n": "Перчатки из Скальпа Барда",
@@ -51,6 +52,18 @@
         "humans/tannervill"
       ],
       "m": "Волк, Снеговик, Вепрь"
+    },
+    {
+      "n": "Дьяволовы Стопы",
+      "name": "Дьяволовы Стопы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Djavol_Stopi.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/tannervill"
+      ],
+      "m": "Волк, Вепрь"
     }
   ]
 }

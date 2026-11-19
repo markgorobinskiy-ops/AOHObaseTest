@@ -2,5 +2,30 @@
   "id": "demons/5",
   "name": "Кхор’Аат",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Солнечный Орб",
+      "name": "Солнечный Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sun_Orb.jpg",
+      "locs": [
+        "demons/khoraat",
+        "demons/utahatt"
+      ],
+      "m": "Викарии, Исчадие Ада"
+    },
+    {
+      "n": "Лунный Орб",
+      "name": "Лунный Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Lunniy_Orb.jpg",
+      "locs": [
+        "demons/khoraat",
+        "demons/uohatumh"
+      ],
+      "m": "Исчадие Ада, Миссионеры"
+    }
+  ]
 }

@@ -58,6 +58,17 @@
         "demons/thahashsh"
       ],
       "m": "Дикий Варг"
+    },
+    {
+      "n": "Колчан из Рога",
+      "name": "Колчан из Рога",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_iz_Roga.jpg",
+      "locs": [
+        "demons/thahashsh"
+      ],
+      "m": "Дикий Варг"
     }
   ]
 }

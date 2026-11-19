@@ -72,6 +72,73 @@
         "humans/sredinnoe-poberezhe"
       ],
       "m": "Снеговик"
+    },
+    {
+      "n": "Око Грозы",
+      "name": "Око Грозы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Oko_Grozi.jpg",
+      "locs": [
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Снеговик"
+    },
+    {
+      "n": "Полумесяц",
+      "name": "Полумесяц",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Polumesjac.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian",
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Гора Трупов, Снеговик"
+    },
+    {
+      "n": "Ледениющий Кожанный Доспех",
+      "name": "Ледениющий Кожанный Доспех",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Led_Koja_Dospeh.jpg",
+      "locs": [
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Снеговик"
+    },
+    {
+      "n": "Гизарма Ужаса",
+      "name": "Гизарма Ужаса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gizarma_Ujasa.jpg",
+      "locs": [
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Снеговик"
+    },
+    {
+      "n": "Серебрянный Желудь",
+      "name": "Серебрянный Желудь",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Serebro_Jolud.jpg",
+      "locs": [
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Снеговик"
+    },
+    {
+      "n": "Солёные Брызги",
+      "name": "Солёные Брызги",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Solenie_Brizgi.jpg",
+      "locs": [
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Снеговик"
     }
   ]
 }

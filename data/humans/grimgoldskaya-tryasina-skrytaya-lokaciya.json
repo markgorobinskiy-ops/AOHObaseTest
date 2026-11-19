@@ -51,6 +51,18 @@
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya"
       ],
       "m": "Варг Гримгольда"
+    },
+    {
+      "n": "Перчатки с Серебрянными Шипами",
+      "name": "Перчатки с Серебрянными Шипами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_s_Serebryannimi_Shipami.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya"
+      ],
+      "m": "Волк, Вепрь Гримгольда"
     }
   ]
 }

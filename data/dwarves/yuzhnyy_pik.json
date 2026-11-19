@@ -13,6 +13,17 @@
         "dwarves/yuzhnyy_pik"
       ],
       "m": "Дикий Кабан"
+    },
+    {
+      "n": "Камзол Придворного",
+      "name": "Камзол Придворного",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamzol_Pridvornogo.jpg",
+      "locs": [
+        "dwarves/yuzhnyy_pik"
+      ],
+      "m": "Горный Кабан"
     }
   ]
 }
