@@ -50,6 +50,17 @@
         "dwarves/malye-tonneli"
       ],
       "m": "Проклятые Големы"
+    },
+    {
+      "n": "Плачущий Посох",
+      "name": "Плачущий Посох",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Plaksa_Posoh.jpg",
+      "locs": [
+        "dwarves/malye-tonneli"
+      ],
+      "m": "Демоны"
     }
   ]
 }

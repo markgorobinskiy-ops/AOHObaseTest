@@ -32,9 +32,10 @@
       "rarity": "Особый",
       "img": "Kolchan_Skorosti.jpg",
       "locs": [
-        "orcs/derevnya_burevestnikov/peschera-golemov"
+        "orcs/derevnya_burevestnikov/peschera-golemov",
+        "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Големы"
+      "m": "Големы, Глядящий в Воду"
     }
   ]
 }

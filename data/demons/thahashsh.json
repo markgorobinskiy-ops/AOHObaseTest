@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Perchatki_iz_Skalp_Bard.jpg",
       "locs": [
+        "demons/podzemele-marinii",
         "demons/thahashsh"
       ],
-      "m": "Дикий Варг"
+      "m": "Дикий Варг, Грифоны"
     },
     {
       "n": "Меховые Перчатки",
@@ -44,9 +45,10 @@
       "rarity": "Особый",
       "img": "Perchatki_Vechnoi_Zimi.jpg",
       "locs": [
-        "demons/thahashsh"
+        "demons/thahashsh",
+        "demons/uohatumh"
       ],
-      "m": "Дикий Варг"
+      "m": "Дикий Варг, Каратели"
     },
     {
       "n": "Атласный Кафтан",
@@ -65,6 +67,39 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "Kolchan_iz_Roga.jpg",
+      "locs": [
+        "demons/thahashsh"
+      ],
+      "m": "Дикий Варг"
+    },
+    {
+      "n": "Лиственная Туника",
+      "name": "Лиственная Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Listvennaja_Tunika.jpg",
+      "locs": [
+        "demons/thahashsh"
+      ],
+      "m": "Дикий Варг"
+    },
+    {
+      "n": "Камзол с Кружевами",
+      "name": "Камзол с Кружевами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamzol_s_Kruhevami.jpg",
+      "locs": [
+        "demons/thahashsh"
+      ],
+      "m": "Дикий Варг"
+    },
+    {
+      "n": "Дьяволовы Стопы",
+      "name": "Дьяволовы Стопы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Djavol_Stopi.jpg",
       "locs": [
         "demons/thahashsh"
       ],

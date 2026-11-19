@@ -91,6 +91,64 @@
         "demons/uohatumh"
       ],
       "m": "Миссионеры"
+    },
+    {
+      "n": "Малахитовая Сфера",
+      "name": "Малахитовая Сфера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Malahit_Sphere.jpg",
+      "locs": [
+        "demons/ashtumh",
+        "demons/uohatumh",
+        "demons/utahatt"
+      ],
+      "m": "Дух Огня, Викарии, Каратели"
+    },
+    {
+      "n": "Перчатки Вечной Зимы",
+      "name": "Перчатки Вечной Зимы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Vechnoi_Zimi.jpg",
+      "locs": [
+        "demons/thahashsh",
+        "demons/uohatumh"
+      ],
+      "m": "Дикий Варг, Каратели"
+    },
+    {
+      "n": "Перчатки Везунчика",
+      "name": "Перчатки Везунчика",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Vezunchika.jpg",
+      "locs": [
+        "demons/uohatumh"
+      ],
+      "m": "Каратели"
+    },
+    {
+      "n": "Рунический Стилет",
+      "name": "Рунический Стилет",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Runic_Stilet.jpg",
+      "locs": [
+        "demons/uohatumh"
+      ],
+      "m": "Каратели"
+    },
+    {
+      "n": "Посох Перепутья",
+      "name": "Посох Перепутья",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Posoh_Pereputja.jpg",
+      "locs": [
+        "demons/uohatumh"
+      ],
+      "m": "Миссионеры"
     }
   ]
 }

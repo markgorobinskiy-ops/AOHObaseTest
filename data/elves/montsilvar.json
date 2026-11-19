@@ -55,9 +55,10 @@
       "rarity": "Особый",
       "img": "Tis_Kolchan.jpg",
       "locs": [
-        "elves/montsilvar"
+        "elves/montsilvar",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
       ],
-      "m": "Зверь"
+      "m": "Зверь, Минотавр"
     },
     {
       "n": "Отравленная Туника",
@@ -114,6 +115,18 @@
         "elves/montsilvar"
       ],
       "m": "Зверь"
+    },
+    {
+      "n": "Льдистый Капюшон",
+      "name": "Льдистый Капюшон",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Led_Kap.jpg",
+      "locs": [
+        "elves/lordeleyn",
+        "elves/montsilvar"
+      ],
+      "m": "Бешенный Единорог, Зверь"
     }
   ]
 }

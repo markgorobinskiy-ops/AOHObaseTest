@@ -313,6 +313,40 @@
         "humans/korneyl/peschery"
       ],
       "m": "Послушники Тьмы"
+    },
+    {
+      "n": "Ритуальный Клинок",
+      "name": "Ритуальный Клинок",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Ritualniy_Klinok.jpg",
+      "locs": [
+        "humans/korneyl/peschery",
+        "humans/reyden"
+      ],
+      "m": "Жестокие Демоны, Толпы Скелетов"
+    },
+    {
+      "n": "Варварский Молот",
+      "name": "Варварский Молот",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Barbarian_Hammer.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Зомби"
+    },
+    {
+      "n": "Танцующая Шляпа",
+      "name": "Танцующая Шляпа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Dancing_Shljapa.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Зомби, Толпы Скелетов, Послушники Тьмы"
     }
   ]
 }

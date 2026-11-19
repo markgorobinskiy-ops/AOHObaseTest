@@ -10,9 +10,21 @@
       "rarity": "Особый",
       "img": "Prokljataja_Sarissa.jpg",
       "locs": [
+        "undead/medilanskoe_nagore/labirint",
+        "undead/poselenie_v_delte/peschery_pod_rekoy"
+      ],
+      "m": "Заблудший, Изгнанники"
+    },
+    {
+      "n": "Лунный Орб",
+      "name": "Лунный Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Lunniy_Orb.jpg",
+      "locs": [
         "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Заблудший"
+      "m": "Потерянная Душа"
     }
   ]
 }

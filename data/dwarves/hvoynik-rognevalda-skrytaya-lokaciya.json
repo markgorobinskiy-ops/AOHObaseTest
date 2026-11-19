@@ -21,9 +21,10 @@
       "rarity": "Особый",
       "img": "Medniy_Dospeh.jpg",
       "locs": [
+        "dwarves/garrgrin",
         "dwarves/hvoynik-rognevalda-skrytaya-lokaciya"
       ],
-      "m": "Охрана"
+      "m": "Охрана, Отец Леррага"
     },
     {
       "n": "Белый Шар",

@@ -27,9 +27,10 @@
       "rarity": "Особый",
       "img": "Perchatki_Salamandri.jpg",
       "locs": [
+        "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Стражи Подземелий"
+      "m": "Стражи Подземелий, Глядящий в Воду"
     },
     {
       "n": "Палаческий Меч",

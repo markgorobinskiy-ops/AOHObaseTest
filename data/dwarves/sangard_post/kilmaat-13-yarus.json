@@ -59,9 +59,10 @@
       "rarity": "Особый",
       "img": "Matros_Kolchan.jpg",
       "locs": [
+        "dwarves/bolshoy-razlom",
         "dwarves/sangard_post/kilmaat-13-yarus"
       ],
-      "m": "Страж, Привратник"
+      "m": "Страж, Привратник, Обитатель Разлома"
     },
     {
       "n": "Гизарма Ужаса",
@@ -71,9 +72,10 @@
       "img": "Gizarma_Ujasa.jpg",
       "locs": [
         "dwarves/garrgrin/razvaliny-tigbumortmara",
-        "dwarves/sangard_post/kilmaat-13-yarus"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik"
       ],
-      "m": "Страж, Привратник, Древний"
+      "m": "Страж, Привратник, Древний, Цербер Тени"
     },
     {
       "n": "Глаз Мантикоры",
@@ -104,6 +106,17 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "Sphere_Fei.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Страж, Привратник"
+    },
+    {
+      "n": "Цветочный Орб",
+      "name": "Цветочный Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Flower_Orb.jpg",
       "locs": [
         "dwarves/sangard_post/kilmaat-13-yarus"
       ],

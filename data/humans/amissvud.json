@@ -71,9 +71,10 @@
       "locs": [
         "humans/amissvud",
         "humans/hargorskaya-plesh-skrytaya-lokaciya",
+        "humans/pograniche_sever",
         "humans/sredinnoe-poberezhe"
       ],
-      "m": "Энт, Снеговик, Мёртвый Орк"
+      "m": "Энт, Снеговик, Мёртвый Орк, Беглец"
     },
     {
       "n": "Кафтан Академика",
@@ -178,9 +179,10 @@
       "img": "Perchatki_s_Serebryannimi_Shipami.jpg",
       "locs": [
         "humans/amissvud",
-        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya"
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/hizhina-lesnika"
       ],
-      "m": "Волк, Вепрь Гримгольда"
+      "m": "Волк, Вепрь Гримгольда, Зверь"
     },
     {
       "n": "Колчан из Рога",
@@ -221,6 +223,61 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "Tunika_Duha_Grozi.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Энт"
+    },
+    {
+      "n": "Кровавые Перчатки",
+      "name": "Кровавые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Энт"
+    },
+    {
+      "n": "Цветочный Орб",
+      "name": "Цветочный Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Flower_Orb.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Энт"
+    },
+    {
+      "n": "Камзол с Кружевами",
+      "name": "Камзол с Кружевами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamzol_s_Kruhevami.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Волк"
+    },
+    {
+      "n": "Опалённая Туника",
+      "name": "Опалённая Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Opalennaja_Tunika.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Энт"
+    },
+    {
+      "n": "Колчан Аристократа",
+      "name": "Колчан Аристократа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_Aristo.jpg",
       "locs": [
         "humans/amissvud"
       ],

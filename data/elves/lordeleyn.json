@@ -43,9 +43,10 @@
       "rarity": "Особый",
       "img": "Led_Kap.jpg",
       "locs": [
-        "elves/lordeleyn"
+        "elves/lordeleyn",
+        "elves/montsilvar"
       ],
-      "m": "Бешенный Единорог"
+      "m": "Бешенный Единорог, Зверь"
     }
   ]
 }

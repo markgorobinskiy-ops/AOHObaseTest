@@ -80,6 +80,28 @@
         "elves/taynik-kontrabandistov-skrytaya-lokaciya"
       ],
       "m": "Охрана Торговца"
+    },
+    {
+      "n": "Туника Духа Грозы",
+      "name": "Туника Духа Грозы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Tunika_Duha_Grozi.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+      ],
+      "m": "Охрана Торговца"
+    },
+    {
+      "n": "Поцелуй Медузы",
+      "name": "Поцелуй Медузы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Medusa_Kiss.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+      ],
+      "m": "Охрана Торговца"
     }
   ]
 }

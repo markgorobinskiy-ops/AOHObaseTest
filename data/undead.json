@@ -46,6 +46,11 @@
       "name": "Лейк-Виллаж",
       "id": "undead/leyk-villazh",
       "data": "data/undead/leyk-villazh.json"
+    },
+    {
+      "name": "Деревня Умалишенных",
+      "id": "undead/derevnya-umalishennyh",
+      "data": "data/undead/derevnya-umalishennyh.json"
     }
   ],
   "items": []

@@ -1,0 +1,18 @@
+{
+  "id": "undead/derevnya-umalishennyh",
+  "name": "Деревня Умалишенных",
+  "sections": [],
+  "items": [
+    {
+      "n": "Секира Древнего Ужаса",
+      "name": "Секира Древнего Ужаса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sekira_Drevnego_Ujasa.jpg",
+      "locs": [
+        "undead/derevnya-umalishennyh"
+      ],
+      "m": "Святоша"
+    }
+  ]
+}

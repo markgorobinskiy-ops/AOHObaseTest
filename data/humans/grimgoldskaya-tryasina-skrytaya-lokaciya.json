@@ -60,9 +60,10 @@
       "img": "Perchatki_s_Serebryannimi_Shipami.jpg",
       "locs": [
         "humans/amissvud",
-        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya"
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/hizhina-lesnika"
       ],
-      "m": "Волк, Вепрь Гримгольда"
+      "m": "Волк, Вепрь Гримгольда, Зверь"
     }
   ]
 }

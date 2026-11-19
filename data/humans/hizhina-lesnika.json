@@ -27,6 +27,19 @@
         "humans/hizhina-lesnika"
       ],
       "m": "Зверь, Энт"
+    },
+    {
+      "n": "Перчатки с Серебрянными Шипами",
+      "name": "Перчатки с Серебрянными Шипами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_s_Serebryannimi_Shipami.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/hizhina-lesnika"
+      ],
+      "m": "Волк, Вепрь Гримгольда, Зверь"
     }
   ]
 }

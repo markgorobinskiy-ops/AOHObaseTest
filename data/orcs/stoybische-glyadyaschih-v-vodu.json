@@ -25,6 +25,63 @@
         "orcs/stoybische_gryzuschih_kosti"
       ],
       "m": "Глядящий в Воду, Кабан"
+    },
+    {
+      "n": "Перчатки Саламандры",
+      "name": "Перчатки Саламандры",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Salamandri.jpg",
+      "locs": [
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
+      ],
+      "m": "Стражи Подземелий, Глядящий в Воду"
+    },
+    {
+      "n": "Колчан Скорости",
+      "name": "Колчан Скорости",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_Skorosti.jpg",
+      "locs": [
+        "orcs/derevnya_burevestnikov/peschera-golemov",
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Големы, Глядящий в Воду"
+    },
+    {
+      "n": "Медный Доспех",
+      "name": "Медный Доспех",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Medniy_Dospeh.jpg",
+      "locs": [
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Глядящий в Воду"
+    },
+    {
+      "n": "Офицерский Кортик",
+      "name": "Офицерский Кортик",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Oficer_Kortik.jpg",
+      "locs": [
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Глядящий в Воду"
+    },
+    {
+      "n": "Орочий Ятаган",
+      "name": "Орочий Ятаган",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Ork_Jatagan.jpg",
+      "locs": [
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Глядящий в Воду"
     }
   ]
 }

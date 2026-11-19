@@ -93,6 +93,18 @@
         "demons/podzemele-marinii"
       ],
       "m": "Огни Леса"
+    },
+    {
+      "n": "Перчатки из Скальпа Барда",
+      "name": "Перчатки из Скальпа Барда",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_iz_Skalp_Bard.jpg",
+      "locs": [
+        "demons/podzemele-marinii",
+        "demons/thahashsh"
+      ],
+      "m": "Дикий Варг, Грифоны"
     }
   ]
 }

@@ -104,6 +104,28 @@
         "dwarves/koldstoun-post/istoschennyy-rudnik"
       ],
       "m": "Мёртвый Рудокоп"
+    },
+    {
+      "n": "Лазурная Шляпа",
+      "name": "Лазурная Шляпа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Lazur_Shljapa.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik"
+      ],
+      "m": "Мёртвый Рудокоп"
+    },
+    {
+      "n": "Обсидиановая Чешуя",
+      "name": "Обсидиановая Чешуя",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Obsidian_Cheshuja.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik"
+      ],
+      "m": "Мёртвый Рудокоп"
     }
   ]
 }

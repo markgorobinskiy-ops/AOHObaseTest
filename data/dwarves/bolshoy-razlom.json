@@ -35,6 +35,29 @@
         "dwarves/bolshoy-razlom"
       ],
       "m": "Обитатель Разлома"
+    },
+    {
+      "n": "Матросский Колчан",
+      "name": "Матросский Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Matros_Kolchan.jpg",
+      "locs": [
+        "dwarves/bolshoy-razlom",
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Страж, Привратник, Обитатель Разлома"
+    },
+    {
+      "n": "Танцующая Шляпа",
+      "name": "Танцующая Шляпа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Dancing_Shljapa.jpg",
+      "locs": [
+        "dwarves/bolshoy-razlom"
+      ],
+      "m": "Обитатель Разлома"
     }
   ]
 }

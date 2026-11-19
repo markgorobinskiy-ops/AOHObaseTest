@@ -13,6 +13,28 @@
         "undead/pograniche-yug"
       ],
       "m": "Злой Пограничник"
+    },
+    {
+      "n": "Медный Доспех",
+      "name": "Медный Доспех",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Medniy_Dospeh.jpg",
+      "locs": [
+        "undead/pograniche-yug"
+      ],
+      "m": "Злой Пограничник"
+    },
+    {
+      "n": "Ледяной Панцирь",
+      "name": "Ледяной Панцирь",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Ice_Pancir.jpg",
+      "locs": [
+        "undead/pograniche-yug"
+      ],
+      "m": "Злой Пограничник"
     }
   ]
 }

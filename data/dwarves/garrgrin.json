@@ -13,5 +13,18 @@
       "data": "data/dwarves/garrgrin/razvaliny-tigbumortmara.json"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "n": "Медный Доспех",
+      "name": "Медный Доспех",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Medniy_Dospeh.jpg",
+      "locs": [
+        "dwarves/garrgrin",
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya"
+      ],
+      "m": "Охрана, Отец Леррага"
+    }
+  ]
 }

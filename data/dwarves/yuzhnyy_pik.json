@@ -24,6 +24,30 @@
         "dwarves/yuzhnyy_pik"
       ],
       "m": "Горный Кабан"
+    },
+    {
+      "n": "Гизарма Ужаса",
+      "name": "Гизарма Ужаса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gizarma_Ujasa.jpg",
+      "locs": [
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik"
+      ],
+      "m": "Страж, Привратник, Древний, Цербер Тени"
+    },
+    {
+      "n": "Камзол с Языками Пламени",
+      "name": "Камзол с Языками Пламени",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamzol_s_Yazik_Plameni.jpg",
+      "locs": [
+        "dwarves/yuzhnyy_pik"
+      ],
+      "m": "Горный Кабан"
     }
   ]
 }

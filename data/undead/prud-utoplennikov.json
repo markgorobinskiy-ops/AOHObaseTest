@@ -76,9 +76,10 @@
       "rarity": "Особый",
       "img": "Iskr_Orb.jpg",
       "locs": [
-        "undead/prud-utoplennikov"
+        "undead/prud-utoplennikov",
+        "undead/topi"
       ],
-      "m": "Утопленник"
+      "m": "Утопленник, Гидра"
     }
   ]
 }
