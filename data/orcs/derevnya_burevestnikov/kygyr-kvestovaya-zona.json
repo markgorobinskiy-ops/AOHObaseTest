@@ -14,6 +14,40 @@
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
       "m": "Глядящий в Воду, Кабан"
+    },
+    {
+      "n": "Льдистый Капюшон",
+      "name": "Льдистый Капюшон",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Led_Kap.jpg",
+      "locs": [
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
+        "orcs/solonchaki"
+      ],
+      "m": "Злые Кочевники, Волк"
+    },
+    {
+      "n": "Отравленная Туника",
+      "name": "Отравленная Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Otravlennaja_Tunika.jpg",
+      "locs": [
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona"
+      ],
+      "m": "Волк"
+    },
+    {
+      "n": "Дьяволовы Стопы",
+      "name": "Дьяволовы Стопы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Djavol_Stopi.jpg",
+      "locs": [
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona"
+      ],
+      "m": "Волк"
     }
   ]
 }

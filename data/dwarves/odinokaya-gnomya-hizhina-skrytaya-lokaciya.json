@@ -21,9 +21,10 @@
       "rarity": "Особый",
       "img": "Goblin_Kolchan.jpg",
       "locs": [
-        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya"
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
+        "dwarves/sangard_post/kilmaat-13-yarus"
       ],
-      "m": "Бандит"
+      "m": "Бандит, Тень, Страж, Привратник"
     }
   ]
 }

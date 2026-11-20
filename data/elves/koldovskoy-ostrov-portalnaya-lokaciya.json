@@ -1,0 +1,18 @@
+{
+  "id": "elves/koldovskoy-ostrov-portalnaya-lokaciya",
+  "name": "Колдовской Остров (Портальная локация)",
+  "sections": [],
+  "items": [
+    {
+      "n": "Перчатки из Скальпа Барда",
+      "name": "Перчатки из Скальпа Барда",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_iz_Skalp_Bard.jpg",
+      "locs": [
+        "elves/koldovskoy-ostrov-portalnaya-lokaciya"
+      ],
+      "m": "Питомец Эстера"
+    }
+  ]
+}

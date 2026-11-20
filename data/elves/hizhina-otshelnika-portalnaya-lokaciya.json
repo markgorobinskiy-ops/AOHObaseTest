@@ -1,0 +1,19 @@
+{
+  "id": "elves/hizhina-otshelnika-portalnaya-lokaciya",
+  "name": "Хижина Отшельника (Портальная локация)",
+  "sections": [],
+  "items": [
+    {
+      "n": "Колчан Тьмы",
+      "name": "Колчан Тьмы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_TbmbI.jpg",
+      "locs": [
+        "elves/hizhina-otshelnika-portalnaya-lokaciya",
+        "elves/nael_tae"
+      ],
+      "m": "Дикие Пегасы, Страж Души"
+    }
+  ]
+}

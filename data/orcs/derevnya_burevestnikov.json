@@ -25,6 +25,17 @@
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
       "m": "Волк, Глядящий в Воду"
+    },
+    {
+      "n": "Перчатки Чернокнижника",
+      "name": "Перчатки Чернокнижника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Chernoknijnik_Glowes.jpg",
+      "locs": [
+        "orcs/derevnya_burevestnikov"
+      ],
+      "m": "Волк"
     }
   ]
 }

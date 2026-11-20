@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Kolchan_Aristo.jpg",
       "locs": [
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "orcs/zabroshennaya-stoyanka-orkov"
       ],
-      "m": "Труп"
+      "m": "Труп, Стражи Подземелий"
     },
     {
       "n": "Матросский Колчан",

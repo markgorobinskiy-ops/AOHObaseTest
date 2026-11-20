@@ -81,6 +81,18 @@
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
       ],
       "m": "Минотавр"
+    },
+    {
+      "n": "Сфера Фей",
+      "name": "Сфера Фей",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sphere_Fei.jpg",
+      "locs": [
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+      ],
+      "m": "Охрана Торговца, Минотавр"
     }
   ]
 }

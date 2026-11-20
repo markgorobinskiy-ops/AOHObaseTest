@@ -21,9 +21,10 @@
       "rarity": "Особый",
       "img": "Led_Kap.jpg",
       "locs": [
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
         "orcs/solonchaki"
       ],
-      "m": "Злые Кочевники"
+      "m": "Злые Кочевники, Волк"
     },
     {
       "n": "Меховые Перчатки",

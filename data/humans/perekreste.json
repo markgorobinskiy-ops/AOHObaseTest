@@ -25,7 +25,7 @@
         "humans/korneyl/peschery-vargov",
         "humans/perekreste"
       ],
-      "m": "Варги, Королевская Свора"
+      "m": "Варги, Свирепые Варги, Королевская Свора"
     },
     {
       "n": "Султаримский Меч",
@@ -101,6 +101,17 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "Magic_Shield.jpg",
+      "locs": [
+        "humans/perekreste"
+      ],
+      "m": "Свирепые Орки"
+    },
+    {
+      "n": "Сияющая Пика",
+      "name": "Сияющая Пика",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Light_Pika.jpg",
       "locs": [
         "humans/perekreste"
       ],

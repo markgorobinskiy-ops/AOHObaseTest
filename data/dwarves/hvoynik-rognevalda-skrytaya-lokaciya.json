@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Malahit_Sphere.jpg",
       "locs": [
-        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya"
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "dwarves/malye-tonneli"
       ],
-      "m": "Голем"
+      "m": "Голем, Демоны"
     },
     {
       "n": "Медный Доспех",

@@ -53,6 +53,16 @@
       "name": "Тайник Контрабандистов (Скрытая локация)",
       "id": "elves/taynik-kontrabandistov-skrytaya-lokaciya",
       "data": "data/elves/taynik-kontrabandistov-skrytaya-lokaciya.json"
+    },
+    {
+      "name": "Хижина Отшельника (Портальная локация)",
+      "id": "elves/hizhina-otshelnika-portalnaya-lokaciya",
+      "data": "data/elves/hizhina-otshelnika-portalnaya-lokaciya.json"
+    },
+    {
+      "name": "Колдовской Остров (Портальная локация)",
+      "id": "elves/koldovskoy-ostrov-portalnaya-lokaciya",
+      "data": "data/elves/koldovskoy-ostrov-portalnaya-lokaciya.json"
     }
   ],
   "items": []

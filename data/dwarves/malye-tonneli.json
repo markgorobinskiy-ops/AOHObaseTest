@@ -62,6 +62,18 @@
         "dwarves/malye-tonneli"
       ],
       "m": "Демоны"
+    },
+    {
+      "n": "Малахитовая Сфера",
+      "name": "Малахитовая Сфера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Malahit_Sphere.jpg",
+      "locs": [
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "dwarves/malye-tonneli"
+      ],
+      "m": "Голем, Демоны"
     }
   ]
 }

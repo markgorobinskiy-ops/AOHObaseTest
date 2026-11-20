@@ -79,6 +79,11 @@
       "name": "Ленино (Портальная Зона)",
       "id": "humans/lenino-portalnaya-zona",
       "data": "data/humans/lenino-portalnaya-zona.json"
+    },
+    {
+      "name": "Микрорайон (Портальная локация)",
+      "id": "humans/mikrorayon-portalnaya-lokaciya",
+      "data": "data/humans/mikrorayon-portalnaya-lokaciya.json"
     }
   ],
   "items": []

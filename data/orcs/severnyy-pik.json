@@ -1,0 +1,18 @@
+{
+  "id": "orcs/severnyy-pik",
+  "name": "Северный Пик",
+  "sections": [],
+  "items": [
+    {
+      "n": "Гномий Колчан",
+      "name": "Гномий Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gnomiy_Kolchan.jpg",
+      "locs": [
+        "orcs/severnyy-pik"
+      ],
+      "m": "Дикий Кабан"
+    }
+  ]
+}

@@ -55,6 +55,74 @@
       "rarity": "Особый",
       "img": "Dancing_Shljapa.jpg",
       "locs": [
+        "dwarves/bolshoy-razlom",
+        "dwarves/koldstoun-post/istoschennyy-rudnik"
+      ],
+      "m": "Обитатель Разлома, Мёртвый Рудокоп"
+    },
+    {
+      "n": "Топор Неугасимого Огня",
+      "name": "Топор Неугасимого Огня",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Axe_Neugasimogo_Ognja.jpg",
+      "locs": [
+        "dwarves/bolshoy-razlom"
+      ],
+      "m": "Обитатель Разлома"
+    },
+    {
+      "n": "Огненный Капюшон",
+      "name": "Огненный Капюшон",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Fire_Cap.jpg",
+      "locs": [
+        "dwarves/bolshoy-razlom"
+      ],
+      "m": "Повелитель Разлома"
+    },
+    {
+      "n": "Искрящийся Орб",
+      "name": "Искрящийся Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Iskr_Orb.jpg",
+      "locs": [
+        "dwarves/bolshoy-razlom",
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Обитатель Разлома, Тень, Страж, Привратник"
+    },
+    {
+      "n": "Огненный Доспех",
+      "name": "Огненный Доспех",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Fire_Dospeh.jpg",
+      "locs": [
+        "dwarves/bolshoy-razlom"
+      ],
+      "m": "Обитатель Разлома"
+    },
+    {
+      "n": "Инеевая Кирасса",
+      "name": "Инеевая Кирасса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Ineevaja_Kirassa.jpg",
+      "locs": [
+        "dwarves/bolshoy-razlom"
+      ],
+      "m": "Обитатель Разлома"
+    },
+    {
+      "n": "Крикет",
+      "name": "Крикет",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kriket.jpg",
+      "locs": [
         "dwarves/bolshoy-razlom"
       ],
       "m": "Обитатель Разлома"

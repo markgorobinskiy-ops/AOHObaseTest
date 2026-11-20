@@ -1,0 +1,30 @@
+{
+  "id": "humans/mikrorayon-portalnaya-lokaciya",
+  "name": "Микрорайон (Портальная локация)",
+  "sections": [],
+  "items": [
+    {
+      "n": "Топор Берсерка",
+      "name": "Топор Берсерка",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Axe_of_Berserk.jpg",
+      "locs": [
+        "humans/korneyl/peschery",
+        "humans/mikrorayon-portalnaya-lokaciya"
+      ],
+      "m": "Толпа Зомби, Гопник"
+    },
+    {
+      "n": "Рунический Стилет",
+      "name": "Рунический Стилет",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Runic_Stilet.jpg",
+      "locs": [
+        "humans/mikrorayon-portalnaya-lokaciya"
+      ],
+      "m": "Гопник"
+    }
+  ]
+}

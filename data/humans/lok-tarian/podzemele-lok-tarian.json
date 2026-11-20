@@ -80,6 +80,72 @@
         "humans/lok-tarian/podzemele-lok-tarian"
       ],
       "m": "Гора Трупов"
+    },
+    {
+      "n": "Вулканический Молот",
+      "name": "Вулканический Молот",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Volcanic_Hammer.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian"
+      ],
+      "m": "Гора Трупов"
+    },
+    {
+      "n": "Дробитель",
+      "name": "Дробитель",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Drobitel.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian"
+      ],
+      "m": "Гора Трупов"
+    },
+    {
+      "n": "Топор Ревенанта",
+      "name": "Топор Ревенанта",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Revenant_Axe.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian"
+      ],
+      "m": "Гора Трупов"
+    },
+    {
+      "n": "Копьё Миротворца",
+      "name": "Копьё Миротворца",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kopje_Mirotvorca.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian"
+      ],
+      "m": "Гора Трупов"
+    },
+    {
+      "n": "Топор Неугасимого Огня",
+      "name": "Топор Неугасимого Огня",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Axe_Neugasimogo_Ognja.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian"
+      ],
+      "m": "Гора Трупов"
+    },
+    {
+      "n": "Роковая Пика",
+      "name": "Роковая Пика",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Rokovaja_Pika.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian"
+      ],
+      "m": "Гора Трупов"
     }
   ]
 }

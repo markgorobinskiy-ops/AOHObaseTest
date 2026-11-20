@@ -55,9 +55,10 @@
       "rarity": "Особый",
       "img": "Sphere_Fei.jpg",
       "locs": [
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "elves/taynik-kontrabandistov-skrytaya-lokaciya"
       ],
-      "m": "Охрана Торговца"
+      "m": "Охрана Торговца, Минотавр"
     },
     {
       "n": "Сапоги из Кожи Варга",

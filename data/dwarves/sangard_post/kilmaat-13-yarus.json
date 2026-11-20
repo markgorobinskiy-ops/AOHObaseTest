@@ -123,6 +123,98 @@
         "dwarves/sangard_post/kilmaat-13-yarus"
       ],
       "m": "Страж, Привратник"
+    },
+    {
+      "n": "Гномья Руна",
+      "name": "Гномья Руна",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gnomja_Runa.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik"
+      ],
+      "m": "Мёртвый Рудокоп, Тень, Страж, Привратник, Цербер Тени"
+    },
+    {
+      "n": "Гоблинский Колчан",
+      "name": "Гоблинский Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Goblin_Kolchan.jpg",
+      "locs": [
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Бандит, Тень, Страж, Привратник"
+    },
+    {
+      "n": "Искрящийся Орб",
+      "name": "Искрящийся Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Iskr_Orb.jpg",
+      "locs": [
+        "dwarves/bolshoy-razlom",
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Обитатель Разлома, Тень, Страж, Привратник"
+    },
+    {
+      "n": "Обсидиановая Сфера",
+      "name": "Обсидиановая Сфера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Obsidian_Sphere.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Тень, Страж, Привратник"
+    },
+    {
+      "n": "Каменный Нож",
+      "name": "Каменный Нож",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamen_Noj.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Тень, Страж, Привратник"
+    },
+    {
+      "n": "Лунный Орб",
+      "name": "Лунный Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Lunniy_Orb.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Тень, Страж, Привратник"
+    },
+    {
+      "n": "Янтарный Кинжал",
+      "name": "Янтарный Кинжал",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jantarniy_Kinjal.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Тень, Страж, Привратник"
+    },
+    {
+      "n": "Сфера Шепотов",
+      "name": "Сфера Шепотов",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sphere_Shopot.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Тень, Страж, Привратник"
     }
   ]
 }

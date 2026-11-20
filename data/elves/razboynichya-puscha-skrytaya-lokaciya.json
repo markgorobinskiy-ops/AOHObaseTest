@@ -46,6 +46,18 @@
         "elves/razboynichya-puscha-skrytaya-lokaciya"
       ],
       "m": "Разбойники"
+    },
+    {
+      "n": "Кровавые Перчатки",
+      "name": "Кровавые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Blood_Glowes.jpg",
+      "locs": [
+        "elves/lordeleyn",
+        "elves/razboynichya-puscha-skrytaya-lokaciya"
+      ],
+      "m": "Изгнанники, Разбойники"
     }
   ]
 }

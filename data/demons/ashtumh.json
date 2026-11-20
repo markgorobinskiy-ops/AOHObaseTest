@@ -83,6 +83,28 @@
         "demons/ashtumh"
       ],
       "m": "Дух Огня"
+    },
+    {
+      "n": "Жезл Часовщика",
+      "name": "Жезл Часовщика",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jezl_Chasovshika.jpg",
+      "locs": [
+        "demons/ashtumh"
+      ],
+      "m": "Дух Огня"
+    },
+    {
+      "n": "Обсидиановая Сфера",
+      "name": "Обсидиановая Сфера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Obsidian_Cheshuja.jpg",
+      "locs": [
+        "demons/ashtumh"
+      ],
+      "m": "Дух Огня"
     }
   ]
 }

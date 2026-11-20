@@ -282,6 +282,17 @@
         "humans/amissvud"
       ],
       "m": "Энт"
+    },
+    {
+      "n": "Глаз Мантикоры",
+      "name": "Глаз Мантикоры",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Glaz_Mantikori.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Энт"
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "id": "undead/nagore-pavshih-geroev-portalnaya-lokaciya",
+  "name": "Нагорье Павших Героев (Портальная локация)",
+  "sections": [],
+  "items": [
+    {
+      "n": "Магнитный Жезл",
+      "name": "Магнитный Жезл",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Magnit_Jezl.jpg",
+      "locs": [
+        "undead/nagore-pavshih-geroev-portalnaya-lokaciya"
+      ],
+      "m": "Придворный Маг"
+    }
+  ]
+}

@@ -51,6 +51,11 @@
       "name": "Деревня Умалишенных",
       "id": "undead/derevnya-umalishennyh",
       "data": "data/undead/derevnya-umalishennyh.json"
+    },
+    {
+      "name": "Нагорье Павших Героев (Портальная локация)",
+      "id": "undead/nagore-pavshih-geroev-portalnaya-lokaciya",
+      "data": "data/undead/nagore-pavshih-geroev-portalnaya-lokaciya.json"
     }
   ],
   "items": []

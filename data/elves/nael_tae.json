@@ -15,9 +15,10 @@
       "rarity": "Особый",
       "img": "Kolchan_TbmbI.jpg",
       "locs": [
+        "elves/hizhina-otshelnika-portalnaya-lokaciya",
         "elves/nael_tae"
       ],
-      "m": "Дикие Пегасы"
+      "m": "Дикие Пегасы, Страж Души"
     },
     {
       "n": "Амулет Лекаря",

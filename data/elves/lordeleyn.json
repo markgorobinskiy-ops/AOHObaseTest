@@ -66,9 +66,10 @@
       "rarity": "Особый",
       "img": "Blood_Glowes.jpg",
       "locs": [
-        "elves/lordeleyn"
+        "elves/lordeleyn",
+        "elves/razboynichya-puscha-skrytaya-lokaciya"
       ],
-      "m": "Изгнанники"
+      "m": "Изгнанники, Разбойники"
     },
     {
       "n": "Колчан Аристократа",

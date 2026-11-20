@@ -61,6 +61,30 @@
         "dwarves/yuzhnyy_pik"
       ],
       "m": "Медведь, Горный Кабан, Горный Варг"
+    },
+    {
+      "n": "Гномья Руна",
+      "name": "Гномья Руна",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gnomja_Runa.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik"
+      ],
+      "m": "Мёртвый Рудокоп, Тень, Страж, Привратник, Цербер Тени"
+    },
+    {
+      "n": "Перчатки Архимага",
+      "name": "Перчатки Архимага",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Archmage.jpg",
+      "locs": [
+        "dwarves/yuzhnyy_pik"
+      ],
+      "m": "Горный Кабан"
     }
   ]
 }

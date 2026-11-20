@@ -95,6 +95,17 @@
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
       "m": "Волк, Глядящий в Воду"
+    },
+    {
+      "n": "Нефритовый Щит",
+      "name": "Нефритовый Щит",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Nefrit_Shield.jpg",
+      "locs": [
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Глядящий в Воду"
     }
   ]
 }

@@ -174,6 +174,62 @@
         "humans/sredinnoe-poberezhe"
       ],
       "m": "Снеговик"
+    },
+    {
+      "n": "Горящий Топор",
+      "name": "Горящий Топор",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Fire_Axe.jpg",
+      "locs": [
+        "humans/reyden",
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Безумные Разбойники, Снеговик"
+    },
+    {
+      "n": "Каменный Нож",
+      "name": "Каменный Нож",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamen_Noj.jpg",
+      "locs": [
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Снеговик"
+    },
+    {
+      "n": "Щит Адского Пламени",
+      "name": "Щит Адского Пламени",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shield_HellFire.jpg",
+      "locs": [
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Снеговик"
+    },
+    {
+      "n": "Лазурная Шляпа",
+      "name": "Лазурная Шляпа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Lazur_Shljapa.jpg",
+      "locs": [
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Снеговик"
+    },
+    {
+      "n": "Накидка Попутного Ветра",
+      "name": "Накидка Попутного Ветра",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Nakidka_Poputnogo_Vetra.jpg",
+      "locs": [
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Снеговик"
     }
   ]
 }

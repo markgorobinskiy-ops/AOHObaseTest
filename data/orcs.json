@@ -66,6 +66,11 @@
       "name": "Тайная Лаборатория Демонидов (Портальная локация)",
       "id": "orcs/taynaya-laboratoriya-demonidov-portalnaya-lokaciya",
       "data": "data/orcs/taynaya-laboratoriya-demonidov-portalnaya-lokaciya.json"
+    },
+    {
+      "name": "Северный Пик",
+      "id": "orcs/severnyy-pik",
+      "data": "data/orcs/severnyy-pik.json"
     }
   ],
   "items": []

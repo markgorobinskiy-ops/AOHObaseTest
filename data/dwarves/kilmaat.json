@@ -2,5 +2,17 @@
   "id": "dwarves/7",
   "name": "Кил’м’Аат",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Изумрудные Латы",
+      "name": "Изумрудные Латы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Izumrud_Lati.jpg",
+      "locs": [
+        "dwarves/kilmaat"
+      ],
+      "m": "Отряд"
+    }
+  ]
 }

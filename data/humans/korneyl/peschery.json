@@ -300,9 +300,10 @@
       "rarity": "Особый",
       "img": "Axe_of_Berserk.jpg",
       "locs": [
-        "humans/korneyl/peschery"
+        "humans/korneyl/peschery",
+        "humans/mikrorayon-portalnaya-lokaciya"
       ],
-      "m": "Толпа Зомби"
+      "m": "Толпа Зомби, Гопник"
     },
     {
       "n": "Друидический Посох",
