@@ -91,6 +91,40 @@
         "humans/korneyl"
       ],
       "m": "Бешенные Варги"
+    },
+    {
+      "n": "Теневой Капюшон",
+      "name": "Теневой Капюшон",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Tenevoi_Cap.jpg",
+      "locs": [
+        "humans/korneyl",
+        "humans/korneyl/peschery-vargov"
+      ],
+      "m": "Королевская Свора, Голодные Варги"
+    },
+    {
+      "n": "Капюшон Убийцы",
+      "name": "Капюшон Убийцы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Killing_Cap.jpg",
+      "locs": [
+        "humans/korneyl"
+      ],
+      "m": "Бешенные Варги"
+    },
+    {
+      "n": "Ореховая Шляпа",
+      "name": "Ореховая Шляпа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Oreh_Shljapa.jpg",
+      "locs": [
+        "humans/korneyl"
+      ],
+      "m": "Толпа Зомби"
     }
   ]
 }

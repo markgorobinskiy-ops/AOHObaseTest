@@ -49,6 +49,18 @@
         "dwarves/yuzhnyy_pik"
       ],
       "m": "Горный Кабан"
+    },
+    {
+      "n": "Перчатки с Топазами",
+      "name": "Перчатки с Топазами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_s_Topazami.jpg",
+      "locs": [
+        "dwarves/medvezhiy-les",
+        "dwarves/yuzhnyy_pik"
+      ],
+      "m": "Медведь, Горный Кабан, Горный Варг"
     }
   ]
 }

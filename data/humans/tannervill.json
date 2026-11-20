@@ -64,6 +64,17 @@
         "humans/tannervill"
       ],
       "m": "Волк, Вепрь"
+    },
+    {
+      "n": "Кровавая Туника",
+      "name": "Кровавая Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Krovavaja_Tunika.jpg",
+      "locs": [
+        "humans/tannervill"
+      ],
+      "m": "Вепрь"
     }
   ]
 }

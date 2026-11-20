@@ -35,6 +35,17 @@
         "orcs/zabroshennaya-stoyanka-orkov"
       ],
       "m": "Труп"
+    },
+    {
+      "n": "Метательный Топорик",
+      "name": "Метательный Топорик",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Metatelniy_Toporik.jpg",
+      "locs": [
+        "orcs/zabroshennaya-stoyanka-orkov"
+      ],
+      "m": "Труп"
     }
   ]
 }

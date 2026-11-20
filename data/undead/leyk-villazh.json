@@ -68,6 +68,17 @@
         "undead/leyk-villazh"
       ],
       "m": "Мёртвый Маг"
+    },
+    {
+      "n": "Шляпа Мастера",
+      "name": "Шляпа Мастера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shljapa_Mastera.jpg",
+      "locs": [
+        "undead/leyk-villazh"
+      ],
+      "m": "Мёртвый Маг"
     }
   ]
 }

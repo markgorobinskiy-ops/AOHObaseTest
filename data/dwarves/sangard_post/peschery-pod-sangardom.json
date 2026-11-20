@@ -1,0 +1,40 @@
+{
+  "id": "dwarves/sangard_post/peschery-pod-sangardom",
+  "name": "Пещеры под Сангардом",
+  "sections": [],
+  "items": [
+    {
+      "n": "Топор Болотного Гоблина",
+      "name": "Топор Болотного Гоблина",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Axe_Bolotniy_Goblin.jpg",
+      "locs": [
+        "dwarves/sangard_post/peschery-pod-sangardom"
+      ],
+      "m": "Разбойник"
+    },
+    {
+      "n": "Перчатки с Серебрянными Шипами",
+      "name": "Перчатки с Серебрянными Шипами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_s_Serebryannimi_Shipami.jpg",
+      "locs": [
+        "dwarves/sangard_post/peschery-pod-sangardom"
+      ],
+      "m": "Скелеты"
+    },
+    {
+      "n": "Перстень Глубинного Ужаса",
+      "name": "Перстень Глубинного Ужаса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perst_Glubinnogo_Ujasa.jpg",
+      "locs": [
+        "dwarves/sangard_post/peschery-pod-sangardom"
+      ],
+      "m": "Разбойники, Друиды"
+    }
+  ]
+}

@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Perchatki_s_Topazami.jpg",
       "locs": [
-        "dwarves/medvezhiy-les"
+        "dwarves/medvezhiy-les",
+        "dwarves/yuzhnyy_pik"
       ],
-      "m": "Медведь"
+      "m": "Медведь, Горный Кабан, Горный Варг"
     },
     {
       "n": "Шепчущие Перчатки",

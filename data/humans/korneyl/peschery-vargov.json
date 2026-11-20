@@ -44,9 +44,10 @@
       "rarity": "Особый",
       "img": "Tenevoi_Cap.jpg",
       "locs": [
+        "humans/korneyl",
         "humans/korneyl/peschery-vargov"
       ],
-      "m": "Королевская Свора"
+      "m": "Королевская Свора, Голодные Варги"
     }
   ]
 }

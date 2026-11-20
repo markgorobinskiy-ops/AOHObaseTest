@@ -2,5 +2,28 @@
   "id": "dwarves/0",
   "name": "Дварфхилл пост",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Зачарованный Капюшон",
+      "name": "Зачарованный Капюшон",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Enchant_Cap.jpg",
+      "locs": [
+        "dwarves/dvarfhill_post"
+      ],
+      "m": "Лесной Волк"
+    },
+    {
+      "n": "Перчатки из Рыбьей Чешуи",
+      "name": "Перчатки из Рыбьей Чешуи",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Fish_Glowes.jpg",
+      "locs": [
+        "dwarves/dvarfhill_post"
+      ],
+      "m": "Лесной Волк"
+    }
+  ]
 }
