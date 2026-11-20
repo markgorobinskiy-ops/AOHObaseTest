@@ -47,6 +47,17 @@
         "dwarves/medvezhiy-les"
       ],
       "m": "Медведь"
+    },
+    {
+      "n": "Красный Кафтан",
+      "name": "Красный Кафтан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Red_Kaftan.jpg",
+      "locs": [
+        "dwarves/medvezhiy-les"
+      ],
+      "m": "Медведь"
     }
   ]
 }

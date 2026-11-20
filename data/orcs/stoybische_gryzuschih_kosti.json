@@ -27,9 +27,10 @@
       "rarity": "Особый",
       "img": "Red_Kaftan.jpg",
       "locs": [
+        "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Варг"
+      "m": "Варг, Глядящий в Воду"
     },
     {
       "n": "Перчатки с Топазами",

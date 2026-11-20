@@ -85,6 +85,30 @@
         "dwarves/yuzhnyy_pik"
       ],
       "m": "Горный Кабан"
+    },
+    {
+      "n": "Малахитовая Сфера",
+      "name": "Малахитовая Сфера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Malahit_Sphere.jpg",
+      "locs": [
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "dwarves/malye-tonneli",
+        "dwarves/yuzhnyy_pik"
+      ],
+      "m": "Голем, Демоны, Цербер Тени"
+    },
+    {
+      "n": "Атласный Кафтан",
+      "name": "Атласный Кафтан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Atlas_Kaftan.jpg",
+      "locs": [
+        "dwarves/yuzhnyy_pik"
+      ],
+      "m": "Цербер Тени"
     }
   ]
 }

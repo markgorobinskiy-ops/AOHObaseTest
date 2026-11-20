@@ -405,6 +405,50 @@
         "humans/korneyl/peschery"
       ],
       "m": "Толпа Зомби"
+    },
+    {
+      "n": "Кость Прорицателя",
+      "name": "Кость Прорицателя",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Bones_Proricatel.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпы Скелетов"
+    },
+    {
+      "n": "Клановый Молот",
+      "name": "Клановый Молот",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Klan_Hammer.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Свежие Зомби"
+    },
+    {
+      "n": "Гномий Колчан",
+      "name": "Гномий Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gnomiy_Kolchan.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпы Скелетов"
+    },
+    {
+      "n": "Пиратский Короткий Лук",
+      "name": "Пиратский Короткий Лук",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Pirat_Small_Bow.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпы Скелетов"
     }
   ]
 }

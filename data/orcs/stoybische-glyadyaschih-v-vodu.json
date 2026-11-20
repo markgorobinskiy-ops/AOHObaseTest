@@ -117,6 +117,18 @@
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
       "m": "Глядящий в Воду"
+    },
+    {
+      "n": "Красный Кафтан",
+      "name": "Красный Кафтан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Red_Kaftan.jpg",
+      "locs": [
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
+      ],
+      "m": "Варг, Глядящий в Воду"
     }
   ]
 }

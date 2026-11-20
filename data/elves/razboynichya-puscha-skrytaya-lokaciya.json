@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Krovavaja_Tunika.jpg",
       "locs": [
+        "elves/lordeleyn",
         "elves/razboynichya-puscha-skrytaya-lokaciya"
       ],
-      "m": "Разбойники"
+      "m": "Разбойники, Изгнанники"
     },
     {
       "n": "Каменная Коса",

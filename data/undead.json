@@ -56,6 +56,11 @@
       "name": "Нагорье Павших Героев (Портальная локация)",
       "id": "undead/nagore-pavshih-geroev-portalnaya-lokaciya",
       "data": "data/undead/nagore-pavshih-geroev-portalnaya-lokaciya.json"
+    },
+    {
+      "name": "Зареченский Монастырь (Скрытая локация)",
+      "id": "undead/zarechenskiy-monastyr-skrytaya-lokaciya",
+      "data": "data/undead/zarechenskiy-monastyr-skrytaya-lokaciya.json"
     }
   ],
   "items": []

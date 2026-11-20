@@ -150,6 +150,29 @@
         "dwarves/bolshoy-razlom"
       ],
       "m": "Повелитель Разлома"
+    },
+    {
+      "n": "Секира Древнего Ужаса",
+      "name": "Секира Древнего Ужаса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sekira_Drevnego_Ujasa.jpg",
+      "locs": [
+        "dwarves/bolshoy-razlom",
+        "dwarves/koldstoun-post/istoschennyy-rudnik"
+      ],
+      "m": "Мёртвый Рудокоп, Обитатель Разлома"
+    },
+    {
+      "n": "Топор Немоты",
+      "name": "Топор Немоты",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Topor_Nemoti.jpg",
+      "locs": [
+        "dwarves/bolshoy-razlom"
+      ],
+      "m": "Обитатель Разлома"
     }
   ]
 }

@@ -13,6 +13,17 @@
         "undead/derevnya-umalishennyh"
       ],
       "m": "Святоша"
+    },
+    {
+      "n": "Льдистый Кортик",
+      "name": "Льдистый Кортик",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Led_Kortik.jpg",
+      "locs": [
+        "undead/derevnya-umalishennyh"
+      ],
+      "m": "Дух"
     }
   ]
 }

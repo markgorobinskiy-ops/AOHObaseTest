@@ -338,6 +338,17 @@
         "humans/amissvud"
       ],
       "m": "Энт"
+    },
+    {
+      "n": "Перчатки с Топазами",
+      "name": "Перчатки с Топазами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_s_Topazami.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Волк"
     }
   ]
 }

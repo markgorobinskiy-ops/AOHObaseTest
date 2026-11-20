@@ -41,6 +41,19 @@
         "elves/nael_tae"
       ],
       "m": "Дикие Пегасы"
+    },
+    {
+      "n": "Капюшон Подлеца",
+      "name": "Капюшон Подлеца",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kap_Podleca.jpg",
+      "locs": [
+        "elves/montsilvar",
+        "elves/nael_tae",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
+      ],
+      "m": "Дикий Цербер, Минотавр, Зверь, Бешенные Единороги, Белокрылый"
     }
   ]
 }

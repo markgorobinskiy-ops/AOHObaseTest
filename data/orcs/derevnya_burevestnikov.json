@@ -36,6 +36,18 @@
         "orcs/derevnya_burevestnikov"
       ],
       "m": "Волк"
+    },
+    {
+      "n": "Дьяволовы Стопы",
+      "name": "Дьяволовы Стопы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Djavol_Stopi.jpg",
+      "locs": [
+        "orcs/derevnya_burevestnikov",
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona"
+      ],
+      "m": "Волк"
     }
   ]
 }

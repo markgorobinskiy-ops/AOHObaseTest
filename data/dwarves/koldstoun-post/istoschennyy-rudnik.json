@@ -114,9 +114,10 @@
       "rarity": "Особый",
       "img": "Lazur_Shljapa.jpg",
       "locs": [
-        "dwarves/koldstoun-post/istoschennyy-rudnik"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/sangard_post/kilmaat-13-yarus"
       ],
-      "m": "Мёртвый Рудокоп"
+      "m": "Мёртвый Рудокоп, Тень, Страж, Привратник"
     },
     {
       "n": "Обсидиановая Чешуя",
@@ -194,6 +195,29 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "Oko_Grozi.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik"
+      ],
+      "m": "Мёртвый Рудокоп"
+    },
+    {
+      "n": "Секира Древнего Ужаса",
+      "name": "Секира Древнего Ужаса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sekira_Drevnego_Ujasa.jpg",
+      "locs": [
+        "dwarves/bolshoy-razlom",
+        "dwarves/koldstoun-post/istoschennyy-rudnik"
+      ],
+      "m": "Мёртвый Рудокоп, Обитатель Разлома"
+    },
+    {
+      "n": "Перчатки Чернокнижника",
+      "name": "Перчатки Чернокнижника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Chernoknijnik_Glowes.jpg",
       "locs": [
         "dwarves/koldstoun-post/istoschennyy-rudnik"
       ],

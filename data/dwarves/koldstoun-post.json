@@ -27,9 +27,10 @@
       "rarity": "Особый",
       "img": "Led_Kap.jpg",
       "locs": [
-        "dwarves/koldstoun-post"
+        "dwarves/koldstoun-post",
+        "dwarves/sangard_post/kilmaat-13-yarus"
       ],
-      "m": "Медведь"
+      "m": "Медведь, Тень, Страж, Привратник"
     }
   ]
 }

@@ -71,9 +71,10 @@
       "img": "Malahit_Sphere.jpg",
       "locs": [
         "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
-        "dwarves/malye-tonneli"
+        "dwarves/malye-tonneli",
+        "dwarves/yuzhnyy_pik"
       ],
-      "m": "Голем, Демоны"
+      "m": "Голем, Демоны, Цербер Тени"
     },
     {
       "n": "Колчан из Рога",
@@ -100,6 +101,17 @@
         "dwarves/sangard_post/kilmaat-13-yarus"
       ],
       "m": "Тень, Страж, Привратник, Обитатель Разлома, Проклятые Големы"
+    },
+    {
+      "n": "Зачарованный Хрусталь (Серь)",
+      "name": "Зачарованный Хрусталь (Серь)",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Zacharovanniy_Hrustal.jpg",
+      "locs": [
+        "dwarves/malye-tonneli"
+      ],
+      "m": "Проклятые Големы"
     }
   ]
 }

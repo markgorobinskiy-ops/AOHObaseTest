@@ -68,9 +68,10 @@
       "rarity": "Особый",
       "img": "Kolchan_iz_Roga.jpg",
       "locs": [
+        "demons/ashtumh",
         "demons/thahashsh"
       ],
-      "m": "Дикий Варг"
+      "m": "Дикий Варг, Дух Огня"
     },
     {
       "n": "Лиственная Туника",

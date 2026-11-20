@@ -229,6 +229,63 @@
         "dwarves/sangard_post/kilmaat-13-yarus"
       ],
       "m": "Тень, Страж, Привратник"
+    },
+    {
+      "n": "Лазурная Шляпа",
+      "name": "Лазурная Шляпа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Lazur_Shljapa.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Мёртвый Рудокоп, Тень, Страж, Привратник"
+    },
+    {
+      "n": "Льдистый Капюшон",
+      "name": "Льдистый Капюшон",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Led_Kap.jpg",
+      "locs": [
+        "dwarves/koldstoun-post",
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Медведь, Тень, Страж, Привратник"
+    },
+    {
+      "n": "Огненный Кинжал",
+      "name": "Огненный Кинжал",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Fire_Kinjal.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Тень, Страж, Привратник"
+    },
+    {
+      "n": "Тисовый Колчан",
+      "name": "Тисовый Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Tis_Kolchan.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Тень, Страж, Привратник"
+    },
+    {
+      "n": "Льдистый Кортик",
+      "name": "Льдистый Кортик",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Тень, Страж, Привратник",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Тень, Страж, Привратник"
     }
   ]
 }

@@ -105,6 +105,29 @@
         "elves/reniol"
       ],
       "m": "Изгнанники, Разбойники"
+    },
+    {
+      "n": "Кровавая Туника",
+      "name": "Кровавая Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Krovavaja_Tunika.jpg",
+      "locs": [
+        "elves/lordeleyn",
+        "elves/razboynichya-puscha-skrytaya-lokaciya"
+      ],
+      "m": "Разбойники, Изгнанники"
+    },
+    {
+      "n": "Малая Боевая Коса",
+      "name": "Малая Боевая Коса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Malaja_Boevaja_Kosa.jpg",
+      "locs": [
+        "elves/lordeleyn"
+      ],
+      "m": "Изгнанники"
     }
   ]
 }
