@@ -47,6 +47,39 @@
         "humans/lok-tarian/podzemele-lok-tarian"
       ],
       "m": "Гора Трупов"
+    },
+    {
+      "n": "Поцелуй Медузы",
+      "name": "Поцелуй Медузы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Medusa_Kiss.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian"
+      ],
+      "m": "Гора Трупов"
+    },
+    {
+      "n": "Семизубый Меч",
+      "name": "Семизубый Меч",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Semizybiy_Mech.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian"
+      ],
+      "m": "Гора Трупов"
+    },
+    {
+      "n": "Серебрянный Клеймор",
+      "name": "Серебрянный Клеймор",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Serebrjanniy_Kleimor.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian"
+      ],
+      "m": "Гора Трупов"
     }
   ]
 }

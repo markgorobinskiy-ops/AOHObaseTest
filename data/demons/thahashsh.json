@@ -104,6 +104,18 @@
         "demons/thahashsh"
       ],
       "m": "Дикий Варг"
+    },
+    {
+      "n": "Капюшон Подлеца",
+      "name": "Капюшон Подлеца",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kap_Podleca.jpg",
+      "locs": [
+        "demons/potuhshiy-vulkan-portalnaya-zona",
+        "demons/thahashsh"
+      ],
+      "m": "Страж Вулкана, Дикий Варг"
     }
   ]
 }

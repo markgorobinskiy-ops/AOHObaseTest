@@ -13,6 +13,28 @@
         "orcs/dolina-volchih-klykov-skrytaya-lokaciya"
       ],
       "m": "Воевода"
+    },
+    {
+      "n": "Драконий Доспех",
+      "name": "Драконий Доспех",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Drakon_Dospeh.jpg",
+      "locs": [
+        "orcs/dolina-volchih-klykov-skrytaya-lokaciya"
+      ],
+      "m": "Воевода"
+    },
+    {
+      "n": "Кавалерийский Меч",
+      "name": "Кавалерийский Меч",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kavaler_Sword.jpg",
+      "locs": [
+        "orcs/dolina-volchih-klykov-skrytaya-lokaciya"
+      ],
+      "m": "Воевода"
     }
   ]
 }

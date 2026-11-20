@@ -52,6 +52,29 @@
         "humans/lok-tarian"
       ],
       "m": "Холодное Железо"
+    },
+    {
+      "n": "Драконий Доспех",
+      "name": "Драконий Доспех",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Drakon_Dospeh.jpg",
+      "locs": [
+        "humans/lok-tarian",
+        "humans/reyden"
+      ],
+      "m": "Злые Разбойники, Холодное Железо"
+    },
+    {
+      "n": "Топор Болотного Гоблина",
+      "name": "Топор Болотного Гоблина",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Axe_Bolotniy_Goblin.jpg",
+      "locs": [
+        "humans/lok-tarian"
+      ],
+      "m": "Холодное Железо"
     }
   ]
 }

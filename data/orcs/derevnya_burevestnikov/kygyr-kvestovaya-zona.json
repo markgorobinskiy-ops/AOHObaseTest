@@ -1,0 +1,19 @@
+{
+  "id": "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
+  "name": "Кыгыр (Квестовая Зона)",
+  "sections": [],
+  "items": [
+    {
+      "n": "Камзол с Языками Пламени",
+      "name": "Камзол с Языками Пламени",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamzol_s_Yazik_Plameni.jpg",
+      "locs": [
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Глядящий в Воду, Кабан"
+    }
+  ]
+}

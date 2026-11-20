@@ -61,6 +61,11 @@
       "name": "Долина Волчьих Клыков (Скрытая локация)",
       "id": "orcs/dolina-volchih-klykov-skrytaya-lokaciya",
       "data": "data/orcs/dolina-volchih-klykov-skrytaya-lokaciya.json"
+    },
+    {
+      "name": "Тайная Лаборатория Демонидов (Портальная локация)",
+      "id": "orcs/taynaya-laboratoriya-demonidov-portalnaya-lokaciya",
+      "data": "data/orcs/taynaya-laboratoriya-demonidov-portalnaya-lokaciya.json"
     }
   ],
   "items": []

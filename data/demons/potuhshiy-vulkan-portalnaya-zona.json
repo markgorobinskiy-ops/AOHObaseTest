@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Kap_Podleca.jpg",
       "locs": [
-        "demons/potuhshiy-vulkan-portalnaya-zona"
+        "demons/potuhshiy-vulkan-portalnaya-zona",
+        "demons/thahashsh"
       ],
-      "m": "Страж Вулкана"
+      "m": "Страж Вулкана, Дикий Варг"
     }
   ]
 }

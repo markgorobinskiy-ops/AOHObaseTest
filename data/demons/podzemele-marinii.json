@@ -90,9 +90,10 @@
       "rarity": "Особый",
       "img": "Led_Kortik.jpg",
       "locs": [
-        "demons/podzemele-marinii"
+        "demons/podzemele-marinii",
+        "demons/uohatumh"
       ],
-      "m": "Огни Леса"
+      "m": "Огни Леса, Каратели"
     },
     {
       "n": "Перчатки из Скальпа Барда",

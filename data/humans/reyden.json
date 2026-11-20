@@ -87,9 +87,10 @@
       "rarity": "Особый",
       "img": "Drakon_Dospeh.jpg",
       "locs": [
+        "humans/lok-tarian",
         "humans/reyden"
       ],
-      "m": "Злые Разбойники"
+      "m": "Злые Разбойники, Холодное Железо"
     },
     {
       "n": "Орб Сияния",

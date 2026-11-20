@@ -6,6 +6,11 @@
       "name": "Пещера Големов",
       "id": "orcs/derevnya_burevestnikov/peschera-golemov",
       "data": "data/orcs/derevnya_burevestnikov/peschera-golemov.json"
+    },
+    {
+      "name": "Кыгыр (Квестовая Зона)",
+      "id": "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
+      "data": "data/orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona.json"
     }
   ],
   "items": [

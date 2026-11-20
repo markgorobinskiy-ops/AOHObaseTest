@@ -151,6 +151,17 @@
         "dwarves/koldstoun-post/istoschennyy-rudnik"
       ],
       "m": "Мёртвый Рудокоп"
+    },
+    {
+      "n": "Молот Бедствий",
+      "name": "Молот Бедствий",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Molot_Bedstviy.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik"
+      ],
+      "m": "Мёртвый Рудокоп"
     }
   ]
 }

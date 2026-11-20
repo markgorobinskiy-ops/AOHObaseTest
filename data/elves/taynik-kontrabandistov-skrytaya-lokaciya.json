@@ -102,6 +102,17 @@
         "elves/taynik-kontrabandistov-skrytaya-lokaciya"
       ],
       "m": "Охрана Торговца"
+    },
+    {
+      "n": "Кристалл Земли",
+      "name": "Кристалл Земли",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kristall_Zemli.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+      ],
+      "m": "Охрана Торговца"
     }
   ]
 }

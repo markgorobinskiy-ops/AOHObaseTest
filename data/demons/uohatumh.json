@@ -182,6 +182,18 @@
         "demons/uohatumh"
       ],
       "m": "Миссионеры"
+    },
+    {
+      "n": "Льдистый Кортик",
+      "name": "Льдистый Кортик",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Led_Kortik.jpg",
+      "locs": [
+        "demons/podzemele-marinii",
+        "demons/uohatumh"
+      ],
+      "m": "Огни Леса, Каратели"
     }
   ]
 }

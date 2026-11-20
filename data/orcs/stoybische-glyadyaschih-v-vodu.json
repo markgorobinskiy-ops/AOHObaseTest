@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Kamzol_s_Yazik_Plameni.jpg",
       "locs": [
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Глядящий в Воду"
+      "m": "Глядящий в Воду, Кабан"
     },
     {
       "n": "Перчатки с Топазами",

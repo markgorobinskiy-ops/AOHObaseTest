@@ -1,0 +1,18 @@
+{
+  "id": "orcs/taynaya-laboratoriya-demonidov-portalnaya-lokaciya",
+  "name": "Тайная Лаборатория Демонидов (Портальная локация)",
+  "sections": [],
+  "items": [
+    {
+      "n": "Магнитный Жезл",
+      "name": "Магнитный Жезл",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Magnit_Jezl.jpg",
+      "locs": [
+        "orcs/taynaya-laboratoriya-demonidov-portalnaya-lokaciya"
+      ],
+      "m": "Культист"
+    }
+  ]
+}
