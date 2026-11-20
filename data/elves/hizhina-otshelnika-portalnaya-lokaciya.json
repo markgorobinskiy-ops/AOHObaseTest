@@ -14,6 +14,28 @@
         "elves/nael_tae"
       ],
       "m": "Дикие Пегасы, Страж Души"
+    },
+    {
+      "n": "Кольцо Небесной Мудрости",
+      "name": "Кольцо Небесной Мудрости",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "KNM.jpg",
+      "locs": [
+        "elves/hizhina-otshelnika-portalnaya-lokaciya"
+      ],
+      "m": "Страж Души"
+    },
+    {
+      "n": "Сфера Небесного Пламени",
+      "name": "Сфера Небесного Пламени",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sphere_Nebesnogo_Fire.jpg",
+      "locs": [
+        "elves/hizhina-otshelnika-portalnaya-lokaciya"
+      ],
+      "m": "Страж Души"
     }
   ]
 }

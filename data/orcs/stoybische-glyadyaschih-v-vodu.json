@@ -106,6 +106,17 @@
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
       "m": "Глядящий в Воду"
+    },
+    {
+      "n": "Орочья Стёганка",
+      "name": "Орочья Стёганка",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Orocja_Steganka.jpg",
+      "locs": [
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Глядящий в Воду"
     }
   ]
 }

@@ -382,6 +382,29 @@
         "humans/korneyl/peschery"
       ],
       "m": "Толпа Зомби"
+    },
+    {
+      "n": "Зачарованный Капюшон",
+      "name": "Зачарованный Капюшон",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Enchant_Cap.jpg",
+      "locs": [
+        "humans/korneyl",
+        "humans/korneyl/peschery"
+      ],
+      "m": "Сторожевые Варги, Толпы Скелетов"
+    },
+    {
+      "n": "Секира Семи Лун",
+      "name": "Секира Семи Лун",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sekira_7_Lun.jpg",
+      "locs": [
+        "humans/korneyl/peschery"
+      ],
+      "m": "Толпа Зомби"
     }
   ]
 }

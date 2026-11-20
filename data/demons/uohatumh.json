@@ -168,9 +168,10 @@
       "rarity": "Особый",
       "img": "Pernatie_Perchatki.jpg",
       "locs": [
+        "demons/thahashsh",
         "demons/uohatumh"
       ],
-      "m": "Каратели"
+      "m": "Каратели, Дикий Варг"
     },
     {
       "n": "Жезл Утренней Звезды",
@@ -194,6 +195,44 @@
         "demons/uohatumh"
       ],
       "m": "Огни Леса, Каратели"
+    },
+    {
+      "n": "Жезл Веселой Ящерицы",
+      "name": "Жезл Веселой Ящерицы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jezl_Veseloi_Jasherici.jpg",
+      "locs": [
+        "demons/ashtumh",
+        "demons/uohatumh"
+      ],
+      "m": "Дух Огня, Миссионеры"
+    },
+    {
+      "n": "Сфера Фей",
+      "name": "Сфера Фей",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sphere_Fei.jpg",
+      "locs": [
+        "demons/ashtumh",
+        "demons/podzemele-marinii",
+        "demons/uohatumh",
+        "demons/utahatt"
+      ],
+      "m": "Викарии, Бес, Дух Огня, Миссионеры"
+    },
+    {
+      "n": "Посох Лиса",
+      "name": "Посох Лиса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Posoh_Lisa.jpg",
+      "locs": [
+        "demons/uohatumh",
+        "demons/utahatt"
+      ],
+      "m": "Каратели, Миссионеры, Викарии"
     }
   ]
 }

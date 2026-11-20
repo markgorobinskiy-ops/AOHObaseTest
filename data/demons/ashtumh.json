@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Jezl_Veseloi_Jasherici.jpg",
       "locs": [
-        "demons/ashtumh"
+        "demons/ashtumh",
+        "demons/uohatumh"
       ],
-      "m": "Дух Огня"
+      "m": "Дух Огня, Миссионеры"
     },
     {
       "n": "Матросский Колчан",
@@ -21,9 +22,10 @@
       "rarity": "Особый",
       "img": "Matros_Kolchan.jpg",
       "locs": [
-        "demons/ashtumh"
+        "demons/ashtumh",
+        "demons/podzemele-marinii"
       ],
-      "m": "Дух Огня"
+      "m": "Дух Огня, Огни Реки"
     },
     {
       "n": "Малахитовая Сфера",
@@ -58,9 +60,10 @@
       "locs": [
         "demons/ashtumh",
         "demons/podzemele-marinii",
+        "demons/uohatumh",
         "demons/utahatt"
       ],
-      "m": "Викарии, Бес, Дух Огня"
+      "m": "Викарии, Бес, Дух Огня, Миссионеры"
     },
     {
       "n": "Плачущий Посох",

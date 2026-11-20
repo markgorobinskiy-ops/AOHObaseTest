@@ -1,0 +1,18 @@
+{
+  "id": "demons/ubezhische-skitalca-portalnaya-lokaciya/kelya-otstupnika",
+  "name": "Келья Отступника",
+  "sections": [],
+  "items": [
+    {
+      "n": "Танцующая Шляпа",
+      "name": "Танцующая Шляпа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Dancing_Shljapa.jpg",
+      "locs": [
+        "demons/ubezhische-skitalca-portalnaya-lokaciya/kelya-otstupnika"
+      ],
+      "m": "Монах"
+    }
+  ]
+}

@@ -88,9 +88,10 @@
       "rarity": "Особый",
       "img": "Volcanic_Hammer.jpg",
       "locs": [
-        "humans/lok-tarian/podzemele-lok-tarian"
+        "humans/lok-tarian/podzemele-lok-tarian",
+        "humans/reyden"
       ],
-      "m": "Гора Трупов"
+      "m": "Гора Трупов, Безумные Разбойники"
     },
     {
       "n": "Дробитель",

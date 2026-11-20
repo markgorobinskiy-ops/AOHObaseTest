@@ -19,6 +19,17 @@
         "undead/poselenie_v_delte/peschery_pod_rekoy"
       ],
       "m": "Заблудший, Изгнанники"
+    },
+    {
+      "n": "Крылатое Копьё",
+      "name": "Крылатое Копьё",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Wings_Kopje.jpg",
+      "locs": [
+        "undead/poselenie_v_delte/peschery_pod_rekoy"
+      ],
+      "m": "Изгнанники"
     }
   ]
 }

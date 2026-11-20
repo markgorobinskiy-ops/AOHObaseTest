@@ -81,6 +81,30 @@
         "elves/lordeleyn"
       ],
       "m": "Изгнанники"
+    },
+    {
+      "n": "Отравленная Туника",
+      "name": "Отравленная Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Otravlennaja_Tunika.jpg",
+      "locs": [
+        "elves/lordeleyn",
+        "elves/montsilvar"
+      ],
+      "m": "Зверь, Бешенный Единорог"
+    },
+    {
+      "n": "Кавалерийский Меч",
+      "name": "Кавалерийский Меч",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kavaler_Sword.jpg",
+      "locs": [
+        "elves/lordeleyn",
+        "elves/reniol"
+      ],
+      "m": "Изгнанники, Разбойники"
     }
   ]
 }

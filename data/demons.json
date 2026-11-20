@@ -57,6 +57,11 @@
       "name": "Потухший Вулкан (Портальная Зона)",
       "id": "demons/potuhshiy-vulkan-portalnaya-zona",
       "data": "data/demons/potuhshiy-vulkan-portalnaya-zona.json"
+    },
+    {
+      "name": "Убежище Скитальца (Портальная локация)",
+      "id": "demons/ubezhische-skitalca-portalnaya-lokaciya",
+      "data": "data/demons/ubezhische-skitalca-portalnaya-lokaciya.json"
     }
   ],
   "items": []

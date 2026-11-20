@@ -57,9 +57,10 @@
       "locs": [
         "demons/ashtumh",
         "demons/podzemele-marinii",
+        "demons/uohatumh",
         "demons/utahatt"
       ],
-      "m": "Викарии, Бес, Дух Огня"
+      "m": "Викарии, Бес, Дух Огня, Миссионеры"
     },
     {
       "n": "Шепчущие Перчатки",
@@ -105,7 +106,30 @@
         "demons/podzemele-marinii",
         "demons/thahashsh"
       ],
-      "m": "Дикий Варг, Грифоны"
+      "m": "Дикий Варг, Грифоны, Единорог"
+    },
+    {
+      "n": "Матросский Колчан",
+      "name": "Матросский Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Matros_Kolchan.jpg",
+      "locs": [
+        "demons/ashtumh",
+        "demons/podzemele-marinii"
+      ],
+      "m": "Дух Огня, Огни Реки"
+    },
+    {
+      "n": "Амулет Лекаря",
+      "name": "Амулет Лекаря",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Amulet_Lekarja.jpg",
+      "locs": [
+        "demons/podzemele-marinii"
+      ],
+      "m": "Пегас"
     }
   ]
 }

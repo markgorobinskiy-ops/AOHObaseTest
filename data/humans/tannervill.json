@@ -72,9 +72,10 @@
       "rarity": "Особый",
       "img": "Krovavaja_Tunika.jpg",
       "locs": [
+        "humans/reyden",
         "humans/tannervill"
       ],
-      "m": "Вепрь"
+      "m": "Вепрь, Бешенные Черные Варги"
     }
   ]
 }

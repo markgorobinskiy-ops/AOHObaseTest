@@ -1,0 +1,30 @@
+{
+  "id": "elves/chascha-duhov-skrytaya-lokaciya",
+  "name": "Чаща Духов (Скрытая локация)",
+  "sections": [],
+  "items": [
+    {
+      "n": "Колчан из Рога",
+      "name": "Колчан из Рога",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_iz_Roga.jpg",
+      "locs": [
+        "elves/chascha-duhov-skrytaya-lokaciya",
+        "elves/montsilvar"
+      ],
+      "m": "Зверь, Дух"
+    },
+    {
+      "n": "Гномья Руна",
+      "name": "Гномья Руна",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gnomja_Runa.jpg",
+      "locs": [
+        "elves/chascha-duhov-skrytaya-lokaciya"
+      ],
+      "m": "Дух"
+    }
+  ]
+}

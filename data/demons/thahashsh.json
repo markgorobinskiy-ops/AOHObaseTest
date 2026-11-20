@@ -13,7 +13,7 @@
         "demons/podzemele-marinii",
         "demons/thahashsh"
       ],
-      "m": "Дикий Варг, Грифоны"
+      "m": "Дикий Варг, Грифоны, Единорог"
     },
     {
       "n": "Меховые Перчатки",
@@ -116,6 +116,18 @@
         "demons/thahashsh"
       ],
       "m": "Страж Вулкана, Дикий Варг"
+    },
+    {
+      "n": "Пернатые Перчатки",
+      "name": "Пернатые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Pernatie_Perchatki.jpg",
+      "locs": [
+        "demons/thahashsh",
+        "demons/uohatumh"
+      ],
+      "m": "Каратели, Дикий Варг"
     }
   ]
 }

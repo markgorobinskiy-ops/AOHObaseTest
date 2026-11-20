@@ -56,9 +56,10 @@
       "rarity": "Особый",
       "img": "Kap_Podleca.jpg",
       "locs": [
+        "elves/montsilvar",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
       ],
-      "m": "Дикий Цербер, Минотавр"
+      "m": "Дикий Цербер, Минотавр, Зверь"
     },
     {
       "n": "Цветочный Орб",
@@ -93,6 +94,17 @@
         "elves/taynik-kontrabandistov-skrytaya-lokaciya"
       ],
       "m": "Охрана Торговца, Минотавр"
+    },
+    {
+      "n": "Дьяволовы Стопы",
+      "name": "Дьяволовы Стопы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Djavol_Stopi.jpg",
+      "locs": [
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
+      ],
+      "m": "Дикий Цербер"
     }
   ]
 }

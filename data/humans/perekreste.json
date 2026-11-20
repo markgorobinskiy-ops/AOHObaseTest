@@ -91,9 +91,10 @@
       "rarity": "Особый",
       "img": "Gvardeiskaja_Sablja.jpg",
       "locs": [
+        "humans/korneyl",
         "humans/perekreste"
       ],
-      "m": "Жестокие Разбойники"
+      "m": "Жестокие Разбойники, Разбойники"
     },
     {
       "n": "Магический Щит",

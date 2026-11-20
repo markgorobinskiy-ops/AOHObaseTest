@@ -63,6 +63,11 @@
       "name": "Колдовской Остров (Портальная локация)",
       "id": "elves/koldovskoy-ostrov-portalnaya-lokaciya",
       "data": "data/elves/koldovskoy-ostrov-portalnaya-lokaciya.json"
+    },
+    {
+      "name": "Чаща Духов (Скрытая локация)",
+      "id": "elves/chascha-duhov-skrytaya-lokaciya",
+      "data": "data/elves/chascha-duhov-skrytaya-lokaciya.json"
     }
   ],
   "items": []

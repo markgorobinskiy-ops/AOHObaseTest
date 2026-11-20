@@ -32,9 +32,10 @@
       "rarity": "Особый",
       "img": "Kolchan_iz_Roga.jpg",
       "locs": [
+        "elves/chascha-duhov-skrytaya-lokaciya",
         "elves/montsilvar"
       ],
-      "m": "Зверь"
+      "m": "Зверь, Дух"
     },
     {
       "n": "Перчатки Саламандры",
@@ -67,9 +68,10 @@
       "rarity": "Особый",
       "img": "Otravlennaja_Tunika.jpg",
       "locs": [
+        "elves/lordeleyn",
         "elves/montsilvar"
       ],
-      "m": "Зверь"
+      "m": "Зверь, Бешенный Единорог"
     },
     {
       "n": "Шепчущие Перчатки",
@@ -127,6 +129,29 @@
         "elves/montsilvar"
       ],
       "m": "Бешенный Единорог, Зверь"
+    },
+    {
+      "n": "Капюшон Подлеца",
+      "name": "Капюшон Подлеца",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kap_Podleca.jpg",
+      "locs": [
+        "elves/montsilvar",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
+      ],
+      "m": "Дикий Цербер, Минотавр, Зверь"
+    },
+    {
+      "n": "Камзол с Кружевами",
+      "name": "Камзол с Кружевами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamzol_s_Kruhevami.jpg",
+      "locs": [
+        "elves/montsilvar"
+      ],
+      "m": "Зверь"
     }
   ]
 }

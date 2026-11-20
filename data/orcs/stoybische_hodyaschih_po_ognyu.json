@@ -2,5 +2,18 @@
   "id": "orcs/6",
   "name": "Стойбище Ходящих по Огню",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Кровавые Перчатки",
+      "name": "Кровавые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Blood_Glowes.jpg",
+      "locs": [
+        "orcs/solonchaki",
+        "orcs/stoybische_hodyaschih_po_ognyu"
+      ],
+      "m": "Злые Кочевники, Кабан"
+    }
+  ]
 }

@@ -44,9 +44,10 @@
       "rarity": "Особый",
       "img": "Blood_Glowes.jpg",
       "locs": [
-        "orcs/solonchaki"
+        "orcs/solonchaki",
+        "orcs/stoybische_hodyaschih_po_ognyu"
       ],
-      "m": "Злые Кочевники"
+      "m": "Злые Кочевники, Кабан"
     }
   ]
 }

@@ -25,6 +25,28 @@
         "dwarves/medvezhiy-les"
       ],
       "m": "Медведь"
+    },
+    {
+      "n": "Дьяволовы Стопы",
+      "name": "Дьяволовы Стопы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Djavol_Stopi.jpg",
+      "locs": [
+        "dwarves/medvezhiy-les"
+      ],
+      "m": "Медведь"
+    },
+    {
+      "n": "Пернатые Перчатки",
+      "name": "Пернатые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Pernatie_Perchatki.jpg",
+      "locs": [
+        "dwarves/medvezhiy-les"
+      ],
+      "m": "Медведь"
     }
   ]
 }

@@ -147,6 +147,42 @@
         "humans/sredinnoe-poberezhe"
       ],
       "m": "Безумные Разбойники, Снеговик"
+    },
+    {
+      "n": "Грозовые Сапоги",
+      "name": "Грозовые Сапоги",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Groza_Sapog.jpg",
+      "locs": [
+        "humans/korneyl",
+        "humans/reyden"
+      ],
+      "m": "Сторожевые Варги, Бешенные Варги, Бешенные Черные Варги"
+    },
+    {
+      "n": "Кровавая Туника",
+      "name": "Кровавая Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Krovavaja_Tunika.jpg",
+      "locs": [
+        "humans/reyden",
+        "humans/tannervill"
+      ],
+      "m": "Вепрь, Бешенные Черные Варги"
+    },
+    {
+      "n": "Вулканический Молот",
+      "name": "Вулканический Молот",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Volcanic_Hammer.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian",
+        "humans/reyden"
+      ],
+      "m": "Гора Трупов, Безумные Разбойники"
     }
   ]
 }

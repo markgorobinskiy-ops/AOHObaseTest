@@ -48,9 +48,10 @@
       "locs": [
         "demons/ashtumh",
         "demons/podzemele-marinii",
+        "demons/uohatumh",
         "demons/utahatt"
       ],
-      "m": "Викарии, Бес, Дух Огня"
+      "m": "Викарии, Бес, Дух Огня, Миссионеры"
     },
     {
       "n": "Солнечный Посох",
@@ -73,6 +74,18 @@
         "demons/utahatt"
       ],
       "m": "Викарии"
+    },
+    {
+      "n": "Посох Лиса",
+      "name": "Посох Лиса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Posoh_Lisa.jpg",
+      "locs": [
+        "demons/uohatumh",
+        "demons/utahatt"
+      ],
+      "m": "Каратели, Миссионеры, Викарии"
     }
   ]
 }

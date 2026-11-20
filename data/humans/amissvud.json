@@ -98,7 +98,7 @@
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya"
       ],
-      "m": "Энт, Варг Гримгольда"
+      "m": "Энт, Волк, Варг Гримгольда"
     },
     {
       "n": "Сфера Шепотов",
@@ -289,6 +289,51 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "Glaz_Mantikori.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Энт"
+    },
+    {
+      "n": "Гоблинский Колчан",
+      "name": "Гоблинский Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Goblin_Kolchan.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/hargorskaya-plesh-skrytaya-lokaciya"
+      ],
+      "m": "Мёртвый Орк, Энт"
+    },
+    {
+      "n": "Перчатки Везунчика",
+      "name": "Перчатки Везунчика",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Vezunchika.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Волк"
+    },
+    {
+      "n": "Камзол Придворного",
+      "name": "Камзол Придворного",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamzol_Pridvornogo.jpg",
+      "locs": [
+        "humans/amissvud"
+      ],
+      "m": "Волк"
+    },
+    {
+      "n": "Сфера Фей",
+      "name": "Сфера Фей",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sphere_Fei.jpg",
       "locs": [
         "humans/amissvud"
       ],

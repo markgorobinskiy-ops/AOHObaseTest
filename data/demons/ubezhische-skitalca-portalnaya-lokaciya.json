@@ -1,0 +1,12 @@
+{
+  "id": "demons/ubezhische-skitalca-portalnaya-lokaciya",
+  "name": "Убежище Скитальца (Портальная локация)",
+  "sections": [
+    {
+      "name": "Келья Отступника",
+      "id": "demons/ubezhische-skitalca-portalnaya-lokaciya/kelya-otstupnika",
+      "data": "data/demons/ubezhische-skitalca-portalnaya-lokaciya/kelya-otstupnika.json"
+    }
+  ],
+  "items": []
+}

@@ -43,9 +43,10 @@
       "rarity": "Особый",
       "img": "Groza_Sapog.jpg",
       "locs": [
-        "humans/korneyl"
+        "humans/korneyl",
+        "humans/reyden"
       ],
-      "m": "Сторожевые Варги, Бешенные Варги"
+      "m": "Сторожевые Варги, Бешенные Варги, Бешенные Черные Варги"
     },
     {
       "n": "Жемчужный Кафтан",
@@ -65,9 +66,10 @@
       "rarity": "Особый",
       "img": "Enchant_Cap.jpg",
       "locs": [
-        "humans/korneyl"
+        "humans/korneyl",
+        "humans/korneyl/peschery"
       ],
-      "m": "Сторожевые Варги"
+      "m": "Сторожевые Варги, Толпы Скелетов"
     },
     {
       "n": "Кричащее Лезвие",
@@ -125,6 +127,18 @@
         "humans/korneyl"
       ],
       "m": "Толпа Зомби"
+    },
+    {
+      "n": "Гвардейская Сабля",
+      "name": "Гвардейская Сабля",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gvardeiskaja_Sablja.jpg",
+      "locs": [
+        "humans/korneyl",
+        "humans/perekreste"
+      ],
+      "m": "Жестокие Разбойники, Разбойники"
     }
   ]
 }
