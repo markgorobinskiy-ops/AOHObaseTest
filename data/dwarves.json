@@ -69,16 +69,3 @@
       "id": "dwarves/malye-tonneli",
       "data": "data/dwarves/malye-tonneli.json"
     }
-  ],
-  "items": [
-    {
-      "n": "Око Грозы",
-      "name": "Око Грозы",
-      "r": "Особый",
-      "rarity": "Особый",
-      "img": "Oko_Grozi.jpg",
-      "locs": [],
-      "m": "Снеговик"
-    }
-  ]
-}
