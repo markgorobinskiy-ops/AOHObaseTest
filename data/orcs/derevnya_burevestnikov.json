@@ -16,9 +16,10 @@
       "rarity": "Особый",
       "img": "Zolotoi_Kaftan.jpg",
       "locs": [
-        "orcs/derevnya_burevestnikov"
+        "orcs/derevnya_burevestnikov",
+        "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Волк"
+      "m": "Волк, Глядящий в Воду"
     }
   ]
 }

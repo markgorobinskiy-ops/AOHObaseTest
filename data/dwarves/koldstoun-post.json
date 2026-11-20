@@ -19,6 +19,17 @@
         "dwarves/koldstoun-post"
       ],
       "m": "Медведь"
+    },
+    {
+      "n": "Льдистый Капюшон",
+      "name": "Льдистый Капюшон",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Led_Kap.jpg",
+      "locs": [
+        "dwarves/koldstoun-post"
+      ],
+      "m": "Медведь"
     }
   ]
 }

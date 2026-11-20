@@ -82,6 +82,18 @@
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
       "m": "Глядящий в Воду"
+    },
+    {
+      "n": "Золотой Кафтан",
+      "name": "Золотой Кафтан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Zolotoi_Kaftan.jpg",
+      "locs": [
+        "orcs/derevnya_burevestnikov",
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Волк, Глядящий в Воду"
     }
   ]
 }

@@ -126,6 +126,31 @@
         "dwarves/koldstoun-post/istoschennyy-rudnik"
       ],
       "m": "Мёртвый Рудокоп"
+    },
+    {
+      "n": "Гизарма Ужаса",
+      "name": "Гизарма Ужаса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gizarma_Ujasa.jpg",
+      "locs": [
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik"
+      ],
+      "m": "Страж, Привратник, Древний, Цербер Тени, Мёртвый Рудокоп"
+    },
+    {
+      "n": "Резной Лук",
+      "name": "Резной Лук",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Reznoy_Luk.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik"
+      ],
+      "m": "Мёртвый Рудокоп"
     }
   ]
 }

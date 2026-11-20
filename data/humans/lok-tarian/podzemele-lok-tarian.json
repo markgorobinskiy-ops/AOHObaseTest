@@ -25,6 +25,28 @@
         "humans/sredinnoe-poberezhe"
       ],
       "m": "Гора Трупов, Снеговик"
+    },
+    {
+      "n": "Рунный Молот",
+      "name": "Рунный Молот",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Runniy_Molot.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian"
+      ],
+      "m": "Гора Трупов"
+    },
+    {
+      "n": "Копьё Скорости",
+      "name": "Копьё Скорости",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kopje_Skorosti.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian"
+      ],
+      "m": "Гора Трупов"
     }
   ]
 }

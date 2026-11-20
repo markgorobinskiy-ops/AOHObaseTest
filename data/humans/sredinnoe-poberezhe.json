@@ -140,6 +140,40 @@
         "humans/sredinnoe-poberezhe"
       ],
       "m": "Снеговик"
+    },
+    {
+      "n": "Вычурная Шляпа",
+      "name": "Вычурная Шляпа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Vichurnaja_Shljapa.jpg",
+      "locs": [
+        "humans/korneyl/peschery",
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Толпа Зомби, Толпы Скелетов, Снеговик"
+    },
+    {
+      "n": "Меховые Перчатки",
+      "name": "Меховые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Meh_Perchatki.jpg",
+      "locs": [
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Снеговик"
+    },
+    {
+      "n": "Амулет Боевого Мага",
+      "name": "Амулет Боевого Мага",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Amulet_Boevogo_Maga.jpg",
+      "locs": [
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Снеговик"
     }
   ]
 }

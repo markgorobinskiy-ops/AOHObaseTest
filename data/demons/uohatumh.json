@@ -149,6 +149,39 @@
         "demons/uohatumh"
       ],
       "m": "Миссионеры"
+    },
+    {
+      "n": "Жезл Призыва",
+      "name": "Жезл Призыва",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jezl_Priziva.jpg",
+      "locs": [
+        "demons/uohatumh"
+      ],
+      "m": "Миссионеры"
+    },
+    {
+      "n": "Пернатые Перчатки",
+      "name": "Пернатые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Pernatie_Perchatki.jpg",
+      "locs": [
+        "demons/uohatumh"
+      ],
+      "m": "Каратели"
+    },
+    {
+      "n": "Жезл Утренней Звезды",
+      "name": "Жезл Утренней Звезды",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jezl_Utrenney_Zvezdy.jpg",
+      "locs": [
+        "demons/uohatumh"
+      ],
+      "m": "Миссионеры"
     }
   ]
 }

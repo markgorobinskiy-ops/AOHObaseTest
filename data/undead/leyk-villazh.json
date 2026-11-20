@@ -57,6 +57,17 @@
         "undead/leyk-villazh"
       ],
       "m": "Страж Моста"
+    },
+    {
+      "n": "Шляпа Многих Чар",
+      "name": "Шляпа Многих Чар",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shljapa_Mnogih_Char.jpg",
+      "locs": [
+        "undead/leyk-villazh"
+      ],
+      "m": "Мёртвый Маг"
     }
   ]
 }

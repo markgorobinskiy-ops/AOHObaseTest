@@ -8,5 +8,28 @@
       "data": "data/humans/lok-tarian/podzemele-lok-tarian.json"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "n": "Лазурный Чешуйчатый Щит",
+      "name": "Лазурный Чешуйчатый Щит",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kostjanoi_Shlem.jpg",
+      "locs": [
+        "humans/lok-tarian"
+      ],
+      "m": "Холодное Железо"
+    },
+    {
+      "n": "Костяной Шлем",
+      "name": "Костяной Шлем",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kostjanoi_Shlem.jpg",
+      "locs": [
+        "humans/lok-tarian"
+      ],
+      "m": "Холодное Железо"
+    }
+  ]
 }

@@ -143,9 +143,10 @@
       "rarity": "Особый",
       "img": "Vichurnaja_Shljapa.jpg",
       "locs": [
-        "humans/korneyl/peschery"
+        "humans/korneyl/peschery",
+        "humans/sredinnoe-poberezhe"
       ],
-      "m": "Толпа Зомби, Толпы Скелетов"
+      "m": "Толпа Зомби, Толпы Скелетов, Снеговик"
     },
     {
       "n": "Молот Грома",

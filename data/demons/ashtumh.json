@@ -72,6 +72,17 @@
         "demons/ashtumh"
       ],
       "m": "Дух Огня"
+    },
+    {
+      "n": "Белый Шар",
+      "name": "Белый Шар",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Beliy_Shar.jpg",
+      "locs": [
+        "demons/ashtumh"
+      ],
+      "m": "Дух Огня"
     }
   ]
 }
