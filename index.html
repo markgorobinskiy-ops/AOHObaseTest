@@ -162,7 +162,7 @@
   .mkt-spec-link { cursor:pointer; }
   .mkt-spec-link:hover { text-decoration:underline; }
 
-   /* ——— футер ——— */
+  /* ——— футер ——— */
   footer {
     border-top:1px solid var(--accent);
     background:rgba(0,0,0,.55);
@@ -180,6 +180,7 @@
   footer .f-links a { color:var(--accent); text-decoration:none; font-size:.85rem; }
   footer .f-links a:hover { text-decoration:underline; }
   footer .f-note { font-size:.75rem; opacity:.6; font-style:italic; margin-top:10px; }
+  footer .f-note a { color:var(--accent); text-decoration:none; }
 
   /* кнопка рынка: на широком экране плавает справа, на узком уходит в поток под расы */
   .mkt-float { position:fixed; right:210px; top:40%; z-index:30; }
@@ -223,7 +224,7 @@
 </header>
 <main id="app"></main>
 
- <footer>
+<footer>
   <div class="f-crown">♛</div>
   <div class="f-title">База данных предметов от сообщества очень весёлых Энтузиастов</div>
   <div class="f-sub">Мир Айвейла ждёт наблюдения</div>
@@ -233,7 +234,9 @@
     <a href="#/">На главную</a>
     <a href="#/market">Оркский Рынок</a>
   </div>
-  <div class="f-note">Эпоха 2 · Данные собраны сообществом · <span id="fyear"></span></div>
+  <div class="f-note">Все права не очень защищены · Все предметы в открытом доступе · <span id="fyear"></span></div>
+  <div class="f-note" style="margin-top:6px">Разработал: Марк (Маркусик, Маркуся) совместно с сообществом игры AOHO Revival</div>
+  <div class="f-note" style="margin-top:4px">Для связи: Tg. — <a href="https://t.me/markrivenka" target="_blank">@markrivenka</a> · Vk. — <a href="https://vk.ru/markgorobinskiy" target="_blank">vk.ru/markgorobinskiy</a></div>
   <script>try { document.getElementById('fyear').textContent = new Date().getFullYear() + ' г.'; } catch(e){}</script>
 </footer>
 
