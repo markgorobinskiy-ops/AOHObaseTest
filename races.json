@@ -19,7 +19,7 @@
       "icon": "💀",
       "bg": "images/undead.jpg",
       "tagline": "Те, кто не принял покоя",
-      "data": "data/undead.json"
+      "data": "data/market.json"
     },
     "humans": {
       "name": "Люди",
@@ -41,6 +41,13 @@
       "bg": "images/orcs.jpg",
       "tagline": "Степь не прощает слабых",
       "data": "data/orcs.json"
+    },
+    "market": {
+      "name": "Оркский Рынок",
+      "icon": "⚔",
+      "bg": "images/orcs.jpg",
+      "tagline": "Предметы, для крафта которых нужны товары с рынка",
+      "data": "data/market.json"
     }
   }
 }
