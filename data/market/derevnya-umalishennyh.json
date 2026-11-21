@@ -1,0 +1,40 @@
+{
+  "id": "market/derevnya-umalishennyh",
+  "name": "Деревня Умалишенных",
+  "sections": [],
+  "items": [
+    {
+      "n": "Секира Древнего Ужаса",
+      "name": "Секира Древнего Ужаса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sekira_Drevnego_Ujasa.jpg",
+      "locs": [
+        "market/derevnya-umalishennyh"
+      ],
+      "m": "Святоша"
+    },
+    {
+      "n": "Льдистый Кортик",
+      "name": "Льдистый Кортик",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Led_Kortik.jpg",
+      "locs": [
+        "market/derevnya-umalishennyh"
+      ],
+      "m": "Дух, Хранители Лабиринта"
+    },
+    {
+      "n": "Драконий Хвост",
+      "name": "Драконий Хвост",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Dragon_Hvost.jpg",
+      "locs": [
+        "market/derevnya-umalishennyh"
+      ],
+      "m": "Дух"
+    }
+  ]
+}

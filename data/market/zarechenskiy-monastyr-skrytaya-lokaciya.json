@@ -1,0 +1,18 @@
+{
+  "id": "market/zarechenskiy-monastyr-skrytaya-lokaciya",
+  "name": "Зареченский Монастырь (Скрытая локация)",
+  "sections": [],
+  "items": [
+    {
+      "n": "Гномий Колчан",
+      "name": "Гномий Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gnomiy_Kolchan.jpg",
+      "locs": [
+        "market/zarechenskiy-monastyr-skrytaya-lokaciya"
+      ],
+      "m": "Ганимед"
+    }
+  ]
+}

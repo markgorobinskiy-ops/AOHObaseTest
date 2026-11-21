@@ -1,0 +1,18 @@
+{
+  "id": "market/uschele-rzhavyh-dospehov",
+  "name": "Ущелье Ржавых Доспехов",
+  "sections": [],
+  "items": [
+    {
+      "n": "Боевой Топор",
+      "name": "Боевой Топор",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Battle_Axe.jpg",
+      "locs": [
+        "market/uschele-rzhavyh-dospehov"
+      ],
+      "m": "Павший Воин"
+    }
+  ]
+}

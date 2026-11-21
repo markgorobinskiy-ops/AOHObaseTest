@@ -1,0 +1,40 @@
+{
+  "id": "market/pograniche-yug",
+  "name": "Пограничье, Юг",
+  "sections": [],
+  "items": [
+    {
+      "n": "Молот Бедствий",
+      "name": "Молот Бедствий",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Molot_Bedstviy.jpg",
+      "locs": [
+        "market/pograniche-yug"
+      ],
+      "m": "Злой Пограничник, Ужас Подземелий"
+    },
+    {
+      "n": "Медный Доспех",
+      "name": "Медный Доспех",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Medniy_Dospeh.jpg",
+      "locs": [
+        "market/pograniche-yug"
+      ],
+      "m": "Злой Пограничник"
+    },
+    {
+      "n": "Ледяной Панцирь",
+      "name": "Ледяной Панцирь",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Ice_Pancir.jpg",
+      "locs": [
+        "market/pograniche-yug"
+      ],
+      "m": "Злой Пограничник"
+    }
+  ]
+}

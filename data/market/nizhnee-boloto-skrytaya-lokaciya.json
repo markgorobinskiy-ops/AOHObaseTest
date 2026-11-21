@@ -1,0 +1,29 @@
+{
+  "id": "market/nizhnee-boloto-skrytaya-lokaciya",
+  "name": "Нижнее Болото (Скрытая локация)",
+  "sections": [],
+  "items": [
+    {
+      "n": "Перчатки с Серебрянными Шипами",
+      "name": "Перчатки с Серебрянными Шипами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_s_Serebryannimi_Shipami.jpg",
+      "locs": [
+        "market/nizhnee-boloto-skrytaya-lokaciya"
+      ],
+      "m": "Тролль"
+    },
+    {
+      "n": "Перчатки из Скальпа Барда",
+      "name": "Перчатки из Скальпа Барда",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_iz_Skalp_Bard.jpg",
+      "locs": [
+        "market/nizhnee-boloto-skrytaya-lokaciya"
+      ],
+      "m": "Болотник"
+    }
+  ]
+}

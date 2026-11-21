@@ -1,0 +1,95 @@
+{
+  "id": "market/leyk-villazh",
+  "name": "Лейк-Виллаж",
+  "sections": [],
+  "items": [
+    {
+      "n": "Шлем с Рогом Единорога",
+      "name": "Шлем с Рогом Единорога",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shlem_s_Rogom_Edinoroga.jpg",
+      "locs": [
+        "market/leyk-villazh"
+      ],
+      "m": "Страж Моста"
+    },
+    {
+      "n": "Шляпа Колдуна",
+      "name": "Шляпа Колдуна",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "",
+      "locs": [
+        "market/leyk-villazh"
+      ],
+      "m": "Мёртвый Маг"
+    },
+    {
+      "n": "Глефа Ярости",
+      "name": "Глефа Ярости",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Glefa_Jarosti.jpg",
+      "locs": [
+        "market/leyk-villazh"
+      ],
+      "m": "Страж Моста"
+    },
+    {
+      "n": "Копьё Триария",
+      "name": "Копьё Триария",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kopjo_Triaria.jpg",
+      "locs": [
+        "market/leyk-villazh"
+      ],
+      "m": "Страж Моста"
+    },
+    {
+      "n": "Копьё Милосердия",
+      "name": "Копьё Милосердия",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kopje_Miloserdia.jpg",
+      "locs": [
+        "market/leyk-villazh"
+      ],
+      "m": "Страж Моста"
+    },
+    {
+      "n": "Шляпа Многих Чар",
+      "name": "Шляпа Многих Чар",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shljapa_Mnogih_Char.jpg",
+      "locs": [
+        "market/leyk-villazh"
+      ],
+      "m": "Мёртвый Маг"
+    },
+    {
+      "n": "Шляпа Мастера",
+      "name": "Шляпа Мастера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shljapa_Mastera.jpg",
+      "locs": [
+        "market/leyk-villazh"
+      ],
+      "m": "Мёртвый Маг"
+    },
+    {
+      "n": "Друидический Посох",
+      "name": "Друидический Посох",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Druid_Posoh.jpg",
+      "locs": [
+        "market/leyk-villazh"
+      ],
+      "m": "Мёртвый Епископ"
+    }
+  ]
+}
