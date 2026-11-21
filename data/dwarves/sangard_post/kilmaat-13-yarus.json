@@ -335,6 +335,17 @@
         "dwarves/sangard_post/kilmaat-13-yarus"
       ],
       "m": "Тень, Страж, Привратник"
+    },
+    {
+      "n": "Серебряный Желудь",
+      "name": "Серебряный Желудь",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Serebro_Jolud.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Тень, Страж, Привратник"
     }
   ]
 }
