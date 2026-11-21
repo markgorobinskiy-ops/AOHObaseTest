@@ -162,6 +162,25 @@
   .mkt-spec-link { cursor:pointer; }
   .mkt-spec-link:hover { text-decoration:underline; }
 
+   /* ——— футер ——— */
+  footer {
+    border-top:1px solid var(--accent);
+    background:rgba(0,0,0,.55);
+    backdrop-filter: blur(10px);
+    padding:22px 28px 26px;
+    text-align:center;
+  }
+  body[data-theme="humans"] footer { background:rgba(255,255,255,.65); }
+  footer .f-crown { color:var(--accent); font-size:1.1rem; }
+  footer .f-title { font-variant:small-caps; letter-spacing:1px; font-size:1.05rem; margin-top:4px; }
+  footer .f-sub { font-style:italic; opacity:.8; font-size:.8rem; margin-top:4px; }
+  footer .f-orn { display:flex; align-items:center; gap:10px; max-width:420px; margin:12px auto; color:var(--accent); }
+  footer .f-orn .line { height:1px; background:var(--accent); flex:1; opacity:.5; }
+  footer .f-links { display:flex; gap:18px; justify-content:center; flex-wrap:wrap; }
+  footer .f-links a { color:var(--accent); text-decoration:none; font-size:.85rem; }
+  footer .f-links a:hover { text-decoration:underline; }
+  footer .f-note { font-size:.75rem; opacity:.6; font-style:italic; margin-top:10px; }
+
   /* кнопка рынка: на широком экране плавает справа, на узком уходит в поток под расы */
   .mkt-float { position:fixed; right:210px; top:40%; z-index:30; }
   @media (max-width:1650px){
@@ -203,6 +222,20 @@
   <div class="chips" id="chips"></div>
 </header>
 <main id="app"></main>
+
+ <footer>
+  <div class="f-crown">♛</div>
+  <div class="f-title">База данных предметов от сообщества очень весёлых Энтузиастов</div>
+  <div class="f-sub">Мир Айвейла ждёт наблюдения</div>
+  <div class="f-orn"><span class="line"></span><span class="gem">◆</span><span class="line"></span></div>
+  <div class="f-links">
+    <a href="https://github.com/markgorobinskiy-ops/AOHOBaseTest" target="_blank">Репозиторий на GitHub</a>
+    <a href="#/">На главную</a>
+    <a href="#/market">Оркский Рынок</a>
+  </div>
+  <div class="f-note">Эпоха 2 · Данные собраны сообществом · <span id="fyear"></span></div>
+  <script>try { document.getElementById('fyear').textContent = new Date().getFullYear() + ' г.'; } catch(e){}</script>
+</footer>
 
 <div id="overlay" onclick="closeItem()"></div>
 <div id="panel">
