@@ -19,7 +19,7 @@
       "icon": "💀",
       "bg": "images/undead.jpg",
       "tagline": "Те, кто не принял покоя",
-      "data": "data/market.json"
+      "data": "data/undead.json"
     },
     "humans": {
       "name": "Люди",
