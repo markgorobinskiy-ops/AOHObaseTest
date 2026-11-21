@@ -91,6 +91,18 @@
         "undead/prud-utoplennikov"
       ],
       "m": "Утопленники"
+    },
+    {
+      "n": "Колчан Скорости",
+      "name": "Колчан Скорости",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_Skorosti.jpg",
+      "locs": [
+        "undead/prud-utoplennikov",
+        "undead/topi"
+      ],
+      "m": "Гидра, Утопленники"
     }
   ]
 }

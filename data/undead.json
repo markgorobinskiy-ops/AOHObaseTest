@@ -61,6 +61,11 @@
       "name": "Зареченский Монастырь (Скрытая локация)",
       "id": "undead/zarechenskiy-monastyr-skrytaya-lokaciya",
       "data": "data/undead/zarechenskiy-monastyr-skrytaya-lokaciya.json"
+    },
+    {
+      "name": "Ущелье Ржавых Доспехов",
+      "id": "undead/uschele-rzhavyh-dospehov",
+      "data": "data/undead/uschele-rzhavyh-dospehov.json"
     }
   ],
   "items": []

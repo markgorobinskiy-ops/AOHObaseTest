@@ -35,6 +35,17 @@
         "demons/unkhu"
       ],
       "m": "Рейдер"
+    },
+    {
+      "n": "Плащ Вечного Бродяги",
+      "name": "Плащ Вечного Бродяги",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Plasch_Vechnogo_Brodjagi.jpg",
+      "locs": [
+        "demons/unkhu"
+      ],
+      "m": "Рейдер"
     }
   ]
 }

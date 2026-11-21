@@ -48,6 +48,28 @@
         "orcs/stoybische_hodyaschih_po_ognyu"
       ],
       "m": "Злые Кочевники, Кабан"
+    },
+    {
+      "n": "Перчатки Везунчика",
+      "name": "Перчатки Везунчика",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Vezunchika.jpg",
+      "locs": [
+        "orcs/solonchaki"
+      ],
+      "m": "Злые Кочевники"
+    },
+    {
+      "n": "Пернатые Перчатки",
+      "name": "Пернатые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Pernatie_Perchatki.jpg",
+      "locs": [
+        "orcs/solonchaki"
+      ],
+      "m": "Злые Кочевники"
     }
   ]
 }

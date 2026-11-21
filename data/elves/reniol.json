@@ -41,6 +41,40 @@
         "elves/reniol"
       ],
       "m": "Изгнанники, Разбойники"
+    },
+    {
+      "n": "Гномья Руна",
+      "name": "Гномья Руна",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gnomja_Runa.jpg",
+      "locs": [
+        "elves/chascha-duhov-skrytaya-lokaciya",
+        "elves/reniol"
+      ],
+      "m": "Дух, Одержимые"
+    },
+    {
+      "n": "Рунический Меч",
+      "name": "Рунический Меч",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Run_Sword.jpg",
+      "locs": [
+        "elves/reniol"
+      ],
+      "m": "Грозные Разбойники"
+    },
+    {
+      "n": "Каменный Нож",
+      "name": "Каменный Нож",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamen_Noj.jpg",
+      "locs": [
+        "elves/reniol"
+      ],
+      "m": "Безумные Грифоны"
     }
   ]
 }

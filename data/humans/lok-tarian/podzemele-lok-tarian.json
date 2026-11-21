@@ -147,6 +147,17 @@
         "humans/lok-tarian/podzemele-lok-tarian"
       ],
       "m": "Гора Трупов"
+    },
+    {
+      "n": "Секира Древнего Ужаса",
+      "name": "Секира Древнего Ужаса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sekira_Drevnego_Ujasa.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian"
+      ],
+      "m": "Гора Трупов"
     }
   ]
 }

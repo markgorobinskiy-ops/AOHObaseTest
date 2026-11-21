@@ -36,6 +36,17 @@
         "elves/hizhina-otshelnika-portalnaya-lokaciya"
       ],
       "m": "Страж Души"
+    },
+    {
+      "n": "Опалённая Туника",
+      "name": "Опалённая Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Opalennaja_Tunika.jpg",
+      "locs": [
+        "elves/hizhina-otshelnika-portalnaya-lokaciya"
+      ],
+      "m": "Страж Души"
     }
   ]
 }

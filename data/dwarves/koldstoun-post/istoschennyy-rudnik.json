@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Kinjal_3_Pechatei.jpg",
       "locs": [
-        "dwarves/koldstoun-post/istoschennyy-rudnik"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/sangard_post/kilmaat-13-yarus"
       ],
-      "m": "Мёртвый Рудокоп"
+      "m": "Мёртвый Рудокоп, Тень, Страж, Привратник"
     },
     {
       "n": "Белый Шар",
@@ -35,11 +36,12 @@
       "rarity": "Особый",
       "img": "Gnomja_Runa.jpg",
       "locs": [
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
         "dwarves/koldstoun-post/istoschennyy-rudnik",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "dwarves/yuzhnyy_pik"
       ],
-      "m": "Мёртвый Рудокоп, Тень, Страж, Привратник, Цербер Тени"
+      "m": "Мёртвый Рудокоп, Тень, Страж, Привратник, Цербер Тени, Древний"
     },
     {
       "n": "Стилет Убийцы",
@@ -103,9 +105,10 @@
       "rarity": "Особый",
       "img": "Perchatki_Salamandri.jpg",
       "locs": [
-        "dwarves/koldstoun-post/istoschennyy-rudnik"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya"
       ],
-      "m": "Мёртвый Рудокоп"
+      "m": "Мёртвый Рудокоп, Бандит"
     },
     {
       "n": "Лазурная Шляпа",
@@ -126,9 +129,10 @@
       "rarity": "Особый",
       "img": "Obsidian_Cheshuja.jpg",
       "locs": [
-        "dwarves/koldstoun-post/istoschennyy-rudnik"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/malye-tonneli"
       ],
-      "m": "Мёртвый Рудокоп"
+      "m": "Мёртвый Рудокоп, Проклятые Големы"
     },
     {
       "n": "Гизарма Ужаса",

@@ -22,9 +22,10 @@
       "rarity": "Особый",
       "img": "Gnomja_Runa.jpg",
       "locs": [
-        "elves/chascha-duhov-skrytaya-lokaciya"
+        "elves/chascha-duhov-skrytaya-lokaciya",
+        "elves/reniol"
       ],
-      "m": "Дух"
+      "m": "Дух, Одержимые"
     }
   ]
 }

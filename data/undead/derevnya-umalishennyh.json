@@ -21,6 +21,18 @@
       "rarity": "Особый",
       "img": "Led_Kortik.jpg",
       "locs": [
+        "undead/derevnya-umalishennyh",
+        "undead/medilanskoe_nagore/labirint"
+      ],
+      "m": "Дух, Хранители Лабиринта"
+    },
+    {
+      "n": "Драконий Хвост",
+      "name": "Драконий Хвост",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Dragon_Hvost.jpg",
+      "locs": [
         "undead/derevnya-umalishennyh"
       ],
       "m": "Дух"

@@ -72,9 +72,10 @@
       "locs": [
         "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
         "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
         "dwarves/yuzhnyy_pik"
       ],
-      "m": "Голем, Демоны, Цербер Тени"
+      "m": "Голем, Демоны, Цербер Тени, Тень, Страж, Привратник"
     },
     {
       "n": "Колчан из Рога",
@@ -108,6 +109,29 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "Zacharovanniy_Hrustal.jpg",
+      "locs": [
+        "dwarves/malye-tonneli"
+      ],
+      "m": "Проклятые Големы"
+    },
+    {
+      "n": "Обсидиановая Чешуя",
+      "name": "Обсидиановая Чешуя",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Obsidian_Cheshuja.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/malye-tonneli"
+      ],
+      "m": "Мёртвый Рудокоп, Проклятые Големы"
+    },
+    {
+      "n": "Терракотовые Латы",
+      "name": "Терракотовые Латы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Terrakot_Lati.jpg",
       "locs": [
         "dwarves/malye-tonneli"
       ],

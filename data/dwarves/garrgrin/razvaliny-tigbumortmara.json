@@ -39,6 +39,31 @@
         "dwarves/garrgrin/razvaliny-tigbumortmara"
       ],
       "m": "Древний"
+    },
+    {
+      "n": "Гномья Руна",
+      "name": "Гномья Руна",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gnomja_Runa.jpg",
+      "locs": [
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik"
+      ],
+      "m": "Мёртвый Рудокоп, Тень, Страж, Привратник, Цербер Тени, Древний"
+    },
+    {
+      "n": "Лук-Призрак",
+      "name": "Лук-Призрак",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "luk_prizrak.png",
+      "locs": [
+        "dwarves/garrgrin/razvaliny-tigbumortmara"
+      ],
+      "m": "Древний"
     }
   ]
 }

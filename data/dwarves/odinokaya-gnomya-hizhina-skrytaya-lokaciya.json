@@ -25,6 +25,29 @@
         "dwarves/sangard_post/kilmaat-13-yarus"
       ],
       "m": "Бандит, Тень, Страж, Привратник"
+    },
+    {
+      "n": "Перчатки Саламандры",
+      "name": "Перчатки Саламандры",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Salamandri.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya"
+      ],
+      "m": "Мёртвый Рудокоп, Бандит"
+    },
+    {
+      "n": "Драконий Хвост",
+      "name": "Драконий Хвост",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Dragon_Hvost.jpg",
+      "locs": [
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya"
+      ],
+      "m": "Бандит"
     }
   ]
 }

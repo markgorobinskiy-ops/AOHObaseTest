@@ -123,7 +123,7 @@
       "locs": [
         "dwarves/sangard_post/kilmaat-13-yarus"
       ],
-      "m": "Страж, Привратник"
+      "m": "Тень, Страж, Привратник"
     },
     {
       "n": "Гномья Руна",
@@ -132,11 +132,12 @@
       "rarity": "Особый",
       "img": "Gnomja_Runa.jpg",
       "locs": [
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
         "dwarves/koldstoun-post/istoschennyy-rudnik",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "dwarves/yuzhnyy_pik"
       ],
-      "m": "Мёртвый Рудокоп, Тень, Страж, Привратник, Цербер Тени"
+      "m": "Мёртвый Рудокоп, Тень, Страж, Привратник, Цербер Тени, Древний"
     },
     {
       "n": "Гоблинский Колчан",
@@ -282,6 +283,54 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "Тень, Страж, Привратник",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Тень, Страж, Привратник"
+    },
+    {
+      "n": "Кинжал Трёх Печатей",
+      "name": "Кинжал Трёх Печатей",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kinjal_3_Pechatei.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Мёртвый Рудокоп, Тень, Страж, Привратник"
+    },
+    {
+      "n": "Малахитовая Сфера",
+      "name": "Малахитовая Сфера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Malahit_Sphere.jpg",
+      "locs": [
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik"
+      ],
+      "m": "Голем, Демоны, Цербер Тени, Тень, Страж, Привратник"
+    },
+    {
+      "n": "Серебрянный Желудь",
+      "name": "Серебрянный Желудь",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Serebro_Jolud.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus"
+      ],
+      "m": "Тень, Страж, Привратник"
+    },
+    {
+      "n": "Амулет Лекаря",
+      "name": "Амулет Лекаря",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Amulet_Lekarja.jpg",
       "locs": [
         "dwarves/sangard_post/kilmaat-13-yarus"
       ],

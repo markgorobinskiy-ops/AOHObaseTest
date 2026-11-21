@@ -1,7 +1,13 @@
 {
   "id": "undead/medilanskoe_nagore/labirint",
   "name": "Лабиринт",
-  "sections": [],
+  "sections": [
+    {
+      "name": "Логово Минотавра",
+      "id": "undead/medilanskoe_nagore/labirint/logovo-minotavra",
+      "data": "data/undead/medilanskoe_nagore/labirint/logovo-minotavra.json"
+    }
+  ],
   "items": [
     {
       "n": "Проклятая Сарисса",
@@ -25,6 +31,85 @@
         "undead/medilanskoe_nagore/labirint"
       ],
       "m": "Потерянная Душа"
+    },
+    {
+      "n": "Молот Бедствий",
+      "name": "Молот Бедствий",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Molot_Bedstviy.jpg",
+      "locs": [
+        "undead/medilanskoe_nagore/labirint",
+        "undead/pograniche-yug"
+      ],
+      "m": "Злой Пограничник, Ужас Подземелий"
+    },
+    {
+      "n": "Льдистый Кортик",
+      "name": "Льдистый Кортик",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Led_Kortik.jpg",
+      "locs": [
+        "undead/derevnya-umalishennyh",
+        "undead/medilanskoe_nagore/labirint"
+      ],
+      "m": "Дух, Хранители Лабиринта"
+    },
+    {
+      "n": "Капюшон Подлеца",
+      "name": "Капюшон Подлеца",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kap_Podleca.jpg",
+      "locs": [
+        "undead/medilanskoe_nagore/labirint"
+      ],
+      "m": "Хранители Лабиринта"
+    },
+    {
+      "n": "Гладиус",
+      "name": "Гладиус",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gladius.jpg",
+      "locs": [
+        "undead/medilanskoe_nagore/labirint"
+      ],
+      "m": "Ужас Подземелий"
+    },
+    {
+      "n": "Волчий Шлем",
+      "name": "Волчий Шлем",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Volk_Shlem.jpg",
+      "locs": [
+        "undead/medilanskoe_nagore/labirint"
+      ],
+      "m": "Заблудший"
+    },
+    {
+      "n": "Копьё Скорости",
+      "name": "Копьё Скорости",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kopje_Skorosti.jpg",
+      "locs": [
+        "undead/medilanskoe_nagore/labirint"
+      ],
+      "m": "Заблудший"
+    },
+    {
+      "n": "Каменный Панцирь",
+      "name": "Каменный Панцирь",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamenniy_Pancir.jpg",
+      "locs": [
+        "undead/medilanskoe_nagore/labirint"
+      ],
+      "m": "Хранители Лабиринта"
     }
   ]
 }

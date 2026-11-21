@@ -2,5 +2,54 @@
   "id": "humans/11",
   "name": "Кромельвуд",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Перчатки Вечной Зимы",
+      "name": "Перчатки Вечной Зимы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Vechnoi_Zimi.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/kromelvud"
+      ],
+      "m": "Энт, Волк, Варг Гримгольда, Черные Варги"
+    },
+    {
+      "n": "Пернатые Перчатки",
+      "name": "Пернатые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Pernatie_Perchatki.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/kromelvud"
+      ],
+      "m": "Энт, Волк, Черные Варги"
+    },
+    {
+      "n": "Перчатки с Топазами",
+      "name": "Перчатки с Топазами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_s_Topazami.jpg",
+      "locs": [
+        "humans/amissvud",
+        "humans/kromelvud"
+      ],
+      "m": "Волк, Черные Варги"
+    },
+    {
+      "n": "Короткий Лук Всадника",
+      "name": "Короткий Лук Всадника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Korotkiy_Luk_Vsadnika.jpg",
+      "locs": [
+        "humans/kromelvud"
+      ],
+      "m": "Черные Варги"
+    }
+  ]
 }

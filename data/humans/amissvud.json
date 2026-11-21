@@ -96,9 +96,10 @@
       "img": "Perchatki_Vechnoi_Zimi.jpg",
       "locs": [
         "humans/amissvud",
-        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya"
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/kromelvud"
       ],
-      "m": "Энт, Волк, Варг Гримгольда"
+      "m": "Энт, Волк, Варг Гримгольда, Черные Варги"
     },
     {
       "n": "Сфера Шепотов",
@@ -144,9 +145,10 @@
       "rarity": "Особый",
       "img": "Pernatie_Perchatki.jpg",
       "locs": [
-        "humans/amissvud"
+        "humans/amissvud",
+        "humans/kromelvud"
       ],
-      "m": "Энт, Волк"
+      "m": "Энт, Волк, Черные Варги"
     },
     {
       "n": "Тисовый Колчан",
@@ -346,9 +348,10 @@
       "rarity": "Особый",
       "img": "Perchatki_s_Topazami.jpg",
       "locs": [
-        "humans/amissvud"
+        "humans/amissvud",
+        "humans/kromelvud"
       ],
-      "m": "Волк"
+      "m": "Волк, Черные Варги"
     }
   ]
 }

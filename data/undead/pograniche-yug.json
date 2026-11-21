@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Molot_Bedstviy.jpg",
       "locs": [
+        "undead/medilanskoe_nagore/labirint",
         "undead/pograniche-yug"
       ],
-      "m": "Злой Пограничник"
+      "m": "Злой Пограничник, Ужас Подземелий"
     },
     {
       "n": "Медный Доспех",

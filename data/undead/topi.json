@@ -110,9 +110,10 @@
       "rarity": "Особый",
       "img": "Kolchan_Aristo.jpg",
       "locs": [
+        "undead/medilanskoe_nagore/labirint/logovo-minotavra",
         "undead/topi"
       ],
-      "m": "Гидра"
+      "m": "Гидра, Загубленная Душа"
     },
     {
       "n": "Цветочный Орб",
@@ -143,9 +144,10 @@
       "rarity": "Особый",
       "img": "Kolchan_Skorosti.jpg",
       "locs": [
+        "undead/prud-utoplennikov",
         "undead/topi"
       ],
-      "m": "Гидра"
+      "m": "Гидра, Утопленники"
     },
     {
       "n": "Белый Шар",
@@ -212,6 +214,18 @@
         "undead/topi"
       ],
       "m": "Гидра"
+    },
+    {
+      "n": "Жезл Истины",
+      "name": "Жезл Истины",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jezl_Istini.jpg",
+      "locs": [
+        "undead/medilanskoe_nagore/labirint/logovo-minotavra",
+        "undead/topi"
+      ],
+      "m": "Охрана Минотавра, Болотные Шаманы"
     }
   ]
 }
