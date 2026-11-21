@@ -324,7 +324,7 @@ async function updateGlobalStats(){
 let bgCur = document.getElementById('bgA'), bgImg = '';
 function setBgFor(raceId){
   const r = RACES[raceId];
-  if(!r) return;
+  if(!r || !r.bg) return;
   const img = r.bg;
   if(img === bgImg) return;
   bgImg = img;
@@ -337,18 +337,18 @@ function setBgFor(raceId){
 
 /* ——— тема: меняется ТОЛЬКО кнопкой, навигация её не трогает ——— */
 function applyTheme(themeId){
-  if(!RACES[themeId]) themeId = Object.keys(RACES)[0];
+  if(!RACES[themeId] || themeId === 'market') themeId = Object.keys(RACES)[0];
   document.body.dataset.theme = themeId;
   setBgFor(themeId);
   try { localStorage.setItem('aoho_theme', themeId); } catch(e){}
   buildRaceButton();
 }
 
-/* ——— шапка: кнопка темы (листает по кругу) ——— */
+/* ——— шапка: кнопка темы (листает по кругу, рынок в перебор не входит) ——— */
 function buildRaceButton(){
   const box = document.getElementById('chips');
   box.innerHTML = '';
-  const ids = Object.keys(RACES);
+  const ids = Object.keys(RACES).filter(id => id !== 'market');
   const cur = RACES[document.body.dataset.theme] ? document.body.dataset.theme : ids[0];
   const next = ids[(ids.indexOf(cur) + 1) % ids.length];
   const b = document.createElement('button');
