@@ -631,8 +631,9 @@ async function render(){
   if(kind !== 'race' && kind !== 'loc'){
     let html = '<h2>Выберите расу</h2><div class="tagline">Мир Айвейла ждёт наблюдения</div>'
              + '<div class="orn"><span class="line"></span><span class="gem">\u25C6</span><span class="line"></span></div>'
-             + '<div style="position:fixed;right:28px;top:40%;z-index:30">'
-             + '<button class="chip mkt-btn" onclick="location.hash=\'#/market\'">\u2694 Оркский Рынок</button></div>';
+             + '<div style="position:fixed;right:210px;top:40%;z-index:30">'
+             + '<button class="chip mkt-btn" style="font-size:1.1rem;padding:12px 26px" onclick="location.hash=\'#/market\'">\u2694 Оркский Рынок</button></div>';
+
 
     let k = 0;
     for(const id in RACES){
