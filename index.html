@@ -233,11 +233,11 @@
   <div class="f-title">База данных предметов от сообщества очень весёлых Энтузиастов</div>
   <div class="f-sub">Мир Айвейла ждёт наблюдения</div>
   <div class="f-orn"><span class="line"></span><span class="gem">◆</span><span class="line"></span></div>
-  <div class="f-links">
+    <div class="f-links">
     <a href="https://github.com/markgorobinskiy-ops/AOHOBaseTest" target="_blank">Репозиторий на GitHub</a>
-    <a href="#/">На главную</a>
-    <a href="#/market">Оркский Рынок</a>
-    <a href="#/quests">Квестовые Боссы</a>
+    <a href="#/" onclick="goTo('#/', event)">На главную</a>
+    <a href="#/market" onclick="goTo('#/market', event)">Оркский Рынок</a>
+    <a href="#/quests" onclick="goTo('#/quests', event)">Квестовые Боссы</a>
   </div>
   <div class="f-note">Все права не очень защищены · Все предметы в открытом доступе · <span id="fyear"></span></div>
   <div class="f-note" style="margin-top:6px">Разработал: Марк (Маркусик, Маркуся) совместно с сообществом игры AOHO Revival</div>
@@ -568,6 +568,21 @@ function closeItem(){
   document.getElementById('overlay').classList.remove('show');
 }
 document.addEventListener('keydown', e => { if(e.key === 'Escape') closeItem(); });
+
+/* ——— переход по ссылкам футера: сбрасывает поиск, даже если хеш уже тот же ——— */
+function goTo(hash, ev){
+  if(ev) ev.preventDefault();
+  searching = false;
+  searchQ = '';
+  const q = document.getElementById('q');
+  if(q) q.value = '';
+  closeItem();
+  if(location.hash === hash){
+    render();          /* хеш не изменился — перерисовываем сами */
+  } else {
+    location.hash = hash;
+  }
+}
 
 /* ——— общая отрисовка узла (Вторичный и Третичный) ——— */
 async function nodePage(app, path, isRace){
