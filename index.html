@@ -143,7 +143,7 @@
   body[data-theme="humans"] .r-purple { color:#7b1fa2; border-color:#7b1fa2; }
   body[data-theme="humans"] .r-orange { color:#e65100; border-color:#e65100; }
 
-  /* ——— Оркский Рынок ——— */
+  /* ——— Оркский Рынок и Квестовые Боссы ——— */
   .mkt-btn { border-color:#e0b466; color:#e0b466; }
   body[data-theme="humans"] .mkt-btn { border-color:#8a6d3b; color:#8a6d3b; }
   .mkt-btn:hover { background:rgba(224,180,102,.18); }
@@ -155,12 +155,13 @@
   .irow.missing { cursor:default; opacity:.45; }
   .irow.missing:hover { background:transparent; }
   .r-na { color:inherit; border-color:currentColor; opacity:.55; font-style:italic; }
-
-  /* ——— Оркский Рынок: правки 21.11 ——— */
   .mkt-dash { font-weight:normal; opacity:.55; }
   .mkt-spec, .mkt-spec-link { font-size:1.18rem; font-weight:bold; color:var(--accent); font-style:normal; }
   .mkt-spec-link { cursor:pointer; }
   .mkt-spec-link:hover { text-decoration:underline; }
+  .qst-place { font-weight:normal; font-style:italic; opacity:.75; font-size:.88rem; }
+  .qst-note { font-size:.85rem; font-style:italic; opacity:.85; margin:8px 0 4px;
+    padding:8px 14px; border:1px dashed var(--accent); border-radius:10px; }
 
   /* ——— футер ——— */
   footer {
@@ -182,10 +183,13 @@
   footer .f-note { font-size:.75rem; opacity:.6; font-style:italic; margin-top:10px; }
   footer .f-note a { color:var(--accent); text-decoration:none; }
 
-  /* кнопка рынка: на широком экране плавает справа, на узком уходит в поток под расы */
-  .mkt-float { position:fixed; right:210px; top:40%; z-index:30; }
+  /* кнопки рынка и боссов: на широком экране плавают справа колонкой,
+     на узком уходят в поток под карточки рас */
+  .mkt-float { position:fixed; right:210px; top:40%; z-index:30;
+    display:flex; flex-direction:column; gap:10px; }
   @media (max-width:1650px){
-    .mkt-float { position:static; display:flex; justify-content:center; margin:18px 0; }
+    .mkt-float { position:static; display:flex; flex-direction:column; align-items:center;
+      justify-content:center; margin:18px 0; }
   }
 
   /* панель объекта */
@@ -219,7 +223,7 @@
     <div class="sub">Список предметов и локаций, в которых они выпадают</div>
   </div>
   <input id="q" type="text" placeholder="Поиск предмета..." autocomplete="off">
-  <div class="statbox"><span class="stat" id="statAll">\u{1F4CA} Считаю статистику\u2026</span></div>
+  <div class="statbox"><span class="stat" id="statAll">📊 Считаю статистику…</span></div>
   <div class="chips" id="chips"></div>
 </header>
 <main id="app"></main>
@@ -233,6 +237,7 @@
     <a href="https://github.com/markgorobinskiy-ops/AOHOBaseTest" target="_blank">Репозиторий на GitHub</a>
     <a href="#/">На главную</a>
     <a href="#/market">Оркский Рынок</a>
+    <a href="#/quests">Квестовые Боссы</a>
   </div>
   <div class="f-note">Все права не очень защищены · Все предметы в открытом доступе · <span id="fyear"></span></div>
   <div class="f-note" style="margin-top:6px">Разработал: Марк (Маркусик, Маркуся) совместно с сообществом игры AOHO Revival</div>
@@ -267,7 +272,7 @@ fetch('races.json?_=' + Date.now())
   .then(json => { RACES = json.races; init(); })
   .catch(() => {
     document.getElementById('app').innerHTML =
-      '<div class="placeholder" style="margin-top:60px">\u26A0 Не удалось загрузить races.json.<br>'
+      '<div class="placeholder" style="margin-top:60px">⚠ Не удалось загрузить races.json.<br>'
       + 'Если сайт открыт с диска (file://), браузер блокирует чтение локальных файлов.<br>'
       + 'Открой ресурсы через GitHub Pages.</div>';
   });
@@ -314,9 +319,9 @@ async function updateGlobalStats(){
       const st = await walkStats(rid);
       locs += st.subs;
     }
-    el.innerHTML = '\u{1F4CA} Предметов: ' + idx.length + ' \u00b7 Локаций: ' + locs;
+    el.innerHTML = '📊 Предметов: ' + idx.length + ' · Локаций: ' + locs;
   } catch(e){
-    el.innerHTML = '\u{1F4CA} Статистика недоступна';
+    el.innerHTML = '📊 Статистика недоступна';
   }
 }
 
@@ -344,7 +349,7 @@ function applyTheme(themeId){
   buildRaceButton();
 }
 
-/* ——— шапка: кнопка темы (листает по кругу, рынок в перебор не входит) ——— */
+/* ——— шапка: кнопка темы (листает по кругу, рынок и боссы в перебор не входят) ——— */
 function buildRaceButton(){
   const box = document.getElementById('chips');
   box.innerHTML = '';
@@ -404,7 +409,7 @@ async function subsPreview(path){
   for(const s of secs){
     const p = cleanData(s.data);
     html += '<div class="sub-item" onclick="location.hash=\'#/loc/' + p + '\'">'
-          + '<span><span class="arrow">\u21B3</span>' + s.name + '</span>'
+          + '<span><span class="arrow">↳</span>' + s.name + '</span>'
           + '<span data-badge="' + p + '"><span class="soon">…</span></span></div>';
   }
   return html + '</div>';
@@ -509,9 +514,9 @@ async function renderSearch(){
   const hits = all.filter(e => normq(e.it.n || e.it.name || '').indexOf(nq) !== -1);
   let html = '<h2>Поиск</h2>'
            + '<div class="tagline">Запрос: «' + esc(q) + '»</div>'
-           + '<div class="orn"><span class="line"></span><span class="gem">\u25C6</span><span class="line"></span></div>';
+           + '<div class="orn"><span class="line"></span><span class="gem">◆</span><span class="line"></span></div>';
   if(!hits.length){
-    html += '<div class="placeholder">\u{1F50D} Ничего не найдено.<br>Попробуйте другую часть названия предмета.</div>';
+    html += '<div class="placeholder">🔍 Ничего не найдено.<br>Попробуйте другую часть названия предмета.</div>';
   } else {
     const lim = hits.slice(0, 50);
     html += '<div class="itable"><div class="ihead"><span>Предмет</span><span>Редкость</span></div>';
@@ -537,11 +542,11 @@ async function openItem(path, j){
   const imgBox = document.getElementById('pimg');
   if(it.img){
     imgBox.innerHTML = '<img src="' + ITEM_DIR + it.img + '" alt="' + it.n + '">';
-    imgBox.querySelector('img').onerror = function(){ imgBox.innerHTML = '\u{1F5BC} Картинка не найдена:<br>' + it.img; };
+    imgBox.querySelector('img').onerror = function(){ imgBox.innerHTML = '🖼 Картинка не найдена:<br>' + it.img; };
   } else {
-    imgBox.innerHTML = '\u{1F5BC} Картинка появится позже';
+    imgBox.innerHTML = '🖼 Картинка появится позже';
   }
-  let locHtml = (await breadcrumb(path)).map(c => c.name).join(' \u2192 ');
+  let locHtml = (await breadcrumb(path)).map(c => c.name).join(' → ');
   if(it.locs && it.locs.length){
     const names = [];
     for(const p of it.locs){
@@ -549,12 +554,12 @@ async function openItem(path, j){
       try { const n = await loadNode(p); if(n.name) nm = n.name; } catch(e){}
       names.push(nm);
     }
-    locHtml = names.join(' \u00b7 ');
+    locHtml = names.join(' · ');
   }
   document.getElementById('pmeta').innerHTML =
     '<span class="rchip ' + (RARITY_CLASS[it.r] || 'r-green') + '">' + it.r + '</span><br>'
     + 'Выпадает в: ' + locHtml + '<br>'
-    + 'Моб: ' + (it.m || '\u2014');
+    + 'Моб: ' + (it.m || '—');
   document.getElementById('panel').classList.add('show');
   document.getElementById('overlay').classList.add('show');
 }
@@ -574,17 +579,17 @@ async function nodePage(app, path, isRace){
   let html = '';
 
   if(isRace){
-    html += '<a class="back" href="#/">\u2190 Все расы</a>'
+    html += '<a class="back" href="#/">← Все расы</a>'
           + '<h2>' + race.icon + ' ' + race.name + '</h2>'
           + '<div class="tagline">' + (race.tagline || '') + '</div>'
-          + '<div class="orn"><span class="line"></span><span class="gem">\u25C6</span><span class="line"></span></div>';
+          + '<div class="orn"><span class="line"></span><span class="gem">◆</span><span class="line"></span></div>';
   } else {
     const crumbs = await breadcrumb(path);
-    html += '<a class="back" href="#/race/' + path.split('/')[0] + '">\u2190 ' + race.name + '</a>'
-          + '<h2>\u{1F4CD} ' + (node.name || path) + '</h2>'
+    html += '<a class="back" href="#/race/' + path.split('/')[0] + '">← ' + race.name + '</a>'
+          + '<h2>📍 ' + (node.name || path) + '</h2>'
           + '<div class="crumbs">';
     crumbs.forEach((c, i) => {
-      if(i) html += '<span class="sep">\u203A</span>';
+      if(i) html += '<span class="sep">›</span>';
       html += '<a href="' + c.hash + '">' + c.name + '</a>';
     });
     html += '</div>';
@@ -593,14 +598,14 @@ async function nodePage(app, path, isRace){
   if(items.length){
     html += await itemsTable(path);
   } else if(!secs.length){
-    html += '<div class="placeholder">\u{1F4E6} Предметы появятся скоро.<br>Здесь будет таблица выпадающих предметов из этой локации.</div>';
+    html += '<div class="placeholder">📦 Предметы появятся скоро.<br>Здесь будет таблица выпадающих предметов из этой локации.</div>';
   }
 
   let j = 0;
   for(const s of secs){
     const p = cleanData(s.data);
     html += '<div class="card" style="animation-delay:' + (j * 0.06) + 's" onclick="location.hash=\'#/loc/' + p + '\'">'
-          + '<div class="title">\u{1F4CD} ' + s.name + '</div>'
+          + '<div class="title">📍 ' + s.name + '</div>'
           + '<div class="meta" data-badge="' + p + '"><span class="soon">…</span></div>'
           + await subsPreview(p)
           + '</div>';
@@ -703,12 +708,12 @@ const MKT = { sections: [
     'Гоблинский Лук','Керамический Лук','Лук-Призрак','Короткий Лук Всадника','Живое Мясо'] },
   { name: 'Ракшас Песчанный', spec: 'Доспех Пульвери', items: [
     'Клеймор','Палаческий Меч','Гладиус','Семизубый Меч','Эльфийская Рапира',
-    'Крылатый Меч','Поющий Клинок','Серебрянный Клеймор','Поцелуй Медузы'] }
+    'Крылатый Меч','Поющий Клинок','Серебряный Клеймор','Поцелуй Медузы'] }
 ]},
 { name: 'Оркский рынок, юг', traders: [
   { name: 'Логбар Степной Волк', spec: 'Кираса Разбойника', items: [
     'Эльфийские Перчатки','Перчатки Легендарного Рыцаря','Перчатки Абсолютного Холода','Перчатки из Рыбьей Чешуи',
-    'Перчатки Метателя Молний','Змеиные Перчатки','Перчатки с Серебрянными Шипами','Перчатки Чернокнижника','Перчатки с Топазами','Живое Мясо'] },
+    'Перчатки Метателя Молний','Змеиные Перчатки','Перчатки с Серебряными Шипами','Перчатки Чернокнижника','Перчатки с Топазами','Живое Мясо'] },
   { name: 'Нубор Степной Волк', spec: 'Кираса Разбойника', items: [
     'Сапоги Кошачьей Походки','Каменные Сапоги','Сапоги Ледяных Мостов','Грозовые Сапоги','Спринтерские Сапоги',
     'Сапоги из Лавы','Серебряные Сапоги','Сапоги из Кожи Варга','Дьяволовы Стопы','Живое Мясо'] },
@@ -716,7 +721,7 @@ const MKT = { sections: [
     'Плащ с Капюшоном','Рыжий Плащ','Огненная Накидка','Меховой Плащ','Накидка Ордена',
     'Сумеречный Плащ','Накидка Ловца Фей','Плащ из Кожи Келпи','Накидка Попутного Ветра','Живое Мясо'] },
   { name: 'Эдруга Степной Волк', spec: 'Кольцо Отваги', items: [
-    'Серебряный Доспех','Мерцающий Доспех','Грозовой Панцирь','Медный Доспех','Инеевая Кирасса',
+    'Серебряный Доспех','Мерцающий Доспех','Грозовой Панцирь','Медный Доспех','Инеевая Кираса',
     'Доспех Полководца','Каменный Панцирь','Панцирь Теней','Призрачные Латы','Живое Мясо'] },
   { name: 'Форк Степной Волк', spec: 'Капюшон Медведя', items: [
     'Гномий Колчан','Огненный Колчан','Колчан из Рога','Колчан Скорости','Тисовый Колчан',
@@ -759,10 +764,10 @@ async function renderMarket(app){
     if(k && !byName[k]) byName[k] = e;
   });
   let total = 0, found = 0;
-  let html = '<a class="back" href="#/">\u2190 Все расы</a>'
-           + '<h2>\u2694 Оркский Рынок</h2>'
+  let html = '<a class="back" href="#/">← Все расы</a>'
+           + '<h2>⚔ Оркский Рынок</h2>'
            + '<div class="tagline">Предметы для крафта новой Сини</div>'
-           + '<div class="orn"><span class="line"></span><span class="gem">\u25C6</span><span class="line"></span></div>';
+           + '<div class="orn"><span class="line"></span><span class="gem">◆</span><span class="line"></span></div>';
   data.forEach(sec => {
     html += '<h2 style="font-size:1.15rem;margin-top:20px">' + esc(sec.name) + '</h2>';
     sec.traders.forEach(t => {
@@ -771,7 +776,7 @@ async function renderMarket(app){
         ? '<span class="mkt-spec-link" title="Открыть карточку в базе" onclick="openItem(\'' + specHit.path + '\',' + specHit.j + ')">' + esc(t.spec) + '</span>'
         : '<span class="mkt-spec">' + esc(t.spec) + '</span>';
       html += '<div class="mkt-npc"><span>' + esc(t.name) + '</span>'
-            + '<span class="mkt-dash">\u2014</span>'
+            + '<span class="mkt-dash">—</span>'
             + specHtml
             + '<span class="line"></span></div>';
       html += '<div class="itable">';
@@ -788,11 +793,107 @@ async function renderMarket(app){
       html += '</div>';
     });
   });
-  html += '<div class="snote">Позиций в списках: ' + total + ' \u00b7 Найдено в базе: ' + found
-        + ' \u00b7 Ждут добавления: ' + (total - found) + '</div>';
+  html += '<div class="snote">Позиций в списках: ' + total + ' · Найдено в базе: ' + found
+        + ' · Ждут добавления: ' + (total - found) + '</div>';
   app.innerHTML = html;
 }
 window.renderMarket = renderMarket;
+
+/* ——— Квестовые Боссы: данные (ручная редакторская страница, прогон таблицы её не трогает) ——— */
+const QST = { sections: [
+{ name: 'Призыв квестовых боссов',
+  note: 'Для призыва каждого босса дополнительно требуется 1 кристалл, который покупается за валюту БМ (Божественная милость).',
+  bosses: [
+  { name: 'Скилла', place: 'Карагвур пост, дальний юг', items: [
+    'Накидка Морских Брызг','Посох Южного Ветра','Кожанка Утопленника','Солнечный Орб',
+    'Солёные Брызги','Матросский Колчан','Перчатки из Рыбьей Чешуи'] },
+  { name: 'Кричащий', place: 'Большой разлом, центр', items: [
+    'Топор Немоты','Палаческий Меч','Кричащее Лезвие','Плачущий Посох',
+    'Маска Палача','Дьяволовы Стопы','Кровавая Туника'] },
+  { name: 'Пожиратель', place: 'Разбойничья Пуща (Скрытая локация)', items: [
+    'Саван Мертвеца','Леденеющий Кожаный Доспех','Лук Мертвеца','Сфера Абсолютного Холода',
+    'Перчатки Вечной Зимы','Топор Глубинного Холода','Молот Вечной Войны'] },
+  { name: 'Мрак', place: 'Колдовской остров (Портальная локация)', items: [
+    'Секира Древнего Ужаса','Пьющий Кровь','Сеющий Ужас','Шлем Слепого Ужаса',
+    'Перстень Глубинного Ужаса','Змеиные Перчатки','Колчан Тьмы'] },
+  { name: 'Ужас', place: "Шак'Од, восток", items: [
+    'Серебряный Лабрис','Варварский Молот','Инеевая Кираса','Друидский Плащ',
+    'Лук Барда','Орочий Лёгкий Доспех','Жало'] },
+  { name: 'Гиперий', place: 'Лабиринт', items: [
+    'Тяжёлый Деревянный Щит','Паучий Плащ','Сияющая Пика','Варварский Доспех из шкур',
+    'Разбойничий Кинжал','Кристалл Земли','Карающий Клинок'] },
+  { name: 'Астория', place: 'Монтсильвар', items: [
+    'Грозовой Панцирь','Перчатки Метателя Молний','Щит Семи Громов','Посох Грома',
+    'Око Грозы','Глефа Молний','Бригантина Молний'] }
+]}
+]};
+
+/* ——— Квестовые Боссы: отрисовка (та же логика подсветки, что у рынка) ——— */
+function qstData(){
+  const secs = (typeof QST !== 'undefined' && QST) ? (QST.sections || []) : [];
+  return secs.map(s => ({
+    name: s.name || '',
+    note: s.note || '',
+    bosses: (s.bosses || []).map(b => ({
+      name: b.name || '', place: b.place || '', spec: b.spec || '', items: b.items || []
+    }))
+  }));
+}
+async function renderQuests(app){
+  const data = qstData();
+  if(!data.length){
+    app.innerHTML = '<div class="placeholder">🏆 Список боссов пока пуст.<br>'
+                  + 'Добавьте боссов в блок QST в index.html.</div>';
+    return;
+  }
+  const idx = await globalItemIndex();
+  const byName = {};
+  idx.forEach(e => {
+    const k = mkt2Key(e.it.n || e.it.name || '');
+    if(k && !byName[k]) byName[k] = e;
+  });
+  let total = 0, found = 0;
+  let html = '<a class="back" href="#/">← Все расы</a>'
+           + '<h2>🏆 Квестовые Боссы</h2>'
+           + '<div class="tagline">Списки вещей для призыва боссов</div>'
+           + '<div class="orn"><span class="line"></span><span class="gem">◆</span><span class="line"></span></div>';
+  data.forEach(sec => {
+    html += '<h2 style="font-size:1.15rem;margin-top:20px">' + esc(sec.name) + '</h2>';
+    if(sec.note){
+      html += '<div class="qst-note">' + esc(sec.note) + '</div>';
+    }
+    sec.bosses.forEach(b => {
+      let nameRow = '<span>' + esc(b.name) + '</span>';
+      if(b.place){
+        nameRow += '<span class="mkt-dash">—</span><span class="qst-place">' + esc(b.place) + '</span>';
+      }
+      if(b.spec){
+        const specHit = byName[mkt2Key(b.spec)] || null;
+        const specHtml = specHit
+          ? '<span class="mkt-spec-link" title="Открыть карточку в базе" onclick="openItem(\'' + specHit.path + '\',' + specHit.j + ')">' + esc(b.spec) + '</span>'
+          : '<span class="mkt-spec">' + esc(b.spec) + '</span>';
+        nameRow += '<span class="mkt-dash">—</span>' + specHtml;
+      }
+      html += '<div class="mkt-npc">' + nameRow + '<span class="line"></span></div>';
+      html += '<div class="itable">';
+      b.items.forEach((name, j) => {
+        total++;
+        const h = byName[mkt2Key(name)];
+        if(h) found++;
+        html += '<div class="irow' + (h ? '' : ' missing') + '" style="animation-delay:' + ((j % 10) * 0.04) + 's"'
+              + (h ? ' onclick="openItem(\'' + h.path + '\',' + h.j + ')"' : '')
+              + '><span class="iname" style="font-size:1.1rem">' + esc(name) + '</span>'
+              + '<span class="rchip ' + (h ? (RARITY_CLASS[h.it.r] || 'r-green') : 'r-na') + '">'
+              + (h ? esc(h.it.r || '') : 'нет в базе') + '</span></div>';
+      });
+      html += '</div>';
+    });
+  });
+  html += '<div class="snote">Позиций в списках: ' + total + ' · Найдено в базе: ' + found
+        + ' · Ждут добавления: ' + (total - found) + '</div>';
+  app.innerHTML = html;
+}
+window.renderQuests = renderQuests;
 
 /* ——— маршрутизация ——— */
 async function render(){
@@ -804,10 +905,13 @@ async function render(){
   /* Оркский Рынок — отдельная вкладка */
   if(kind === 'market'){ await renderMarket(app); return; }
 
+  /* Квестовые Боссы — отдельная вкладка */
+  if(kind === 'quests'){ await renderQuests(app); return; }
+
   /* главная: список рас */
   if(kind !== 'race' && kind !== 'loc'){
     let html = '<h2>Выберите расу</h2><div class="tagline">Мир Айвейла ждёт наблюдения</div>'
-             + '<div class="orn"><span class="line"></span><span class="gem">\u25C6</span><span class="line"></span></div>';
+             + '<div class="orn"><span class="line"></span><span class="gem">◆</span><span class="line"></span></div>';
     let k = 0;
     for(const id in RACES){
       const r = RACES[id];
@@ -816,12 +920,15 @@ async function render(){
             + '<div class="meta" data-stats="' + id + '"><span class="soon">Загрузка…</span></div></div>';
       k++;
     }
-    html += '<div class="mkt-float"><button class="chip mkt-btn" style="font-size:1.1rem;padding:12px 26px" onclick="location.hash=\'#/market\'">\u2694 Оркский Рынок</button></div>';
+    html += '<div class="mkt-float">'
+          + '<button class="chip mkt-btn" style="font-size:1.1rem;padding:12px 26px" onclick="location.hash=\'#/market\'">⚔ Оркский Рынок</button>'
+          + '<button class="chip mkt-btn" style="font-size:1.1rem;padding:12px 26px" onclick="location.hash=\'#/quests\'">🏆 Квестовые Боссы</button>'
+          + '</div>';
     app.innerHTML = html;
     for(const id in RACES){
       const st = await walkStats(id);
       const el = document.querySelector('[data-stats="' + id + '"]');
-      if(el) el.innerHTML = 'Локаций: ' + st.subs + ' \u00b7 Предметов: ' + st.items;
+      if(el) el.innerHTML = 'Локаций: ' + st.subs + ' · Предметов: ' + st.items;
     }
     return;
   }
