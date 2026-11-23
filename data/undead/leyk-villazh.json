@@ -43,9 +43,10 @@
       "rarity": "Особый",
       "img": "Kopjo_Triaria.jpg",
       "locs": [
+        "humans/perekreste",
         "undead/leyk-villazh"
       ],
-      "m": "Страж Моста"
+      "m": "Свирепые Орки, Страж Моста"
     },
     {
       "n": "Копьё Милосердия",
@@ -65,9 +66,10 @@
       "rarity": "Особый",
       "img": "Shljapa_Mnogih_Char.jpg",
       "locs": [
+        "humans/korneyl/peschery",
         "undead/leyk-villazh"
       ],
-      "m": "Мёртвый Маг"
+      "m": "Мёртвый Маг, Толпы Скелетов"
     },
     {
       "n": "Шляпа Мастера",
@@ -76,9 +78,11 @@
       "rarity": "Особый",
       "img": "Shljapa_Mastera.jpg",
       "locs": [
+        "elves/reniol",
+        "humans/korneyl/peschery",
         "undead/leyk-villazh"
       ],
-      "m": "Мёртвый Маг"
+      "m": "Толпа Зомби, Проклятый Энт, Мёртвый Маг"
     },
     {
       "n": "Друидический Посох",
@@ -87,9 +91,10 @@
       "rarity": "Особый",
       "img": "Druid_Posoh.jpg",
       "locs": [
+        "humans/korneyl/peschery",
         "undead/leyk-villazh"
       ],
-      "m": "Мёртвый Епископ"
+      "m": "Послушники Тьмы, Мёртвый Епископ"
     }
   ]
 }

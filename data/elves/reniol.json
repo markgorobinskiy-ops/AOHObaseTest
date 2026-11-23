@@ -26,9 +26,11 @@
       "rarity": "Особый",
       "img": "Shljapa_Mastera.jpg",
       "locs": [
-        "elves/reniol"
+        "elves/reniol",
+        "humans/korneyl/peschery",
+        "undead/leyk-villazh"
       ],
-      "m": "Проклятый Энт"
+      "m": "Толпа Зомби, Проклятый Энт, Мёртвый Маг"
     },
     {
       "n": "Кавалерийский Меч",
@@ -38,9 +40,10 @@
       "img": "Kavaler_Sword.jpg",
       "locs": [
         "elves/lordeleyn",
-        "elves/reniol"
+        "elves/reniol",
+        "orcs/dolina-volchih-klykov-skrytaya-lokaciya"
       ],
-      "m": "Изгнанники, Разбойники"
+      "m": "Воевода, Изгнанники, Разбойники"
     },
     {
       "n": "Гномья Руна",
@@ -49,10 +52,16 @@
       "rarity": "Особый",
       "img": "Gnomja_Runa.jpg",
       "locs": [
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik",
         "elves/chascha-duhov-skrytaya-lokaciya",
-        "elves/reniol"
+        "elves/reniol",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "undead/topi"
       ],
-      "m": "Дух, Одержимые"
+      "m": "Мёртвый Рудокоп, Стражи Подземелий, Тень, Страж, Привратник, Цербер Тени, Дух, Гидра, Древний, Одержимые"
     },
     {
       "n": "Рунический Меч",
@@ -61,9 +70,10 @@
       "rarity": "Особый",
       "img": "Run_Sword.jpg",
       "locs": [
-        "elves/reniol"
+        "elves/reniol",
+        "humans/perekreste"
       ],
-      "m": "Грозные Разбойники"
+      "m": "Жестокие Разбойники, Грозные Разбойники"
     },
     {
       "n": "Каменный Нож",
@@ -72,9 +82,11 @@
       "rarity": "Особый",
       "img": "Kamen_Noj.jpg",
       "locs": [
-        "elves/reniol"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/reniol",
+        "humans/sredinnoe-poberezhe"
       ],
-      "m": "Безумные Грифоны"
+      "m": "Тень, Страж, Привратник, Снеговик, Безумные Грифоны"
     }
   ]
 }

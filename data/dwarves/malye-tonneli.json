@@ -10,11 +10,16 @@
       "rarity": "Особый",
       "img": "Kolchan_Skorosti.jpg",
       "locs": [
+        "demons/podzemele-marinii",
         "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
         "dwarves/malye-tonneli",
-        "dwarves/sangard_post/kilmaat-13-yarus"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "orcs/derevnya_burevestnikov/peschera-golemov",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "undead/prud-utoplennikov",
+        "undead/topi"
       ],
-      "m": "Страж, Проклятые Големы, Голем"
+      "m": "Страж, Бес, Големы, Проклятые Големы, Глядящий в Воду, Голем, Гидра, Утопленники"
     },
     {
       "n": "Белый Шар",
@@ -23,12 +28,14 @@
       "rarity": "Особый",
       "img": "Beliy_Shar.jpg",
       "locs": [
+        "demons/ashtumh",
         "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
         "dwarves/koldstoun-post/istoschennyy-rudnik",
         "dwarves/malye-tonneli",
-        "dwarves/sangard_post/kilmaat-13-yarus"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "undead/topi"
       ],
-      "m": "Тень, Мёртвый Рудокоп, Проклятые Големы, Голем"
+      "m": "Тень, Мёртвый Рудокоп, Проклятые Големы, Голем, Дух Огня, Болотные Шаманы"
     },
     {
       "n": "Топор Горняка",
@@ -48,9 +55,10 @@
       "rarity": "Особый",
       "img": "Metatelniy_Toporik.jpg",
       "locs": [
-        "dwarves/malye-tonneli"
+        "dwarves/malye-tonneli",
+        "orcs/zabroshennaya-stoyanka-orkov"
       ],
-      "m": "Проклятые Големы"
+      "m": "Проклятые Големы, Труп"
     },
     {
       "n": "Плачущий Посох",
@@ -59,9 +67,10 @@
       "rarity": "Особый",
       "img": "Plaksa_Posoh.jpg",
       "locs": [
+        "demons/ashtumh",
         "dwarves/malye-tonneli"
       ],
-      "m": "Демоны"
+      "m": "Дух Огня, Демоны"
     },
     {
       "n": "Малахитовая Сфера",
@@ -70,12 +79,16 @@
       "rarity": "Особый",
       "img": "Malahit_Sphere.jpg",
       "locs": [
+        "demons/ashtumh",
+        "demons/uohatumh",
+        "demons/utahatt",
         "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
         "dwarves/malye-tonneli",
         "dwarves/sangard_post/kilmaat-13-yarus",
-        "dwarves/yuzhnyy_pik"
+        "dwarves/yuzhnyy_pik",
+        "undead/topi"
       ],
-      "m": "Голем, Демоны, Цербер Тени, Тень, Страж, Привратник"
+      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник"
     },
     {
       "n": "Колчан из Рога",
@@ -84,11 +97,17 @@
       "rarity": "Особый",
       "img": "Kolchan_iz_Roga.jpg",
       "locs": [
+        "demons/ashtumh",
+        "demons/thahashsh",
         "dwarves/malye-tonneli",
         "dwarves/sangard_post/kilmaat-13-yarus",
-        "dwarves/ubezhische-zortana"
+        "dwarves/ubezhische-zortana",
+        "elves/chascha-duhov-skrytaya-lokaciya",
+        "elves/montsilvar",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Страж, Охрана, Проклятые Големы"
+      "m": "Страж, Зверь, Охрана, Энт, Дикий Варг, Дух, Проклятые Големы, Стражи Подземелий, Дух Огня"
     },
     {
       "n": "Обсидиановая Сфера",
@@ -97,11 +116,17 @@
       "rarity": "Особый",
       "img": "Obsidian_Sphere.jpg",
       "locs": [
+        "demons/ashtumh",
         "dwarves/bolshoy-razlom",
         "dwarves/malye-tonneli",
-        "dwarves/sangard_post/kilmaat-13-yarus"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "humans/amissvud",
+        "humans/hargorskaya-plesh-skrytaya-lokaciya",
+        "humans/pograniche_sever",
+        "humans/sredinnoe-poberezhe",
+        "undead/topi"
       ],
-      "m": "Тень, Страж, Привратник, Обитатель Разлома, Проклятые Големы"
+      "m": "Болотные Шаманы, Энт, Снеговик, Мёртвый Орк, Беглец, Дух Огня, Тень, Страж, Привратник, Обитатель Разлома, Проклятые Големы"
     },
     {
       "n": "Зачарованный Хрусталь (Серь)",
@@ -133,9 +158,10 @@
       "rarity": "Особый",
       "img": "Terrakot_Lati.jpg",
       "locs": [
-        "dwarves/malye-tonneli"
+        "dwarves/malye-tonneli",
+        "undead/prud-utoplennikov"
       ],
-      "m": "Проклятые Големы"
+      "m": "Утопленник, Проклятые Големы"
     }
   ]
 }

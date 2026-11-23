@@ -10,10 +10,14 @@
       "rarity": "Особый",
       "img": "Blood_Glowes.jpg",
       "locs": [
+        "elves/lordeleyn",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "humans/amissvud",
         "orcs/solonchaki",
-        "orcs/stoybische_hodyaschih_po_ognyu"
+        "orcs/stoybische_hodyaschih_po_ognyu",
+        "undead/topi"
       ],
-      "m": "Злые Кочевники, Кабан"
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы"
     }
   ]
 }

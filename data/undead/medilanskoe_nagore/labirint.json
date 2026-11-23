@@ -28,9 +28,12 @@
       "rarity": "Особый",
       "img": "Lunniy_Orb.jpg",
       "locs": [
+        "demons/khoraat",
+        "demons/uohatumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
         "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Потерянная Душа"
+      "m": "Исчадие Ада, Миссионеры, Потерянная Душа, Тень, Страж, Привратник"
     },
     {
       "n": "Молот Бедствий",
@@ -39,10 +42,12 @@
       "rarity": "Особый",
       "img": "Molot_Bedstviy.jpg",
       "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "humans/pograniche_sever",
         "undead/medilanskoe_nagore/labirint",
         "undead/pograniche-yug"
       ],
-      "m": "Злой Пограничник, Ужас Подземелий"
+      "m": "Злой Пограничник, Мёртвый Рудокоп, Ужас Подземелий"
     },
     {
       "n": "Льдистый Кортик",
@@ -51,10 +56,13 @@
       "rarity": "Особый",
       "img": "Led_Kortik.jpg",
       "locs": [
+        "demons/podzemele-marinii",
+        "demons/uohatumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
         "undead/derevnya-umalishennyh",
         "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Дух, Хранители Лабиринта"
+      "m": "Огни Леса, Каратели, Дух, Тень, Страж, Привратник, Хранители Лабиринта"
     },
     {
       "n": "Капюшон Подлеца",
@@ -63,9 +71,16 @@
       "rarity": "Особый",
       "img": "Kap_Podleca.jpg",
       "locs": [
+        "demons/potuhshiy-vulkan-portalnaya-zona",
+        "demons/thahashsh",
+        "elves/montsilvar",
+        "elves/nael_tae",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti",
         "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Хранители Лабиринта"
+      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта"
     },
     {
       "n": "Гладиус",
@@ -96,9 +111,10 @@
       "rarity": "Особый",
       "img": "Kopje_Skorosti.jpg",
       "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian",
         "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Заблудший"
+      "m": "Гора Трупов, Заблудший"
     },
     {
       "n": "Каменный Панцирь",
@@ -107,9 +123,12 @@
       "rarity": "Особый",
       "img": "Kamenniy_Pancir.jpg",
       "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "elves/lordeleyn",
+        "humans/hargorskaya-plesh-skrytaya-lokaciya",
         "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Хранители Лабиринта"
+      "m": "Изгнанник, Мёртвый Рудокоп, Мёртвый Орк, Хранители Лабиринта"
     }
   ]
 }

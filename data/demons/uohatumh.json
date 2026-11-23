@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "luk_prizrak.png",
       "locs": [
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "dwarves/garrgrin/razvaliny-tigbumortmara"
       ],
-      "m": "Каратели, Миссионеры"
+      "m": "Каратели, Миссионеры, Древний"
     },
     {
       "n": "Белый Лук",
@@ -43,9 +44,14 @@
       "rarity": "Особый",
       "img": "Tis_Kolchan.jpg",
       "locs": [
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/montsilvar",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "undead/prud-utoplennikov"
       ],
-      "m": "Каратели"
+      "m": "Каратели, Зверь, Энт, Утопленник, Минотавр, Тень, Страж, Привратник"
     },
     {
       "n": "Короткий Лук Всадника",
@@ -54,9 +60,10 @@
       "rarity": "Особый",
       "img": "Korotkiy_Luk_Vsadnika.jpg",
       "locs": [
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "humans/kromelvud"
       ],
-      "m": "Каратели"
+      "m": "Каратели, Черные Варги"
     },
     {
       "n": "Искрящийся Орб",
@@ -65,9 +72,15 @@
       "rarity": "Особый",
       "img": "Iskr_Orb.jpg",
       "locs": [
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "dwarves/bolshoy-razlom",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "undead/prud-utoplennikov",
+        "undead/topi"
       ],
-      "m": "Миссионеры"
+      "m": "Миссионеры, Охрана Торговца, Утопленник, Гидра, Стражи Подземелий, Обитатель Разлома, Тень, Страж, Привратник"
     },
     {
       "n": "Лунный Орб",
@@ -77,9 +90,11 @@
       "img": "Lunniy_Orb.jpg",
       "locs": [
         "demons/khoraat",
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Исчадие Ада, Миссионеры"
+      "m": "Исчадие Ада, Миссионеры, Потерянная Душа, Тень, Страж, Привратник"
     },
     {
       "n": "Каменная Коса",
@@ -88,9 +103,10 @@
       "rarity": "Особый",
       "img": "Kamennaja_Kosa.jpg",
       "locs": [
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "elves/razboynichya-puscha-skrytaya-lokaciya"
       ],
-      "m": "Миссионеры"
+      "m": "Разбойники, Миссионеры"
     },
     {
       "n": "Малахитовая Сфера",
@@ -101,9 +117,14 @@
       "locs": [
         "demons/ashtumh",
         "demons/uohatumh",
-        "demons/utahatt"
+        "demons/utahatt",
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik",
+        "undead/topi"
       ],
-      "m": "Дух Огня, Викарии, Каратели"
+      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник"
     },
     {
       "n": "Перчатки Вечной Зимы",
@@ -113,9 +134,12 @@
       "img": "Perchatki_Vechnoi_Zimi.jpg",
       "locs": [
         "demons/thahashsh",
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/kromelvud"
       ],
-      "m": "Дикий Варг, Каратели"
+      "m": "Энт, Волк, Варг Гримгольда, Дикий Варг, Каратели, Черные Варги"
     },
     {
       "n": "Перчатки Везунчика",
@@ -124,9 +148,11 @@
       "rarity": "Особый",
       "img": "Perchatki_Vezunchika.jpg",
       "locs": [
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "humans/amissvud",
+        "orcs/solonchaki"
       ],
-      "m": "Каратели"
+      "m": "Каратели, Волк, Злые Кочевники"
     },
     {
       "n": "Рунический Стилет",
@@ -135,9 +161,11 @@
       "rarity": "Особый",
       "img": "Runic_Stilet.jpg",
       "locs": [
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
+        "humans/mikrorayon-portalnaya-lokaciya"
       ],
-      "m": "Каратели"
+      "m": "Гардревар Гирр, Каратели, Гопник"
     },
     {
       "n": "Посох Перепутья",
@@ -146,9 +174,10 @@
       "rarity": "Особый",
       "img": "Posoh_Pereputja.jpg",
       "locs": [
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "undead/topi"
       ],
-      "m": "Миссионеры"
+      "m": "Болотные Шаманы, Миссионеры"
     },
     {
       "n": "Жезл Призыва",
@@ -157,9 +186,10 @@
       "rarity": "Особый",
       "img": "Jezl_Priziva.jpg",
       "locs": [
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "undead/topi"
       ],
-      "m": "Миссионеры"
+      "m": "Болотные Шаманы, Миссионеры"
     },
     {
       "n": "Пернатые Перчатки",
@@ -169,9 +199,14 @@
       "img": "Pernatie_Perchatki.jpg",
       "locs": [
         "demons/thahashsh",
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "dwarves/medvezhiy-les",
+        "elves/montsilvar",
+        "humans/amissvud",
+        "humans/kromelvud",
+        "orcs/solonchaki"
       ],
-      "m": "Каратели, Дикий Варг"
+      "m": "Зверь, Энт, Волк, Каратели, Медведь, Дикий Варг, Черные Варги, Злые Кочевники"
     },
     {
       "n": "Жезл Утренней Звезды",
@@ -180,9 +215,10 @@
       "rarity": "Особый",
       "img": "Jezl_Utrenney_Zvezdy.jpg",
       "locs": [
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "humans/sredinnoe-poberezhe"
       ],
-      "m": "Миссионеры"
+      "m": "Снеговик, Миссионеры"
     },
     {
       "n": "Льдистый Кортик",
@@ -192,9 +228,12 @@
       "img": "Led_Kortik.jpg",
       "locs": [
         "demons/podzemele-marinii",
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "undead/derevnya-umalishennyh",
+        "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Огни Леса, Каратели"
+      "m": "Огни Леса, Каратели, Дух, Тень, Страж, Привратник, Хранители Лабиринта"
     },
     {
       "n": "Жезл Веселой Ящерицы",
@@ -218,9 +257,13 @@
         "demons/ashtumh",
         "demons/podzemele-marinii",
         "demons/uohatumh",
-        "demons/utahatt"
+        "demons/utahatt",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/amissvud"
       ],
-      "m": "Викарии, Бес, Дух Огня, Миссионеры"
+      "m": "Викарии, Страж, Привратник, Бес, Дух Огня, Охрана Торговца, Минотавр, Миссионеры, Энт"
     },
     {
       "n": "Посох Лиса",

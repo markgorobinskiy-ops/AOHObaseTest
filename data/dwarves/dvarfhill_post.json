@@ -10,9 +10,11 @@
       "rarity": "Особый",
       "img": "Enchant_Cap.jpg",
       "locs": [
-        "dwarves/dvarfhill_post"
+        "dwarves/dvarfhill_post",
+        "humans/korneyl",
+        "humans/korneyl/peschery"
       ],
-      "m": "Лесной Волк"
+      "m": "Сторожевые Варги, Лесной Волк, Толпы Скелетов"
     },
     {
       "n": "Перчатки из Рыбьей Чешуи",
@@ -21,9 +23,10 @@
       "rarity": "Особый",
       "img": "Fish_Glowes.jpg",
       "locs": [
-        "dwarves/dvarfhill_post"
+        "dwarves/dvarfhill_post",
+        "humans/korneyl/peschery-vargov"
       ],
-      "m": "Лесной Волк"
+      "m": "Королевская Свора, Лесной Волк"
     }
   ]
 }

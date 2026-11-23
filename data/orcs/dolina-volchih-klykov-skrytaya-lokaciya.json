@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Semizybiy_Mech.jpg",
       "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian",
         "orcs/dolina-volchih-klykov-skrytaya-lokaciya"
       ],
-      "m": "Воевода"
+      "m": "Воевода, Гора Трупов"
     },
     {
       "n": "Драконий Доспех",
@@ -21,9 +22,11 @@
       "rarity": "Особый",
       "img": "Drakon_Dospeh.jpg",
       "locs": [
+        "humans/lok-tarian",
+        "humans/reyden",
         "orcs/dolina-volchih-klykov-skrytaya-lokaciya"
       ],
-      "m": "Воевода"
+      "m": "Злые Разбойники, Холодное Железо, Воевода"
     },
     {
       "n": "Кавалерийский Меч",
@@ -32,9 +35,11 @@
       "rarity": "Особый",
       "img": "Kavaler_Sword.jpg",
       "locs": [
+        "elves/lordeleyn",
+        "elves/reniol",
         "orcs/dolina-volchih-klykov-skrytaya-lokaciya"
       ],
-      "m": "Воевода"
+      "m": "Воевода, Изгнанники, Разбойники"
     }
   ]
 }

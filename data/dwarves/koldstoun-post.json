@@ -16,9 +16,12 @@
       "rarity": "Особый",
       "img": "Kamzol_s_Kruhevami.jpg",
       "locs": [
-        "dwarves/koldstoun-post"
+        "demons/thahashsh",
+        "dwarves/koldstoun-post",
+        "elves/montsilvar",
+        "humans/amissvud"
       ],
-      "m": "Медведь"
+      "m": "Медведь, Волк, Дикий Варг, Зверь"
     },
     {
       "n": "Льдистый Капюшон",
@@ -28,9 +31,13 @@
       "img": "Led_Kap.jpg",
       "locs": [
         "dwarves/koldstoun-post",
-        "dwarves/sangard_post/kilmaat-13-yarus"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/lordeleyn",
+        "elves/montsilvar",
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
+        "orcs/solonchaki"
       ],
-      "m": "Медведь, Тень, Страж, Привратник"
+      "m": "Бешенный Единорог, Злые Кочевники, Зверь, Медведь, Волк, Тень, Страж, Привратник"
     }
   ]
 }

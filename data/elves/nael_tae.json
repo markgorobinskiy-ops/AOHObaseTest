@@ -15,10 +15,13 @@
       "rarity": "Особый",
       "img": "Kolchan_TbmbI.jpg",
       "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
         "elves/hizhina-otshelnika-portalnaya-lokaciya",
-        "elves/nael_tae"
+        "elves/nael_tae",
+        "humans/hargorskaya-plesh-skrytaya-lokaciya",
+        "humans/reyden"
       ],
-      "m": "Дикие Пегасы, Страж Души"
+      "m": "Толпа Скелетов, Дикие Пегасы, Мёртвый Орк, Страж Души, Мёртвый Рудокоп"
     },
     {
       "n": "Амулет Лекаря",
@@ -27,9 +30,13 @@
       "rarity": "Особый",
       "img": "Amulet_Lekarja.jpg",
       "locs": [
-        "elves/nael_tae"
+        "demons/podzemele-marinii",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae",
+        "orcs/derevnya_burevestnikov/peschera-golemov",
+        "undead/topi"
       ],
-      "m": "Дикие Пегасы"
+      "m": "Дикие Пегасы, Гидра, Големы, Пегас, Тень, Страж, Привратник"
     },
     {
       "n": "Гизарма Ужаса",
@@ -38,9 +45,15 @@
       "rarity": "Особый",
       "img": "Gizarma_Ujasa.jpg",
       "locs": [
-        "elves/nael_tae"
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik",
+        "elves/nael_tae",
+        "humans/sredinnoe-poberezhe",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Дикие Пегасы"
+      "m": "Дикие Пегасы, Страж, Привратник, Стражи Подземелий, Древний, Снеговик, Цербер Тени, Мёртвый Рудокоп"
     },
     {
       "n": "Капюшон Подлеца",
@@ -49,11 +62,16 @@
       "rarity": "Особый",
       "img": "Kap_Podleca.jpg",
       "locs": [
+        "demons/potuhshiy-vulkan-portalnaya-zona",
+        "demons/thahashsh",
         "elves/montsilvar",
         "elves/nael_tae",
-        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti",
+        "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Дикий Цербер, Минотавр, Зверь, Бешенные Единороги, Белокрылый"
+      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта"
     }
   ]
 }

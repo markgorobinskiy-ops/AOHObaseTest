@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Orc_Ohot_Luk.jpg",
       "locs": [
-        "elves/reniol/aurenfey"
+        "elves/reniol/aurenfey",
+        "humans/korneyl/peschery"
       ],
-      "m": "Рейнджеры Изгои"
+      "m": "Банда Скелетов, Рейнджеры Изгои"
     }
   ]
 }

@@ -10,9 +10,12 @@
       "rarity": "Особый",
       "img": "Kamenniy_Pancir.jpg",
       "locs": [
-        "elves/lordeleyn"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "elves/lordeleyn",
+        "humans/hargorskaya-plesh-skrytaya-lokaciya",
+        "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Изгнанник"
+      "m": "Изгнанник, Мёртвый Рудокоп, Мёртвый Орк, Хранители Лабиринта"
     },
     {
       "n": "Медный Доспех",
@@ -21,9 +24,13 @@
       "rarity": "Особый",
       "img": "Medniy_Dospeh.jpg",
       "locs": [
-        "elves/lordeleyn"
+        "dwarves/garrgrin",
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "elves/lordeleyn",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "undead/pograniche-yug"
       ],
-      "m": "Изгнанник"
+      "m": "Изгнанник, Охрана, Глядящий в Воду, Отец Леррага, Злой Пограничник"
     },
     {
       "n": "Красный Кафтан",
@@ -32,9 +39,12 @@
       "rarity": "Особый",
       "img": "Red_Kaftan.jpg",
       "locs": [
-        "elves/lordeleyn"
+        "dwarves/medvezhiy-les",
+        "elves/lordeleyn",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Бешенный Единорог"
+      "m": "Бешенный Единорог, Варг, Медведь, Глядящий в Воду"
     },
     {
       "n": "Льдистый Капюшон",
@@ -43,10 +53,14 @@
       "rarity": "Особый",
       "img": "Led_Kap.jpg",
       "locs": [
+        "dwarves/koldstoun-post",
+        "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/lordeleyn",
-        "elves/montsilvar"
+        "elves/montsilvar",
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
+        "orcs/solonchaki"
       ],
-      "m": "Бешенный Единорог, Зверь"
+      "m": "Бешенный Единорог, Злые Кочевники, Зверь, Медведь, Волк, Тень, Страж, Привратник"
     },
     {
       "n": "Камзол с Языками Пламени",
@@ -55,9 +69,15 @@
       "rarity": "Особый",
       "img": "Kamzol_s_Yazik_Plameni.jpg",
       "locs": [
-        "elves/lordeleyn"
+        "dwarves/yuzhnyy_pik",
+        "elves/lordeleyn",
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/hizhina-lesnika",
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
+        "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Бешенный Единорог"
+      "m": "Волк, Зверь, Глядящий в Воду, Варг Гримгольда, Горный Кабан, Бешенный Единорог, Кабан"
     },
     {
       "n": "Кровавые Перчатки",
@@ -67,9 +87,13 @@
       "img": "Blood_Glowes.jpg",
       "locs": [
         "elves/lordeleyn",
-        "elves/razboynichya-puscha-skrytaya-lokaciya"
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "humans/amissvud",
+        "orcs/solonchaki",
+        "orcs/stoybische_hodyaschih_po_ognyu",
+        "undead/topi"
       ],
-      "m": "Изгнанники, Разбойники"
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы"
     },
     {
       "n": "Колчан Аристократа",
@@ -78,9 +102,16 @@
       "rarity": "Особый",
       "img": "Kolchan_Aristo.jpg",
       "locs": [
-        "elves/lordeleyn"
+        "demons/ashtumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/lordeleyn",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "orcs/zabroshennaya-stoyanka-orkov",
+        "undead/medilanskoe_nagore/labirint/logovo-minotavra",
+        "undead/topi"
       ],
-      "m": "Изгнанники"
+      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа"
     },
     {
       "n": "Отравленная Туника",
@@ -90,9 +121,10 @@
       "img": "Otravlennaja_Tunika.jpg",
       "locs": [
         "elves/lordeleyn",
-        "elves/montsilvar"
+        "elves/montsilvar",
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona"
       ],
-      "m": "Зверь, Бешенный Единорог"
+      "m": "Зверь, Волк, Бешенный Единорог"
     },
     {
       "n": "Кавалерийский Меч",
@@ -102,9 +134,10 @@
       "img": "Kavaler_Sword.jpg",
       "locs": [
         "elves/lordeleyn",
-        "elves/reniol"
+        "elves/reniol",
+        "orcs/dolina-volchih-klykov-skrytaya-lokaciya"
       ],
-      "m": "Изгнанники, Разбойники"
+      "m": "Воевода, Изгнанники, Разбойники"
     },
     {
       "n": "Кровавая Туника",
@@ -114,9 +147,11 @@
       "img": "Krovavaja_Tunika.jpg",
       "locs": [
         "elves/lordeleyn",
-        "elves/razboynichya-puscha-skrytaya-lokaciya"
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "humans/reyden",
+        "humans/tannervill"
       ],
-      "m": "Разбойники, Изгнанники"
+      "m": "Разбойники, Вепрь, Бешенные Черные Варги, Изгнанники"
     },
     {
       "n": "Малая Боевая Коса",

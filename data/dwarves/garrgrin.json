@@ -22,9 +22,12 @@
       "img": "Medniy_Dospeh.jpg",
       "locs": [
         "dwarves/garrgrin",
-        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya"
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "elves/lordeleyn",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "undead/pograniche-yug"
       ],
-      "m": "Охрана, Отец Леррага"
+      "m": "Изгнанник, Охрана, Глядящий в Воду, Отец Леррага, Злой Пограничник"
     }
   ]
 }

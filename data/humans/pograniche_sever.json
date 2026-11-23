@@ -10,9 +10,12 @@
       "rarity": "Особый",
       "img": "Molot_Bedstviy.jpg",
       "locs": [
-        "humans/pograniche_sever"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "humans/pograniche_sever",
+        "undead/medilanskoe_nagore/labirint",
+        "undead/pograniche-yug"
       ],
-      "m": "Злой Пограничник"
+      "m": "Злой Пограничник, Мёртвый Рудокоп, Ужас Подземелий"
     },
     {
       "n": "Обсидиановая Сфера",
@@ -21,12 +24,17 @@
       "rarity": "Особый",
       "img": "Obsidian_Sphere.jpg",
       "locs": [
+        "demons/ashtumh",
+        "dwarves/bolshoy-razlom",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
         "humans/amissvud",
         "humans/hargorskaya-plesh-skrytaya-lokaciya",
         "humans/pograniche_sever",
-        "humans/sredinnoe-poberezhe"
+        "humans/sredinnoe-poberezhe",
+        "undead/topi"
       ],
-      "m": "Энт, Снеговик, Мёртвый Орк, Беглец"
+      "m": "Болотные Шаманы, Энт, Снеговик, Мёртвый Орк, Беглец, Дух Огня, Тень, Страж, Привратник, Обитатель Разлома, Проклятые Големы"
     }
   ]
 }

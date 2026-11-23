@@ -10,11 +10,15 @@
       "rarity": "Особый",
       "img": "Kamzol_s_Yazik_Plameni.jpg",
       "locs": [
+        "dwarves/yuzhnyy_pik",
+        "elves/lordeleyn",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
-        "humans/hizhina-lesnika"
+        "humans/hizhina-lesnika",
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
+        "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Волк, Зверь, Варг Гримгольда"
+      "m": "Волк, Зверь, Глядящий в Воду, Варг Гримгольда, Горный Кабан, Бешенный Единорог, Кабан"
     },
     {
       "n": "Перчатки из Скальпа Барда",
@@ -23,10 +27,16 @@
       "rarity": "Особый",
       "img": "Perchatki_iz_Skalp_Bard.jpg",
       "locs": [
+        "demons/podzemele-marinii",
+        "demons/thahashsh",
+        "dwarves/yuzhnyy_pik",
+        "elves/koldovskoy-ostrov-portalnaya-lokaciya",
         "humans/amissvud",
-        "humans/tannervill"
+        "humans/tannervill",
+        "orcs/stoybische_gryzuschih_kosti",
+        "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Энт, Вепрь"
+      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера"
     },
     {
       "n": "Перчатки Архимага",
@@ -35,9 +45,12 @@
       "rarity": "Особый",
       "img": "Perchatki_Archmage.jpg",
       "locs": [
-        "humans/amissvud"
+        "demons/podzemele-marinii",
+        "dwarves/yuzhnyy_pik",
+        "humans/amissvud",
+        "orcs/solonchaki"
       ],
-      "m": "Волк"
+      "m": "Волк, Злые Кочевники, Горный Кабан"
     },
     {
       "n": "Шепчущие Перчатки",
@@ -46,9 +59,12 @@
       "rarity": "Особый",
       "img": "Shepchushie_Perchatki.jpg",
       "locs": [
+        "demons/podzemele-marinii",
+        "dwarves/medvezhiy-les",
+        "elves/montsilvar",
         "humans/amissvud"
       ],
-      "m": "Энт, Волк"
+      "m": "Энт, Волк, Медведь, Зверь, Кабан"
     },
     {
       "n": "Дьяволовы Стопы",
@@ -57,10 +73,15 @@
       "rarity": "Особый",
       "img": "Djavol_Stopi.jpg",
       "locs": [
+        "demons/thahashsh",
+        "dwarves/medvezhiy-les",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
-        "humans/tannervill"
+        "humans/tannervill",
+        "orcs/derevnya_burevestnikov",
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona"
       ],
-      "m": "Волк, Вепрь"
+      "m": "Волк, Вепрь, Дикий Варг, Медведь, Дикий Цербер"
     },
     {
       "n": "Обсидиановая Сфера",
@@ -69,12 +90,17 @@
       "rarity": "Особый",
       "img": "Obsidian_Sphere.jpg",
       "locs": [
+        "demons/ashtumh",
+        "dwarves/bolshoy-razlom",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
         "humans/amissvud",
         "humans/hargorskaya-plesh-skrytaya-lokaciya",
         "humans/pograniche_sever",
-        "humans/sredinnoe-poberezhe"
+        "humans/sredinnoe-poberezhe",
+        "undead/topi"
       ],
-      "m": "Энт, Снеговик, Мёртвый Орк, Беглец"
+      "m": "Болотные Шаманы, Энт, Снеговик, Мёртвый Орк, Беглец, Дух Огня, Тень, Страж, Привратник, Обитатель Разлома, Проклятые Големы"
     },
     {
       "n": "Кафтан Академика",
@@ -83,10 +109,11 @@
       "rarity": "Особый",
       "img": "Kaftan_Akademika.jpg",
       "locs": [
+        "demons/thahashsh",
         "humans/amissvud",
         "humans/hizhina-lesnika"
       ],
-      "m": "Зверь, Энт"
+      "m": "Зверь, Энт, Дикий Варг"
     },
     {
       "n": "Перчатки Вечной Зимы",
@@ -95,11 +122,13 @@
       "rarity": "Особый",
       "img": "Perchatki_Vechnoi_Zimi.jpg",
       "locs": [
+        "demons/thahashsh",
+        "demons/uohatumh",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/kromelvud"
       ],
-      "m": "Энт, Волк, Варг Гримгольда, Черные Варги"
+      "m": "Энт, Волк, Варг Гримгольда, Дикий Варг, Каратели, Черные Варги"
     },
     {
       "n": "Сфера Шепотов",
@@ -108,9 +137,11 @@
       "rarity": "Особый",
       "img": "Sphere_Shopot.jpg",
       "locs": [
-        "humans/amissvud"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "humans/amissvud",
+        "undead/topi"
       ],
-      "m": "Энт"
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник"
     },
     {
       "n": "Атласный Кафтан",
@@ -119,11 +150,13 @@
       "rarity": "Особый",
       "img": "Atlas_Kaftan.jpg",
       "locs": [
+        "demons/thahashsh",
+        "dwarves/yuzhnyy_pik",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/tannervill"
       ],
-      "m": "Волк, Вепрь Гримгольда, Вепрь"
+      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени"
     },
     {
       "n": "Лиственная Туника",
@@ -132,11 +165,12 @@
       "rarity": "Особый",
       "img": "Listvennaja_Tunika.jpg",
       "locs": [
+        "demons/thahashsh",
         "humans/amissvud",
         "humans/sredinnoe-poberezhe",
         "humans/tannervill"
       ],
-      "m": "Волк, Снеговик, Вепрь"
+      "m": "Волк, Снеговик, Вепрь, Дикий Варг"
     },
     {
       "n": "Пернатые Перчатки",
@@ -145,10 +179,15 @@
       "rarity": "Особый",
       "img": "Pernatie_Perchatki.jpg",
       "locs": [
+        "demons/thahashsh",
+        "demons/uohatumh",
+        "dwarves/medvezhiy-les",
+        "elves/montsilvar",
         "humans/amissvud",
-        "humans/kromelvud"
+        "humans/kromelvud",
+        "orcs/solonchaki"
       ],
-      "m": "Энт, Волк, Черные Варги"
+      "m": "Зверь, Энт, Волк, Каратели, Медведь, Дикий Варг, Черные Варги, Злые Кочевники"
     },
     {
       "n": "Тисовый Колчан",
@@ -157,9 +196,14 @@
       "rarity": "Особый",
       "img": "Tis_Kolchan.jpg",
       "locs": [
-        "humans/amissvud"
+        "demons/uohatumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/montsilvar",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "undead/prud-utoplennikov"
       ],
-      "m": "Энт"
+      "m": "Каратели, Зверь, Энт, Утопленник, Минотавр, Тень, Страж, Привратник"
     },
     {
       "n": "Золотой Кафтан",
@@ -169,9 +213,11 @@
       "img": "Zolotoi_Kaftan.jpg",
       "locs": [
         "humans/amissvud",
-        "humans/tannervill"
+        "humans/tannervill",
+        "orcs/derevnya_burevestnikov",
+        "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Вепрь, Волк"
+      "m": "Волк, Вепрь, Глядящий в Воду"
     },
     {
       "n": "Перчатки с Серебрянными Шипами",
@@ -180,11 +226,15 @@
       "rarity": "Особый",
       "img": "Perchatki_s_Serebryannimi_Shipami.jpg",
       "locs": [
+        "dwarves/sangard_post/peschery-pod-sangardom",
+        "elves/montsilvar",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
-        "humans/hizhina-lesnika"
+        "humans/hizhina-lesnika",
+        "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Волк, Вепрь Гримгольда, Зверь"
+      "m": "Дикий Цербер, Энт, Тролль, Волк, Вепрь Гримгольда, Зверь, Скелеты"
     },
     {
       "n": "Колчан из Рога",
@@ -193,9 +243,17 @@
       "rarity": "Особый",
       "img": "Kolchan_iz_Roga.jpg",
       "locs": [
-        "humans/amissvud"
+        "demons/ashtumh",
+        "demons/thahashsh",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/ubezhische-zortana",
+        "elves/chascha-duhov-skrytaya-lokaciya",
+        "elves/montsilvar",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Энт"
+      "m": "Страж, Зверь, Охрана, Энт, Дикий Варг, Дух, Проклятые Големы, Стражи Подземелий, Дух Огня"
     },
     {
       "n": "Капюшон Подлеца",
@@ -204,9 +262,16 @@
       "rarity": "Особый",
       "img": "Kap_Podleca.jpg",
       "locs": [
-        "humans/amissvud"
+        "demons/potuhshiy-vulkan-portalnaya-zona",
+        "demons/thahashsh",
+        "elves/montsilvar",
+        "elves/nael_tae",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti",
+        "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Энт"
+      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта"
     },
     {
       "n": "Перчатки Саламандры",
@@ -215,9 +280,15 @@
       "rarity": "Особый",
       "img": "Perchatki_Salamandri.jpg",
       "locs": [
-        "humans/amissvud"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
+        "elves/montsilvar",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/amissvud",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Волк"
+      "m": "Энт, Стражи Подземелий, Мёртвый Рудокоп, Охрана Торговца, Волк, Глядящий в Воду, Бандит"
     },
     {
       "n": "Туника Духа Грозы",
@@ -226,9 +297,10 @@
       "rarity": "Особый",
       "img": "Tunika_Duha_Grozi.jpg",
       "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
         "humans/amissvud"
       ],
-      "m": "Энт"
+      "m": "Энт, Охрана Торговца"
     },
     {
       "n": "Кровавые Перчатки",
@@ -237,9 +309,14 @@
       "rarity": "Особый",
       "img": "Blood_Glowes.jpg",
       "locs": [
-        "humans/amissvud"
+        "elves/lordeleyn",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "humans/amissvud",
+        "orcs/solonchaki",
+        "orcs/stoybische_hodyaschih_po_ognyu",
+        "undead/topi"
       ],
-      "m": "Энт"
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы"
     },
     {
       "n": "Цветочный Орб",
@@ -248,9 +325,12 @@
       "rarity": "Особый",
       "img": "Flower_Orb.jpg",
       "locs": [
-        "humans/amissvud"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "undead/topi"
       ],
-      "m": "Энт"
+      "m": "Энт, Тень, Страж, Привратник, Болотные Шаманы, Минотавр"
     },
     {
       "n": "Камзол с Кружевами",
@@ -259,9 +339,12 @@
       "rarity": "Особый",
       "img": "Kamzol_s_Kruhevami.jpg",
       "locs": [
+        "demons/thahashsh",
+        "dwarves/koldstoun-post",
+        "elves/montsilvar",
         "humans/amissvud"
       ],
-      "m": "Волк"
+      "m": "Медведь, Волк, Дикий Варг, Зверь"
     },
     {
       "n": "Опалённая Туника",
@@ -270,9 +353,10 @@
       "rarity": "Особый",
       "img": "Opalennaja_Tunika.jpg",
       "locs": [
+        "elves/hizhina-otshelnika-portalnaya-lokaciya",
         "humans/amissvud"
       ],
-      "m": "Энт"
+      "m": "Энт, Страж Души"
     },
     {
       "n": "Колчан Аристократа",
@@ -281,9 +365,16 @@
       "rarity": "Особый",
       "img": "Kolchan_Aristo.jpg",
       "locs": [
-        "humans/amissvud"
+        "demons/ashtumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/lordeleyn",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "orcs/zabroshennaya-stoyanka-orkov",
+        "undead/medilanskoe_nagore/labirint/logovo-minotavra",
+        "undead/topi"
       ],
-      "m": "Энт"
+      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа"
     },
     {
       "n": "Глаз Мантикоры",
@@ -292,9 +383,12 @@
       "rarity": "Особый",
       "img": "Glaz_Mantikori.jpg",
       "locs": [
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud"
       ],
-      "m": "Энт"
+      "m": "Дикий Цербер, Минотавр, Страж, Привратник, Древний, Энт"
     },
     {
       "n": "Гоблинский Колчан",
@@ -303,10 +397,14 @@
       "rarity": "Особый",
       "img": "Goblin_Kolchan.jpg",
       "locs": [
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/montsilvar",
         "humans/amissvud",
-        "humans/hargorskaya-plesh-skrytaya-lokaciya"
+        "humans/hargorskaya-plesh-skrytaya-lokaciya",
+        "undead/topi"
       ],
-      "m": "Мёртвый Орк, Энт"
+      "m": "Зверь, Мёртвый Орк, Бандит, Тень, Страж, Привратник, Энт, Гидра"
     },
     {
       "n": "Перчатки Везунчика",
@@ -315,9 +413,11 @@
       "rarity": "Особый",
       "img": "Perchatki_Vezunchika.jpg",
       "locs": [
-        "humans/amissvud"
+        "demons/uohatumh",
+        "humans/amissvud",
+        "orcs/solonchaki"
       ],
-      "m": "Волк"
+      "m": "Каратели, Волк, Злые Кочевники"
     },
     {
       "n": "Камзол Придворного",
@@ -326,9 +426,10 @@
       "rarity": "Особый",
       "img": "Kamzol_Pridvornogo.jpg",
       "locs": [
+        "dwarves/yuzhnyy_pik",
         "humans/amissvud"
       ],
-      "m": "Волк"
+      "m": "Горный Кабан, Волк"
     },
     {
       "n": "Сфера Фей",
@@ -337,9 +438,16 @@
       "rarity": "Особый",
       "img": "Sphere_Fei.jpg",
       "locs": [
+        "demons/ashtumh",
+        "demons/podzemele-marinii",
+        "demons/uohatumh",
+        "demons/utahatt",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
         "humans/amissvud"
       ],
-      "m": "Энт"
+      "m": "Викарии, Страж, Привратник, Бес, Дух Огня, Охрана Торговца, Минотавр, Миссионеры, Энт"
     },
     {
       "n": "Перчатки с Топазами",
@@ -348,10 +456,15 @@
       "rarity": "Особый",
       "img": "Perchatki_s_Topazami.jpg",
       "locs": [
+        "demons/podzemele-marinii",
+        "dwarves/medvezhiy-les",
+        "dwarves/yuzhnyy_pik",
         "humans/amissvud",
-        "humans/kromelvud"
+        "humans/kromelvud",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Волк, Черные Варги"
+      "m": "Медведь, Минотавр, Глядящий в Воду, Кабан, Горный Кабан, Горный Варг, Волк, Черные Варги"
     }
   ]
 }

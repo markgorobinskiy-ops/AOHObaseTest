@@ -10,9 +10,12 @@
       "rarity": "Особый",
       "img": "Gnomiy_Kolchan.jpg",
       "locs": [
+        "elves/ilvir",
+        "humans/korneyl/peschery",
+        "orcs/severnyy-pik",
         "undead/zarechenskiy-monastyr-skrytaya-lokaciya"
       ],
-      "m": "Ганимед"
+      "m": "Древний Каменный Голем, Дикий Кабан, Ганимед, Толпы Скелетов"
     }
   ]
 }

@@ -10,10 +10,15 @@
       "rarity": "Особый",
       "img": "Perchatki_s_Topazami.jpg",
       "locs": [
+        "demons/podzemele-marinii",
         "dwarves/medvezhiy-les",
-        "dwarves/yuzhnyy_pik"
+        "dwarves/yuzhnyy_pik",
+        "humans/amissvud",
+        "humans/kromelvud",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Медведь, Горный Кабан, Горный Варг"
+      "m": "Медведь, Минотавр, Глядящий в Воду, Кабан, Горный Кабан, Горный Варг, Волк, Черные Варги"
     },
     {
       "n": "Шепчущие Перчатки",
@@ -22,9 +27,12 @@
       "rarity": "Особый",
       "img": "Shepchushie_Perchatki.jpg",
       "locs": [
-        "dwarves/medvezhiy-les"
+        "demons/podzemele-marinii",
+        "dwarves/medvezhiy-les",
+        "elves/montsilvar",
+        "humans/amissvud"
       ],
-      "m": "Медведь"
+      "m": "Энт, Волк, Медведь, Зверь, Кабан"
     },
     {
       "n": "Дьяволовы Стопы",
@@ -33,9 +41,15 @@
       "rarity": "Особый",
       "img": "Djavol_Stopi.jpg",
       "locs": [
-        "dwarves/medvezhiy-les"
+        "demons/thahashsh",
+        "dwarves/medvezhiy-les",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "humans/tannervill",
+        "orcs/derevnya_burevestnikov",
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona"
       ],
-      "m": "Медведь"
+      "m": "Волк, Вепрь, Дикий Варг, Медведь, Дикий Цербер"
     },
     {
       "n": "Пернатые Перчатки",
@@ -44,9 +58,15 @@
       "rarity": "Особый",
       "img": "Pernatie_Perchatki.jpg",
       "locs": [
-        "dwarves/medvezhiy-les"
+        "demons/thahashsh",
+        "demons/uohatumh",
+        "dwarves/medvezhiy-les",
+        "elves/montsilvar",
+        "humans/amissvud",
+        "humans/kromelvud",
+        "orcs/solonchaki"
       ],
-      "m": "Медведь"
+      "m": "Зверь, Энт, Волк, Каратели, Медведь, Дикий Варг, Черные Варги, Злые Кочевники"
     },
     {
       "n": "Красный Кафтан",
@@ -55,9 +75,12 @@
       "rarity": "Особый",
       "img": "Red_Kaftan.jpg",
       "locs": [
-        "dwarves/medvezhiy-les"
+        "dwarves/medvezhiy-les",
+        "elves/lordeleyn",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Медведь"
+      "m": "Бешенный Единорог, Варг, Медведь, Глядящий в Воду"
     }
   ]
 }

@@ -11,9 +11,11 @@
       "img": "Krovavaja_Tunika.jpg",
       "locs": [
         "elves/lordeleyn",
-        "elves/razboynichya-puscha-skrytaya-lokaciya"
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "humans/reyden",
+        "humans/tannervill"
       ],
-      "m": "Разбойники, Изгнанники"
+      "m": "Разбойники, Вепрь, Бешенные Черные Варги, Изгнанники"
     },
     {
       "n": "Каменная Коса",
@@ -22,9 +24,10 @@
       "rarity": "Особый",
       "img": "Kamennaja_Kosa.jpg",
       "locs": [
+        "demons/uohatumh",
         "elves/razboynichya-puscha-skrytaya-lokaciya"
       ],
-      "m": "Разбойники"
+      "m": "Разбойники, Миссионеры"
     },
     {
       "n": "Лазурная Шляпа",
@@ -33,9 +36,13 @@
       "rarity": "Особый",
       "img": "Lazur_Shljapa.jpg",
       "locs": [
-        "elves/razboynichya-puscha-skrytaya-lokaciya"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "humans/sredinnoe-poberezhe",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Охрана Сундука"
+      "m": "Стражи Подземелий, Охрана Сундука, Мёртвый Рудокоп, Снеговик, Тень, Страж, Привратник"
     },
     {
       "n": "Жезл Часовщика",
@@ -44,9 +51,10 @@
       "rarity": "Особый",
       "img": "Jezl_Chasovshika.jpg",
       "locs": [
+        "demons/ashtumh",
         "elves/razboynichya-puscha-skrytaya-lokaciya"
       ],
-      "m": "Разбойники"
+      "m": "Разбойники, Дух Огня"
     },
     {
       "n": "Кровавые Перчатки",
@@ -56,9 +64,13 @@
       "img": "Blood_Glowes.jpg",
       "locs": [
         "elves/lordeleyn",
-        "elves/razboynichya-puscha-skrytaya-lokaciya"
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "humans/amissvud",
+        "orcs/solonchaki",
+        "orcs/stoybische_hodyaschih_po_ognyu",
+        "undead/topi"
       ],
-      "m": "Изгнанники, Разбойники"
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы"
     }
   ]
 }

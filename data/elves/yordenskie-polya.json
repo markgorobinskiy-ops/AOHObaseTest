@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Dospeh_Polkovodca.jpg",
       "locs": [
-        "elves/yordenskie-polya"
+        "elves/yordenskie-polya",
+        "undead/prud-utoplennikov"
       ],
-      "m": "Старший Сын"
+      "m": "Старший Сын, Утопленник"
     },
     {
       "n": "Щит Семи Громов",

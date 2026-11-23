@@ -10,10 +10,13 @@
       "rarity": "Особый",
       "img": "Kolchan_TbmbI.jpg",
       "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
         "elves/hizhina-otshelnika-portalnaya-lokaciya",
-        "elves/nael_tae"
+        "elves/nael_tae",
+        "humans/hargorskaya-plesh-skrytaya-lokaciya",
+        "humans/reyden"
       ],
-      "m": "Дикие Пегасы, Страж Души"
+      "m": "Толпа Скелетов, Дикие Пегасы, Мёртвый Орк, Страж Души, Мёртвый Рудокоп"
     },
     {
       "n": "Кольцо Небесной Мудрости",
@@ -22,9 +25,10 @@
       "rarity": "Особый",
       "img": "KNM.jpg",
       "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
         "elves/hizhina-otshelnika-portalnaya-lokaciya"
       ],
-      "m": "Страж Души"
+      "m": "Мёртвый Рудокоп, Страж Души"
     },
     {
       "n": "Сфера Небесного Пламени",
@@ -44,9 +48,10 @@
       "rarity": "Особый",
       "img": "Opalennaja_Tunika.jpg",
       "locs": [
-        "elves/hizhina-otshelnika-portalnaya-lokaciya"
+        "elves/hizhina-otshelnika-portalnaya-lokaciya",
+        "humans/amissvud"
       ],
-      "m": "Страж Души"
+      "m": "Энт, Страж Души"
     }
   ]
 }

@@ -10,10 +10,16 @@
       "rarity": "Особый",
       "img": "Kolchan_Aristo.jpg",
       "locs": [
+        "demons/ashtumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/lordeleyn",
+        "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
-        "orcs/zabroshennaya-stoyanka-orkov"
+        "orcs/zabroshennaya-stoyanka-orkov",
+        "undead/medilanskoe_nagore/labirint/logovo-minotavra",
+        "undead/topi"
       ],
-      "m": "Труп, Стражи Подземелий"
+      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа"
     },
     {
       "n": "Матросский Колчан",
@@ -22,9 +28,14 @@
       "rarity": "Особый",
       "img": "Matros_Kolchan.jpg",
       "locs": [
+        "demons/ashtumh",
+        "demons/podzemele-marinii",
+        "dwarves/bolshoy-razlom",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/montsilvar",
         "orcs/zabroshennaya-stoyanka-orkov"
       ],
-      "m": "Труп"
+      "m": "Дух Огня, Страж, Привратник, Зверь, Труп, Обитатель Разлома, Огни Реки"
     },
     {
       "n": "Обоюдоострый Орочий Топор",
@@ -44,9 +55,10 @@
       "rarity": "Особый",
       "img": "Metatelniy_Toporik.jpg",
       "locs": [
+        "dwarves/malye-tonneli",
         "orcs/zabroshennaya-stoyanka-orkov"
       ],
-      "m": "Труп"
+      "m": "Проклятые Големы, Труп"
     }
   ]
 }

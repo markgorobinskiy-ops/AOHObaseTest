@@ -10,10 +10,15 @@
       "rarity": "Особый",
       "img": "Perchatki_Salamandri.jpg",
       "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
         "elves/montsilvar",
-        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/amissvud",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Энт, Охрана Торговца"
+      "m": "Энт, Стражи Подземелий, Мёртвый Рудокоп, Охрана Торговца, Волк, Глядящий в Воду, Бандит"
     },
     {
       "n": "Искрящийся Орб",
@@ -22,9 +27,15 @@
       "rarity": "Особый",
       "img": "Iskr_Orb.jpg",
       "locs": [
-        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+        "demons/uohatumh",
+        "dwarves/bolshoy-razlom",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "undead/prud-utoplennikov",
+        "undead/topi"
       ],
-      "m": "Охрана Торговца"
+      "m": "Миссионеры, Охрана Торговца, Утопленник, Гидра, Стражи Подземелий, Обитатель Разлома, Тень, Страж, Привратник"
     },
     {
       "n": "Саван Мертвеца",
@@ -55,10 +66,16 @@
       "rarity": "Особый",
       "img": "Sphere_Fei.jpg",
       "locs": [
+        "demons/ashtumh",
+        "demons/podzemele-marinii",
+        "demons/uohatumh",
+        "demons/utahatt",
+        "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
-        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/amissvud"
       ],
-      "m": "Охрана Торговца, Минотавр"
+      "m": "Викарии, Страж, Привратник, Бес, Дух Огня, Охрана Торговца, Минотавр, Миссионеры, Энт"
     },
     {
       "n": "Сапоги из Кожи Варга",
@@ -89,9 +106,10 @@
       "rarity": "Особый",
       "img": "Tunika_Duha_Grozi.jpg",
       "locs": [
-        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/amissvud"
       ],
-      "m": "Охрана Торговца"
+      "m": "Энт, Охрана Торговца"
     },
     {
       "n": "Поцелуй Медузы",
@@ -100,9 +118,10 @@
       "rarity": "Особый",
       "img": "Medusa_Kiss.jpg",
       "locs": [
-        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/lok-tarian/podzemele-lok-tarian"
       ],
-      "m": "Охрана Торговца"
+      "m": "Охрана Торговца, Гора Трупов"
     },
     {
       "n": "Кристалл Земли",

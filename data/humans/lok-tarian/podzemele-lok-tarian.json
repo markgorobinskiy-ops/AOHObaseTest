@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Topor_Glubinnogo_Holoda.jpg",
       "locs": [
-        "humans/lok-tarian/podzemele-lok-tarian"
+        "humans/lok-tarian/podzemele-lok-tarian",
+        "undead/topi"
       ],
-      "m": "Гора Трупов"
+      "m": "Гора Трупов, Гидра"
     },
     {
       "n": "Полумесяц",
@@ -44,9 +45,10 @@
       "rarity": "Особый",
       "img": "Kopje_Skorosti.jpg",
       "locs": [
-        "humans/lok-tarian/podzemele-lok-tarian"
+        "humans/lok-tarian/podzemele-lok-tarian",
+        "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Гора Трупов"
+      "m": "Гора Трупов, Заблудший"
     },
     {
       "n": "Поцелуй Медузы",
@@ -55,9 +57,10 @@
       "rarity": "Особый",
       "img": "Medusa_Kiss.jpg",
       "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
         "humans/lok-tarian/podzemele-lok-tarian"
       ],
-      "m": "Гора Трупов"
+      "m": "Охрана Торговца, Гора Трупов"
     },
     {
       "n": "Семизубый Меч",
@@ -66,9 +69,10 @@
       "rarity": "Особый",
       "img": "Semizybiy_Mech.jpg",
       "locs": [
-        "humans/lok-tarian/podzemele-lok-tarian"
+        "humans/lok-tarian/podzemele-lok-tarian",
+        "orcs/dolina-volchih-klykov-skrytaya-lokaciya"
       ],
-      "m": "Гора Трупов"
+      "m": "Воевода, Гора Трупов"
     },
     {
       "n": "Серебрянный Клеймор",
@@ -133,9 +137,10 @@
       "rarity": "Особый",
       "img": "Axe_Neugasimogo_Ognja.jpg",
       "locs": [
+        "dwarves/bolshoy-razlom",
         "humans/lok-tarian/podzemele-lok-tarian"
       ],
-      "m": "Гора Трупов"
+      "m": "Гора Трупов, Обитатель Разлома"
     },
     {
       "n": "Роковая Пика",
@@ -155,9 +160,12 @@
       "rarity": "Особый",
       "img": "Sekira_Drevnego_Ujasa.jpg",
       "locs": [
-        "humans/lok-tarian/podzemele-lok-tarian"
+        "dwarves/bolshoy-razlom",
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "humans/lok-tarian/podzemele-lok-tarian",
+        "undead/derevnya-umalishennyh"
       ],
-      "m": "Гора Трупов"
+      "m": "Святоша, Мёртвый Рудокоп, Обитатель Разлома, Гора Трупов"
     }
   ]
 }

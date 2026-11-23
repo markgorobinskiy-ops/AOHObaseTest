@@ -21,9 +21,10 @@
       "rarity": "Особый",
       "img": "Sekira_Jarosti.jpg",
       "locs": [
-        "dwarves/bolshoy-razlom"
+        "dwarves/bolshoy-razlom",
+        "humans/reyden"
       ],
-      "m": "Повелитель Разлома"
+      "m": "Одержимые Разбойники, Повелитель Разлома"
     },
     {
       "n": "Молот Страха",
@@ -43,10 +44,14 @@
       "rarity": "Особый",
       "img": "Matros_Kolchan.jpg",
       "locs": [
+        "demons/ashtumh",
+        "demons/podzemele-marinii",
         "dwarves/bolshoy-razlom",
-        "dwarves/sangard_post/kilmaat-13-yarus"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/montsilvar",
+        "orcs/zabroshennaya-stoyanka-orkov"
       ],
-      "m": "Страж, Привратник, Обитатель Разлома"
+      "m": "Дух Огня, Страж, Привратник, Зверь, Труп, Обитатель Разлома, Огни Реки"
     },
     {
       "n": "Танцующая Шляпа",
@@ -55,10 +60,12 @@
       "rarity": "Особый",
       "img": "Dancing_Shljapa.jpg",
       "locs": [
+        "demons/ubezhische-skitalca-portalnaya-lokaciya/kelya-otstupnika",
         "dwarves/bolshoy-razlom",
-        "dwarves/koldstoun-post/istoschennyy-rudnik"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "humans/korneyl/peschery"
       ],
-      "m": "Обитатель Разлома, Мёртвый Рудокоп"
+      "m": "Обитатель Разлома, Толпа Зомби, Толпы Скелетов, Послушники Тьмы, Мёртвый Рудокоп, Монах"
     },
     {
       "n": "Топор Неугасимого Огня",
@@ -67,9 +74,10 @@
       "rarity": "Особый",
       "img": "Axe_Neugasimogo_Ognja.jpg",
       "locs": [
-        "dwarves/bolshoy-razlom"
+        "dwarves/bolshoy-razlom",
+        "humans/lok-tarian/podzemele-lok-tarian"
       ],
-      "m": "Обитатель Разлома"
+      "m": "Гора Трупов, Обитатель Разлома"
     },
     {
       "n": "Огненный Капюшон",
@@ -78,9 +86,10 @@
       "rarity": "Особый",
       "img": "Fire_Cap.jpg",
       "locs": [
-        "dwarves/bolshoy-razlom"
+        "dwarves/bolshoy-razlom",
+        "humans/korneyl/peschery"
       ],
-      "m": "Повелитель Разлома"
+      "m": "Толпа Скелетов, Повелитель Разлома"
     },
     {
       "n": "Искрящийся Орб",
@@ -89,10 +98,15 @@
       "rarity": "Особый",
       "img": "Iskr_Orb.jpg",
       "locs": [
+        "demons/uohatumh",
         "dwarves/bolshoy-razlom",
-        "dwarves/sangard_post/kilmaat-13-yarus"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "undead/prud-utoplennikov",
+        "undead/topi"
       ],
-      "m": "Обитатель Разлома, Тень, Страж, Привратник"
+      "m": "Миссионеры, Охрана Торговца, Утопленник, Гидра, Стражи Подземелий, Обитатель Разлома, Тень, Страж, Привратник"
     },
     {
       "n": "Огненный Доспех",
@@ -112,9 +126,10 @@
       "rarity": "Особый",
       "img": "Ineevaja_Kirassa.jpg",
       "locs": [
-        "dwarves/bolshoy-razlom"
+        "dwarves/bolshoy-razlom",
+        "humans/sredinnoe-poberezhe"
       ],
-      "m": "Обитатель Разлома"
+      "m": "Снеговик, Обитатель Разлома"
     },
     {
       "n": "Крикет",
@@ -134,11 +149,17 @@
       "rarity": "Особый",
       "img": "Obsidian_Sphere.jpg",
       "locs": [
+        "demons/ashtumh",
         "dwarves/bolshoy-razlom",
         "dwarves/malye-tonneli",
-        "dwarves/sangard_post/kilmaat-13-yarus"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "humans/amissvud",
+        "humans/hargorskaya-plesh-skrytaya-lokaciya",
+        "humans/pograniche_sever",
+        "humans/sredinnoe-poberezhe",
+        "undead/topi"
       ],
-      "m": "Тень, Страж, Привратник, Обитатель Разлома, Проклятые Големы"
+      "m": "Болотные Шаманы, Энт, Снеговик, Мёртвый Орк, Беглец, Дух Огня, Тень, Страж, Привратник, Обитатель Разлома, Проклятые Големы"
     },
     {
       "n": "Драконий Посох",
@@ -159,9 +180,11 @@
       "img": "Sekira_Drevnego_Ujasa.jpg",
       "locs": [
         "dwarves/bolshoy-razlom",
-        "dwarves/koldstoun-post/istoschennyy-rudnik"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "humans/lok-tarian/podzemele-lok-tarian",
+        "undead/derevnya-umalishennyh"
       ],
-      "m": "Мёртвый Рудокоп, Обитатель Разлома"
+      "m": "Святоша, Мёртвый Рудокоп, Обитатель Разлома, Гора Трупов"
     },
     {
       "n": "Топор Немоты",

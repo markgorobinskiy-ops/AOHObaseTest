@@ -21,10 +21,12 @@
       "rarity": "Особый",
       "img": "Zolotoi_Kaftan.jpg",
       "locs": [
+        "humans/amissvud",
+        "humans/tannervill",
         "orcs/derevnya_burevestnikov",
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Волк, Глядящий в Воду"
+      "m": "Волк, Вепрь, Глядящий в Воду"
     },
     {
       "n": "Перчатки Чернокнижника",
@@ -33,9 +35,10 @@
       "rarity": "Особый",
       "img": "Chernoknijnik_Glowes.jpg",
       "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
         "orcs/derevnya_burevestnikov"
       ],
-      "m": "Волк"
+      "m": "Волк, Мёртвый Рудокоп"
     },
     {
       "n": "Дьяволовы Стопы",
@@ -44,10 +47,15 @@
       "rarity": "Особый",
       "img": "Djavol_Stopi.jpg",
       "locs": [
+        "demons/thahashsh",
+        "dwarves/medvezhiy-les",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "humans/tannervill",
         "orcs/derevnya_burevestnikov",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona"
       ],
-      "m": "Волк"
+      "m": "Волк, Вепрь, Дикий Варг, Медведь, Дикий Цербер"
     }
   ]
 }

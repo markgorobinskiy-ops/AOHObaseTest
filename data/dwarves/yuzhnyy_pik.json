@@ -10,9 +10,16 @@
       "rarity": "Особый",
       "img": "Perchatki_iz_Skalp_Bard.jpg",
       "locs": [
-        "dwarves/yuzhnyy_pik"
+        "demons/podzemele-marinii",
+        "demons/thahashsh",
+        "dwarves/yuzhnyy_pik",
+        "elves/koldovskoy-ostrov-portalnaya-lokaciya",
+        "humans/amissvud",
+        "humans/tannervill",
+        "orcs/stoybische_gryzuschih_kosti",
+        "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Дикий Кабан"
+      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера"
     },
     {
       "n": "Камзол Придворного",
@@ -21,9 +28,10 @@
       "rarity": "Особый",
       "img": "Kamzol_Pridvornogo.jpg",
       "locs": [
-        "dwarves/yuzhnyy_pik"
+        "dwarves/yuzhnyy_pik",
+        "humans/amissvud"
       ],
-      "m": "Горный Кабан"
+      "m": "Горный Кабан, Волк"
     },
     {
       "n": "Гизарма Ужаса",
@@ -35,9 +43,12 @@
         "dwarves/garrgrin/razvaliny-tigbumortmara",
         "dwarves/koldstoun-post/istoschennyy-rudnik",
         "dwarves/sangard_post/kilmaat-13-yarus",
-        "dwarves/yuzhnyy_pik"
+        "dwarves/yuzhnyy_pik",
+        "elves/nael_tae",
+        "humans/sredinnoe-poberezhe",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Страж, Привратник, Древний, Цербер Тени, Мёртвый Рудокоп"
+      "m": "Дикие Пегасы, Страж, Привратник, Стражи Подземелий, Древний, Снеговик, Цербер Тени, Мёртвый Рудокоп"
     },
     {
       "n": "Камзол с Языками Пламени",
@@ -46,9 +57,15 @@
       "rarity": "Особый",
       "img": "Kamzol_s_Yazik_Plameni.jpg",
       "locs": [
-        "dwarves/yuzhnyy_pik"
+        "dwarves/yuzhnyy_pik",
+        "elves/lordeleyn",
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/hizhina-lesnika",
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
+        "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Горный Кабан"
+      "m": "Волк, Зверь, Глядящий в Воду, Варг Гримгольда, Горный Кабан, Бешенный Единорог, Кабан"
     },
     {
       "n": "Перчатки с Топазами",
@@ -57,10 +74,15 @@
       "rarity": "Особый",
       "img": "Perchatki_s_Topazami.jpg",
       "locs": [
+        "demons/podzemele-marinii",
         "dwarves/medvezhiy-les",
-        "dwarves/yuzhnyy_pik"
+        "dwarves/yuzhnyy_pik",
+        "humans/amissvud",
+        "humans/kromelvud",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Медведь, Горный Кабан, Горный Варг"
+      "m": "Медведь, Минотавр, Глядящий в Воду, Кабан, Горный Кабан, Горный Варг, Волк, Черные Варги"
     },
     {
       "n": "Гномья Руна",
@@ -72,9 +94,13 @@
         "dwarves/garrgrin/razvaliny-tigbumortmara",
         "dwarves/koldstoun-post/istoschennyy-rudnik",
         "dwarves/sangard_post/kilmaat-13-yarus",
-        "dwarves/yuzhnyy_pik"
+        "dwarves/yuzhnyy_pik",
+        "elves/chascha-duhov-skrytaya-lokaciya",
+        "elves/reniol",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "undead/topi"
       ],
-      "m": "Мёртвый Рудокоп, Тень, Страж, Привратник, Цербер Тени, Древний"
+      "m": "Мёртвый Рудокоп, Стражи Подземелий, Тень, Страж, Привратник, Цербер Тени, Дух, Гидра, Древний, Одержимые"
     },
     {
       "n": "Перчатки Архимага",
@@ -83,9 +109,12 @@
       "rarity": "Особый",
       "img": "Perchatki_Archmage.jpg",
       "locs": [
-        "dwarves/yuzhnyy_pik"
+        "demons/podzemele-marinii",
+        "dwarves/yuzhnyy_pik",
+        "humans/amissvud",
+        "orcs/solonchaki"
       ],
-      "m": "Горный Кабан"
+      "m": "Волк, Злые Кочевники, Горный Кабан"
     },
     {
       "n": "Малахитовая Сфера",
@@ -94,12 +123,16 @@
       "rarity": "Особый",
       "img": "Malahit_Sphere.jpg",
       "locs": [
+        "demons/ashtumh",
+        "demons/uohatumh",
+        "demons/utahatt",
         "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
         "dwarves/malye-tonneli",
         "dwarves/sangard_post/kilmaat-13-yarus",
-        "dwarves/yuzhnyy_pik"
+        "dwarves/yuzhnyy_pik",
+        "undead/topi"
       ],
-      "m": "Голем, Демоны, Цербер Тени, Тень, Страж, Привратник"
+      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник"
     },
     {
       "n": "Атласный Кафтан",
@@ -108,9 +141,13 @@
       "rarity": "Особый",
       "img": "Atlas_Kaftan.jpg",
       "locs": [
-        "dwarves/yuzhnyy_pik"
+        "demons/thahashsh",
+        "dwarves/yuzhnyy_pik",
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/tannervill"
       ],
-      "m": "Цербер Тени"
+      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени"
     }
   ]
 }

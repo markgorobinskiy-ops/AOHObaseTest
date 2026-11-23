@@ -10,9 +10,16 @@
       "rarity": "Особый",
       "img": "Perchatki_iz_Skalp_Bard.jpg",
       "locs": [
-        "elves/koldovskoy-ostrov-portalnaya-lokaciya"
+        "demons/podzemele-marinii",
+        "demons/thahashsh",
+        "dwarves/yuzhnyy_pik",
+        "elves/koldovskoy-ostrov-portalnaya-lokaciya",
+        "humans/amissvud",
+        "humans/tannervill",
+        "orcs/stoybische_gryzuschih_kosti",
+        "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Питомец Эстера"
+      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера"
     }
   ]
 }

@@ -33,9 +33,10 @@
       "rarity": "Особый",
       "img": "Fish_Glowes.jpg",
       "locs": [
+        "dwarves/dvarfhill_post",
         "humans/korneyl/peschery-vargov"
       ],
-      "m": "Королевская Свора"
+      "m": "Королевская Свора, Лесной Волк"
     },
     {
       "n": "Теневой Капюшон",

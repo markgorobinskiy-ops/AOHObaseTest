@@ -66,10 +66,11 @@
       "rarity": "Особый",
       "img": "Enchant_Cap.jpg",
       "locs": [
+        "dwarves/dvarfhill_post",
         "humans/korneyl",
         "humans/korneyl/peschery"
       ],
-      "m": "Сторожевые Варги, Толпы Скелетов"
+      "m": "Сторожевые Варги, Лесной Волк, Толпы Скелетов"
     },
     {
       "n": "Кричащее Лезвие",
@@ -124,9 +125,10 @@
       "rarity": "Особый",
       "img": "Oreh_Shljapa.jpg",
       "locs": [
+        "elves/ilvir",
         "humans/korneyl"
       ],
-      "m": "Толпа Зомби"
+      "m": "Древний Каменный Голем, Толпа Зомби"
     },
     {
       "n": "Гвардейская Сабля",

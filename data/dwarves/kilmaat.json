@@ -10,9 +10,11 @@
       "rarity": "Особый",
       "img": "Izumrud_Lati.jpg",
       "locs": [
-        "dwarves/kilmaat"
+        "dwarves/kilmaat",
+        "humans/lok-tarian",
+        "undead/prud-utoplennikov"
       ],
-      "m": "Отряд"
+      "m": "Утопленник, Холодное Железо, Отряд"
     }
   ]
 }

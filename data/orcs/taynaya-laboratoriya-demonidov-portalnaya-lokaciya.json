@@ -10,9 +10,12 @@
       "rarity": "Особый",
       "img": "Magnit_Jezl.jpg",
       "locs": [
-        "orcs/taynaya-laboratoriya-demonidov-portalnaya-lokaciya"
+        "demons/utahatt",
+        "humans/sredinnoe-poberezhe",
+        "orcs/taynaya-laboratoriya-demonidov-portalnaya-lokaciya",
+        "undead/nagore-pavshih-geroev-portalnaya-lokaciya"
       ],
-      "m": "Культист"
+      "m": "Снеговик, Викарии, Культист, Придворный Маг"
     }
   ]
 }

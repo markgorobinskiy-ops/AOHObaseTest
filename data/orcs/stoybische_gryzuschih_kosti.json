@@ -16,9 +16,16 @@
       "rarity": "Особый",
       "img": "Kap_Podleca.jpg",
       "locs": [
-        "orcs/stoybische_gryzuschih_kosti"
+        "demons/potuhshiy-vulkan-portalnaya-zona",
+        "demons/thahashsh",
+        "elves/montsilvar",
+        "elves/nael_tae",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti",
+        "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Варг"
+      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта"
     },
     {
       "n": "Красный Кафтан",
@@ -27,10 +34,12 @@
       "rarity": "Особый",
       "img": "Red_Kaftan.jpg",
       "locs": [
+        "dwarves/medvezhiy-les",
+        "elves/lordeleyn",
         "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Варг, Глядящий в Воду"
+      "m": "Бешенный Единорог, Варг, Медведь, Глядящий в Воду"
     },
     {
       "n": "Перчатки с Топазами",
@@ -39,10 +48,15 @@
       "rarity": "Особый",
       "img": "Perchatki_s_Topazami.jpg",
       "locs": [
+        "demons/podzemele-marinii",
+        "dwarves/medvezhiy-les",
+        "dwarves/yuzhnyy_pik",
+        "humans/amissvud",
+        "humans/kromelvud",
         "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Глядящий в Воду, Кабан"
+      "m": "Медведь, Минотавр, Глядящий в Воду, Кабан, Горный Кабан, Горный Варг, Волк, Черные Варги"
     },
     {
       "n": "Перчатки из Скальпа Барда",
@@ -51,9 +65,16 @@
       "rarity": "Особый",
       "img": "Perchatki_iz_Skalp_Bard.jpg",
       "locs": [
-        "orcs/stoybische_gryzuschih_kosti"
+        "demons/podzemele-marinii",
+        "demons/thahashsh",
+        "dwarves/yuzhnyy_pik",
+        "elves/koldovskoy-ostrov-portalnaya-lokaciya",
+        "humans/amissvud",
+        "humans/tannervill",
+        "orcs/stoybische_gryzuschih_kosti",
+        "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Кабан"
+      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера"
     }
   ]
 }

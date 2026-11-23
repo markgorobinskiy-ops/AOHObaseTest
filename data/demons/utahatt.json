@@ -12,9 +12,14 @@
       "locs": [
         "demons/ashtumh",
         "demons/uohatumh",
-        "demons/utahatt"
+        "demons/utahatt",
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik",
+        "undead/topi"
       ],
-      "m": "Дух Огня, Викарии, Каратели"
+      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник"
     },
     {
       "n": "Солнечный Орб",
@@ -24,9 +29,11 @@
       "img": "Sun_Orb.jpg",
       "locs": [
         "demons/khoraat",
-        "demons/utahatt"
+        "demons/utahatt",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
       ],
-      "m": "Викарии, Исчадие Ада"
+      "m": "Привратник, Викарии, Исчадие Ада, Минотавр"
     },
     {
       "n": "Посох Тринадцати Врат",
@@ -35,9 +42,10 @@
       "rarity": "Особый",
       "img": "Posoh_13_Vrat.jpg",
       "locs": [
-        "demons/utahatt"
+        "demons/utahatt",
+        "undead/topi"
       ],
-      "m": "Викарии"
+      "m": "Викарии, Болотные Шаманы"
     },
     {
       "n": "Сфера Фей",
@@ -49,9 +57,13 @@
         "demons/ashtumh",
         "demons/podzemele-marinii",
         "demons/uohatumh",
-        "demons/utahatt"
+        "demons/utahatt",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/amissvud"
       ],
-      "m": "Викарии, Бес, Дух Огня, Миссионеры"
+      "m": "Викарии, Страж, Привратник, Бес, Дух Огня, Охрана Торговца, Минотавр, Миссионеры, Энт"
     },
     {
       "n": "Солнечный Посох",
@@ -71,9 +83,12 @@
       "rarity": "Особый",
       "img": "Magnit_Jezl.jpg",
       "locs": [
-        "demons/utahatt"
+        "demons/utahatt",
+        "humans/sredinnoe-poberezhe",
+        "orcs/taynaya-laboratoriya-demonidov-portalnaya-lokaciya",
+        "undead/nagore-pavshih-geroev-portalnaya-lokaciya"
       ],
-      "m": "Викарии"
+      "m": "Снеговик, Викарии, Культист, Придворный Маг"
     },
     {
       "n": "Посох Лиса",
@@ -94,9 +109,11 @@
       "rarity": "Особый",
       "img": "Jezl_Istini.jpg",
       "locs": [
-        "demons/utahatt"
+        "demons/utahatt",
+        "undead/medilanskoe_nagore/labirint/logovo-minotavra",
+        "undead/topi"
       ],
-      "m": "Викарии"
+      "m": "Охрана Минотавра, Викарии, Болотные Шаманы"
     }
   ]
 }

@@ -10,11 +10,15 @@
       "rarity": "Особый",
       "img": "Kamzol_s_Yazik_Plameni.jpg",
       "locs": [
+        "dwarves/yuzhnyy_pik",
+        "elves/lordeleyn",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
-        "humans/hizhina-lesnika"
+        "humans/hizhina-lesnika",
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
+        "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Волк, Зверь, Варг Гримгольда"
+      "m": "Волк, Зверь, Глядящий в Воду, Варг Гримгольда, Горный Кабан, Бешенный Единорог, Кабан"
     },
     {
       "n": "Перчатки Вечной Зимы",
@@ -23,11 +27,13 @@
       "rarity": "Особый",
       "img": "Perchatki_Vechnoi_Zimi.jpg",
       "locs": [
+        "demons/thahashsh",
+        "demons/uohatumh",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/kromelvud"
       ],
-      "m": "Энт, Волк, Варг Гримгольда, Черные Варги"
+      "m": "Энт, Волк, Варг Гримгольда, Дикий Варг, Каратели, Черные Варги"
     },
     {
       "n": "Атласный Кафтан",
@@ -36,11 +42,13 @@
       "rarity": "Особый",
       "img": "Atlas_Kaftan.jpg",
       "locs": [
+        "demons/thahashsh",
+        "dwarves/yuzhnyy_pik",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/tannervill"
       ],
-      "m": "Волк, Вепрь Гримгольда, Вепрь"
+      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени"
     },
     {
       "n": "Спринтерские Сапоги",
@@ -60,11 +68,15 @@
       "rarity": "Особый",
       "img": "Perchatki_s_Serebryannimi_Shipami.jpg",
       "locs": [
+        "dwarves/sangard_post/peschery-pod-sangardom",
+        "elves/montsilvar",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
-        "humans/hizhina-lesnika"
+        "humans/hizhina-lesnika",
+        "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Волк, Вепрь Гримгольда, Зверь"
+      "m": "Дикий Цербер, Энт, Тролль, Волк, Вепрь Гримгольда, Зверь, Скелеты"
     }
   ]
 }

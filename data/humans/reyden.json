@@ -16,9 +16,11 @@
       "img": "Sapogi_Kot_Pohodki.jpg",
       "locs": [
         "humans/perekreste",
-        "humans/reyden"
+        "humans/reyden",
+        "orcs/orochya_step",
+        "undead/medilanskoe_nagore"
       ],
-      "m": "Варги, Бешеные Черные Варги"
+      "m": "Варги, Кровожадные Варги, Бешеные Черные Варги, Горцы"
     },
     {
       "n": "Колчан Тьмы",
@@ -27,10 +29,13 @@
       "rarity": "Особый",
       "img": "Kolchan_TbmbI.jpg",
       "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "elves/hizhina-otshelnika-portalnaya-lokaciya",
+        "elves/nael_tae",
         "humans/hargorskaya-plesh-skrytaya-lokaciya",
         "humans/reyden"
       ],
-      "m": "Толпа Скелетов, Мёртвый Орк"
+      "m": "Толпа Скелетов, Дикие Пегасы, Мёртвый Орк, Страж Души, Мёртвый Рудокоп"
     },
     {
       "n": "Ритуальный Клинок",
@@ -88,9 +93,10 @@
       "img": "Drakon_Dospeh.jpg",
       "locs": [
         "humans/lok-tarian",
-        "humans/reyden"
+        "humans/reyden",
+        "orcs/dolina-volchih-klykov-skrytaya-lokaciya"
       ],
-      "m": "Злые Разбойники, Холодное Железо"
+      "m": "Злые Разбойники, Холодное Железо, Воевода"
     },
     {
       "n": "Орб Сияния",
@@ -121,9 +127,10 @@
       "rarity": "Особый",
       "img": "Sekira_Jarosti.jpg",
       "locs": [
+        "dwarves/bolshoy-razlom",
         "humans/reyden"
       ],
-      "m": "Одержимые Разбойники"
+      "m": "Одержимые Разбойники, Повелитель Разлома"
     },
     {
       "n": "Хрустальный Доспех",
@@ -132,9 +139,10 @@
       "rarity": "Особый",
       "img": "Hrustalniy_Dospeh.jpg",
       "locs": [
-        "humans/reyden"
+        "humans/reyden",
+        "undead/prud-utoplennikov"
       ],
-      "m": "Безумные Разбойники"
+      "m": "Утопленник, Безумные Разбойники"
     },
     {
       "n": "Горящий Топор",
@@ -167,10 +175,12 @@
       "rarity": "Особый",
       "img": "Krovavaja_Tunika.jpg",
       "locs": [
+        "elves/lordeleyn",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
         "humans/reyden",
         "humans/tannervill"
       ],
-      "m": "Вепрь, Бешенные Черные Варги"
+      "m": "Разбойники, Вепрь, Бешенные Черные Варги, Изгнанники"
     },
     {
       "n": "Вулканический Молот",

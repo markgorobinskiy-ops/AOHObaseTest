@@ -11,9 +11,10 @@
       "img": "Kinjal_3_Pechatei.jpg",
       "locs": [
         "dwarves/koldstoun-post/istoschennyy-rudnik",
-        "dwarves/sangard_post/kilmaat-13-yarus"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/montsilvar"
       ],
-      "m": "Мёртвый Рудокоп, Тень, Страж, Привратник"
+      "m": "Мёртвый Рудокоп, Зверь, Тень, Страж, Привратник"
     },
     {
       "n": "Белый Шар",
@@ -22,12 +23,14 @@
       "rarity": "Особый",
       "img": "Beliy_Shar.jpg",
       "locs": [
+        "demons/ashtumh",
         "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
         "dwarves/koldstoun-post/istoschennyy-rudnik",
         "dwarves/malye-tonneli",
-        "dwarves/sangard_post/kilmaat-13-yarus"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "undead/topi"
       ],
-      "m": "Тень, Мёртвый Рудокоп, Проклятые Големы, Голем"
+      "m": "Тень, Мёртвый Рудокоп, Проклятые Големы, Голем, Дух Огня, Болотные Шаманы"
     },
     {
       "n": "Гномья Руна",
@@ -39,9 +42,13 @@
         "dwarves/garrgrin/razvaliny-tigbumortmara",
         "dwarves/koldstoun-post/istoschennyy-rudnik",
         "dwarves/sangard_post/kilmaat-13-yarus",
-        "dwarves/yuzhnyy_pik"
+        "dwarves/yuzhnyy_pik",
+        "elves/chascha-duhov-skrytaya-lokaciya",
+        "elves/reniol",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "undead/topi"
       ],
-      "m": "Мёртвый Рудокоп, Тень, Страж, Привратник, Цербер Тени, Древний"
+      "m": "Мёртвый Рудокоп, Стражи Подземелий, Тень, Страж, Привратник, Цербер Тени, Дух, Гидра, Древний, Одержимые"
     },
     {
       "n": "Стилет Убийцы",
@@ -50,9 +57,10 @@
       "rarity": "Особый",
       "img": "Stilet_Ubici.jpg",
       "locs": [
-        "dwarves/koldstoun-post/istoschennyy-rudnik"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Мёртвый Рудокоп"
+      "m": "Мёртвый Рудокоп, Стражи Подземелий"
     },
     {
       "n": "Каменный Панцирь",
@@ -61,9 +69,12 @@
       "rarity": "Особый",
       "img": "Kamenniy_Pancir.jpg",
       "locs": [
-        "dwarves/koldstoun-post/istoschennyy-rudnik"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "elves/lordeleyn",
+        "humans/hargorskaya-plesh-skrytaya-lokaciya",
+        "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Мёртвый Рудокоп"
+      "m": "Изгнанник, Мёртвый Рудокоп, Мёртвый Орк, Хранители Лабиринта"
     },
     {
       "n": "Кольцо Небесной Мудрости",
@@ -72,9 +83,10 @@
       "rarity": "Особый",
       "img": "KNM.jpg",
       "locs": [
-        "dwarves/koldstoun-post/istoschennyy-rudnik"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "elves/hizhina-otshelnika-portalnaya-lokaciya"
       ],
-      "m": "Мёртвый Рудокоп"
+      "m": "Мёртвый Рудокоп, Страж Души"
     },
     {
       "n": "Каменный Топор",
@@ -106,9 +118,14 @@
       "img": "Perchatki_Salamandri.jpg",
       "locs": [
         "dwarves/koldstoun-post/istoschennyy-rudnik",
-        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya"
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
+        "elves/montsilvar",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/amissvud",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Мёртвый Рудокоп, Бандит"
+      "m": "Энт, Стражи Подземелий, Мёртвый Рудокоп, Охрана Торговца, Волк, Глядящий в Воду, Бандит"
     },
     {
       "n": "Лазурная Шляпа",
@@ -118,9 +135,12 @@
       "img": "Lazur_Shljapa.jpg",
       "locs": [
         "dwarves/koldstoun-post/istoschennyy-rudnik",
-        "dwarves/sangard_post/kilmaat-13-yarus"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "humans/sredinnoe-poberezhe",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Мёртвый Рудокоп, Тень, Страж, Привратник"
+      "m": "Стражи Подземелий, Охрана Сундука, Мёртвый Рудокоп, Снеговик, Тень, Страж, Привратник"
     },
     {
       "n": "Обсидиановая Чешуя",
@@ -144,9 +164,12 @@
         "dwarves/garrgrin/razvaliny-tigbumortmara",
         "dwarves/koldstoun-post/istoschennyy-rudnik",
         "dwarves/sangard_post/kilmaat-13-yarus",
-        "dwarves/yuzhnyy_pik"
+        "dwarves/yuzhnyy_pik",
+        "elves/nael_tae",
+        "humans/sredinnoe-poberezhe",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Страж, Привратник, Древний, Цербер Тени, Мёртвый Рудокоп"
+      "m": "Дикие Пегасы, Страж, Привратник, Стражи Подземелий, Древний, Снеговик, Цербер Тени, Мёртвый Рудокоп"
     },
     {
       "n": "Резной Лук",
@@ -166,9 +189,12 @@
       "rarity": "Особый",
       "img": "Molot_Bedstviy.jpg",
       "locs": [
-        "dwarves/koldstoun-post/istoschennyy-rudnik"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "humans/pograniche_sever",
+        "undead/medilanskoe_nagore/labirint",
+        "undead/pograniche-yug"
       ],
-      "m": "Мёртвый Рудокоп"
+      "m": "Злой Пограничник, Мёртвый Рудокоп, Ужас Подземелий"
     },
     {
       "n": "Танцующая Шляпа",
@@ -177,10 +203,12 @@
       "rarity": "Особый",
       "img": "Dancing_Shljapa.jpg",
       "locs": [
+        "demons/ubezhische-skitalca-portalnaya-lokaciya/kelya-otstupnika",
         "dwarves/bolshoy-razlom",
-        "dwarves/koldstoun-post/istoschennyy-rudnik"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "humans/korneyl/peschery"
       ],
-      "m": "Обитатель Разлома, Мёртвый Рудокоп"
+      "m": "Обитатель Разлома, Толпа Зомби, Толпы Скелетов, Послушники Тьмы, Мёртвый Рудокоп, Монах"
     },
     {
       "n": "Колчан Тьмы",
@@ -189,9 +217,13 @@
       "rarity": "Особый",
       "img": "Kolchan_TbmbI.jpg",
       "locs": [
-        "dwarves/koldstoun-post/istoschennyy-rudnik"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "elves/hizhina-otshelnika-portalnaya-lokaciya",
+        "elves/nael_tae",
+        "humans/hargorskaya-plesh-skrytaya-lokaciya",
+        "humans/reyden"
       ],
-      "m": "Мёртвый Рудокоп"
+      "m": "Толпа Скелетов, Дикие Пегасы, Мёртвый Орк, Страж Души, Мёртвый Рудокоп"
     },
     {
       "n": "Око Грозы",
@@ -200,9 +232,10 @@
       "rarity": "Особый",
       "img": "Oko_Grozi.jpg",
       "locs": [
-        "dwarves/koldstoun-post/istoschennyy-rudnik"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "humans/sredinnoe-poberezhe"
       ],
-      "m": "Мёртвый Рудокоп"
+      "m": "Снеговик, Мёртвый Рудокоп"
     },
     {
       "n": "Секира Древнего Ужаса",
@@ -212,9 +245,11 @@
       "img": "Sekira_Drevnego_Ujasa.jpg",
       "locs": [
         "dwarves/bolshoy-razlom",
-        "dwarves/koldstoun-post/istoschennyy-rudnik"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "humans/lok-tarian/podzemele-lok-tarian",
+        "undead/derevnya-umalishennyh"
       ],
-      "m": "Мёртвый Рудокоп, Обитатель Разлома"
+      "m": "Святоша, Мёртвый Рудокоп, Обитатель Разлома, Гора Трупов"
     },
     {
       "n": "Перчатки Чернокнижника",
@@ -223,9 +258,10 @@
       "rarity": "Особый",
       "img": "Chernoknijnik_Glowes.jpg",
       "locs": [
-        "dwarves/koldstoun-post/istoschennyy-rudnik"
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "orcs/derevnya_burevestnikov"
       ],
-      "m": "Мёртвый Рудокоп"
+      "m": "Волк, Мёртвый Рудокоп"
     }
   ]
 }

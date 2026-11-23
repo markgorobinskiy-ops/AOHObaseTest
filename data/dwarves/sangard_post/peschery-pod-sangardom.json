@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Axe_Bolotniy_Goblin.jpg",
       "locs": [
-        "dwarves/sangard_post/peschery-pod-sangardom"
+        "dwarves/sangard_post/peschery-pod-sangardom",
+        "humans/lok-tarian"
       ],
-      "m": "Разбойник"
+      "m": "Разбойник, Холодное Железо"
     },
     {
       "n": "Перчатки с Серебрянными Шипами",
@@ -21,9 +22,15 @@
       "rarity": "Особый",
       "img": "Perchatki_s_Serebryannimi_Shipami.jpg",
       "locs": [
-        "dwarves/sangard_post/peschery-pod-sangardom"
+        "dwarves/sangard_post/peschery-pod-sangardom",
+        "elves/montsilvar",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/hizhina-lesnika",
+        "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Скелеты"
+      "m": "Дикий Цербер, Энт, Тролль, Волк, Вепрь Гримгольда, Зверь, Скелеты"
     },
     {
       "n": "Перстень Глубинного Ужаса",
@@ -32,9 +39,10 @@
       "rarity": "Особый",
       "img": "Perst_Glubinnogo_Ujasa.jpg",
       "locs": [
-        "dwarves/sangard_post/peschery-pod-sangardom"
+        "dwarves/sangard_post/peschery-pod-sangardom",
+        "humans/korneyl/peschery"
       ],
-      "m": "Разбойники, Друиды"
+      "m": "Банда Скелетов, Разбойники, Друиды"
     }
   ]
 }

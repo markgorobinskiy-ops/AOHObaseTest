@@ -13,9 +13,12 @@
         "dwarves/garrgrin/razvaliny-tigbumortmara",
         "dwarves/koldstoun-post/istoschennyy-rudnik",
         "dwarves/sangard_post/kilmaat-13-yarus",
-        "dwarves/yuzhnyy_pik"
+        "dwarves/yuzhnyy_pik",
+        "elves/nael_tae",
+        "humans/sredinnoe-poberezhe",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Страж, Привратник, Древний, Цербер Тени, Мёртвый Рудокоп"
+      "m": "Дикие Пегасы, Страж, Привратник, Стражи Подземелий, Древний, Снеговик, Цербер Тени, Мёртвый Рудокоп"
     },
     {
       "n": "Глаз Мантикоры",
@@ -25,9 +28,11 @@
       "img": "Glaz_Mantikori.jpg",
       "locs": [
         "dwarves/garrgrin/razvaliny-tigbumortmara",
-        "dwarves/sangard_post/kilmaat-13-yarus"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud"
       ],
-      "m": "Страж, Привратник, Древний"
+      "m": "Дикий Цербер, Минотавр, Страж, Привратник, Древний, Энт"
     },
     {
       "n": "Серебрянная Глефа",
@@ -50,9 +55,13 @@
         "dwarves/garrgrin/razvaliny-tigbumortmara",
         "dwarves/koldstoun-post/istoschennyy-rudnik",
         "dwarves/sangard_post/kilmaat-13-yarus",
-        "dwarves/yuzhnyy_pik"
+        "dwarves/yuzhnyy_pik",
+        "elves/chascha-duhov-skrytaya-lokaciya",
+        "elves/reniol",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "undead/topi"
       ],
-      "m": "Мёртвый Рудокоп, Тень, Страж, Привратник, Цербер Тени, Древний"
+      "m": "Мёртвый Рудокоп, Стражи Подземелий, Тень, Страж, Привратник, Цербер Тени, Дух, Гидра, Древний, Одержимые"
     },
     {
       "n": "Лук-Призрак",
@@ -61,9 +70,10 @@
       "rarity": "Особый",
       "img": "luk_prizrak.png",
       "locs": [
+        "demons/uohatumh",
         "dwarves/garrgrin/razvaliny-tigbumortmara"
       ],
-      "m": "Древний"
+      "m": "Каратели, Миссионеры, Древний"
     }
   ]
 }

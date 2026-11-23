@@ -10,9 +10,16 @@
       "rarity": "Особый",
       "img": "Gnomja_Runa.jpg",
       "locs": [
-        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik",
+        "elves/chascha-duhov-skrytaya-lokaciya",
+        "elves/reniol",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "undead/topi"
       ],
-      "m": "Стражи Подземелий"
+      "m": "Мёртвый Рудокоп, Стражи Подземелий, Тень, Страж, Привратник, Цербер Тени, Дух, Гидра, Древний, Одержимые"
     }
   ]
 }

@@ -10,10 +10,12 @@
       "rarity": "Особый",
       "img": "Molot_Bedstviy.jpg",
       "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "humans/pograniche_sever",
         "undead/medilanskoe_nagore/labirint",
         "undead/pograniche-yug"
       ],
-      "m": "Злой Пограничник, Ужас Подземелий"
+      "m": "Злой Пограничник, Мёртвый Рудокоп, Ужас Подземелий"
     },
     {
       "n": "Медный Доспех",
@@ -22,9 +24,13 @@
       "rarity": "Особый",
       "img": "Medniy_Dospeh.jpg",
       "locs": [
+        "dwarves/garrgrin",
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "elves/lordeleyn",
+        "orcs/stoybische-glyadyaschih-v-vodu",
         "undead/pograniche-yug"
       ],
-      "m": "Злой Пограничник"
+      "m": "Изгнанник, Охрана, Глядящий в Воду, Отец Леррага, Злой Пограничник"
     },
     {
       "n": "Ледяной Панцирь",
@@ -33,9 +39,10 @@
       "rarity": "Особый",
       "img": "Ice_Pancir.jpg",
       "locs": [
+        "dwarves/ubezhische-zortana",
         "undead/pograniche-yug"
       ],
-      "m": "Злой Пограничник"
+      "m": "Слуга, Злой Пограничник"
     }
   ]
 }

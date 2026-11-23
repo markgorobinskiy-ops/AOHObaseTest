@@ -23,9 +23,13 @@
       "img": "Matros_Kolchan.jpg",
       "locs": [
         "demons/ashtumh",
-        "demons/podzemele-marinii"
+        "demons/podzemele-marinii",
+        "dwarves/bolshoy-razlom",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/montsilvar",
+        "orcs/zabroshennaya-stoyanka-orkov"
       ],
-      "m": "Дух Огня, Огни Реки"
+      "m": "Дух Огня, Страж, Привратник, Зверь, Труп, Обитатель Разлома, Огни Реки"
     },
     {
       "n": "Малахитовая Сфера",
@@ -36,9 +40,14 @@
       "locs": [
         "demons/ashtumh",
         "demons/uohatumh",
-        "demons/utahatt"
+        "demons/utahatt",
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik",
+        "undead/topi"
       ],
-      "m": "Дух Огня, Викарии, Каратели"
+      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник"
     },
     {
       "n": "Колчан Аристократа",
@@ -47,9 +56,16 @@
       "rarity": "Особый",
       "img": "Kolchan_Aristo.jpg",
       "locs": [
-        "demons/ashtumh"
+        "demons/ashtumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/lordeleyn",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "orcs/zabroshennaya-stoyanka-orkov",
+        "undead/medilanskoe_nagore/labirint/logovo-minotavra",
+        "undead/topi"
       ],
-      "m": "Дух Огня"
+      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа"
     },
     {
       "n": "Сфера Фей",
@@ -61,9 +77,13 @@
         "demons/ashtumh",
         "demons/podzemele-marinii",
         "demons/uohatumh",
-        "demons/utahatt"
+        "demons/utahatt",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/amissvud"
       ],
-      "m": "Викарии, Бес, Дух Огня, Миссионеры"
+      "m": "Викарии, Страж, Привратник, Бес, Дух Огня, Охрана Торговца, Минотавр, Миссионеры, Энт"
     },
     {
       "n": "Плачущий Посох",
@@ -72,9 +92,10 @@
       "rarity": "Особый",
       "img": "Plaksa_Posoh.jpg",
       "locs": [
-        "demons/ashtumh"
+        "demons/ashtumh",
+        "dwarves/malye-tonneli"
       ],
-      "m": "Дух Огня"
+      "m": "Дух Огня, Демоны"
     },
     {
       "n": "Белый Шар",
@@ -83,9 +104,14 @@
       "rarity": "Особый",
       "img": "Beliy_Shar.jpg",
       "locs": [
-        "demons/ashtumh"
+        "demons/ashtumh",
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "undead/topi"
       ],
-      "m": "Дух Огня"
+      "m": "Тень, Мёртвый Рудокоп, Проклятые Големы, Голем, Дух Огня, Болотные Шаманы"
     },
     {
       "n": "Жезл Часовщика",
@@ -94,20 +120,29 @@
       "rarity": "Особый",
       "img": "Jezl_Chasovshika.jpg",
       "locs": [
-        "demons/ashtumh"
+        "demons/ashtumh",
+        "elves/razboynichya-puscha-skrytaya-lokaciya"
       ],
-      "m": "Дух Огня"
+      "m": "Разбойники, Дух Огня"
     },
     {
       "n": "Обсидиановая Сфера",
       "name": "Обсидиановая Сфера",
       "r": "Особый",
       "rarity": "Особый",
-      "img": "Obsidian_Cheshuja.jpg",
+      "img": "Obsidian_Sphere.jpg",
       "locs": [
-        "demons/ashtumh"
+        "demons/ashtumh",
+        "dwarves/bolshoy-razlom",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "humans/amissvud",
+        "humans/hargorskaya-plesh-skrytaya-lokaciya",
+        "humans/pograniche_sever",
+        "humans/sredinnoe-poberezhe",
+        "undead/topi"
       ],
-      "m": "Дух Огня"
+      "m": "Болотные Шаманы, Энт, Снеговик, Мёртвый Орк, Беглец, Дух Огня, Тень, Страж, Привратник, Обитатель Разлома, Проклятые Големы"
     },
     {
       "n": "Колчан из Рога",
@@ -117,9 +152,16 @@
       "img": "Kolchan_iz_Roga.jpg",
       "locs": [
         "demons/ashtumh",
-        "demons/thahashsh"
+        "demons/thahashsh",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/ubezhische-zortana",
+        "elves/chascha-duhov-skrytaya-lokaciya",
+        "elves/montsilvar",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Дикий Варг, Дух Огня"
+      "m": "Страж, Зверь, Охрана, Энт, Дикий Варг, Дух, Проклятые Големы, Стражи Подземелий, Дух Огня"
     }
   ]
 }

@@ -11,9 +11,11 @@
       "img": "Sun_Orb.jpg",
       "locs": [
         "demons/khoraat",
-        "demons/utahatt"
+        "demons/utahatt",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
       ],
-      "m": "Викарии, Исчадие Ада"
+      "m": "Привратник, Викарии, Исчадие Ада, Минотавр"
     },
     {
       "n": "Лунный Орб",
@@ -23,9 +25,11 @@
       "img": "Lunniy_Orb.jpg",
       "locs": [
         "demons/khoraat",
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Исчадие Ада, Миссионеры"
+      "m": "Исчадие Ада, Миссионеры, Потерянная Душа, Тень, Страж, Привратник"
     }
   ]
 }

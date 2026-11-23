@@ -11,9 +11,15 @@
       "img": "Perchatki_iz_Skalp_Bard.jpg",
       "locs": [
         "demons/podzemele-marinii",
-        "demons/thahashsh"
+        "demons/thahashsh",
+        "dwarves/yuzhnyy_pik",
+        "elves/koldovskoy-ostrov-portalnaya-lokaciya",
+        "humans/amissvud",
+        "humans/tannervill",
+        "orcs/stoybische_gryzuschih_kosti",
+        "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Дикий Варг, Грифоны, Единорог"
+      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера"
     },
     {
       "n": "Меховые Перчатки",
@@ -23,9 +29,11 @@
       "img": "Meh_Perchatki.jpg",
       "locs": [
         "demons/podzemele-marinii",
-        "demons/thahashsh"
+        "demons/thahashsh",
+        "humans/sredinnoe-poberezhe",
+        "orcs/solonchaki"
       ],
-      "m": "Медведь, Дикий Варг"
+      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик"
     },
     {
       "n": "Кафтан Академика",
@@ -34,9 +42,11 @@
       "rarity": "Особый",
       "img": "Kaftan_Akademika.jpg",
       "locs": [
-        "demons/thahashsh"
+        "demons/thahashsh",
+        "humans/amissvud",
+        "humans/hizhina-lesnika"
       ],
-      "m": "Дикий Варг"
+      "m": "Зверь, Энт, Дикий Варг"
     },
     {
       "n": "Перчатки Вечной Зимы",
@@ -46,9 +56,12 @@
       "img": "Perchatki_Vechnoi_Zimi.jpg",
       "locs": [
         "demons/thahashsh",
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/kromelvud"
       ],
-      "m": "Дикий Варг, Каратели"
+      "m": "Энт, Волк, Варг Гримгольда, Дикий Варг, Каратели, Черные Варги"
     },
     {
       "n": "Атласный Кафтан",
@@ -57,9 +70,13 @@
       "rarity": "Особый",
       "img": "Atlas_Kaftan.jpg",
       "locs": [
-        "demons/thahashsh"
+        "demons/thahashsh",
+        "dwarves/yuzhnyy_pik",
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/tannervill"
       ],
-      "m": "Дикий Варг"
+      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени"
     },
     {
       "n": "Колчан из Рога",
@@ -69,9 +86,16 @@
       "img": "Kolchan_iz_Roga.jpg",
       "locs": [
         "demons/ashtumh",
-        "demons/thahashsh"
+        "demons/thahashsh",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/ubezhische-zortana",
+        "elves/chascha-duhov-skrytaya-lokaciya",
+        "elves/montsilvar",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Дикий Варг, Дух Огня"
+      "m": "Страж, Зверь, Охрана, Энт, Дикий Варг, Дух, Проклятые Големы, Стражи Подземелий, Дух Огня"
     },
     {
       "n": "Лиственная Туника",
@@ -80,9 +104,12 @@
       "rarity": "Особый",
       "img": "Listvennaja_Tunika.jpg",
       "locs": [
-        "demons/thahashsh"
+        "demons/thahashsh",
+        "humans/amissvud",
+        "humans/sredinnoe-poberezhe",
+        "humans/tannervill"
       ],
-      "m": "Дикий Варг"
+      "m": "Волк, Снеговик, Вепрь, Дикий Варг"
     },
     {
       "n": "Камзол с Кружевами",
@@ -91,9 +118,12 @@
       "rarity": "Особый",
       "img": "Kamzol_s_Kruhevami.jpg",
       "locs": [
-        "demons/thahashsh"
+        "demons/thahashsh",
+        "dwarves/koldstoun-post",
+        "elves/montsilvar",
+        "humans/amissvud"
       ],
-      "m": "Дикий Варг"
+      "m": "Медведь, Волк, Дикий Варг, Зверь"
     },
     {
       "n": "Дьяволовы Стопы",
@@ -102,9 +132,15 @@
       "rarity": "Особый",
       "img": "Djavol_Stopi.jpg",
       "locs": [
-        "demons/thahashsh"
+        "demons/thahashsh",
+        "dwarves/medvezhiy-les",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "humans/tannervill",
+        "orcs/derevnya_burevestnikov",
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona"
       ],
-      "m": "Дикий Варг"
+      "m": "Волк, Вепрь, Дикий Варг, Медведь, Дикий Цербер"
     },
     {
       "n": "Капюшон Подлеца",
@@ -114,9 +150,15 @@
       "img": "Kap_Podleca.jpg",
       "locs": [
         "demons/potuhshiy-vulkan-portalnaya-zona",
-        "demons/thahashsh"
+        "demons/thahashsh",
+        "elves/montsilvar",
+        "elves/nael_tae",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti",
+        "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Страж Вулкана, Дикий Варг"
+      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта"
     },
     {
       "n": "Пернатые Перчатки",
@@ -126,9 +168,14 @@
       "img": "Pernatie_Perchatki.jpg",
       "locs": [
         "demons/thahashsh",
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "dwarves/medvezhiy-les",
+        "elves/montsilvar",
+        "humans/amissvud",
+        "humans/kromelvud",
+        "orcs/solonchaki"
       ],
-      "m": "Каратели, Дикий Варг"
+      "m": "Зверь, Энт, Волк, Каратели, Медведь, Дикий Варг, Черные Варги, Злые Кочевники"
     }
   ]
 }

@@ -10,9 +10,11 @@
       "rarity": "Особый",
       "img": "Ork_Jatagan.jpg",
       "locs": [
-        "humans/lenino-portalnaya-zona/ploschad-imgorkogo"
+        "dwarves/ubezhische-zortana",
+        "humans/lenino-portalnaya-zona/ploschad-imgorkogo",
+        "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Шпана"
+      "m": "Слуга, Шпана, Глядящий в Воду"
     }
   ]
 }

@@ -16,9 +16,15 @@
       "rarity": "Особый",
       "img": "Gizarma_Ujasa.jpg",
       "locs": [
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik",
+        "elves/nael_tae",
+        "humans/sredinnoe-poberezhe",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Стражи Подземелий"
+      "m": "Дикие Пегасы, Страж, Привратник, Стражи Подземелий, Древний, Снеговик, Цербер Тени, Мёртвый Рудокоп"
     },
     {
       "n": "Перчатки Саламандры",
@@ -27,10 +33,15 @@
       "rarity": "Особый",
       "img": "Perchatki_Salamandri.jpg",
       "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
+        "elves/montsilvar",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/amissvud",
         "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Стражи Подземелий, Глядящий в Воду"
+      "m": "Энт, Стражи Подземелий, Мёртвый Рудокоп, Охрана Торговца, Волк, Глядящий в Воду, Бандит"
     },
     {
       "n": "Палаческий Меч",
@@ -50,9 +61,13 @@
       "rarity": "Особый",
       "img": "Lazur_Shljapa.jpg",
       "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "humans/sredinnoe-poberezhe",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Стражи Подземелий"
+      "m": "Стражи Подземелий, Охрана Сундука, Мёртвый Рудокоп, Снеговик, Тень, Страж, Привратник"
     },
     {
       "n": "Клеймор",
@@ -72,9 +87,10 @@
       "rarity": "Особый",
       "img": "Stilet_Ubici.jpg",
       "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Стражи Подземелий"
+      "m": "Мёртвый Рудокоп, Стражи Подземелий"
     },
     {
       "n": "Колчан Аристократа",
@@ -83,10 +99,16 @@
       "rarity": "Особый",
       "img": "Kolchan_Aristo.jpg",
       "locs": [
+        "demons/ashtumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/lordeleyn",
+        "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
-        "orcs/zabroshennaya-stoyanka-orkov"
+        "orcs/zabroshennaya-stoyanka-orkov",
+        "undead/medilanskoe_nagore/labirint/logovo-minotavra",
+        "undead/topi"
       ],
-      "m": "Труп, Стражи Подземелий"
+      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа"
     },
     {
       "n": "Искрящийся Орб",
@@ -95,9 +117,15 @@
       "rarity": "Особый",
       "img": "Iskr_Orb.jpg",
       "locs": [
-        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
+        "demons/uohatumh",
+        "dwarves/bolshoy-razlom",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "undead/prud-utoplennikov",
+        "undead/topi"
       ],
-      "m": "Стражи Подземелий"
+      "m": "Миссионеры, Охрана Торговца, Утопленник, Гидра, Стражи Подземелий, Обитатель Разлома, Тень, Страж, Привратник"
     },
     {
       "n": "Колчан из Рога",
@@ -106,9 +134,17 @@
       "rarity": "Особый",
       "img": "Kolchan_iz_Roga.jpg",
       "locs": [
+        "demons/ashtumh",
+        "demons/thahashsh",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/ubezhische-zortana",
+        "elves/chascha-duhov-skrytaya-lokaciya",
+        "elves/montsilvar",
+        "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Стражи Подземелий"
+      "m": "Страж, Зверь, Охрана, Энт, Дикий Варг, Дух, Проклятые Големы, Стражи Подземелий, Дух Огня"
     }
   ]
 }

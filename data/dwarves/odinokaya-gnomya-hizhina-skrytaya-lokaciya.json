@@ -10,9 +10,11 @@
       "rarity": "Особый",
       "img": "Runic_Stilet.jpg",
       "locs": [
-        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya"
+        "demons/uohatumh",
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
+        "humans/mikrorayon-portalnaya-lokaciya"
       ],
-      "m": "Гардревар Гирр"
+      "m": "Гардревар Гирр, Каратели, Гопник"
     },
     {
       "n": "Гоблинский Колчан",
@@ -22,9 +24,13 @@
       "img": "Goblin_Kolchan.jpg",
       "locs": [
         "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
-        "dwarves/sangard_post/kilmaat-13-yarus"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/montsilvar",
+        "humans/amissvud",
+        "humans/hargorskaya-plesh-skrytaya-lokaciya",
+        "undead/topi"
       ],
-      "m": "Бандит, Тень, Страж, Привратник"
+      "m": "Зверь, Мёртвый Орк, Бандит, Тень, Страж, Привратник, Энт, Гидра"
     },
     {
       "n": "Перчатки Саламандры",
@@ -34,9 +40,14 @@
       "img": "Perchatki_Salamandri.jpg",
       "locs": [
         "dwarves/koldstoun-post/istoschennyy-rudnik",
-        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya"
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
+        "elves/montsilvar",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/amissvud",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Мёртвый Рудокоп, Бандит"
+      "m": "Энт, Стражи Подземелий, Мёртвый Рудокоп, Охрана Торговца, Волк, Глядящий в Воду, Бандит"
     },
     {
       "n": "Драконий Хвост",
@@ -45,9 +56,10 @@
       "rarity": "Особый",
       "img": "Dragon_Hvost.jpg",
       "locs": [
-        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya"
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
+        "undead/derevnya-umalishennyh"
       ],
-      "m": "Бандит"
+      "m": "Бандит, Дух"
     }
   ]
 }

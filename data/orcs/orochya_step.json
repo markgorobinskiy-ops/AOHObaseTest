@@ -10,9 +10,12 @@
       "rarity": "Особый",
       "img": "Sapogi_Kot_Pohodki.jpg",
       "locs": [
-        "orcs/orochya_step"
+        "humans/perekreste",
+        "humans/reyden",
+        "orcs/orochya_step",
+        "undead/medilanskoe_nagore"
       ],
-      "m": "Кровожадные Варги"
+      "m": "Варги, Кровожадные Варги, Бешеные Черные Варги, Горцы"
     },
     {
       "n": "Эльфийские Перчатки",

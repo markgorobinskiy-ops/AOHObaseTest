@@ -10,11 +10,13 @@
       "rarity": "Особый",
       "img": "Perchatki_Vechnoi_Zimi.jpg",
       "locs": [
+        "demons/thahashsh",
+        "demons/uohatumh",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/kromelvud"
       ],
-      "m": "Энт, Волк, Варг Гримгольда, Черные Варги"
+      "m": "Энт, Волк, Варг Гримгольда, Дикий Варг, Каратели, Черные Варги"
     },
     {
       "n": "Пернатые Перчатки",
@@ -23,10 +25,15 @@
       "rarity": "Особый",
       "img": "Pernatie_Perchatki.jpg",
       "locs": [
+        "demons/thahashsh",
+        "demons/uohatumh",
+        "dwarves/medvezhiy-les",
+        "elves/montsilvar",
         "humans/amissvud",
-        "humans/kromelvud"
+        "humans/kromelvud",
+        "orcs/solonchaki"
       ],
-      "m": "Энт, Волк, Черные Варги"
+      "m": "Зверь, Энт, Волк, Каратели, Медведь, Дикий Варг, Черные Варги, Злые Кочевники"
     },
     {
       "n": "Перчатки с Топазами",
@@ -35,10 +42,15 @@
       "rarity": "Особый",
       "img": "Perchatki_s_Topazami.jpg",
       "locs": [
+        "demons/podzemele-marinii",
+        "dwarves/medvezhiy-les",
+        "dwarves/yuzhnyy_pik",
         "humans/amissvud",
-        "humans/kromelvud"
+        "humans/kromelvud",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Волк, Черные Варги"
+      "m": "Медведь, Минотавр, Глядящий в Воду, Кабан, Горный Кабан, Горный Варг, Волк, Черные Варги"
     },
     {
       "n": "Короткий Лук Всадника",
@@ -47,9 +59,10 @@
       "rarity": "Особый",
       "img": "Korotkiy_Luk_Vsadnika.jpg",
       "locs": [
+        "demons/uohatumh",
         "humans/kromelvud"
       ],
-      "m": "Черные Варги"
+      "m": "Каратели, Черные Варги"
     }
   ]
 }

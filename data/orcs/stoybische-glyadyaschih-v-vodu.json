@@ -10,10 +10,15 @@
       "rarity": "Особый",
       "img": "Kamzol_s_Yazik_Plameni.jpg",
       "locs": [
+        "dwarves/yuzhnyy_pik",
+        "elves/lordeleyn",
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/hizhina-lesnika",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Глядящий в Воду, Кабан"
+      "m": "Волк, Зверь, Глядящий в Воду, Варг Гримгольда, Горный Кабан, Бешенный Единорог, Кабан"
     },
     {
       "n": "Перчатки с Топазами",
@@ -22,10 +27,15 @@
       "rarity": "Особый",
       "img": "Perchatki_s_Topazami.jpg",
       "locs": [
+        "demons/podzemele-marinii",
+        "dwarves/medvezhiy-les",
+        "dwarves/yuzhnyy_pik",
+        "humans/amissvud",
+        "humans/kromelvud",
         "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Глядящий в Воду, Кабан"
+      "m": "Медведь, Минотавр, Глядящий в Воду, Кабан, Горный Кабан, Горный Варг, Волк, Черные Варги"
     },
     {
       "n": "Перчатки Саламандры",
@@ -34,10 +44,15 @@
       "rarity": "Особый",
       "img": "Perchatki_Salamandri.jpg",
       "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
+        "elves/montsilvar",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/amissvud",
         "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Стражи Подземелий, Глядящий в Воду"
+      "m": "Энт, Стражи Подземелий, Мёртвый Рудокоп, Охрана Торговца, Волк, Глядящий в Воду, Бандит"
     },
     {
       "n": "Колчан Скорости",
@@ -46,10 +61,16 @@
       "rarity": "Особый",
       "img": "Kolchan_Skorosti.jpg",
       "locs": [
+        "demons/podzemele-marinii",
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
         "orcs/derevnya_burevestnikov/peschera-golemov",
-        "orcs/stoybische-glyadyaschih-v-vodu"
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "undead/prud-utoplennikov",
+        "undead/topi"
       ],
-      "m": "Големы, Глядящий в Воду"
+      "m": "Страж, Бес, Големы, Проклятые Големы, Глядящий в Воду, Голем, Гидра, Утопленники"
     },
     {
       "n": "Медный Доспех",
@@ -58,9 +79,13 @@
       "rarity": "Особый",
       "img": "Medniy_Dospeh.jpg",
       "locs": [
-        "orcs/stoybische-glyadyaschih-v-vodu"
+        "dwarves/garrgrin",
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "elves/lordeleyn",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "undead/pograniche-yug"
       ],
-      "m": "Глядящий в Воду"
+      "m": "Изгнанник, Охрана, Глядящий в Воду, Отец Леррага, Злой Пограничник"
     },
     {
       "n": "Офицерский Кортик",
@@ -80,9 +105,11 @@
       "rarity": "Особый",
       "img": "Ork_Jatagan.jpg",
       "locs": [
+        "dwarves/ubezhische-zortana",
+        "humans/lenino-portalnaya-zona/ploschad-imgorkogo",
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Глядящий в Воду"
+      "m": "Слуга, Шпана, Глядящий в Воду"
     },
     {
       "n": "Золотой Кафтан",
@@ -91,10 +118,12 @@
       "rarity": "Особый",
       "img": "Zolotoi_Kaftan.jpg",
       "locs": [
+        "humans/amissvud",
+        "humans/tannervill",
         "orcs/derevnya_burevestnikov",
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Волк, Глядящий в Воду"
+      "m": "Волк, Вепрь, Глядящий в Воду"
     },
     {
       "n": "Нефритовый Щит",
@@ -125,10 +154,12 @@
       "rarity": "Особый",
       "img": "Red_Kaftan.jpg",
       "locs": [
+        "dwarves/medvezhiy-les",
+        "elves/lordeleyn",
         "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Варг, Глядящий в Воду"
+      "m": "Бешенный Единорог, Варг, Медведь, Глядящий в Воду"
     }
   ]
 }

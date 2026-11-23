@@ -10,9 +10,12 @@
       "rarity": "Особый",
       "img": "Perchatki_Archmage.jpg",
       "locs": [
-        "demons/podzemele-marinii"
+        "demons/podzemele-marinii",
+        "dwarves/yuzhnyy_pik",
+        "humans/amissvud",
+        "orcs/solonchaki"
       ],
-      "m": "Волк"
+      "m": "Волк, Злые Кочевники, Горный Кабан"
     },
     {
       "n": "Меховые Перчатки",
@@ -22,9 +25,11 @@
       "img": "Meh_Perchatki.jpg",
       "locs": [
         "demons/podzemele-marinii",
-        "demons/thahashsh"
+        "demons/thahashsh",
+        "humans/sredinnoe-poberezhe",
+        "orcs/solonchaki"
       ],
-      "m": "Медведь, Дикий Варг"
+      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик"
     },
     {
       "n": "Шляпа Первого Ордена",
@@ -33,9 +38,10 @@
       "rarity": "Особый",
       "img": "Shlyapa_1_Orden.jpg",
       "locs": [
-        "demons/podzemele-marinii"
+        "demons/podzemele-marinii",
+        "humans/korneyl/peschery"
       ],
-      "m": "Дух Природы"
+      "m": "Дух Природы, Толпа Скелетов"
     },
     {
       "n": "Перчатки с Топазами",
@@ -44,9 +50,15 @@
       "rarity": "Особый",
       "img": "Perchatki_s_Topazami.jpg",
       "locs": [
-        "demons/podzemele-marinii"
+        "demons/podzemele-marinii",
+        "dwarves/medvezhiy-les",
+        "dwarves/yuzhnyy_pik",
+        "humans/amissvud",
+        "humans/kromelvud",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Минотавр"
+      "m": "Медведь, Минотавр, Глядящий в Воду, Кабан, Горный Кабан, Горный Варг, Волк, Черные Варги"
     },
     {
       "n": "Сфера Фей",
@@ -58,9 +70,13 @@
         "demons/ashtumh",
         "demons/podzemele-marinii",
         "demons/uohatumh",
-        "demons/utahatt"
+        "demons/utahatt",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/amissvud"
       ],
-      "m": "Викарии, Бес, Дух Огня, Миссионеры"
+      "m": "Викарии, Страж, Привратник, Бес, Дух Огня, Охрана Торговца, Минотавр, Миссионеры, Энт"
     },
     {
       "n": "Шепчущие Перчатки",
@@ -69,9 +85,12 @@
       "rarity": "Особый",
       "img": "Shepchushie_Perchatki.jpg",
       "locs": [
-        "demons/podzemele-marinii"
+        "demons/podzemele-marinii",
+        "dwarves/medvezhiy-les",
+        "elves/montsilvar",
+        "humans/amissvud"
       ],
-      "m": "Кабан"
+      "m": "Энт, Волк, Медведь, Зверь, Кабан"
     },
     {
       "n": "Колчан Скорости",
@@ -80,9 +99,16 @@
       "rarity": "Особый",
       "img": "Kolchan_Skorosti.jpg",
       "locs": [
-        "demons/podzemele-marinii"
+        "demons/podzemele-marinii",
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "orcs/derevnya_burevestnikov/peschera-golemov",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "undead/prud-utoplennikov",
+        "undead/topi"
       ],
-      "m": "Бес"
+      "m": "Страж, Бес, Големы, Проклятые Големы, Глядящий в Воду, Голем, Гидра, Утопленники"
     },
     {
       "n": "Льдистый Кортик",
@@ -92,9 +118,12 @@
       "img": "Led_Kortik.jpg",
       "locs": [
         "demons/podzemele-marinii",
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "undead/derevnya-umalishennyh",
+        "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Огни Леса, Каратели"
+      "m": "Огни Леса, Каратели, Дух, Тень, Страж, Привратник, Хранители Лабиринта"
     },
     {
       "n": "Перчатки из Скальпа Барда",
@@ -104,9 +133,15 @@
       "img": "Perchatki_iz_Skalp_Bard.jpg",
       "locs": [
         "demons/podzemele-marinii",
-        "demons/thahashsh"
+        "demons/thahashsh",
+        "dwarves/yuzhnyy_pik",
+        "elves/koldovskoy-ostrov-portalnaya-lokaciya",
+        "humans/amissvud",
+        "humans/tannervill",
+        "orcs/stoybische_gryzuschih_kosti",
+        "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Дикий Варг, Грифоны, Единорог"
+      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера"
     },
     {
       "n": "Матросский Колчан",
@@ -116,9 +151,13 @@
       "img": "Matros_Kolchan.jpg",
       "locs": [
         "demons/ashtumh",
-        "demons/podzemele-marinii"
+        "demons/podzemele-marinii",
+        "dwarves/bolshoy-razlom",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/montsilvar",
+        "orcs/zabroshennaya-stoyanka-orkov"
       ],
-      "m": "Дух Огня, Огни Реки"
+      "m": "Дух Огня, Страж, Привратник, Зверь, Труп, Обитатель Разлома, Огни Реки"
     },
     {
       "n": "Амулет Лекаря",
@@ -127,9 +166,13 @@
       "rarity": "Особый",
       "img": "Amulet_Lekarja.jpg",
       "locs": [
-        "demons/podzemele-marinii"
+        "demons/podzemele-marinii",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae",
+        "orcs/derevnya_burevestnikov/peschera-golemov",
+        "undead/topi"
       ],
-      "m": "Пегас"
+      "m": "Дикие Пегасы, Гидра, Големы, Пегас, Тень, Страж, Привратник"
     }
   ]
 }

@@ -10,9 +10,12 @@
       "rarity": "Особый",
       "img": "Perchatki_Archmage.jpg",
       "locs": [
+        "demons/podzemele-marinii",
+        "dwarves/yuzhnyy_pik",
+        "humans/amissvud",
         "orcs/solonchaki"
       ],
-      "m": "Злые Кочевники"
+      "m": "Волк, Злые Кочевники, Горный Кабан"
     },
     {
       "n": "Льдистый Капюшон",
@@ -21,10 +24,14 @@
       "rarity": "Особый",
       "img": "Led_Kap.jpg",
       "locs": [
+        "dwarves/koldstoun-post",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/lordeleyn",
+        "elves/montsilvar",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
         "orcs/solonchaki"
       ],
-      "m": "Злые Кочевники, Волк"
+      "m": "Бешенный Единорог, Злые Кочевники, Зверь, Медведь, Волк, Тень, Страж, Привратник"
     },
     {
       "n": "Меховые Перчатки",
@@ -33,9 +40,12 @@
       "rarity": "Особый",
       "img": "Meh_Perchatki.jpg",
       "locs": [
+        "demons/podzemele-marinii",
+        "demons/thahashsh",
+        "humans/sredinnoe-poberezhe",
         "orcs/solonchaki"
       ],
-      "m": "Злые Кочевники"
+      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик"
     },
     {
       "n": "Кровавые Перчатки",
@@ -44,10 +54,14 @@
       "rarity": "Особый",
       "img": "Blood_Glowes.jpg",
       "locs": [
+        "elves/lordeleyn",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "humans/amissvud",
         "orcs/solonchaki",
-        "orcs/stoybische_hodyaschih_po_ognyu"
+        "orcs/stoybische_hodyaschih_po_ognyu",
+        "undead/topi"
       ],
-      "m": "Злые Кочевники, Кабан"
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы"
     },
     {
       "n": "Перчатки Везунчика",
@@ -56,9 +70,11 @@
       "rarity": "Особый",
       "img": "Perchatki_Vezunchika.jpg",
       "locs": [
+        "demons/uohatumh",
+        "humans/amissvud",
         "orcs/solonchaki"
       ],
-      "m": "Злые Кочевники"
+      "m": "Каратели, Волк, Злые Кочевники"
     },
     {
       "n": "Пернатые Перчатки",
@@ -67,9 +83,15 @@
       "rarity": "Особый",
       "img": "Pernatie_Perchatki.jpg",
       "locs": [
+        "demons/thahashsh",
+        "demons/uohatumh",
+        "dwarves/medvezhiy-les",
+        "elves/montsilvar",
+        "humans/amissvud",
+        "humans/kromelvud",
         "orcs/solonchaki"
       ],
-      "m": "Злые Кочевники"
+      "m": "Зверь, Энт, Волк, Каратели, Медведь, Дикий Варг, Черные Варги, Злые Кочевники"
     }
   ]
 }

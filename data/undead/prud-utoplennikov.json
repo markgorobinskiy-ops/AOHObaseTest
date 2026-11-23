@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Terrakot_Lati.jpg",
       "locs": [
+        "dwarves/malye-tonneli",
         "undead/prud-utoplennikov"
       ],
-      "m": "Утопленник"
+      "m": "Утопленник, Проклятые Големы"
     },
     {
       "n": "Грозовой Панцирь",
@@ -32,9 +33,11 @@
       "rarity": "Особый",
       "img": "Izumrud_Lati.jpg",
       "locs": [
+        "dwarves/kilmaat",
+        "humans/lok-tarian",
         "undead/prud-utoplennikov"
       ],
-      "m": "Утопленник"
+      "m": "Утопленник, Холодное Железо, Отряд"
     },
     {
       "n": "Тисовый Колчан",
@@ -43,9 +46,14 @@
       "rarity": "Особый",
       "img": "Tis_Kolchan.jpg",
       "locs": [
+        "demons/uohatumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/montsilvar",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
         "undead/prud-utoplennikov"
       ],
-      "m": "Утопленник"
+      "m": "Каратели, Зверь, Энт, Утопленник, Минотавр, Тень, Страж, Привратник"
     },
     {
       "n": "Доспех Полководца",
@@ -54,9 +62,10 @@
       "rarity": "Особый",
       "img": "Dospeh_Polkovodca.jpg",
       "locs": [
+        "elves/yordenskie-polya",
         "undead/prud-utoplennikov"
       ],
-      "m": "Утопленник"
+      "m": "Старший Сын, Утопленник"
     },
     {
       "n": "Хрустальный Доспех",
@@ -65,9 +74,10 @@
       "rarity": "Особый",
       "img": "Hrustalniy_Dospeh.jpg",
       "locs": [
+        "humans/reyden",
         "undead/prud-utoplennikov"
       ],
-      "m": "Утопленник"
+      "m": "Утопленник, Безумные Разбойники"
     },
     {
       "n": "Искрящийся Орб",
@@ -76,10 +86,15 @@
       "rarity": "Особый",
       "img": "Iskr_Orb.jpg",
       "locs": [
+        "demons/uohatumh",
+        "dwarves/bolshoy-razlom",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "undead/prud-utoplennikov",
         "undead/topi"
       ],
-      "m": "Утопленник, Гидра"
+      "m": "Миссионеры, Охрана Торговца, Утопленник, Гидра, Стражи Подземелий, Обитатель Разлома, Тень, Страж, Привратник"
     },
     {
       "n": "Колчан Скорости",
@@ -88,10 +103,16 @@
       "rarity": "Особый",
       "img": "Kolchan_Skorosti.jpg",
       "locs": [
+        "demons/podzemele-marinii",
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "orcs/derevnya_burevestnikov/peschera-golemov",
+        "orcs/stoybische-glyadyaschih-v-vodu",
         "undead/prud-utoplennikov",
         "undead/topi"
       ],
-      "m": "Гидра, Утопленники"
+      "m": "Страж, Бес, Големы, Проклятые Големы, Глядящий в Воду, Голем, Гидра, Утопленники"
     },
     {
       "n": "Серебряный Желудь",
@@ -100,9 +121,11 @@
       "rarity": "Особый",
       "img": "Serebro_Jolud.jpg",
       "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "humans/sredinnoe-poberezhe",
         "undead/prud-utoplennikov"
       ],
-      "m": "Утопленники"
+      "m": "Снеговик, Утопленники, Тень, Страж, Привратник"
     }
   ]
 }

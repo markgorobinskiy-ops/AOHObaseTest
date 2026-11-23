@@ -11,9 +11,11 @@
       "img": "Zolotoi_Kaftan.jpg",
       "locs": [
         "humans/amissvud",
-        "humans/tannervill"
+        "humans/tannervill",
+        "orcs/derevnya_burevestnikov",
+        "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Вепрь, Волк"
+      "m": "Волк, Вепрь, Глядящий в Воду"
     },
     {
       "n": "Перчатки из Скальпа Барда",
@@ -22,10 +24,16 @@
       "rarity": "Особый",
       "img": "Perchatki_iz_Skalp_Bard.jpg",
       "locs": [
+        "demons/podzemele-marinii",
+        "demons/thahashsh",
+        "dwarves/yuzhnyy_pik",
+        "elves/koldovskoy-ostrov-portalnaya-lokaciya",
         "humans/amissvud",
-        "humans/tannervill"
+        "humans/tannervill",
+        "orcs/stoybische_gryzuschih_kosti",
+        "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Энт, Вепрь"
+      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера"
     },
     {
       "n": "Атласный Кафтан",
@@ -34,11 +42,13 @@
       "rarity": "Особый",
       "img": "Atlas_Kaftan.jpg",
       "locs": [
+        "demons/thahashsh",
+        "dwarves/yuzhnyy_pik",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/tannervill"
       ],
-      "m": "Волк, Вепрь Гримгольда, Вепрь"
+      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени"
     },
     {
       "n": "Лиственная Туника",
@@ -47,11 +57,12 @@
       "rarity": "Особый",
       "img": "Listvennaja_Tunika.jpg",
       "locs": [
+        "demons/thahashsh",
         "humans/amissvud",
         "humans/sredinnoe-poberezhe",
         "humans/tannervill"
       ],
-      "m": "Волк, Снеговик, Вепрь"
+      "m": "Волк, Снеговик, Вепрь, Дикий Варг"
     },
     {
       "n": "Дьяволовы Стопы",
@@ -60,10 +71,15 @@
       "rarity": "Особый",
       "img": "Djavol_Stopi.jpg",
       "locs": [
+        "demons/thahashsh",
+        "dwarves/medvezhiy-les",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
-        "humans/tannervill"
+        "humans/tannervill",
+        "orcs/derevnya_burevestnikov",
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona"
       ],
-      "m": "Волк, Вепрь"
+      "m": "Волк, Вепрь, Дикий Варг, Медведь, Дикий Цербер"
     },
     {
       "n": "Кровавая Туника",
@@ -72,10 +88,12 @@
       "rarity": "Особый",
       "img": "Krovavaja_Tunika.jpg",
       "locs": [
+        "elves/lordeleyn",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
         "humans/reyden",
         "humans/tannervill"
       ],
-      "m": "Вепрь, Бешенные Черные Варги"
+      "m": "Разбойники, Вепрь, Бешенные Черные Варги, Изгнанники"
     }
   ]
 }

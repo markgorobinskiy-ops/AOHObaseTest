@@ -10,10 +10,16 @@
       "rarity": "Особый",
       "img": "Kolchan_Aristo.jpg",
       "locs": [
+        "demons/ashtumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/lordeleyn",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "orcs/zabroshennaya-stoyanka-orkov",
         "undead/medilanskoe_nagore/labirint/logovo-minotavra",
         "undead/topi"
       ],
-      "m": "Гидра, Загубленная Душа"
+      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа"
     },
     {
       "n": "Жезл Истины",
@@ -22,10 +28,11 @@
       "rarity": "Особый",
       "img": "Jezl_Istini.jpg",
       "locs": [
+        "demons/utahatt",
         "undead/medilanskoe_nagore/labirint/logovo-minotavra",
         "undead/topi"
       ],
-      "m": "Охрана Минотавра, Болотные Шаманы"
+      "m": "Охрана Минотавра, Викарии, Болотные Шаманы"
     }
   ]
 }

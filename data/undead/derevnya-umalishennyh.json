@@ -10,9 +10,12 @@
       "rarity": "Особый",
       "img": "Sekira_Drevnego_Ujasa.jpg",
       "locs": [
+        "dwarves/bolshoy-razlom",
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "humans/lok-tarian/podzemele-lok-tarian",
         "undead/derevnya-umalishennyh"
       ],
-      "m": "Святоша"
+      "m": "Святоша, Мёртвый Рудокоп, Обитатель Разлома, Гора Трупов"
     },
     {
       "n": "Льдистый Кортик",
@@ -21,10 +24,13 @@
       "rarity": "Особый",
       "img": "Led_Kortik.jpg",
       "locs": [
+        "demons/podzemele-marinii",
+        "demons/uohatumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
         "undead/derevnya-umalishennyh",
         "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Дух, Хранители Лабиринта"
+      "m": "Огни Леса, Каратели, Дух, Тень, Страж, Привратник, Хранители Лабиринта"
     },
     {
       "n": "Драконий Хвост",
@@ -33,9 +39,10 @@
       "rarity": "Особый",
       "img": "Dragon_Hvost.jpg",
       "locs": [
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
         "undead/derevnya-umalishennyh"
       ],
-      "m": "Дух"
+      "m": "Бандит, Дух"
     }
   ]
 }

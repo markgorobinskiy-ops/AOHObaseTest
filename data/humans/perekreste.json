@@ -11,9 +11,11 @@
       "img": "Sapogi_Kot_Pohodki.jpg",
       "locs": [
         "humans/perekreste",
-        "humans/reyden"
+        "humans/reyden",
+        "orcs/orochya_step",
+        "undead/medilanskoe_nagore"
       ],
-      "m": "Варги, Бешеные Черные Варги"
+      "m": "Варги, Кровожадные Варги, Бешеные Черные Варги, Горцы"
     },
     {
       "n": "Доспех из шкур Варгов",
@@ -69,9 +71,10 @@
       "rarity": "Особый",
       "img": "Run_Sword.jpg",
       "locs": [
+        "elves/reniol",
         "humans/perekreste"
       ],
-      "m": "Жестокие Разбойники"
+      "m": "Жестокие Разбойники, Грозные Разбойники"
     },
     {
       "n": "Копьё Триария",
@@ -80,9 +83,10 @@
       "rarity": "Особый",
       "img": "Kopjo_Triaria.jpg",
       "locs": [
-        "humans/perekreste"
+        "humans/perekreste",
+        "undead/leyk-villazh"
       ],
-      "m": "Свирепые Орки"
+      "m": "Свирепые Орки, Страж Моста"
     },
     {
       "n": "Гвардейская Сабля",

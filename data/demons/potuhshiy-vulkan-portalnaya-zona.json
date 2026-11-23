@@ -11,9 +11,15 @@
       "img": "Kap_Podleca.jpg",
       "locs": [
         "demons/potuhshiy-vulkan-portalnaya-zona",
-        "demons/thahashsh"
+        "demons/thahashsh",
+        "elves/montsilvar",
+        "elves/nael_tae",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti",
+        "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Страж Вулкана, Дикий Варг"
+      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта"
     }
   ]
 }

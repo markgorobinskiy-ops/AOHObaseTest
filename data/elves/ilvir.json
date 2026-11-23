@@ -15,9 +15,12 @@
       "rarity": "Особый",
       "img": "Gnomiy_Kolchan.jpg",
       "locs": [
-        "elves/ilvir"
+        "elves/ilvir",
+        "humans/korneyl/peschery",
+        "orcs/severnyy-pik",
+        "undead/zarechenskiy-monastyr-skrytaya-lokaciya"
       ],
-      "m": "Древний Каменный Голем"
+      "m": "Древний Каменный Голем, Дикий Кабан, Ганимед, Толпы Скелетов"
     },
     {
       "n": "Ореховая Шляпа",
@@ -26,9 +29,10 @@
       "rarity": "Особый",
       "img": "Oreh_Shljapa.jpg",
       "locs": [
-        "elves/ilvir"
+        "elves/ilvir",
+        "humans/korneyl"
       ],
-      "m": "Древний Каменный Голем"
+      "m": "Древний Каменный Голем, Толпа Зомби"
     },
     {
       "n": "Эльфийский Крылатый Шлем",
@@ -37,9 +41,10 @@
       "rarity": "Особый",
       "img": "Elf_Wing_Shlem.jpg",
       "locs": [
-        "elves/ilvir"
+        "elves/ilvir",
+        "humans/korneyl/peschery"
       ],
-      "m": "Древний Каменный Голем"
+      "m": "Древний Каменный Голем, Древние Зомби"
     }
   ]
 }

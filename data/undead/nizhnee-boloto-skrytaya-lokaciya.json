@@ -10,9 +10,15 @@
       "rarity": "Особый",
       "img": "Perchatki_s_Serebryannimi_Shipami.jpg",
       "locs": [
+        "dwarves/sangard_post/peschery-pod-sangardom",
+        "elves/montsilvar",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/hizhina-lesnika",
         "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Тролль"
+      "m": "Дикий Цербер, Энт, Тролль, Волк, Вепрь Гримгольда, Зверь, Скелеты"
     },
     {
       "n": "Перчатки из Скальпа Барда",
@@ -21,9 +27,16 @@
       "rarity": "Особый",
       "img": "Perchatki_iz_Skalp_Bard.jpg",
       "locs": [
+        "demons/podzemele-marinii",
+        "demons/thahashsh",
+        "dwarves/yuzhnyy_pik",
+        "elves/koldovskoy-ostrov-portalnaya-lokaciya",
+        "humans/amissvud",
+        "humans/tannervill",
+        "orcs/stoybische_gryzuschih_kosti",
         "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Болотник"
+      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера"
     }
   ]
 }

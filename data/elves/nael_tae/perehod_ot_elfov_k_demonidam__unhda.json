@@ -10,10 +10,15 @@
       "rarity": "Особый",
       "img": "Perchatki_s_Serebryannimi_Shipami.jpg",
       "locs": [
+        "dwarves/sangard_post/peschery-pod-sangardom",
         "elves/montsilvar",
-        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/hizhina-lesnika",
+        "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Дикий Цербер, Энт"
+      "m": "Дикий Цербер, Энт, Тролль, Волк, Вепрь Гримгольда, Зверь, Скелеты"
     },
     {
       "n": "Зелёный Капюшон",
@@ -33,9 +38,12 @@
       "rarity": "Особый",
       "img": "Glaz_Mantikori.jpg",
       "locs": [
-        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud"
       ],
-      "m": "Дикий Цербер, Минотавр"
+      "m": "Дикий Цербер, Минотавр, Страж, Привратник, Древний, Энт"
     },
     {
       "n": "Тисовый Колчан",
@@ -44,10 +52,14 @@
       "rarity": "Особый",
       "img": "Tis_Kolchan.jpg",
       "locs": [
+        "demons/uohatumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/montsilvar",
-        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "undead/prud-utoplennikov"
       ],
-      "m": "Зверь, Минотавр"
+      "m": "Каратели, Зверь, Энт, Утопленник, Минотавр, Тень, Страж, Привратник"
     },
     {
       "n": "Капюшон Подлеца",
@@ -56,11 +68,16 @@
       "rarity": "Особый",
       "img": "Kap_Podleca.jpg",
       "locs": [
+        "demons/potuhshiy-vulkan-portalnaya-zona",
+        "demons/thahashsh",
         "elves/montsilvar",
         "elves/nael_tae",
-        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti",
+        "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Дикий Цербер, Минотавр, Зверь, Бешенные Единороги, Белокрылый"
+      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта"
     },
     {
       "n": "Цветочный Орб",
@@ -69,9 +86,12 @@
       "rarity": "Особый",
       "img": "Flower_Orb.jpg",
       "locs": [
-        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "undead/topi"
       ],
-      "m": "Минотавр"
+      "m": "Энт, Тень, Страж, Привратник, Болотные Шаманы, Минотавр"
     },
     {
       "n": "Солнечный Орб",
@@ -80,9 +100,12 @@
       "rarity": "Особый",
       "img": "Sun_Orb.jpg",
       "locs": [
+        "demons/khoraat",
+        "demons/utahatt",
+        "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
       ],
-      "m": "Минотавр"
+      "m": "Привратник, Викарии, Исчадие Ада, Минотавр"
     },
     {
       "n": "Сфера Фей",
@@ -91,10 +114,16 @@
       "rarity": "Особый",
       "img": "Sphere_Fei.jpg",
       "locs": [
+        "demons/ashtumh",
+        "demons/podzemele-marinii",
+        "demons/uohatumh",
+        "demons/utahatt",
+        "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
-        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/amissvud"
       ],
-      "m": "Охрана Торговца, Минотавр"
+      "m": "Викарии, Страж, Привратник, Бес, Дух Огня, Охрана Торговца, Минотавр, Миссионеры, Энт"
     },
     {
       "n": "Дьяволовы Стопы",
@@ -103,9 +132,15 @@
       "rarity": "Особый",
       "img": "Djavol_Stopi.jpg",
       "locs": [
-        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
+        "demons/thahashsh",
+        "dwarves/medvezhiy-les",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "humans/tannervill",
+        "orcs/derevnya_burevestnikov",
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona"
       ],
-      "m": "Дикий Цербер"
+      "m": "Волк, Вепрь, Дикий Варг, Медведь, Дикий Цербер"
     }
   ]
 }

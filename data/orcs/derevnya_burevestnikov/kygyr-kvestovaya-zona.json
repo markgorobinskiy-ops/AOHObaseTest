@@ -10,10 +10,15 @@
       "rarity": "Особый",
       "img": "Kamzol_s_Yazik_Plameni.jpg",
       "locs": [
+        "dwarves/yuzhnyy_pik",
+        "elves/lordeleyn",
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/hizhina-lesnika",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Глядящий в Воду, Кабан"
+      "m": "Волк, Зверь, Глядящий в Воду, Варг Гримгольда, Горный Кабан, Бешенный Единорог, Кабан"
     },
     {
       "n": "Льдистый Капюшон",
@@ -22,10 +27,14 @@
       "rarity": "Особый",
       "img": "Led_Kap.jpg",
       "locs": [
+        "dwarves/koldstoun-post",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/lordeleyn",
+        "elves/montsilvar",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
         "orcs/solonchaki"
       ],
-      "m": "Злые Кочевники, Волк"
+      "m": "Бешенный Единорог, Злые Кочевники, Зверь, Медведь, Волк, Тень, Страж, Привратник"
     },
     {
       "n": "Отравленная Туника",
@@ -34,9 +43,11 @@
       "rarity": "Особый",
       "img": "Otravlennaja_Tunika.jpg",
       "locs": [
+        "elves/lordeleyn",
+        "elves/montsilvar",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona"
       ],
-      "m": "Волк"
+      "m": "Зверь, Волк, Бешенный Единорог"
     },
     {
       "n": "Дьяволовы Стопы",
@@ -45,10 +56,15 @@
       "rarity": "Особый",
       "img": "Djavol_Stopi.jpg",
       "locs": [
+        "demons/thahashsh",
+        "dwarves/medvezhiy-les",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "humans/tannervill",
         "orcs/derevnya_burevestnikov",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona"
       ],
-      "m": "Волк"
+      "m": "Волк, Вепрь, Дикий Варг, Медведь, Дикий Цербер"
     }
   ]
 }

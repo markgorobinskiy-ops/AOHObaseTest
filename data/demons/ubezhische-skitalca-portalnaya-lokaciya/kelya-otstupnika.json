@@ -10,9 +10,12 @@
       "rarity": "Особый",
       "img": "Dancing_Shljapa.jpg",
       "locs": [
-        "demons/ubezhische-skitalca-portalnaya-lokaciya/kelya-otstupnika"
+        "demons/ubezhische-skitalca-portalnaya-lokaciya/kelya-otstupnika",
+        "dwarves/bolshoy-razlom",
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "humans/korneyl/peschery"
       ],
-      "m": "Монах"
+      "m": "Обитатель Разлома, Толпа Зомби, Толпы Скелетов, Послушники Тьмы, Мёртвый Рудокоп, Монах"
     }
   ]
 }

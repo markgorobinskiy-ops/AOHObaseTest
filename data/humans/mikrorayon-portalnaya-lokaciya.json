@@ -22,9 +22,11 @@
       "rarity": "Особый",
       "img": "Runic_Stilet.jpg",
       "locs": [
+        "demons/uohatumh",
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
         "humans/mikrorayon-portalnaya-lokaciya"
       ],
-      "m": "Гопник"
+      "m": "Гардревар Гирр, Каратели, Гопник"
     }
   ]
 }
