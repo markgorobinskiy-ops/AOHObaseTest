@@ -43,6 +43,18 @@
         "undead/pograniche-yug"
       ],
       "m": "Слуга, Злой Пограничник"
+    },
+    {
+      "n": "Огненный Доспех",
+      "name": "Огненный Доспех",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Fire_Dospeh.jpg",
+      "locs": [
+        "dwarves/bolshoy-razlom",
+        "undead/pograniche-yug"
+      ],
+      "m": "Обитатель Разлома, Злой Пограничник"
     }
   ]
 }
