@@ -20,6 +20,67 @@
         "undead/topi"
       ],
       "m": "Мёртвый Рудокоп, Стражи Подземелий, Тень, Страж, Привратник, Цербер Тени, Дух, Гидра, Древний, Одержимые"
+    },
+    {
+      "n": "Колчан Скорости",
+      "name": "Колчан Скорости",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kolchan_Skorosti.jpg",
+      "locs": [
+        "demons/podzemele-marinii",
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "orcs/derevnya_burevestnikov/peschera-golemov",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "undead/prud-utoplennikov",
+        "undead/topi"
+      ],
+      "m": "Страж, Бес, Големы, Проклятые Големы, Глядящий в Воду, Голем, Гидра, Утопленники, Хранители Подземелий"
+    },
+    {
+      "n": "Гоблинский Колчан",
+      "name": "Гоблинский Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Goblin_Kolchan.jpg",
+      "locs": [
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/montsilvar",
+        "humans/amissvud",
+        "humans/hargorskaya-plesh-skrytaya-lokaciya",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "undead/topi"
+      ],
+      "m": "Зверь, Мёртвый Орк, Бандит, Тень, Страж, Привратник, Энт, Гидра, Хранители Подземелий"
+    },
+    {
+      "n": "Жезл Часовщика",
+      "name": "Жезл Часовщика",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jezl_Chasovshika.jpg",
+      "locs": [
+        "demons/ashtumh",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
+      ],
+      "m": "Разбойники, Дух Огня, Хранители Подземелий"
+    },
+    {
+      "n": "Дробитель",
+      "name": "Дробитель",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Drobitel.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
+      ],
+      "m": "Гора Трупов, Хранители Подземелий"
     }
   ]
 }

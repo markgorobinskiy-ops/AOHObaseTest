@@ -52,9 +52,10 @@
       "img": "Jezl_Chasovshika.jpg",
       "locs": [
         "demons/ashtumh",
-        "elves/razboynichya-puscha-skrytaya-lokaciya"
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
       ],
-      "m": "Разбойники, Дух Огня"
+      "m": "Разбойники, Дух Огня, Хранители Подземелий"
     },
     {
       "n": "Кровавые Перчатки",

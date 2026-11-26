@@ -104,9 +104,10 @@
       "rarity": "Особый",
       "img": "Drobitel.jpg",
       "locs": [
-        "humans/lok-tarian/podzemele-lok-tarian"
+        "humans/lok-tarian/podzemele-lok-tarian",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
       ],
-      "m": "Гора Трупов"
+      "m": "Гора Трупов, Хранители Подземелий"
     },
     {
       "n": "Топор Ревенанта",

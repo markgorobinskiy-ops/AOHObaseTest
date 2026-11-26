@@ -195,10 +195,11 @@
         "dwarves/sangard_post/kilmaat-13-yarus",
         "orcs/derevnya_burevestnikov/peschera-golemov",
         "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "undead/prud-utoplennikov",
         "undead/topi"
       ],
-      "m": "Страж, Бес, Големы, Проклятые Големы, Глядящий в Воду, Голем, Гидра, Утопленники"
+      "m": "Страж, Бес, Големы, Проклятые Големы, Глядящий в Воду, Голем, Гидра, Утопленники, Хранители Подземелий"
     },
     {
       "n": "Белый Шар",
@@ -278,9 +279,10 @@
         "elves/montsilvar",
         "humans/amissvud",
         "humans/hargorskaya-plesh-skrytaya-lokaciya",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "undead/topi"
       ],
-      "m": "Зверь, Мёртвый Орк, Бандит, Тень, Страж, Привратник, Энт, Гидра"
+      "m": "Зверь, Мёртвый Орк, Бандит, Тень, Страж, Привратник, Энт, Гидра, Хранители Подземелий"
     },
     {
       "n": "Жезл Истины",
