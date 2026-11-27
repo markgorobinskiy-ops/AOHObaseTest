@@ -247,6 +247,19 @@
         "humans/lok-tarian/podzemele-lok-tarian"
       ],
       "m": "Гора Трупов, Охрана Торговца"
+    },
+    {
+      "n": "Щит Семи Громов",
+      "name": "Щит Семи Громов",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shield_7_Gromov.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "elves/yordenskie-polya",
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Сын Йорндерна, Глядящий в Воду, Охрана Торговца"
     }
   ]
 }

@@ -68,6 +68,17 @@
         "demons/unkhu"
       ],
       "m": "Рейдер"
+    },
+    {
+      "n": "Друидский Плащ",
+      "name": "Друидский Плащ",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Druidskiy_Plasch.png",
+      "locs": [
+        "demons/unkhu"
+      ],
+      "m": "Рейдер"
     }
   ]
 }

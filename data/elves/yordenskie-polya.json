@@ -23,10 +23,11 @@
       "rarity": "Особый",
       "img": "Shield_7_Gromov.jpg",
       "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
         "elves/yordenskie-polya",
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Сын Йорндерна, Глядящий в Воду"
+      "m": "Сын Йорндерна, Глядящий в Воду, Охрана Торговца"
     }
   ]
 }
