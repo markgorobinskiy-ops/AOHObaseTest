@@ -260,6 +260,17 @@
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
       "m": "Сын Йорндерна, Глядящий в Воду, Охрана Торговца"
+    },
+    {
+      "n": "Паучий Плащ",
+      "name": "Паучий Плащ",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Pauk_Plasch.png",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+      ],
+      "m": "Охрана Торговца"
     }
   ]
 }
