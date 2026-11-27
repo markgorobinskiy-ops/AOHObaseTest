@@ -24,14 +24,16 @@
       "rarity": "Особый",
       "img": "Led_Kap.jpg",
       "locs": [
+        "demons/thahashsh",
         "dwarves/koldstoun-post",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/lordeleyn",
         "elves/montsilvar",
+        "humans/kromelvud",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
         "orcs/solonchaki"
       ],
-      "m": "Бешенный Единорог, Злые Кочевники, Зверь, Медведь, Волк, Тень, Страж, Привратник"
+      "m": "Бешенный Единорог, Злые Кочевники, Зверь, Медведь, Волк, Тень, Страж, Привратник, Черные Варги, Дикий Варг"
     },
     {
       "n": "Меховые Перчатки",
@@ -42,11 +44,12 @@
       "locs": [
         "demons/podzemele-marinii",
         "demons/thahashsh",
+        "demons/uohatumh",
         "humans/sredinnoe-poberezhe",
         "orcs/solonchaki",
         "undead/zarechenskiy-monastyr-skrytaya-lokaciya"
       ],
-      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер"
+      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер, Каратели, Миссионеры"
     },
     {
       "n": "Кровавые Перчатки",
@@ -60,10 +63,11 @@
         "humans/amissvud",
         "humans/kromelvud",
         "orcs/solonchaki",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/stoybische_hodyaschih_po_ognyu",
         "undead/topi"
       ],
-      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги"
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги, Стражи Подземелий"
     },
     {
       "n": "Перчатки Везунчика",

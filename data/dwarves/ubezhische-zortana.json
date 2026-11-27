@@ -55,9 +55,10 @@
       "locs": [
         "dwarves/ubezhische-zortana",
         "humans/lenino-portalnaya-zona/ploschad-imgorkogo",
-        "orcs/stoybische-glyadyaschih-v-vodu"
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Слуга, Шпана, Глядящий в Воду"
+      "m": "Слуга, Шпана, Глядящий в Воду, Стражи Подземелий"
     }
   ]
 }

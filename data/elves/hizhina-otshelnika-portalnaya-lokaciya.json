@@ -53,6 +53,18 @@
         "orcs/stoybische_gryzuschih_kosti"
       ],
       "m": "Энт, Страж Души, Варг"
+    },
+    {
+      "n": "Шляпа Чернокнижника",
+      "name": "Шляпа Чернокнижника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shljapa_Chernoknijnika.jpg",
+      "locs": [
+        "elves/hizhina-otshelnika-portalnaya-lokaciya",
+        "humans/reyden"
+      ],
+      "m": "Толпы Скелетов, Страж Души"
     }
   ]
 }

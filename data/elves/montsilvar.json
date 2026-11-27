@@ -81,9 +81,10 @@
         "elves/montsilvar",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "undead/prud-utoplennikov"
       ],
-      "m": "Каратели, Зверь, Энт, Утопленник, Минотавр, Тень, Страж, Привратник"
+      "m": "Каратели, Зверь, Энт, Утопленник, Минотавр, Тень, Страж, Привратник, Стражи Подземелий"
     },
     {
       "n": "Отравленная Туника",
@@ -172,14 +173,16 @@
       "rarity": "Особый",
       "img": "Led_Kap.jpg",
       "locs": [
+        "demons/thahashsh",
         "dwarves/koldstoun-post",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/lordeleyn",
         "elves/montsilvar",
+        "humans/kromelvud",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
         "orcs/solonchaki"
       ],
-      "m": "Бешенный Единорог, Злые Кочевники, Зверь, Медведь, Волк, Тень, Страж, Привратник"
+      "m": "Бешенный Единорог, Злые Кочевники, Зверь, Медведь, Волк, Тень, Страж, Привратник, Черные Варги, Дикий Варг"
     },
     {
       "n": "Капюшон Подлеца",
@@ -244,13 +247,14 @@
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/lordeleyn",
         "elves/montsilvar",
+        "elves/nael_tae",
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "orcs/zabroshennaya-stoyanka-orkov",
         "undead/medilanskoe_nagore/labirint/logovo-minotavra",
         "undead/topi"
       ],
-      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа, Зверь"
+      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа, Зверь, Дикие Пегасы"
     }
   ]
 }

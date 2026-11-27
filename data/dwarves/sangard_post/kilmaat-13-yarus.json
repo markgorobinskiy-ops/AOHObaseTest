@@ -135,13 +135,14 @@
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/lordeleyn",
         "elves/montsilvar",
+        "elves/nael_tae",
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "orcs/zabroshennaya-stoyanka-orkov",
         "undead/medilanskoe_nagore/labirint/logovo-minotavra",
         "undead/topi"
       ],
-      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа, Зверь"
+      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа, Зверь, Дикие Пегасы"
     },
     {
       "n": "Сфера Фей",
@@ -168,12 +169,13 @@
       "rarity": "Особый",
       "img": "Flower_Orb.jpg",
       "locs": [
+        "demons/utahatt",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
         "undead/topi"
       ],
-      "m": "Энт, Тень, Страж, Привратник, Болотные Шаманы, Минотавр"
+      "m": "Энт, Тень, Страж, Привратник, Болотные Шаманы, Минотавр, Викарии"
     },
     {
       "n": "Гномья Руна",
@@ -187,11 +189,12 @@
         "dwarves/sangard_post/kilmaat-13-yarus",
         "dwarves/yuzhnyy_pik",
         "elves/chascha-duhov-skrytaya-lokaciya",
+        "elves/nael_tae",
         "elves/reniol",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "undead/topi"
       ],
-      "m": "Мёртвый Рудокоп, Стражи Подземелий, Тень, Страж, Привратник, Цербер Тени, Дух, Гидра, Древний, Одержимые"
+      "m": "Мёртвый Рудокоп, Стражи Подземелий, Тень, Страж, Привратник, Цербер Тени, Дух, Гидра, Древний, Одержимые, Дикие Пегасы"
     },
     {
       "n": "Гоблинский Колчан",
@@ -267,12 +270,15 @@
       "rarity": "Особый",
       "img": "Lunniy_Orb.jpg",
       "locs": [
+        "demons/ashtumh",
         "demons/khoraat",
         "demons/uohatumh",
         "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "undead/derevnya-umalishennyh",
         "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Исчадие Ада, Миссионеры, Потерянная Душа, Тень, Страж, Привратник"
+      "m": "Исчадие Ада, Миссионеры, Потерянная Душа, Тень, Страж, Привратник, Минотавры, Дух Огня, Паломник"
     },
     {
       "n": "Янтарный Кинжал",
@@ -281,9 +287,10 @@
       "rarity": "Особый",
       "img": "Jantarniy_Kinjal.jpg",
       "locs": [
-        "dwarves/sangard_post/kilmaat-13-yarus"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
       ],
-      "m": "Тень, Страж, Привратник"
+      "m": "Тень, Страж, Привратник, Стражи Подземелий"
     },
     {
       "n": "Сфера Шепотов",
@@ -292,13 +299,14 @@
       "rarity": "Особый",
       "img": "Sphere_Shopot.jpg",
       "locs": [
+        "demons/uohatumh",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/zabroshennaya-stoyanka-orkov",
         "undead/topi"
       ],
-      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп"
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп, Миссионеры"
     },
     {
       "n": "Костяной Нож",
@@ -334,14 +342,16 @@
       "rarity": "Особый",
       "img": "Led_Kap.jpg",
       "locs": [
+        "demons/thahashsh",
         "dwarves/koldstoun-post",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/lordeleyn",
         "elves/montsilvar",
+        "humans/kromelvud",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
         "orcs/solonchaki"
       ],
-      "m": "Бешенный Единорог, Злые Кочевники, Зверь, Медведь, Волк, Тень, Страж, Привратник"
+      "m": "Бешенный Единорог, Злые Кочевники, Зверь, Медведь, Волк, Тень, Страж, Привратник, Черные Варги, Дикий Варг"
     },
     {
       "n": "Огненный Кинжал",
@@ -351,9 +361,10 @@
       "img": "Fire_Kinjal.jpg",
       "locs": [
         "demons/uohatumh",
-        "dwarves/sangard_post/kilmaat-13-yarus"
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "humans/kromelvud"
       ],
-      "m": "Тень, Страж, Привратник, Каратели, Миссионеры"
+      "m": "Тень, Страж, Привратник, Каратели, Миссионеры, Черные Варги"
     },
     {
       "n": "Тисовый Колчан",
@@ -367,9 +378,10 @@
         "elves/montsilvar",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "undead/prud-utoplennikov"
       ],
-      "m": "Каратели, Зверь, Энт, Утопленник, Минотавр, Тень, Страж, Привратник"
+      "m": "Каратели, Зверь, Энт, Утопленник, Минотавр, Тень, Страж, Привратник, Стражи Подземелий"
     },
     {
       "n": "Льдистый Кортик",

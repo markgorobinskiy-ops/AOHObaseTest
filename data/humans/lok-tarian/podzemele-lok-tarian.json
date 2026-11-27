@@ -192,6 +192,17 @@
         "humans/lok-tarian/podzemele-lok-tarian"
       ],
       "m": "Холодное Железо, Гора Трупов"
+    },
+    {
+      "n": "Лицо Добродетели",
+      "name": "Лицо Добродетели",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Dobrodetel_Face.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian"
+      ],
+      "m": "Гора Трупов"
     }
   ]
 }

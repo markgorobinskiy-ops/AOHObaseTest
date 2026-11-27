@@ -76,9 +76,10 @@
       "img": "Posoh_Pereputja.jpg",
       "locs": [
         "demons/uohatumh",
+        "demons/utahatt",
         "undead/topi"
       ],
-      "m": "Болотные Шаманы, Миссионеры"
+      "m": "Болотные Шаманы, Миссионеры, Викарии"
     },
     {
       "n": "Посох Тринадцати Врат",
@@ -118,13 +119,14 @@
       "rarity": "Особый",
       "img": "Sphere_Shopot.jpg",
       "locs": [
+        "demons/uohatumh",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/zabroshennaya-stoyanka-orkov",
         "undead/topi"
       ],
-      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп"
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп, Миссионеры"
     },
     {
       "n": "Жезл Призыва",
@@ -149,13 +151,14 @@
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/lordeleyn",
         "elves/montsilvar",
+        "elves/nael_tae",
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "orcs/zabroshennaya-stoyanka-orkov",
         "undead/medilanskoe_nagore/labirint/logovo-minotavra",
         "undead/topi"
       ],
-      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа, Зверь"
+      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа, Зверь, Дикие Пегасы"
     },
     {
       "n": "Цветочный Орб",
@@ -164,12 +167,13 @@
       "rarity": "Особый",
       "img": "Flower_Orb.jpg",
       "locs": [
+        "demons/utahatt",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
         "undead/topi"
       ],
-      "m": "Энт, Тень, Страж, Привратник, Болотные Шаманы, Минотавр"
+      "m": "Энт, Тень, Страж, Привратник, Болотные Шаманы, Минотавр, Викарии"
     },
     {
       "n": "Гномья Руна",
@@ -183,11 +187,12 @@
         "dwarves/sangard_post/kilmaat-13-yarus",
         "dwarves/yuzhnyy_pik",
         "elves/chascha-duhov-skrytaya-lokaciya",
+        "elves/nael_tae",
         "elves/reniol",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "undead/topi"
       ],
-      "m": "Мёртвый Рудокоп, Стражи Подземелий, Тень, Страж, Привратник, Цербер Тени, Дух, Гидра, Древний, Одержимые"
+      "m": "Мёртвый Рудокоп, Стражи Подземелий, Тень, Страж, Привратник, Цербер Тени, Дух, Гидра, Древний, Одержимые, Дикие Пегасы"
     },
     {
       "n": "Колчан Скорости",
@@ -236,10 +241,11 @@
         "humans/amissvud",
         "humans/kromelvud",
         "orcs/solonchaki",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/stoybische_hodyaschih_po_ognyu",
         "undead/topi"
       ],
-      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги"
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги, Стражи Подземелий"
     },
     {
       "n": "Топор Глубинного Холода",
@@ -260,9 +266,10 @@
       "rarity": "Особый",
       "img": "Rainbow_Jezl.jpg",
       "locs": [
+        "demons/utahatt",
         "undead/topi"
       ],
-      "m": "Болотные Шаманы"
+      "m": "Болотные Шаманы, Викарии"
     },
     {
       "n": "Живой Щит",

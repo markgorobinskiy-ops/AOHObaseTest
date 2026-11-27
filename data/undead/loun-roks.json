@@ -1,0 +1,19 @@
+{
+  "id": "undead/loun-roks",
+  "name": "Лоун-Рокс",
+  "sections": [],
+  "items": [
+    {
+      "n": "Волчий Шлем",
+      "name": "Волчий Шлем",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Volk_Shlem.jpg",
+      "locs": [
+        "undead/loun-roks",
+        "undead/medilanskoe_nagore/labirint"
+      ],
+      "m": "Заблудший, Степняк"
+    }
+  ]
+}

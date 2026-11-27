@@ -106,13 +106,14 @@
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/lordeleyn",
         "elves/montsilvar",
+        "elves/nael_tae",
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "orcs/zabroshennaya-stoyanka-orkov",
         "undead/medilanskoe_nagore/labirint/logovo-minotavra",
         "undead/topi"
       ],
-      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа, Зверь"
+      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа, Зверь, Дикие Пегасы"
     },
     {
       "n": "Искрящийся Орб",
@@ -230,6 +231,37 @@
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
       "m": "Изгнанники, Стражи Подземелий"
+    },
+    {
+      "n": "Тисовый Колчан",
+      "name": "Тисовый Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Tis_Kolchan.jpg",
+      "locs": [
+        "demons/uohatumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/montsilvar",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "undead/prud-utoplennikov"
+      ],
+      "m": "Каратели, Зверь, Энт, Утопленник, Минотавр, Тень, Страж, Привратник, Стражи Подземелий"
+    },
+    {
+      "n": "Орочий Ятаган",
+      "name": "Орочий Ятаган",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Ork_Jatagan.jpg",
+      "locs": [
+        "dwarves/ubezhische-zortana",
+        "humans/lenino-portalnaya-zona/ploschad-imgorkogo",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
+      ],
+      "m": "Слуга, Шпана, Глядящий в Воду, Стражи Подземелий"
     }
   ]
 }

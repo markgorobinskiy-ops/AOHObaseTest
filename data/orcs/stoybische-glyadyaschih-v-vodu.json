@@ -32,12 +32,13 @@
         "demons/podzemele-marinii",
         "dwarves/medvezhiy-les",
         "dwarves/yuzhnyy_pik",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
         "humans/kromelvud",
         "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Медведь, Минотавр, Глядящий в Воду, Кабан, Горный Кабан, Горный Варг, Волк, Черные Варги"
+      "m": "Медведь, Минотавр, Глядящий в Воду, Кабан, Горный Кабан, Горный Варг, Волк, Черные Варги, Дикий Цербер"
     },
     {
       "n": "Перчатки Саламандры",
@@ -110,9 +111,10 @@
       "locs": [
         "dwarves/ubezhische-zortana",
         "humans/lenino-portalnaya-zona/ploschad-imgorkogo",
-        "orcs/stoybische-glyadyaschih-v-vodu"
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Слуга, Шпана, Глядящий в Воду"
+      "m": "Слуга, Шпана, Глядящий в Воду, Стражи Подземелий"
     },
     {
       "n": "Золотой Кафтан",
@@ -121,12 +123,13 @@
       "rarity": "Особый",
       "img": "Zolotoi_Kaftan.jpg",
       "locs": [
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
         "humans/tannervill",
         "orcs/derevnya_burevestnikov",
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Волк, Вепрь, Глядящий в Воду"
+      "m": "Волк, Вепрь, Глядящий в Воду, Дикий Цербер"
     },
     {
       "n": "Нефритовый Щит",

@@ -47,12 +47,13 @@
         "demons/podzemele-marinii",
         "dwarves/medvezhiy-les",
         "dwarves/yuzhnyy_pik",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
         "humans/kromelvud",
         "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Медведь, Минотавр, Глядящий в Воду, Кабан, Горный Кабан, Горный Варг, Волк, Черные Варги"
+      "m": "Медведь, Минотавр, Глядящий в Воду, Кабан, Горный Кабан, Горный Варг, Волк, Черные Варги, Дикий Цербер"
     },
     {
       "n": "Короткий Лук Всадника",
@@ -62,9 +63,10 @@
       "img": "Korotkiy_Luk_Vsadnika.jpg",
       "locs": [
         "demons/uohatumh",
-        "humans/kromelvud"
+        "humans/kromelvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
       ],
-      "m": "Каратели, Черные Варги"
+      "m": "Каратели, Черные Варги, Стражи Подземелий"
     },
     {
       "n": "Лук-Призрак",
@@ -91,10 +93,53 @@
         "humans/amissvud",
         "humans/kromelvud",
         "orcs/solonchaki",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/stoybische_hodyaschih_po_ognyu",
         "undead/topi"
       ],
-      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги"
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги, Стражи Подземелий"
+    },
+    {
+      "n": "Льдистый Капюшон",
+      "name": "Льдистый Капюшон",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Led_Kap.jpg",
+      "locs": [
+        "demons/thahashsh",
+        "dwarves/koldstoun-post",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/lordeleyn",
+        "elves/montsilvar",
+        "humans/kromelvud",
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
+        "orcs/solonchaki"
+      ],
+      "m": "Бешенный Единорог, Злые Кочевники, Зверь, Медведь, Волк, Тень, Страж, Привратник, Черные Варги, Дикий Варг"
+    },
+    {
+      "n": "Огненный Кинжал",
+      "name": "Огненный Кинжал",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Fire_Kinjal.jpg",
+      "locs": [
+        "demons/uohatumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "humans/kromelvud"
+      ],
+      "m": "Тень, Страж, Привратник, Каратели, Миссионеры, Черные Варги"
+    },
+    {
+      "n": "Султаримский Лук",
+      "name": "Султаримский Лук",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sultarim_Bow.jpg",
+      "locs": [
+        "humans/kromelvud"
+      ],
+      "m": "Черные Варги"
     }
   ]
 }

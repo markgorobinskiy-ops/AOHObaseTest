@@ -10,12 +10,13 @@
       "rarity": "Особый",
       "img": "Zolotoi_Kaftan.jpg",
       "locs": [
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
         "humans/tannervill",
         "orcs/derevnya_burevestnikov",
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Волк, Вепрь, Глядящий в Воду"
+      "m": "Волк, Вепрь, Глядящий в Воду, Дикий Цербер"
     },
     {
       "n": "Перчатки из Скальпа Барда",

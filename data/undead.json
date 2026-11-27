@@ -66,6 +66,11 @@
       "name": "Ущелье Ржавых Доспехов",
       "id": "undead/uschele-rzhavyh-dospehov",
       "data": "data/undead/uschele-rzhavyh-dospehov.json"
+    },
+    {
+      "name": "Лоун-Рокс",
+      "id": "undead/loun-roks",
+      "data": "data/undead/loun-roks.json"
     }
   ],
   "items": []

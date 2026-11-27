@@ -58,9 +58,10 @@
         "elves/montsilvar",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "undead/prud-utoplennikov"
       ],
-      "m": "Каратели, Зверь, Энт, Утопленник, Минотавр, Тень, Страж, Привратник"
+      "m": "Каратели, Зверь, Энт, Утопленник, Минотавр, Тень, Страж, Привратник, Стражи Подземелий"
     },
     {
       "n": "Капюшон Подлеца",
@@ -88,12 +89,13 @@
       "rarity": "Особый",
       "img": "Flower_Orb.jpg",
       "locs": [
+        "demons/utahatt",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
         "undead/topi"
       ],
-      "m": "Энт, Тень, Страж, Привратник, Болотные Шаманы, Минотавр"
+      "m": "Энт, Тень, Страж, Привратник, Болотные Шаманы, Минотавр, Викарии"
     },
     {
       "n": "Солнечный Орб",
@@ -165,6 +167,67 @@
         "undead/topi"
       ],
       "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник, Минотавры, Исчадие Ада"
+    },
+    {
+      "n": "Перчатки с Топазами",
+      "name": "Перчатки с Топазами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_s_Topazami.jpg",
+      "locs": [
+        "demons/podzemele-marinii",
+        "dwarves/medvezhiy-les",
+        "dwarves/yuzhnyy_pik",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "humans/kromelvud",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
+      ],
+      "m": "Медведь, Минотавр, Глядящий в Воду, Кабан, Горный Кабан, Горный Варг, Волк, Черные Варги, Дикий Цербер"
+    },
+    {
+      "n": "Золотой Кафтан",
+      "name": "Золотой Кафтан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Zolotoi_Kaftan.jpg",
+      "locs": [
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "humans/tannervill",
+        "orcs/derevnya_burevestnikov",
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Волк, Вепрь, Глядящий в Воду, Дикий Цербер"
+    },
+    {
+      "n": "Лунный Орб",
+      "name": "Лунный Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Lunniy_Orb.jpg",
+      "locs": [
+        "demons/ashtumh",
+        "demons/khoraat",
+        "demons/uohatumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "undead/derevnya-umalishennyh",
+        "undead/medilanskoe_nagore/labirint"
+      ],
+      "m": "Исчадие Ада, Миссионеры, Потерянная Душа, Тень, Страж, Привратник, Минотавры, Дух Огня, Паломник"
+    },
+    {
+      "n": "Перчатки Метателя Молний",
+      "name": "Перчатки Метателя Молний",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Glowes_Metatelja_Molniy.jpg",
+      "locs": [
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
+      ],
+      "m": "Дикий Цербер"
     }
   ]
 }

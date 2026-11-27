@@ -142,13 +142,14 @@
       "rarity": "Особый",
       "img": "Sphere_Shopot.jpg",
       "locs": [
+        "demons/uohatumh",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/zabroshennaya-stoyanka-orkov",
         "undead/topi"
       ],
-      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп"
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп, Миссионеры"
     },
     {
       "n": "Атласный Кафтан",
@@ -210,9 +211,10 @@
         "elves/montsilvar",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "undead/prud-utoplennikov"
       ],
-      "m": "Каратели, Зверь, Энт, Утопленник, Минотавр, Тень, Страж, Привратник"
+      "m": "Каратели, Зверь, Энт, Утопленник, Минотавр, Тень, Страж, Привратник, Стражи Подземелий"
     },
     {
       "n": "Золотой Кафтан",
@@ -221,12 +223,13 @@
       "rarity": "Особый",
       "img": "Zolotoi_Kaftan.jpg",
       "locs": [
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
         "humans/tannervill",
         "orcs/derevnya_burevestnikov",
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Волк, Вепрь, Глядящий в Воду"
+      "m": "Волк, Вепрь, Глядящий в Воду, Дикий Цербер"
     },
     {
       "n": "Перчатки с Серебрянными Шипами",
@@ -324,10 +327,11 @@
         "humans/amissvud",
         "humans/kromelvud",
         "orcs/solonchaki",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/stoybische_hodyaschih_po_ognyu",
         "undead/topi"
       ],
-      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги"
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги, Стражи Подземелий"
     },
     {
       "n": "Цветочный Орб",
@@ -336,12 +340,13 @@
       "rarity": "Особый",
       "img": "Flower_Orb.jpg",
       "locs": [
+        "demons/utahatt",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
         "undead/topi"
       ],
-      "m": "Энт, Тень, Страж, Привратник, Болотные Шаманы, Минотавр"
+      "m": "Энт, Тень, Страж, Привратник, Болотные Шаманы, Минотавр, Викарии"
     },
     {
       "n": "Камзол с Кружевами",
@@ -381,13 +386,14 @@
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/lordeleyn",
         "elves/montsilvar",
+        "elves/nael_tae",
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "orcs/zabroshennaya-stoyanka-orkov",
         "undead/medilanskoe_nagore/labirint/logovo-minotavra",
         "undead/topi"
       ],
-      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа, Зверь"
+      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа, Зверь, Дикие Пегасы"
     },
     {
       "n": "Глаз Мантикоры",
@@ -475,12 +481,13 @@
         "demons/podzemele-marinii",
         "dwarves/medvezhiy-les",
         "dwarves/yuzhnyy_pik",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
         "humans/kromelvud",
         "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Медведь, Минотавр, Глядящий в Воду, Кабан, Горный Кабан, Горный Варг, Волк, Черные Варги"
+      "m": "Медведь, Минотавр, Глядящий в Воду, Кабан, Горный Кабан, Горный Варг, Волк, Черные Варги, Дикий Цербер"
     }
   ]
 }

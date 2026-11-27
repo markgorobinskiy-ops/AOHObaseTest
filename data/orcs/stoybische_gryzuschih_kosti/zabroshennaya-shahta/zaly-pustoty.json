@@ -21,11 +21,12 @@
         "dwarves/sangard_post/kilmaat-13-yarus",
         "dwarves/yuzhnyy_pik",
         "elves/chascha-duhov-skrytaya-lokaciya",
+        "elves/nael_tae",
         "elves/reniol",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "undead/topi"
       ],
-      "m": "Мёртвый Рудокоп, Стражи Подземелий, Тень, Страж, Привратник, Цербер Тени, Дух, Гидра, Древний, Одержимые"
+      "m": "Мёртвый Рудокоп, Стражи Подземелий, Тень, Страж, Привратник, Цербер Тени, Дух, Гидра, Древний, Одержимые, Дикие Пегасы"
     },
     {
       "n": "Колчан Скорости",
@@ -71,10 +72,11 @@
       "img": "Jezl_Chasovshika.jpg",
       "locs": [
         "demons/ashtumh",
+        "demons/uohatumh",
         "elves/razboynichya-puscha-skrytaya-lokaciya",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
       ],
-      "m": "Разбойники, Дух Огня, Хранители Подземелий"
+      "m": "Разбойники, Дух Огня, Хранители Подземелий, Миссионеры"
     },
     {
       "n": "Дробитель",
@@ -111,13 +113,14 @@
       "rarity": "Особый",
       "img": "Sphere_Shopot.jpg",
       "locs": [
+        "demons/uohatumh",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/zabroshennaya-stoyanka-orkov",
         "undead/topi"
       ],
-      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп"
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп, Миссионеры"
     },
     {
       "n": "Молот Бедствий",
@@ -189,6 +192,49 @@
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
       ],
       "m": "Обитатель Разлома, Хранители Подземелий"
+    },
+    {
+      "n": "Короткий Лук Всадника",
+      "name": "Короткий Лук Всадника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Korotkiy_Luk_Vsadnika.jpg",
+      "locs": [
+        "demons/uohatumh",
+        "humans/kromelvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
+      ],
+      "m": "Каратели, Черные Варги, Стражи Подземелий"
+    },
+    {
+      "n": "Кровавые Перчатки",
+      "name": "Кровавые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Blood_Glowes.jpg",
+      "locs": [
+        "elves/lordeleyn",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "humans/amissvud",
+        "humans/kromelvud",
+        "orcs/solonchaki",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "orcs/stoybische_hodyaschih_po_ognyu",
+        "undead/topi"
+      ],
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги, Стражи Подземелий"
+    },
+    {
+      "n": "Янтарный Кинжал",
+      "name": "Янтарный Кинжал",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jantarniy_Kinjal.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
+      ],
+      "m": "Тень, Страж, Привратник, Стражи Подземелий"
     }
   ]
 }

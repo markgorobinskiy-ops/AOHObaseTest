@@ -12,9 +12,10 @@
       "locs": [
         "elves/ilvir/peschery_elfov",
         "humans/korneyl/peschery",
-        "humans/reyden"
+        "humans/reyden",
+        "undead/zarechenskiy-monastyr-skrytaya-lokaciya"
       ],
-      "m": "Жестокие Демоны, Толпы Скелетов, Демониды - Соглядатаи"
+      "m": "Жестокие Демоны, Толпы Скелетов, Демониды - Соглядатаи, Ганимед"
     },
     {
       "n": "Лук из Рога",

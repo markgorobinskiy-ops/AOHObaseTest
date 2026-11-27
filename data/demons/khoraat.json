@@ -26,12 +26,15 @@
       "rarity": "Особый",
       "img": "Lunniy_Orb.jpg",
       "locs": [
+        "demons/ashtumh",
         "demons/khoraat",
         "demons/uohatumh",
         "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "undead/derevnya-umalishennyh",
         "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Исчадие Ада, Миссионеры, Потерянная Душа, Тень, Страж, Привратник"
+      "m": "Исчадие Ада, Миссионеры, Потерянная Душа, Тень, Страж, Привратник, Минотавры, Дух Огня, Паломник"
     },
     {
       "n": "Малахитовая Сфера",
