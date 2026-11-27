@@ -81,6 +81,76 @@
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
       ],
       "m": "Гора Трупов, Хранители Подземелий"
+    },
+    {
+      "n": "Солнечный Орб",
+      "name": "Солнечный Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sun_Orb.jpg",
+      "locs": [
+        "demons/khoraat",
+        "demons/utahatt",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
+      ],
+      "m": "Привратник, Викарии, Исчадие Ада, Минотавр, Хранители Подземелий"
+    },
+    {
+      "n": "Сфера Шепотов",
+      "name": "Сфера Шепотов",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sphere_Shopot.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "undead/topi"
+      ],
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги)"
+    },
+    {
+      "n": "Молот Бедствий",
+      "name": "Молот Бедствий",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Molot_Bedstviy.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "humans/pograniche_sever",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "undead/medilanskoe_nagore/labirint",
+        "undead/pograniche-yug"
+      ],
+      "m": "Злой Пограничник, Мёртвый Рудокоп, Ужас Подземелий, Хранители Подземелий"
+    },
+    {
+      "n": "Серебряный Желудь",
+      "name": "Серебряный Желудь",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Serebro_Jolud.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae",
+        "humans/sredinnoe-poberezhe",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "undead/prud-utoplennikov"
+      ],
+      "m": "Снеговик, Утопленники, Тень, Страж, Привратник, Дикие Пегасы, Пещеры Наг (Наги)"
+    },
+    {
+      "n": "Змеиный Ключ",
+      "name": "Змеиный Ключ",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Zmej_Key.jpg",
+      "locs": [
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
+      ],
+      "m": "Пещеры Наг (Наги)"
     }
   ]
 }

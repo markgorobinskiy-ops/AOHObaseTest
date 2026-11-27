@@ -59,13 +59,14 @@
         "demons/ashtumh",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/lordeleyn",
+        "elves/montsilvar",
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "orcs/zabroshennaya-stoyanka-orkov",
         "undead/medilanskoe_nagore/labirint/logovo-minotavra",
         "undead/topi"
       ],
-      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа"
+      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа, Зверь"
     },
     {
       "n": "Сфера Фей",
@@ -163,6 +164,35 @@
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
       "m": "Страж, Зверь, Охрана, Энт, Дикий Варг, Дух, Проклятые Големы, Стражи Подземелий, Дух Огня"
+    },
+    {
+      "n": "Гизарма Ужаса",
+      "name": "Гизарма Ужаса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gizarma_Ujasa.jpg",
+      "locs": [
+        "demons/ashtumh",
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik",
+        "elves/nael_tae",
+        "humans/sredinnoe-poberezhe",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
+      ],
+      "m": "Дикие Пегасы, Страж, Привратник, Стражи Подземелий, Древний, Снеговик, Цербер Тени, Мёртвый Рудокоп, Дух Огня"
+    },
+    {
+      "n": "Амулет Священной Ярости",
+      "name": "Амулет Священной Ярости",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Amulet_Yarosti.png",
+      "locs": [
+        "demons/ashtumh"
+      ],
+      "m": "Дух Огня"
     }
   ]
 }

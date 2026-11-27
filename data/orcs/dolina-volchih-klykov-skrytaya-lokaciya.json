@@ -10,10 +10,11 @@
       "rarity": "Особый",
       "img": "Semizybiy_Mech.jpg",
       "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
         "humans/lok-tarian/podzemele-lok-tarian",
         "orcs/dolina-volchih-klykov-skrytaya-lokaciya"
       ],
-      "m": "Воевода, Гора Трупов"
+      "m": "Воевода, Гора Трупов, Охрана Торговца"
     },
     {
       "n": "Драконий Доспех",

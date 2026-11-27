@@ -31,9 +31,10 @@
         "demons/khoraat",
         "demons/utahatt",
         "dwarves/sangard_post/kilmaat-13-yarus",
-        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda"
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
       ],
-      "m": "Привратник, Викарии, Исчадие Ада, Минотавр"
+      "m": "Привратник, Викарии, Исчадие Ада, Минотавр, Хранители Подземелий"
     },
     {
       "n": "Посох Тринадцати Врат",
@@ -42,10 +43,11 @@
       "rarity": "Особый",
       "img": "Posoh_13_Vrat.jpg",
       "locs": [
+        "demons/uohatumh",
         "demons/utahatt",
         "undead/topi"
       ],
-      "m": "Викарии, Болотные Шаманы"
+      "m": "Викарии, Болотные Шаманы, Каратели, Миссионеры"
     },
     {
       "n": "Сфера Фей",
@@ -114,6 +116,17 @@
         "undead/topi"
       ],
       "m": "Охрана Минотавра, Викарии, Болотные Шаманы"
+    },
+    {
+      "n": "Посох Грома",
+      "name": "Посох Грома",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Posoh_Groma.png",
+      "locs": [
+        "demons/utahatt"
+      ],
+      "m": "Викарии"
     }
   ]
 }

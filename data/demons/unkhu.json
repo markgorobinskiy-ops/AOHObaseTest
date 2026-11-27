@@ -46,6 +46,28 @@
         "demons/unkhu"
       ],
       "m": "Рейдер"
+    },
+    {
+      "n": "Плащ с Капюшоном",
+      "name": "Плащ с Капюшоном",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Plasch_s_Kapushonom.png",
+      "locs": [
+        "demons/unkhu"
+      ],
+      "m": "Рейдер"
+    },
+    {
+      "n": "Доспех из Кожи Виверны",
+      "name": "Доспех из Кожи Виверны",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Dospeh_Iz_Koji_Viverni.png",
+      "locs": [
+        "demons/unkhu"
+      ],
+      "m": "Рейдер"
     }
   ]
 }

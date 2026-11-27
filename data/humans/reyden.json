@@ -44,10 +44,11 @@
       "rarity": "Особый",
       "img": "Ritualniy_Klinok.jpg",
       "locs": [
+        "elves/ilvir/peschery_elfov",
         "humans/korneyl/peschery",
         "humans/reyden"
       ],
-      "m": "Жестокие Демоны, Толпы Скелетов"
+      "m": "Жестокие Демоны, Толпы Скелетов, Демониды - Соглядатаи"
     },
     {
       "n": "Мизерикорд",
@@ -193,6 +194,31 @@
         "humans/reyden"
       ],
       "m": "Гора Трупов, Безумные Разбойники"
+    },
+    {
+      "n": "Зачарованный Капюшон",
+      "name": "Зачарованный Капюшон",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Enchant_Cap.jpg",
+      "locs": [
+        "dwarves/dvarfhill_post",
+        "humans/korneyl",
+        "humans/korneyl/peschery",
+        "humans/reyden"
+      ],
+      "m": "Сторожевые Варги, Лесной Волк, Толпы Скелетов, Бешенные Черные Варги"
+    },
+    {
+      "n": "Секира Доброй Славы",
+      "name": "Секира Доброй Славы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sekira_Dobroi_Slavi.jpg",
+      "locs": [
+        "humans/reyden"
+      ],
+      "m": "Одержимые Разбойники"
     }
   ]
 }

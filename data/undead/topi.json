@@ -85,10 +85,11 @@
       "rarity": "Особый",
       "img": "Posoh_13_Vrat.jpg",
       "locs": [
+        "demons/uohatumh",
         "demons/utahatt",
         "undead/topi"
       ],
-      "m": "Викарии, Болотные Шаманы"
+      "m": "Викарии, Болотные Шаманы, Каратели, Миссионеры"
     },
     {
       "n": "Искрящийся Орб",
@@ -100,12 +101,13 @@
         "demons/uohatumh",
         "dwarves/bolshoy-razlom",
         "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
         "elves/taynik-kontrabandistov-skrytaya-lokaciya",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "undead/prud-utoplennikov",
         "undead/topi"
       ],
-      "m": "Миссионеры, Охрана Торговца, Утопленник, Гидра, Стражи Подземелий, Обитатель Разлома, Тень, Страж, Привратник"
+      "m": "Миссионеры, Охрана Торговца, Утопленник, Гидра, Стражи Подземелий, Обитатель Разлома, Тень, Страж, Привратник, Разбойники"
     },
     {
       "n": "Сфера Шепотов",
@@ -116,9 +118,10 @@
       "locs": [
         "dwarves/sangard_post/kilmaat-13-yarus",
         "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "undead/topi"
       ],
-      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник"
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги)"
     },
     {
       "n": "Жезл Призыва",
@@ -142,13 +145,14 @@
         "demons/ashtumh",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/lordeleyn",
+        "elves/montsilvar",
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "orcs/zabroshennaya-stoyanka-orkov",
         "undead/medilanskoe_nagore/labirint/logovo-minotavra",
         "undead/topi"
       ],
-      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа"
+      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа, Зверь"
     },
     {
       "n": "Цветочный Орб",

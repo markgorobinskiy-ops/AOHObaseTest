@@ -30,6 +30,29 @@
         "undead/poselenie_v_delte/peschery_pod_rekoy"
       ],
       "m": "Изгнанники"
+    },
+    {
+      "n": "Каменный Топор",
+      "name": "Каменный Топор",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamen_Topor.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "undead/poselenie_v_delte/peschery_pod_rekoy"
+      ],
+      "m": "Мёртвый Рудокоп, Страж"
+    },
+    {
+      "n": "Жезл Горящего Разума",
+      "name": "Жезл Горящего Разума",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jezl_Fire_Razum.jpg",
+      "locs": [
+        "undead/poselenie_v_delte/peschery_pod_rekoy"
+      ],
+      "m": "Страж"
     }
   ]
 }

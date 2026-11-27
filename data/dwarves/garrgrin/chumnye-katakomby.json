@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Kamennaja_Koja.jpg",
       "locs": [
-        "dwarves/garrgrin/chumnye-katakomby"
+        "dwarves/garrgrin/chumnye-katakomby",
+        "orcs/solonchaki"
       ],
-      "m": "Страж Лабиринта"
+      "m": "Страж Лабиринта, Злые Кочевники"
     }
   ]
 }

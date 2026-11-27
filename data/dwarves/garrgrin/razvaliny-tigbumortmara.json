@@ -10,6 +10,7 @@
       "rarity": "Особый",
       "img": "Gizarma_Ujasa.jpg",
       "locs": [
+        "demons/ashtumh",
         "dwarves/garrgrin/razvaliny-tigbumortmara",
         "dwarves/koldstoun-post/istoschennyy-rudnik",
         "dwarves/sangard_post/kilmaat-13-yarus",
@@ -18,7 +19,7 @@
         "humans/sredinnoe-poberezhe",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Дикие Пегасы, Страж, Привратник, Стражи Подземелий, Древний, Снеговик, Цербер Тени, Мёртвый Рудокоп"
+      "m": "Дикие Пегасы, Страж, Привратник, Стражи Подземелий, Древний, Снеговик, Цербер Тени, Мёртвый Рудокоп, Дух Огня"
     },
     {
       "n": "Глаз Мантикоры",

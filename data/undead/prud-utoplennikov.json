@@ -89,12 +89,13 @@
         "demons/uohatumh",
         "dwarves/bolshoy-razlom",
         "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
         "elves/taynik-kontrabandistov-skrytaya-lokaciya",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "undead/prud-utoplennikov",
         "undead/topi"
       ],
-      "m": "Миссионеры, Охрана Торговца, Утопленник, Гидра, Стражи Подземелий, Обитатель Разлома, Тень, Страж, Привратник"
+      "m": "Миссионеры, Охрана Торговца, Утопленник, Гидра, Стражи Подземелий, Обитатель Разлома, Тень, Страж, Привратник, Разбойники"
     },
     {
       "n": "Колчан Скорости",
@@ -123,10 +124,12 @@
       "img": "Serebro_Jolud.jpg",
       "locs": [
         "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae",
         "humans/sredinnoe-poberezhe",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "undead/prud-utoplennikov"
       ],
-      "m": "Снеговик, Утопленники, Тень, Страж, Привратник"
+      "m": "Снеговик, Утопленники, Тень, Страж, Привратник, Дикие Пегасы, Пещеры Наг (Наги)"
     }
   ]
 }

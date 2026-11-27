@@ -12,6 +12,7 @@
       "locs": [
         "dwarves/yuzhnyy_pik",
         "elves/lordeleyn",
+        "elves/montsilvar",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/hizhina-lesnika",
@@ -139,9 +140,10 @@
       "locs": [
         "dwarves/sangard_post/kilmaat-13-yarus",
         "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "undead/topi"
       ],
-      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник"
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги)"
     },
     {
       "n": "Атласный Кафтан",
@@ -368,13 +370,14 @@
         "demons/ashtumh",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/lordeleyn",
+        "elves/montsilvar",
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "orcs/zabroshennaya-stoyanka-orkov",
         "undead/medilanskoe_nagore/labirint/logovo-minotavra",
         "undead/topi"
       ],
-      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа"
+      "m": "Дух Огня, Страж, Привратник, Труп, Гидра, Энт, Изгнанники, Стражи Подземелий, Загубленная Душа, Зверь"
     },
     {
       "n": "Глаз Мантикоры",

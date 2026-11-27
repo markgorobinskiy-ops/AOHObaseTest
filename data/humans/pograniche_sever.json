@@ -12,10 +12,11 @@
       "locs": [
         "dwarves/koldstoun-post/istoschennyy-rudnik",
         "humans/pograniche_sever",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "undead/medilanskoe_nagore/labirint",
         "undead/pograniche-yug"
       ],
-      "m": "Злой Пограничник, Мёртвый Рудокоп, Ужас Подземелий"
+      "m": "Злой Пограничник, Мёртвый Рудокоп, Ужас Подземелий, Хранители Подземелий"
     },
     {
       "n": "Обсидиановая Сфера",

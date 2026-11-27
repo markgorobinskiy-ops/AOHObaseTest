@@ -22,9 +22,10 @@
       "rarity": "Особый",
       "img": "Kamen_Sapogi.jpg",
       "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
         "humans/korneyl/peschery-vargov"
       ],
-      "m": "Королевская Свора"
+      "m": "Королевская Свора, Охрана Торговца"
     },
     {
       "n": "Перчатки из Рыбьей Чешуи",

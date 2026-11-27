@@ -30,12 +30,13 @@
         "demons/uohatumh",
         "dwarves/bolshoy-razlom",
         "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
         "elves/taynik-kontrabandistov-skrytaya-lokaciya",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "undead/prud-utoplennikov",
         "undead/topi"
       ],
-      "m": "Миссионеры, Охрана Торговца, Утопленник, Гидра, Стражи Подземелий, Обитатель Разлома, Тень, Страж, Привратник"
+      "m": "Миссионеры, Охрана Торговца, Утопленник, Гидра, Стражи Подземелий, Обитатель Разлома, Тень, Страж, Привратник, Разбойники"
     },
     {
       "n": "Саван Мертвеца",
@@ -129,6 +130,53 @@
       "r": "Особый",
       "rarity": "Особый",
       "img": "Kristall_Zemli.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+      ],
+      "m": "Охрана Торговца"
+    },
+    {
+      "n": "Каменные сапоги",
+      "name": "Каменные сапоги",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamen_Sapogi.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/korneyl/peschery-vargov"
+      ],
+      "m": "Королевская Свора, Охрана Торговца"
+    },
+    {
+      "n": "Семизубый Меч",
+      "name": "Семизубый Меч",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Semizybiy_Mech.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/lok-tarian/podzemele-lok-tarian",
+        "orcs/dolina-volchih-klykov-skrytaya-lokaciya"
+      ],
+      "m": "Воевода, Гора Трупов, Охрана Торговца"
+    },
+    {
+      "n": "Сапоги Ледяных Мостов",
+      "name": "Сапоги Ледяных Мостов",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sapog_Led_Mostov.png",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya"
+      ],
+      "m": "Охрана Торговца"
+    },
+    {
+      "n": "Кожанка Скаута",
+      "name": "Кожанка Скаута",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kojanka_Skauta.png",
       "locs": [
         "elves/taynik-kontrabandistov-skrytaya-lokaciya"
       ],

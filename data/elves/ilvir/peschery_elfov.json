@@ -2,5 +2,30 @@
   "id": "elves/4/0",
   "name": "Пещеры Эльфов",
   "sections": [],
-  "items": []
+  "items": [
+    {
+      "n": "Ритуальный Клинок",
+      "name": "Ритуальный Клинок",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Ritualniy_Klinok.jpg",
+      "locs": [
+        "elves/ilvir/peschery_elfov",
+        "humans/korneyl/peschery",
+        "humans/reyden"
+      ],
+      "m": "Жестокие Демоны, Толпы Скелетов, Демониды - Соглядатаи"
+    },
+    {
+      "n": "Лук из Рога",
+      "name": "Лук из Рога",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Luk_iz_Roga.png",
+      "locs": [
+        "elves/ilvir/peschery_elfov"
+      ],
+      "m": "Демониды-Рейдеры"
+    }
+  ]
 }

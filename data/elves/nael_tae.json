@@ -45,6 +45,7 @@
       "rarity": "Особый",
       "img": "Gizarma_Ujasa.jpg",
       "locs": [
+        "demons/ashtumh",
         "dwarves/garrgrin/razvaliny-tigbumortmara",
         "dwarves/koldstoun-post/istoschennyy-rudnik",
         "dwarves/sangard_post/kilmaat-13-yarus",
@@ -53,7 +54,7 @@
         "humans/sredinnoe-poberezhe",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Дикие Пегасы, Страж, Привратник, Стражи Подземелий, Древний, Снеговик, Цербер Тени, Мёртвый Рудокоп"
+      "m": "Дикие Пегасы, Страж, Привратник, Стражи Подземелий, Древний, Снеговик, Цербер Тени, Мёртвый Рудокоп, Дух Огня"
     },
     {
       "n": "Капюшон Подлеца",
@@ -72,6 +73,21 @@
         "undead/medilanskoe_nagore/labirint"
       ],
       "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта"
+    },
+    {
+      "n": "Серебряный Желудь",
+      "name": "Серебряный Желудь",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Serebro_Jolud.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae",
+        "humans/sredinnoe-poberezhe",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "undead/prud-utoplennikov"
+      ],
+      "m": "Снеговик, Утопленники, Тень, Страж, Привратник, Дикие Пегасы, Пещеры Наг (Наги)"
     }
   ]
 }

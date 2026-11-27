@@ -72,6 +72,24 @@
         "undead/topi"
       ],
       "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы"
+    },
+    {
+      "n": "Искрящийся Орб",
+      "name": "Искрящийся Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Iskr_Orb.jpg",
+      "locs": [
+        "demons/uohatumh",
+        "dwarves/bolshoy-razlom",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "undead/prud-utoplennikov",
+        "undead/topi"
+      ],
+      "m": "Миссионеры, Охрана Торговца, Утопленник, Гидра, Стражи Подземелий, Обитатель Разлома, Тень, Страж, Привратник, Разбойники"
     }
   ]
 }
