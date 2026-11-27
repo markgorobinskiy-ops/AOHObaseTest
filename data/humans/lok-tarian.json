@@ -64,11 +64,12 @@
       "rarity": "Особый",
       "img": "Drakon_Dospeh.jpg",
       "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
         "humans/lok-tarian",
         "humans/reyden",
         "orcs/dolina-volchih-klykov-skrytaya-lokaciya"
       ],
-      "m": "Злые Разбойники, Холодное Железо, Воевода"
+      "m": "Злые Разбойники, Холодное Железо, Воевода, Охрана Торговца"
     },
     {
       "n": "Топор Болотного Гоблина",

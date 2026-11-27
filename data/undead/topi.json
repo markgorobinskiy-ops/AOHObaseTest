@@ -267,9 +267,10 @@
       "img": "Rainbow_Jezl.jpg",
       "locs": [
         "demons/utahatt",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
         "undead/topi"
       ],
-      "m": "Болотные Шаманы, Викарии"
+      "m": "Болотные Шаманы, Викарии, Охрана Торговца"
     },
     {
       "n": "Живой Щит",

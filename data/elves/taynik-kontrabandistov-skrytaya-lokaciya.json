@@ -208,6 +208,33 @@
         "undead/prud-utoplennikov"
       ],
       "m": "Утопленник, Холодное Железо, Отряд, Охрана Торговца"
+    },
+    {
+      "n": "Драконий Доспех",
+      "name": "Драконий Доспех",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Drakon_Dospeh.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/lok-tarian",
+        "humans/reyden",
+        "orcs/dolina-volchih-klykov-skrytaya-lokaciya"
+      ],
+      "m": "Злые Разбойники, Холодное Железо, Воевода, Охрана Торговца"
+    },
+    {
+      "n": "Радужный Жезл",
+      "name": "Радужный Жезл",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Rainbow_Jezl.jpg",
+      "locs": [
+        "demons/utahatt",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "undead/topi"
+      ],
+      "m": "Болотные Шаманы, Викарии, Охрана Торговца"
     }
   ]
 }
