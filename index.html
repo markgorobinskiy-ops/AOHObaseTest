@@ -342,18 +342,18 @@ function setBgFor(raceId){
 
 /* ——— тема: меняется ТОЛЬКО кнопкой, навигация её не трогает ——— */
 function applyTheme(themeId){
-  if(!RACES[themeId] || themeId === 'market') themeId = Object.keys(RACES)[0];
+  if(!RACES[themeId] || themeId === 'market' || themeId === 'traders') themeId = Object.keys(RACES)[0];
   document.body.dataset.theme = themeId;
   setBgFor(themeId);
   try { localStorage.setItem('aoho_theme', themeId); } catch(e){}
   buildRaceButton();
 }
 
-/* ——— шапка: кнопка темы (листает по кругу, рынок и боссы в перебор не входят) ——— */
+/* ——— шапка: кнопка темы (листает по кругу, рынок, боссы и торговцы в перебор не входят) ——— */
 function buildRaceButton(){
   const box = document.getElementById('chips');
   box.innerHTML = '';
-  const ids = Object.keys(RACES).filter(id => id !== 'market');
+  const ids = Object.keys(RACES).filter(id => id !== 'market' && id !== 'traders');
   const cur = RACES[document.body.dataset.theme] ? document.body.dataset.theme : ids[0];
   const next = ids[(ids.indexOf(cur) + 1) % ids.length];
   const b = document.createElement('button');
@@ -923,7 +923,7 @@ async function render(){
   /* Квестовые Боссы — отдельная вкладка */
   if(kind === 'quests'){ await renderQuests(app); return; }
 
-  /* главная: список рас */
+  /* главная: список рас (и раздел «Торговцы Айвейла», он в RACES как traders) */
   if(kind !== 'race' && kind !== 'loc'){
     let html = '<h2>Выберите расу</h2><div class="tagline">Мир Айвейла ждёт наблюдения</div>'
              + '<div class="orn"><span class="line"></span><span class="gem">◆</span><span class="line"></span></div>';
@@ -931,7 +931,7 @@ async function render(){
     for(const id in RACES){
       const r = RACES[id];
       html += '<div class="card" style="animation-delay:' + (k * 0.06) + 's" onclick="location.hash=\'#/race/' + id + '\'">'
-            + '<div class="title">' + r.icon + ' ' + r.name + '</div>'
+            + '<div class="title">' + (r.icon || '📍') + ' ' + r.name + '</div>'
             + '<div class="meta" data-stats="' + id + '"><span class="soon">Загрузка…</span></div></div>';
       k++;
     }
@@ -952,7 +952,7 @@ async function render(){
   if(!raceId || !RACES[raceId]){ location.hash = '#/'; return; }
   /* ВАЖНО: тему здесь не трогаем — она меняется только кнопкой */
 
-  /* Вторичный: страница расы */
+  /* Вторичный: страница расы (в том числе «Торговцы Айвейла») */
   if(kind === 'race'){
     await nodePage(app, raceId, true);
     return;
