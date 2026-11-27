@@ -48,6 +48,12 @@
       "bg": "images/orcs.jpg",
       "tagline": "Предметы, для крафта которых нужны товары с рынка",
       "data": "data/market.json"
+    },
+    "traders": {
+      "name": "Торговцы Айвейла",
+      "icon": "⚖",
+      "tagline": "Кто что продаёт: справочник по торговцам",
+      "data": "data/traders.json"
     }
   }
 }
