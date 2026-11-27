@@ -1,0 +1,12 @@
+{
+  "id": "traders",
+  "name": "Торговцы Айвейла",
+  "sections": [
+    {
+      "name": "Эль Контрабандист (Тайник Контрабандистов)",
+      "id": "traders/el-kontrabandist-taynik-kontrabandistov",
+      "data": "data/traders/el-kontrabandist-taynik-kontrabandistov.json"
+    }
+  ],
+  "items": []
+}

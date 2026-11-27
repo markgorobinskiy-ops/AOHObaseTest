@@ -82,9 +82,10 @@
       "rarity": "Особый",
       "img": "Serebrjanniy_Kleimor.jpg",
       "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
         "humans/lok-tarian/podzemele-lok-tarian"
       ],
-      "m": "Гора Трупов"
+      "m": "Гора Трупов, Охрана Торговца"
     },
     {
       "n": "Вулканический Молот",

@@ -235,6 +235,18 @@
         "undead/topi"
       ],
       "m": "Болотные Шаманы, Викарии, Охрана Торговца"
+    },
+    {
+      "n": "Серебрянный Клеймор",
+      "name": "Серебрянный Клеймор",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Serebrjanniy_Kleimor.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/lok-tarian/podzemele-lok-tarian"
+      ],
+      "m": "Гора Трупов, Охрана Торговца"
     }
   ]
 }
