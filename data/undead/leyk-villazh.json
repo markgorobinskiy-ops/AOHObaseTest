@@ -95,6 +95,29 @@
         "undead/leyk-villazh"
       ],
       "m": "Послушники Тьмы, Мёртвый Епископ"
+    },
+    {
+      "n": "Жезл Семи Лун",
+      "name": "Жезл Семи Лун",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jezl_Semi_Lun.jpg",
+      "locs": [
+        "humans/korneyl/peschery",
+        "undead/leyk-villazh"
+      ],
+      "m": "Послушники Тьмы, Мёртвый Епископ"
+    },
+    {
+      "n": "Посох Лесных Друзей",
+      "name": "Посох Лесных Друзей",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Posoh_Lesnih_Druzei.jpg",
+      "locs": [
+        "undead/leyk-villazh"
+      ],
+      "m": "Мёртвый Маг"
     }
   ]
 }

@@ -55,9 +55,10 @@
       "rarity": "Особый",
       "img": "Jem_Koftan.jpg",
       "locs": [
-        "humans/korneyl"
+        "humans/korneyl",
+        "orcs/orochiy_trakt"
       ],
-      "m": "Голодные Варги, Варг из Чащи"
+      "m": "Голодные Варги, Варг из Чащи, Кровожадные Вепри"
     },
     {
       "n": "Зачарованный Капюшон",

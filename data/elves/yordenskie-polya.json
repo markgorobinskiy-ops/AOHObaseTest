@@ -11,9 +11,10 @@
       "img": "Dospeh_Polkovodca.jpg",
       "locs": [
         "elves/yordenskie-polya",
+        "orcs/zabroshennaya-stoyanka-orkov",
         "undead/prud-utoplennikov"
       ],
-      "m": "Старший Сын, Утопленник"
+      "m": "Старший Сын, Утопленник, Труп"
     },
     {
       "n": "Щит Семи Громов",
@@ -22,9 +23,10 @@
       "rarity": "Особый",
       "img": "Shield_7_Gromov.jpg",
       "locs": [
-        "elves/yordenskie-polya"
+        "elves/yordenskie-polya",
+        "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Сын Йорндерна"
+      "m": "Сын Йорндерна, Глядящий в Воду"
     }
   ]
 }

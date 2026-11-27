@@ -27,9 +27,10 @@
         "demons/podzemele-marinii",
         "demons/thahashsh",
         "humans/sredinnoe-poberezhe",
-        "orcs/solonchaki"
+        "orcs/solonchaki",
+        "undead/zarechenskiy-monastyr-skrytaya-lokaciya"
       ],
-      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик"
+      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер"
     },
     {
       "n": "Шляпа Первого Ордена",
@@ -156,9 +157,11 @@
         "dwarves/bolshoy-razlom",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/montsilvar",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/zabroshennaya-stoyanka-orkov"
       ],
-      "m": "Дух Огня, Страж, Привратник, Зверь, Труп, Обитатель Разлома, Огни Реки"
+      "m": "Дух Огня, Страж, Привратник, Зверь, Труп, Обитатель Разлома, Огни Реки, Стражи Подземелий, Хранители Подземелий"
     },
     {
       "n": "Амулет Лекаря",
@@ -174,6 +177,30 @@
         "undead/topi"
       ],
       "m": "Дикие Пегасы, Гидра, Големы, Пегас, Тень, Страж, Привратник"
+    },
+    {
+      "n": "Драконий Хвост",
+      "name": "Драконий Хвост",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Dragon_Hvost.jpg",
+      "locs": [
+        "demons/podzemele-marinii",
+        "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
+        "undead/derevnya-umalishennyh"
+      ],
+      "m": "Бандит, Дух, Дух Источника"
+    },
+    {
+      "n": "Гоблинский Лук",
+      "name": "Гоблинский Лук",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Goblin_Luk.png",
+      "locs": [
+        "demons/podzemele-marinii"
+      ],
+      "m": "Бес"
     }
   ]
 }

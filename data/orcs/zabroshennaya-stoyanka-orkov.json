@@ -34,9 +34,11 @@
         "dwarves/bolshoy-razlom",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/montsilvar",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/zabroshennaya-stoyanka-orkov"
       ],
-      "m": "Дух Огня, Страж, Привратник, Зверь, Труп, Обитатель Разлома, Огни Реки"
+      "m": "Дух Огня, Страж, Привратник, Зверь, Труп, Обитатель Разлома, Огни Реки, Стражи Подземелий, Хранители Подземелий"
     },
     {
       "n": "Обоюдоострый Орочий Топор",
@@ -60,6 +62,62 @@
         "orcs/zabroshennaya-stoyanka-orkov"
       ],
       "m": "Проклятые Големы, Труп"
+    },
+    {
+      "n": "Доспех Полководца",
+      "name": "Доспех Полководца",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Dospeh_Polkovodca.jpg",
+      "locs": [
+        "elves/yordenskie-polya",
+        "orcs/zabroshennaya-stoyanka-orkov",
+        "undead/prud-utoplennikov"
+      ],
+      "m": "Старший Сын, Утопленник, Труп"
+    },
+    {
+      "n": "Грозовой Панцирь",
+      "name": "Грозовой Панцирь",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Grozoboi_Pancir.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "orcs/zabroshennaya-stoyanka-orkov",
+        "undead/prud-utoplennikov"
+      ],
+      "m": "Утопленник, Труп, Охрана Торговца"
+    },
+    {
+      "n": "Глаз Мантикоры",
+      "name": "Глаз Мантикоры",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Glaz_Mantikori.jpg",
+      "locs": [
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "orcs/zabroshennaya-stoyanka-orkov"
+      ],
+      "m": "Дикий Цербер, Минотавр, Страж, Привратник, Древний, Энт, Труп"
+    },
+    {
+      "n": "Сфера Шепотов",
+      "name": "Сфера Шепотов",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sphere_Shopot.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "orcs/zabroshennaya-stoyanka-orkov",
+        "undead/topi"
+      ],
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп"
     }
   ]
 }

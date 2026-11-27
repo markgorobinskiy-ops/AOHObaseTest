@@ -11,9 +11,10 @@
       "img": "Terrakot_Lati.jpg",
       "locs": [
         "dwarves/malye-tonneli",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "undead/prud-utoplennikov"
       ],
-      "m": "Утопленник, Проклятые Големы"
+      "m": "Утопленник, Проклятые Големы, Стражи Подземелий"
     },
     {
       "n": "Грозовой Панцирь",
@@ -22,9 +23,11 @@
       "rarity": "Особый",
       "img": "Grozoboi_Pancir.jpg",
       "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "orcs/zabroshennaya-stoyanka-orkov",
         "undead/prud-utoplennikov"
       ],
-      "m": "Утопленник"
+      "m": "Утопленник, Труп, Охрана Торговца"
     },
     {
       "n": "Изумрудные Латы",
@@ -34,10 +37,11 @@
       "img": "Izumrud_Lati.jpg",
       "locs": [
         "dwarves/kilmaat",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
         "humans/lok-tarian",
         "undead/prud-utoplennikov"
       ],
-      "m": "Утопленник, Холодное Железо, Отряд"
+      "m": "Утопленник, Холодное Железо, Отряд, Охрана Торговца"
     },
     {
       "n": "Тисовый Колчан",
@@ -63,9 +67,10 @@
       "img": "Dospeh_Polkovodca.jpg",
       "locs": [
         "elves/yordenskie-polya",
+        "orcs/zabroshennaya-stoyanka-orkov",
         "undead/prud-utoplennikov"
       ],
-      "m": "Старший Сын, Утопленник"
+      "m": "Старший Сын, Утопленник, Труп"
     },
     {
       "n": "Хрустальный Доспех",

@@ -94,6 +94,7 @@
       "locs": [
         "elves/lordeleyn",
         "elves/montsilvar",
+        "humans/hizhina-lesnika",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona"
       ],
       "m": "Зверь, Волк, Бешенный Единорог"
@@ -141,9 +142,11 @@
         "dwarves/bolshoy-razlom",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/montsilvar",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/zabroshennaya-stoyanka-orkov"
       ],
-      "m": "Дух Огня, Страж, Привратник, Зверь, Труп, Обитатель Разлома, Огни Реки"
+      "m": "Дух Огня, Страж, Привратник, Зверь, Труп, Обитатель Разлома, Огни Реки, Стражи Подземелий, Хранители Подземелий"
     },
     {
       "n": "Гоблинский Колчан",
@@ -191,10 +194,11 @@
         "elves/nael_tae",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
+        "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti",
         "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта"
+      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта, Глядящий в Воду"
     },
     {
       "n": "Камзол с Кружевами",
@@ -224,7 +228,8 @@
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/hizhina-lesnika",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
-        "orcs/stoybische-glyadyaschih-v-vodu"
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
       "m": "Волк, Зверь, Глядящий в Воду, Варг Гримгольда, Горный Кабан, Бешенный Единорог, Кабан"
     },

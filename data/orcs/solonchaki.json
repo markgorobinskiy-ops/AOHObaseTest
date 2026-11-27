@@ -43,9 +43,10 @@
         "demons/podzemele-marinii",
         "demons/thahashsh",
         "humans/sredinnoe-poberezhe",
-        "orcs/solonchaki"
+        "orcs/solonchaki",
+        "undead/zarechenskiy-monastyr-skrytaya-lokaciya"
       ],
-      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик"
+      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер"
     },
     {
       "n": "Кровавые Перчатки",
@@ -57,11 +58,12 @@
         "elves/lordeleyn",
         "elves/razboynichya-puscha-skrytaya-lokaciya",
         "humans/amissvud",
+        "humans/kromelvud",
         "orcs/solonchaki",
         "orcs/stoybische_hodyaschih_po_ognyu",
         "undead/topi"
       ],
-      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы"
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги"
     },
     {
       "n": "Перчатки Везунчика",
@@ -72,9 +74,10 @@
       "locs": [
         "demons/uohatumh",
         "humans/amissvud",
-        "orcs/solonchaki"
+        "orcs/solonchaki",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Каратели, Волк, Злые Кочевники"
+      "m": "Каратели, Волк, Злые Кочевники, Кабан"
     },
     {
       "n": "Пернатые Перчатки",

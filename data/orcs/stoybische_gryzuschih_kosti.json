@@ -22,10 +22,11 @@
         "elves/nael_tae",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
+        "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti",
         "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта"
+      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта, Глядящий в Воду"
     },
     {
       "n": "Красный Кафтан",
@@ -75,6 +76,99 @@
         "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
       "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера"
+    },
+    {
+      "n": "Камзол с Языками Пламени",
+      "name": "Камзол с Языками Пламени",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamzol_s_Yazik_Plameni.jpg",
+      "locs": [
+        "dwarves/yuzhnyy_pik",
+        "elves/lordeleyn",
+        "elves/montsilvar",
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/hizhina-lesnika",
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
+      ],
+      "m": "Волк, Зверь, Глядящий в Воду, Варг Гримгольда, Горный Кабан, Бешенный Единорог, Кабан"
+    },
+    {
+      "n": "Кафтан Академика",
+      "name": "Кафтан Академика",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kaftan_Akademika.jpg",
+      "locs": [
+        "demons/thahashsh",
+        "humans/amissvud",
+        "humans/hizhina-lesnika",
+        "orcs/stoybische_gryzuschih_kosti"
+      ],
+      "m": "Зверь, Энт, Дикий Варг, Варг"
+    },
+    {
+      "n": "Перчатки Вечной Зимы",
+      "name": "Перчатки Вечной Зимы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Vechnoi_Zimi.jpg",
+      "locs": [
+        "demons/thahashsh",
+        "demons/uohatumh",
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/hizhina-lesnika",
+        "humans/kromelvud",
+        "orcs/stoybische_gryzuschih_kosti"
+      ],
+      "m": "Энт, Волк, Варг Гримгольда, Дикий Варг, Каратели, Черные Варги, Зверь, Кабан"
+    },
+    {
+      "n": "Атласный Кафтан",
+      "name": "Атласный Кафтан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Atlas_Kaftan.jpg",
+      "locs": [
+        "demons/thahashsh",
+        "dwarves/yuzhnyy_pik",
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/tannervill",
+        "orcs/stoybische_gryzuschih_kosti"
+      ],
+      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени, Кабан"
+    },
+    {
+      "n": "Перчатки Везунчика",
+      "name": "Перчатки Везунчика",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Vezunchika.jpg",
+      "locs": [
+        "demons/uohatumh",
+        "humans/amissvud",
+        "orcs/solonchaki",
+        "orcs/stoybische_gryzuschih_kosti"
+      ],
+      "m": "Каратели, Волк, Злые Кочевники, Кабан"
+    },
+    {
+      "n": "Опалённая Туника",
+      "name": "Опалённая Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Opalennaja_Tunika.jpg",
+      "locs": [
+        "elves/hizhina-otshelnika-portalnaya-lokaciya",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti"
+      ],
+      "m": "Энт, Страж Души, Варг"
     }
   ]
 }

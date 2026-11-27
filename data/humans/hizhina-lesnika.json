@@ -17,7 +17,8 @@
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/hizhina-lesnika",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
-        "orcs/stoybische-glyadyaschih-v-vodu"
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
       "m": "Волк, Зверь, Глядящий в Воду, Варг Гримгольда, Горный Кабан, Бешенный Единорог, Кабан"
     },
@@ -30,9 +31,10 @@
       "locs": [
         "demons/thahashsh",
         "humans/amissvud",
-        "humans/hizhina-lesnika"
+        "humans/hizhina-lesnika",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Зверь, Энт, Дикий Варг"
+      "m": "Зверь, Энт, Дикий Варг, Варг"
     },
     {
       "n": "Перчатки с Серебрянными Шипами",
@@ -50,6 +52,52 @@
         "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
       "m": "Дикий Цербер, Энт, Тролль, Волк, Вепрь Гримгольда, Зверь, Скелеты"
+    },
+    {
+      "n": "Отравленная Туника",
+      "name": "Отравленная Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Otravlennaja_Tunika.jpg",
+      "locs": [
+        "elves/lordeleyn",
+        "elves/montsilvar",
+        "humans/hizhina-lesnika",
+        "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona"
+      ],
+      "m": "Зверь, Волк, Бешенный Единорог"
+    },
+    {
+      "n": "Перчатки Вечной Зимы",
+      "name": "Перчатки Вечной Зимы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Vechnoi_Zimi.jpg",
+      "locs": [
+        "demons/thahashsh",
+        "demons/uohatumh",
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/hizhina-lesnika",
+        "humans/kromelvud",
+        "orcs/stoybische_gryzuschih_kosti"
+      ],
+      "m": "Энт, Волк, Варг Гримгольда, Дикий Варг, Каратели, Черные Варги, Зверь, Кабан"
+    },
+    {
+      "n": "Лиственная Туника",
+      "name": "Лиственная Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Listvennaja_Tunika.jpg",
+      "locs": [
+        "demons/thahashsh",
+        "humans/amissvud",
+        "humans/hizhina-lesnika",
+        "humans/sredinnoe-poberezhe",
+        "humans/tannervill"
+      ],
+      "m": "Волк, Снеговик, Вепрь, Дикий Варг, Зверь"
     }
   ]
 }

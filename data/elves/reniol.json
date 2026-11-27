@@ -95,9 +95,10 @@
       "rarity": "Особый",
       "img": "Song_Klinok.png",
       "locs": [
-        "elves/reniol"
+        "elves/reniol",
+        "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Разбойники"
+      "m": "Разбойники, Глядящий в Воду"
     }
   ]
 }

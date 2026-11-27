@@ -57,10 +57,11 @@
       "rarity": "Особый",
       "img": "Dragon_Hvost.jpg",
       "locs": [
+        "demons/podzemele-marinii",
         "dwarves/odinokaya-gnomya-hizhina-skrytaya-lokaciya",
         "undead/derevnya-umalishennyh"
       ],
-      "m": "Бандит, Дух"
+      "m": "Бандит, Дух, Дух Источника"
     }
   ]
 }

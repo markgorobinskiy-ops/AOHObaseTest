@@ -1,0 +1,20 @@
+{
+  "id": "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty/glubinnye-zaly",
+  "name": "Глубинные Залы",
+  "sections": [],
+  "items": [
+    {
+      "n": "Обсидиановая Чешуя",
+      "name": "Обсидиановая Чешуя",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Obsidian_Cheshuja.jpg",
+      "locs": [
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "dwarves/malye-tonneli",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty/glubinnye-zaly"
+      ],
+      "m": "Мёртвый Рудокоп, Проклятые Големы, Стражи Подземелий"
+    }
+  ]
+}

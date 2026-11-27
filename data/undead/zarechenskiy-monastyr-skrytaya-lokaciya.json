@@ -16,6 +16,21 @@
         "undead/zarechenskiy-monastyr-skrytaya-lokaciya"
       ],
       "m": "Древний Каменный Голем, Дикий Кабан, Ганимед, Толпы Скелетов"
+    },
+    {
+      "n": "Меховые Перчатки",
+      "name": "Меховые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Meh_Perchatki.jpg",
+      "locs": [
+        "demons/podzemele-marinii",
+        "demons/thahashsh",
+        "humans/sredinnoe-poberezhe",
+        "orcs/solonchaki",
+        "undead/zarechenskiy-monastyr-skrytaya-lokaciya"
+      ],
+      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер"
     }
   ]
 }

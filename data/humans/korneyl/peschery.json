@@ -194,9 +194,10 @@
       "rarity": "Особый",
       "img": "Jezl_Semi_Lun.jpg",
       "locs": [
-        "humans/korneyl/peschery"
+        "humans/korneyl/peschery",
+        "undead/leyk-villazh"
       ],
-      "m": "Послушники Тьмы"
+      "m": "Послушники Тьмы, Мёртвый Епископ"
     },
     {
       "n": "Перстень Ловкого Бойца",

@@ -76,7 +76,8 @@
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/hizhina-lesnika",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
-        "orcs/stoybische-glyadyaschih-v-vodu"
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
       "m": "Волк, Зверь, Глядящий в Воду, Варг Гримгольда, Горный Кабан, Бешенный Единорог, Кабан"
     },
@@ -90,11 +91,12 @@
         "elves/lordeleyn",
         "elves/razboynichya-puscha-skrytaya-lokaciya",
         "humans/amissvud",
+        "humans/kromelvud",
         "orcs/solonchaki",
         "orcs/stoybische_hodyaschih_po_ognyu",
         "undead/topi"
       ],
-      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы"
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги"
     },
     {
       "n": "Колчан Аристократа",
@@ -124,6 +126,7 @@
       "locs": [
         "elves/lordeleyn",
         "elves/montsilvar",
+        "humans/hizhina-lesnika",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona"
       ],
       "m": "Зверь, Волк, Бешенный Единорог"
@@ -151,9 +154,10 @@
         "elves/lordeleyn",
         "elves/razboynichya-puscha-skrytaya-lokaciya",
         "humans/reyden",
-        "humans/tannervill"
+        "humans/tannervill",
+        "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Разбойники, Вепрь, Бешенные Черные Варги, Изгнанники"
+      "m": "Разбойники, Вепрь, Бешенные Черные Варги, Изгнанники, Глядящий в Воду"
     },
     {
       "n": "Малая Боевая Коса",
@@ -162,9 +166,10 @@
       "rarity": "Особый",
       "img": "Malaja_Boevaja_Kosa.jpg",
       "locs": [
-        "elves/lordeleyn"
+        "elves/lordeleyn",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Изгнанники"
+      "m": "Изгнанники, Стражи Подземелий"
     }
   ]
 }

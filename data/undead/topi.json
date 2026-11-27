@@ -37,15 +37,17 @@
       "img": "Malahit_Sphere.jpg",
       "locs": [
         "demons/ashtumh",
+        "demons/khoraat",
         "demons/uohatumh",
         "demons/utahatt",
         "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
         "dwarves/malye-tonneli",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "dwarves/yuzhnyy_pik",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "undead/topi"
       ],
-      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник"
+      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник, Минотавры, Исчадие Ада"
     },
     {
       "n": "Обсидиановая Сфера",
@@ -119,9 +121,10 @@
         "dwarves/sangard_post/kilmaat-13-yarus",
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "orcs/zabroshennaya-stoyanka-orkov",
         "undead/topi"
       ],
-      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги)"
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп"
     },
     {
       "n": "Жезл Призыва",
@@ -231,11 +234,12 @@
         "elves/lordeleyn",
         "elves/razboynichya-puscha-skrytaya-lokaciya",
         "humans/amissvud",
+        "humans/kromelvud",
         "orcs/solonchaki",
         "orcs/stoybische_hodyaschih_po_ognyu",
         "undead/topi"
       ],
-      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы"
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги"
     },
     {
       "n": "Топор Глубинного Холода",

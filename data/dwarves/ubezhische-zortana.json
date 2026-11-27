@@ -41,9 +41,10 @@
       "img": "Ice_Pancir.jpg",
       "locs": [
         "dwarves/ubezhische-zortana",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
         "undead/pograniche-yug"
       ],
-      "m": "Слуга, Злой Пограничник"
+      "m": "Слуга, Злой Пограничник, Стражи Подземелий"
     },
     {
       "n": "Орочий Ятаган",

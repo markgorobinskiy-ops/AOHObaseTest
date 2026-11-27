@@ -181,6 +181,33 @@
         "elves/taynik-kontrabandistov-skrytaya-lokaciya"
       ],
       "m": "Охрана Торговца"
+    },
+    {
+      "n": "Грозовой Панцирь",
+      "name": "Грозовой Панцирь",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Grozoboi_Pancir.jpg",
+      "locs": [
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "orcs/zabroshennaya-stoyanka-orkov",
+        "undead/prud-utoplennikov"
+      ],
+      "m": "Утопленник, Труп, Охрана Торговца"
+    },
+    {
+      "n": "Изумрудные Латы",
+      "name": "Изумрудные Латы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Izumrud_Lati.jpg",
+      "locs": [
+        "dwarves/kilmaat",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
+        "humans/lok-tarian",
+        "undead/prud-utoplennikov"
+      ],
+      "m": "Утопленник, Холодное Железо, Отряд, Охрана Торговца"
     }
   ]
 }

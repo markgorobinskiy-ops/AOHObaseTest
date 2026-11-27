@@ -14,9 +14,11 @@
         "demons/uohatumh",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
-        "humans/kromelvud"
+        "humans/hizhina-lesnika",
+        "humans/kromelvud",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Энт, Волк, Варг Гримгольда, Дикий Варг, Каратели, Черные Варги"
+      "m": "Энт, Волк, Варг Гримгольда, Дикий Варг, Каратели, Черные Варги, Зверь, Кабан"
     },
     {
       "n": "Пернатые Перчатки",
@@ -63,6 +65,36 @@
         "humans/kromelvud"
       ],
       "m": "Каратели, Черные Варги"
+    },
+    {
+      "n": "Лук-Призрак",
+      "name": "Лук-Призрак",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "luk_prizrak.png",
+      "locs": [
+        "demons/uohatumh",
+        "dwarves/garrgrin/razvaliny-tigbumortmara",
+        "humans/kromelvud"
+      ],
+      "m": "Каратели, Миссионеры, Древний, Черные Варги"
+    },
+    {
+      "n": "Кровавые Перчатки",
+      "name": "Кровавые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Blood_Glowes.jpg",
+      "locs": [
+        "elves/lordeleyn",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "humans/amissvud",
+        "humans/kromelvud",
+        "orcs/solonchaki",
+        "orcs/stoybische_hodyaschih_po_ognyu",
+        "undead/topi"
+      ],
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги"
     }
   ]
 }

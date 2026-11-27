@@ -49,9 +49,10 @@
       "img": "Opalennaja_Tunika.jpg",
       "locs": [
         "elves/hizhina-otshelnika-portalnaya-lokaciya",
-        "humans/amissvud"
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Энт, Страж Души"
+      "m": "Энт, Страж Души, Варг"
     }
   ]
 }

@@ -11,10 +11,11 @@
       "img": "Izumrud_Lati.jpg",
       "locs": [
         "dwarves/kilmaat",
+        "elves/taynik-kontrabandistov-skrytaya-lokaciya",
         "humans/lok-tarian",
         "undead/prud-utoplennikov"
       ],
-      "m": "Утопленник, Холодное Железо, Отряд"
+      "m": "Утопленник, Холодное Железо, Отряд, Охрана Торговца"
     }
   ]
 }

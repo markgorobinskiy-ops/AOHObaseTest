@@ -49,9 +49,11 @@
         "dwarves/bolshoy-razlom",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/montsilvar",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/zabroshennaya-stoyanka-orkov"
       ],
-      "m": "Дух Огня, Страж, Привратник, Зверь, Труп, Обитатель Разлома, Огни Реки"
+      "m": "Дух Огня, Страж, Привратник, Зверь, Труп, Обитатель Разлома, Огни Реки, Стражи Подземелий, Хранители Подземелий"
     },
     {
       "n": "Танцующая Шляпа",
@@ -195,9 +197,10 @@
       "rarity": "Особый",
       "img": "Topor_Nemoti.jpg",
       "locs": [
-        "dwarves/bolshoy-razlom"
+        "dwarves/bolshoy-razlom",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
       ],
-      "m": "Обитатель Разлома"
+      "m": "Обитатель Разлома, Хранители Подземелий"
     }
   ]
 }

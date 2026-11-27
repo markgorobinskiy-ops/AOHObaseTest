@@ -1,7 +1,13 @@
 {
   "id": "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
   "name": "Залы Пустоты",
-  "sections": [],
+  "sections": [
+    {
+      "name": "Глубинные Залы",
+      "id": "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty/glubinnye-zaly",
+      "data": "data/orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty/glubinnye-zaly.json"
+    }
+  ],
   "items": [
     {
       "n": "Гномья Руна",
@@ -93,9 +99,10 @@
         "demons/utahatt",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
       ],
-      "m": "Привратник, Викарии, Исчадие Ада, Минотавр, Хранители Подземелий"
+      "m": "Привратник, Викарии, Исчадие Ада, Минотавр, Хранители Подземелий, Глядящий в Воду"
     },
     {
       "n": "Сфера Шепотов",
@@ -107,9 +114,10 @@
         "dwarves/sangard_post/kilmaat-13-yarus",
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "orcs/zabroshennaya-stoyanka-orkov",
         "undead/topi"
       ],
-      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги)"
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп"
     },
     {
       "n": "Молот Бедствий",
@@ -151,6 +159,36 @@
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
       ],
       "m": "Пещеры Наг (Наги)"
+    },
+    {
+      "n": "Матросский Колчан",
+      "name": "Матросский Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Matros_Kolchan.jpg",
+      "locs": [
+        "demons/ashtumh",
+        "demons/podzemele-marinii",
+        "dwarves/bolshoy-razlom",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/montsilvar",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "orcs/zabroshennaya-stoyanka-orkov"
+      ],
+      "m": "Дух Огня, Страж, Привратник, Зверь, Труп, Обитатель Разлома, Огни Реки, Стражи Подземелий, Хранители Подземелий"
+    },
+    {
+      "n": "Топор Немоты",
+      "name": "Топор Немоты",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Topor_Nemoti.jpg",
+      "locs": [
+        "dwarves/bolshoy-razlom",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
+      ],
+      "m": "Обитатель Разлома, Хранители Подземелий"
     }
   ]
 }

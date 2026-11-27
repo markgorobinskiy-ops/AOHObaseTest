@@ -55,10 +55,11 @@
       "locs": [
         "demons/thahashsh",
         "humans/amissvud",
+        "humans/hizhina-lesnika",
         "humans/sredinnoe-poberezhe",
         "humans/tannervill"
       ],
-      "m": "Волк, Снеговик, Вепрь, Дикий Варг"
+      "m": "Волк, Снеговик, Вепрь, Дикий Варг, Зверь"
     },
     {
       "n": "Нефритовый Молот",
@@ -171,9 +172,10 @@
         "demons/podzemele-marinii",
         "demons/thahashsh",
         "humans/sredinnoe-poberezhe",
-        "orcs/solonchaki"
+        "orcs/solonchaki",
+        "undead/zarechenskiy-monastyr-skrytaya-lokaciya"
       ],
-      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик"
+      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер"
     },
     {
       "n": "Амулет Боевого Мага",
@@ -218,9 +220,10 @@
       "rarity": "Особый",
       "img": "Shield_HellFire.jpg",
       "locs": [
-        "humans/sredinnoe-poberezhe"
+        "humans/sredinnoe-poberezhe",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Снеговик"
+      "m": "Снеговик, Стражи Подземелий"
     },
     {
       "n": "Лазурная Шляпа",

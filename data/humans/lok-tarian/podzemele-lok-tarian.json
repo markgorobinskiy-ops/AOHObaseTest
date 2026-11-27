@@ -168,6 +168,30 @@
         "undead/derevnya-umalishennyh"
       ],
       "m": "Святоша, Мёртвый Рудокоп, Обитатель Разлома, Гора Трупов"
+    },
+    {
+      "n": "Палаческий Меч",
+      "name": "Палаческий Меч",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Palacheskiy_Sword.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
+      ],
+      "m": "Стражи Подземелий, Гора Трупов"
+    },
+    {
+      "n": "Шлем Слепого Ужаса",
+      "name": "Шлем Слепого Ужаса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shlem_Slepogo_Ujasa.jpg",
+      "locs": [
+        "humans/lok-tarian",
+        "humans/lok-tarian/podzemele-lok-tarian"
+      ],
+      "m": "Холодное Железо, Гора Трупов"
     }
   ]
 }

@@ -17,7 +17,8 @@
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/hizhina-lesnika",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
-        "orcs/stoybische-glyadyaschih-v-vodu"
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
       "m": "Волк, Зверь, Глядящий в Воду, Варг Гримгольда, Горный Кабан, Бешенный Единорог, Кабан"
     },
@@ -112,9 +113,10 @@
       "locs": [
         "demons/thahashsh",
         "humans/amissvud",
-        "humans/hizhina-lesnika"
+        "humans/hizhina-lesnika",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Зверь, Энт, Дикий Варг"
+      "m": "Зверь, Энт, Дикий Варг, Варг"
     },
     {
       "n": "Перчатки Вечной Зимы",
@@ -127,9 +129,11 @@
         "demons/uohatumh",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
-        "humans/kromelvud"
+        "humans/hizhina-lesnika",
+        "humans/kromelvud",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Энт, Волк, Варг Гримгольда, Дикий Варг, Каратели, Черные Варги"
+      "m": "Энт, Волк, Варг Гримгольда, Дикий Варг, Каратели, Черные Варги, Зверь, Кабан"
     },
     {
       "n": "Сфера Шепотов",
@@ -141,9 +145,10 @@
         "dwarves/sangard_post/kilmaat-13-yarus",
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "orcs/zabroshennaya-stoyanka-orkov",
         "undead/topi"
       ],
-      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги)"
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп"
     },
     {
       "n": "Атласный Кафтан",
@@ -156,9 +161,10 @@
         "dwarves/yuzhnyy_pik",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
-        "humans/tannervill"
+        "humans/tannervill",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени"
+      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени, Кабан"
     },
     {
       "n": "Лиственная Туника",
@@ -169,10 +175,11 @@
       "locs": [
         "demons/thahashsh",
         "humans/amissvud",
+        "humans/hizhina-lesnika",
         "humans/sredinnoe-poberezhe",
         "humans/tannervill"
       ],
-      "m": "Волк, Снеговик, Вепрь, Дикий Варг"
+      "m": "Волк, Снеговик, Вепрь, Дикий Варг, Зверь"
     },
     {
       "n": "Пернатые Перчатки",
@@ -270,10 +277,11 @@
         "elves/nael_tae",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
+        "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti",
         "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта"
+      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта, Глядящий в Воду"
     },
     {
       "n": "Перчатки Саламандры",
@@ -314,11 +322,12 @@
         "elves/lordeleyn",
         "elves/razboynichya-puscha-skrytaya-lokaciya",
         "humans/amissvud",
+        "humans/kromelvud",
         "orcs/solonchaki",
         "orcs/stoybische_hodyaschih_po_ognyu",
         "undead/topi"
       ],
-      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы"
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги"
     },
     {
       "n": "Цветочный Орб",
@@ -356,9 +365,10 @@
       "img": "Opalennaja_Tunika.jpg",
       "locs": [
         "elves/hizhina-otshelnika-portalnaya-lokaciya",
-        "humans/amissvud"
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Энт, Страж Души"
+      "m": "Энт, Страж Души, Варг"
     },
     {
       "n": "Колчан Аристократа",
@@ -389,9 +399,10 @@
         "dwarves/garrgrin/razvaliny-tigbumortmara",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
-        "humans/amissvud"
+        "humans/amissvud",
+        "orcs/zabroshennaya-stoyanka-orkov"
       ],
-      "m": "Дикий Цербер, Минотавр, Страж, Привратник, Древний, Энт"
+      "m": "Дикий Цербер, Минотавр, Страж, Привратник, Древний, Энт, Труп"
     },
     {
       "n": "Гоблинский Колчан",
@@ -419,9 +430,10 @@
       "locs": [
         "demons/uohatumh",
         "humans/amissvud",
-        "orcs/solonchaki"
+        "orcs/solonchaki",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Каратели, Волк, Злые Кочевники"
+      "m": "Каратели, Волк, Злые Кочевники, Кабан"
     },
     {
       "n": "Камзол Придворного",

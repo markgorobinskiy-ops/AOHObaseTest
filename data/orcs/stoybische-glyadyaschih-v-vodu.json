@@ -17,7 +17,8 @@
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/hizhina-lesnika",
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona",
-        "orcs/stoybische-glyadyaschih-v-vodu"
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
       "m": "Волк, Зверь, Глядящий в Воду, Варг Гримгольда, Горный Кабан, Бешенный Единорог, Кабан"
     },
@@ -162,6 +163,115 @@
         "orcs/stoybische_gryzuschih_kosti"
       ],
       "m": "Бешенный Единорог, Варг, Медведь, Глядящий в Воду"
+    },
+    {
+      "n": "Солнечный Орб",
+      "name": "Солнечный Орб",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sun_Orb.jpg",
+      "locs": [
+        "demons/khoraat",
+        "demons/utahatt",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
+      ],
+      "m": "Привратник, Викарии, Исчадие Ада, Минотавр, Хранители Подземелий, Глядящий в Воду"
+    },
+    {
+      "n": "Кровавая Туника",
+      "name": "Кровавая Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Krovavaja_Tunika.jpg",
+      "locs": [
+        "elves/lordeleyn",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "humans/reyden",
+        "humans/tannervill",
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Разбойники, Вепрь, Бешенные Черные Варги, Изгнанники, Глядящий в Воду"
+    },
+    {
+      "n": "Щит Семи Громов",
+      "name": "Щит Семи Громов",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shield_7_Gromov.jpg",
+      "locs": [
+        "elves/yordenskie-polya",
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Сын Йорндерна, Глядящий в Воду"
+    },
+    {
+      "n": "Капюшон Подлеца",
+      "name": "Капюшон Подлеца",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kap_Podleca.jpg",
+      "locs": [
+        "demons/potuhshiy-vulkan-portalnaya-zona",
+        "demons/thahashsh",
+        "elves/montsilvar",
+        "elves/nael_tae",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "humans/amissvud",
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti",
+        "undead/medilanskoe_nagore/labirint"
+      ],
+      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта, Глядящий в Воду"
+    },
+    {
+      "n": "Клеймор",
+      "name": "Клеймор",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kleymor.jpg",
+      "locs": [
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
+      ],
+      "m": "Стражи Подземелий, Глядящий в Воду"
+    },
+    {
+      "n": "Лазурный Чешуйчатый Щит",
+      "name": "Лазурный Чешуйчатый Щит",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Lazurnij_Chashuijatii_Shield.jpg",
+      "locs": [
+        "humans/lok-tarian",
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Холодное Железо, Глядящий в Воду"
+    },
+    {
+      "n": "Поющий Клинок",
+      "name": "Поющий Клинок",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Song_Klinok.png",
+      "locs": [
+        "elves/reniol",
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Разбойники, Глядящий в Воду"
+    },
+    {
+      "n": "Гномья Кожанка",
+      "name": "Гномья Кожанка",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gnomja_Kojanka.png",
+      "locs": [
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Глядящий в Воду"
     }
   ]
 }

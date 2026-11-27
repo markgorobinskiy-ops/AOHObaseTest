@@ -46,9 +46,10 @@
         "dwarves/yuzhnyy_pik",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
-        "humans/tannervill"
+        "humans/tannervill",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени"
+      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени, Кабан"
     },
     {
       "n": "Лиственная Туника",
@@ -59,10 +60,11 @@
       "locs": [
         "demons/thahashsh",
         "humans/amissvud",
+        "humans/hizhina-lesnika",
         "humans/sredinnoe-poberezhe",
         "humans/tannervill"
       ],
-      "m": "Волк, Снеговик, Вепрь, Дикий Варг"
+      "m": "Волк, Снеговик, Вепрь, Дикий Варг, Зверь"
     },
     {
       "n": "Дьяволовы Стопы",
@@ -91,9 +93,10 @@
         "elves/lordeleyn",
         "elves/razboynichya-puscha-skrytaya-lokaciya",
         "humans/reyden",
-        "humans/tannervill"
+        "humans/tannervill",
+        "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Разбойники, Вепрь, Бешенные Черные Варги, Изгнанники"
+      "m": "Разбойники, Вепрь, Бешенные Черные Варги, Изгнанники, Глядящий в Воду"
     }
   ]
 }

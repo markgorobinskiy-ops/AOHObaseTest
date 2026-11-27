@@ -27,9 +27,11 @@
         "dwarves/bolshoy-razlom",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/montsilvar",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/zabroshennaya-stoyanka-orkov"
       ],
-      "m": "Дух Огня, Страж, Привратник, Зверь, Труп, Обитатель Разлома, Огни Реки"
+      "m": "Дух Огня, Страж, Привратник, Зверь, Труп, Обитатель Разлома, Огни Реки, Стражи Подземелий, Хранители Подземелий"
     },
     {
       "n": "Малахитовая Сфера",
@@ -39,15 +41,17 @@
       "img": "Malahit_Sphere.jpg",
       "locs": [
         "demons/ashtumh",
+        "demons/khoraat",
         "demons/uohatumh",
         "demons/utahatt",
         "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
         "dwarves/malye-tonneli",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "dwarves/yuzhnyy_pik",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "undead/topi"
       ],
-      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник"
+      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник, Минотавры, Исчадие Ада"
     },
     {
       "n": "Колчан Аристократа",

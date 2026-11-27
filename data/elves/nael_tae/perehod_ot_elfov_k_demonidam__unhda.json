@@ -41,9 +41,10 @@
         "dwarves/garrgrin/razvaliny-tigbumortmara",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
-        "humans/amissvud"
+        "humans/amissvud",
+        "orcs/zabroshennaya-stoyanka-orkov"
       ],
-      "m": "Дикий Цербер, Минотавр, Страж, Привратник, Древний, Энт"
+      "m": "Дикий Цербер, Минотавр, Страж, Привратник, Древний, Энт, Труп"
     },
     {
       "n": "Тисовый Колчан",
@@ -74,10 +75,11 @@
         "elves/nael_tae",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
+        "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti",
         "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта"
+      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта, Глядящий в Воду"
     },
     {
       "n": "Цветочный Орб",
@@ -104,9 +106,10 @@
         "demons/utahatt",
         "dwarves/sangard_post/kilmaat-13-yarus",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty"
       ],
-      "m": "Привратник, Викарии, Исчадие Ада, Минотавр, Хранители Подземелий"
+      "m": "Привратник, Викарии, Исчадие Ада, Минотавр, Хранители Подземелий, Глядящий в Воду"
     },
     {
       "n": "Сфера Фей",
@@ -142,6 +145,26 @@
         "orcs/derevnya_burevestnikov/kygyr-kvestovaya-zona"
       ],
       "m": "Волк, Вепрь, Дикий Варг, Медведь, Дикий Цербер"
+    },
+    {
+      "n": "Малахитовая Сфера",
+      "name": "Малахитовая Сфера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Malahit_Sphere.jpg",
+      "locs": [
+        "demons/ashtumh",
+        "demons/khoraat",
+        "demons/uohatumh",
+        "demons/utahatt",
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "undead/topi"
+      ],
+      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник, Минотавры, Исчадие Ада"
     }
   ]
 }

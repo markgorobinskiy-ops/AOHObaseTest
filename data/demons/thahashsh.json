@@ -31,9 +31,10 @@
         "demons/podzemele-marinii",
         "demons/thahashsh",
         "humans/sredinnoe-poberezhe",
-        "orcs/solonchaki"
+        "orcs/solonchaki",
+        "undead/zarechenskiy-monastyr-skrytaya-lokaciya"
       ],
-      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик"
+      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер"
     },
     {
       "n": "Кафтан Академика",
@@ -44,9 +45,10 @@
       "locs": [
         "demons/thahashsh",
         "humans/amissvud",
-        "humans/hizhina-lesnika"
+        "humans/hizhina-lesnika",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Зверь, Энт, Дикий Варг"
+      "m": "Зверь, Энт, Дикий Варг, Варг"
     },
     {
       "n": "Перчатки Вечной Зимы",
@@ -59,9 +61,11 @@
         "demons/uohatumh",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
-        "humans/kromelvud"
+        "humans/hizhina-lesnika",
+        "humans/kromelvud",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Энт, Волк, Варг Гримгольда, Дикий Варг, Каратели, Черные Варги"
+      "m": "Энт, Волк, Варг Гримгольда, Дикий Варг, Каратели, Черные Варги, Зверь, Кабан"
     },
     {
       "n": "Атласный Кафтан",
@@ -74,9 +78,10 @@
         "dwarves/yuzhnyy_pik",
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
-        "humans/tannervill"
+        "humans/tannervill",
+        "orcs/stoybische_gryzuschih_kosti"
       ],
-      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени"
+      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени, Кабан"
     },
     {
       "n": "Колчан из Рога",
@@ -106,10 +111,11 @@
       "locs": [
         "demons/thahashsh",
         "humans/amissvud",
+        "humans/hizhina-lesnika",
         "humans/sredinnoe-poberezhe",
         "humans/tannervill"
       ],
-      "m": "Волк, Снеговик, Вепрь, Дикий Варг"
+      "m": "Волк, Снеговик, Вепрь, Дикий Варг, Зверь"
     },
     {
       "n": "Камзол с Кружевами",
@@ -155,10 +161,11 @@
         "elves/nael_tae",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
+        "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti",
         "undead/medilanskoe_nagore/labirint"
       ],
-      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта"
+      "m": "Страж Вулкана, Варг, Энт, Дикий Цербер, Минотавр, Дикий Варг, Зверь, Бешенные Единороги, Белокрылый, Хранители Лабиринта, Глядящий в Воду"
     },
     {
       "n": "Пернатые Перчатки",

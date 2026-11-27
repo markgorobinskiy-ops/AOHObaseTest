@@ -8,5 +8,18 @@
       "data": "data/orcs/orochiy_trakt/peschery-orkov.json"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "n": "Жемчужный Кафтан",
+      "name": "Жемчужный Кафтан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jem_Koftan.jpg",
+      "locs": [
+        "humans/korneyl",
+        "orcs/orochiy_trakt"
+      ],
+      "m": "Голодные Варги, Варг из Чащи, Кровожадные Вепри"
+    }
+  ]
 }

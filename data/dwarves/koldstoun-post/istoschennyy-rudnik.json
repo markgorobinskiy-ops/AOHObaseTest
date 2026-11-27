@@ -151,9 +151,10 @@
       "img": "Obsidian_Cheshuja.jpg",
       "locs": [
         "dwarves/koldstoun-post/istoschennyy-rudnik",
-        "dwarves/malye-tonneli"
+        "dwarves/malye-tonneli",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty/glubinnye-zaly"
       ],
-      "m": "Мёртвый Рудокоп, Проклятые Големы"
+      "m": "Мёртвый Рудокоп, Проклятые Големы, Стражи Подземелий"
     },
     {
       "n": "Гизарма Ужаса",

@@ -51,9 +51,10 @@
       "rarity": "Особый",
       "img": "Palacheskiy_Sword.jpg",
       "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Стражи Подземелий"
+      "m": "Стражи Подземелий, Гора Трупов"
     },
     {
       "n": "Лазурная Шляпа",
@@ -77,9 +78,10 @@
       "rarity": "Особый",
       "img": "Kleymor.jpg",
       "locs": [
+        "orcs/stoybische-glyadyaschih-v-vodu",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
-      "m": "Стражи Подземелий"
+      "m": "Стражи Подземелий, Глядящий в Воду"
     },
     {
       "n": "Стилет Убийцы",
@@ -148,6 +150,86 @@
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
       ],
       "m": "Страж, Зверь, Охрана, Энт, Дикий Варг, Дух, Проклятые Големы, Стражи Подземелий, Дух Огня"
+    },
+    {
+      "n": "Терракотовые Латы",
+      "name": "Терракотовые Латы",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Terrakot_Lati.jpg",
+      "locs": [
+        "dwarves/malye-tonneli",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "undead/prud-utoplennikov"
+      ],
+      "m": "Утопленник, Проклятые Големы, Стражи Подземелий"
+    },
+    {
+      "n": "Матросский Колчан",
+      "name": "Матросский Колчан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Matros_Kolchan.jpg",
+      "locs": [
+        "demons/ashtumh",
+        "demons/podzemele-marinii",
+        "dwarves/bolshoy-razlom",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/montsilvar",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "orcs/zabroshennaya-stoyanka-orkov"
+      ],
+      "m": "Дух Огня, Страж, Привратник, Зверь, Труп, Обитатель Разлома, Огни Реки, Стражи Подземелий, Хранители Подземелий"
+    },
+    {
+      "n": "Ледяной Панцирь",
+      "name": "Ледяной Панцирь",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Ice_Pancir.jpg",
+      "locs": [
+        "dwarves/ubezhische-zortana",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta",
+        "undead/pograniche-yug"
+      ],
+      "m": "Слуга, Злой Пограничник, Стражи Подземелий"
+    },
+    {
+      "n": "Щит Адского Пламени",
+      "name": "Щит Адского Пламени",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shield_HellFire.jpg",
+      "locs": [
+        "humans/sredinnoe-poberezhe",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
+      ],
+      "m": "Снеговик, Стражи Подземелий"
+    },
+    {
+      "n": "Костяной Нож",
+      "name": "Костяной Нож",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Bone_Knife.jpg",
+      "locs": [
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
+      ],
+      "m": "Тень, Страж, Привратник, Стражи Подземелий"
+    },
+    {
+      "n": "Малая Боевая Коса",
+      "name": "Малая Боевая Коса",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Malaja_Boevaja_Kosa.jpg",
+      "locs": [
+        "elves/lordeleyn",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta"
+      ],
+      "m": "Изгнанники, Стражи Подземелий"
     }
   ]
 }
