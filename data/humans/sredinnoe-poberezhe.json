@@ -248,9 +248,10 @@
       "rarity": "Особый",
       "img": "Nakidka_Poputnogo_Vetra.jpg",
       "locs": [
+        "demons/unkhu",
         "humans/sredinnoe-poberezhe"
       ],
-      "m": "Снеговик"
+      "m": "Снеговик, Рейдер"
     },
     {
       "n": "Серебряный Желудь",

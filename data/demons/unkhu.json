@@ -147,6 +147,18 @@
         "demons/unkhu"
       ],
       "m": "Рейдер"
+    },
+    {
+      "n": "Накидка Попутного Ветра",
+      "name": "Накидка Попутного Ветра",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Nakidka_Poputnogo_Vetra.jpg",
+      "locs": [
+        "demons/unkhu",
+        "humans/sredinnoe-poberezhe"
+      ],
+      "m": "Снеговик, Рейдер"
     }
   ]
 }
