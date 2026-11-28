@@ -62,9 +62,10 @@
       "rarity": "Особый",
       "img": "Sprinter_Sapogi.jpg",
       "locs": [
+        "demons/unkhu",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya"
       ],
-      "m": "Варг Гримгольда"
+      "m": "Варг Гримгольда, Рейдер"
     },
     {
       "n": "Перчатки с Серебрянными Шипами",

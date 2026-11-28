@@ -81,6 +81,21 @@
         "orcs/zabroshennaya-stoyanka-orkov"
       ],
       "m": "Дикий Цербер, Минотавр, Страж, Привратник, Древний, Энт, Труп, Страж Души"
+    },
+    {
+      "n": "Танцующая Шляпа",
+      "name": "Танцующая Шляпа",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Dancing_Shljapa.jpg",
+      "locs": [
+        "demons/ubezhische-skitalca-portalnaya-lokaciya/kelya-otstupnika",
+        "dwarves/bolshoy-razlom",
+        "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "elves/hizhina-otshelnika-portalnaya-lokaciya",
+        "humans/korneyl/peschery"
+      ],
+      "m": "Обитатель Разлома, Толпа Зомби, Толпы Скелетов, Послушники Тьмы, Мёртвый Рудокоп, Монах, Охрана Торговца"
     }
   ]
 }

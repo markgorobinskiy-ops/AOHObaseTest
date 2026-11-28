@@ -273,9 +273,10 @@
       "rarity": "Особый",
       "img": "Gnomja_Kojanka.png",
       "locs": [
+        "demons/unkhu",
         "orcs/stoybische-glyadyaschih-v-vodu"
       ],
-      "m": "Глядящий в Воду"
+      "m": "Глядящий в Воду, Рейдер"
     }
   ]
 }

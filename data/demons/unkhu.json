@@ -112,6 +112,41 @@
         "demons/unkhu"
       ],
       "m": "Рейдер"
+    },
+    {
+      "n": "Спринтерские Сапоги",
+      "name": "Спринтерские Сапоги",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sprinter_Sapogi.jpg",
+      "locs": [
+        "demons/unkhu",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya"
+      ],
+      "m": "Варг Гримгольда, Рейдер"
+    },
+    {
+      "n": "Гномья Кожанка",
+      "name": "Гномья Кожанка",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Gnomja_Kojanka.png",
+      "locs": [
+        "demons/unkhu",
+        "orcs/stoybische-glyadyaschih-v-vodu"
+      ],
+      "m": "Глядящий в Воду, Рейдер"
+    },
+    {
+      "n": "Меховой Плащ",
+      "name": "Меховой Плащ",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Meh_Plasch.png",
+      "locs": [
+        "demons/unkhu"
+      ],
+      "m": "Рейдер"
     }
   ]
 }

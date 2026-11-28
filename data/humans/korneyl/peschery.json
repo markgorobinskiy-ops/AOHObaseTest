@@ -360,9 +360,10 @@
         "demons/ubezhische-skitalca-portalnaya-lokaciya/kelya-otstupnika",
         "dwarves/bolshoy-razlom",
         "dwarves/koldstoun-post/istoschennyy-rudnik",
+        "elves/hizhina-otshelnika-portalnaya-lokaciya",
         "humans/korneyl/peschery"
       ],
-      "m": "Обитатель Разлома, Толпа Зомби, Толпы Скелетов, Послушники Тьмы, Мёртвый Рудокоп, Монах"
+      "m": "Обитатель Разлома, Толпа Зомби, Толпы Скелетов, Послушники Тьмы, Мёртвый Рудокоп, Монах, Охрана Торговца"
     },
     {
       "n": "Шляпа Многих Чар",
