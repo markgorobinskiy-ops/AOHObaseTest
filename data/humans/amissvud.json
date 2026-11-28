@@ -404,11 +404,12 @@
       "locs": [
         "dwarves/garrgrin/razvaliny-tigbumortmara",
         "dwarves/sangard_post/kilmaat-13-yarus",
+        "elves/hizhina-otshelnika-portalnaya-lokaciya",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
         "humans/amissvud",
         "orcs/zabroshennaya-stoyanka-orkov"
       ],
-      "m": "Дикий Цербер, Минотавр, Страж, Привратник, Древний, Энт, Труп"
+      "m": "Дикий Цербер, Минотавр, Страж, Привратник, Древний, Энт, Труп, Страж Души"
     },
     {
       "n": "Гоблинский Колчан",
