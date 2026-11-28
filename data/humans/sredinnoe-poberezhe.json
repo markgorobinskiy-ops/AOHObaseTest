@@ -106,9 +106,10 @@
       "img": "Polumesjac.jpg",
       "locs": [
         "humans/lok-tarian/podzemele-lok-tarian",
-        "humans/sredinnoe-poberezhe"
+        "humans/sredinnoe-poberezhe",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Гора Трупов, Снеговик"
+      "m": "Гора Трупов, Снеговик, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Ледениющий Кожанный Доспех",
@@ -174,9 +175,10 @@
         "demons/uohatumh",
         "humans/sredinnoe-poberezhe",
         "orcs/solonchaki",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/zarechenskiy-monastyr-skrytaya-lokaciya"
       ],
-      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер, Каратели, Миссионеры"
+      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер, Каратели, Миссионеры, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Амулет Боевого Мага",

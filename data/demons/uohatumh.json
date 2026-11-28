@@ -23,9 +23,10 @@
       "rarity": "Особый",
       "img": "beliy_luk.png",
       "locs": [
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Каратели, Миссионеры"
+      "m": "Каратели, Миссионеры, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Железный Лук",
@@ -34,9 +35,10 @@
       "rarity": "Особый",
       "img": "jelezniy_luk.png",
       "locs": [
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Каратели, Миссионеры"
+      "m": "Каратели, Миссионеры, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Тисовый Колчан",
@@ -131,9 +133,10 @@
         "dwarves/sangard_post/kilmaat-13-yarus",
         "dwarves/yuzhnyy_pik",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/topi"
       ],
-      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник, Минотавры, Исчадие Ада"
+      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник, Минотавры, Исчадие Ада, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Перчатки Вечной Зимы",
@@ -162,9 +165,10 @@
         "demons/uohatumh",
         "humans/amissvud",
         "orcs/solonchaki",
-        "orcs/stoybische_gryzuschih_kosti"
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Каратели, Волк, Злые Кочевники, Кабан"
+      "m": "Каратели, Волк, Злые Кочевники, Кабан, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Рунический Стилет",
@@ -339,9 +343,10 @@
         "demons/uohatumh",
         "humans/sredinnoe-poberezhe",
         "orcs/solonchaki",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/zarechenskiy-monastyr-skrytaya-lokaciya"
       ],
-      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер, Каратели, Миссионеры"
+      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер, Каратели, Миссионеры, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Сфера Шепотов",
@@ -355,9 +360,10 @@
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/zabroshennaya-stoyanka-orkov",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/topi"
       ],
-      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп, Миссионеры"
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп, Миссионеры, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Жезл Часовщика",
@@ -381,9 +387,10 @@
       "img": "Goblin_Luk.png",
       "locs": [
         "demons/podzemele-marinii",
-        "demons/uohatumh"
+        "demons/uohatumh",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Бес, Каратели"
+      "m": "Бес, Каратели, Эль Контрабандист (Тайник Контрабандистов)"
     }
   ]
 }

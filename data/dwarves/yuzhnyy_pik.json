@@ -17,9 +17,10 @@
         "humans/amissvud",
         "humans/tannervill",
         "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера"
+      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Камзол Придворного",
@@ -29,9 +30,10 @@
       "img": "Kamzol_Pridvornogo.jpg",
       "locs": [
         "dwarves/yuzhnyy_pik",
-        "humans/amissvud"
+        "humans/amissvud",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Горный Кабан, Волк"
+      "m": "Горный Кабан, Волк, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Гизарма Ужаса",
@@ -117,9 +119,10 @@
         "demons/podzemele-marinii",
         "dwarves/yuzhnyy_pik",
         "humans/amissvud",
-        "orcs/solonchaki"
+        "orcs/solonchaki",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Волк, Злые Кочевники, Горный Кабан"
+      "m": "Волк, Злые Кочевники, Горный Кабан, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Малахитовая Сфера",
@@ -137,9 +140,10 @@
         "dwarves/sangard_post/kilmaat-13-yarus",
         "dwarves/yuzhnyy_pik",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/topi"
       ],
-      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник, Минотавры, Исчадие Ада"
+      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник, Минотавры, Исчадие Ада, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Атласный Кафтан",
@@ -153,9 +157,10 @@
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/tannervill",
-        "orcs/stoybische_gryzuschih_kosti"
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени, Кабан"
+      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени, Кабан, Эль Контрабандист (Тайник Контрабандистов)"
     }
   ]
 }

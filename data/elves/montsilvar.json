@@ -110,9 +110,10 @@
         "demons/podzemele-marinii",
         "dwarves/medvezhiy-les",
         "elves/montsilvar",
-        "humans/amissvud"
+        "humans/amissvud",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Энт, Волк, Медведь, Зверь, Кабан"
+      "m": "Энт, Волк, Медведь, Зверь, Кабан, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Перчатки с Серебрянными Шипами",
@@ -213,9 +214,10 @@
         "demons/thahashsh",
         "dwarves/koldstoun-post",
         "elves/montsilvar",
-        "humans/amissvud"
+        "humans/amissvud",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Медведь, Волк, Дикий Варг, Зверь"
+      "m": "Медведь, Волк, Дикий Варг, Зверь, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Камзол с Языками Пламени",

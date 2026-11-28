@@ -31,9 +31,10 @@
         "demons/podzemele-marinii",
         "dwarves/medvezhiy-les",
         "elves/montsilvar",
-        "humans/amissvud"
+        "humans/amissvud",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Энт, Волк, Медведь, Зверь, Кабан"
+      "m": "Энт, Волк, Медведь, Зверь, Кабан, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Дьяволовы Стопы",

@@ -10,9 +10,10 @@
       "rarity": "Особый",
       "img": "Sumerechniy_Plasch.jpg",
       "locs": [
-        "demons/unkhu"
+        "demons/unkhu",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Рейдер"
+      "m": "Рейдер, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Плащ Трёх Стихий",

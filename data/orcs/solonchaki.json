@@ -13,9 +13,10 @@
         "demons/podzemele-marinii",
         "dwarves/yuzhnyy_pik",
         "humans/amissvud",
-        "orcs/solonchaki"
+        "orcs/solonchaki",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Волк, Злые Кочевники, Горный Кабан"
+      "m": "Волк, Злые Кочевники, Горный Кабан, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Льдистый Капюшон",
@@ -47,9 +48,10 @@
         "demons/uohatumh",
         "humans/sredinnoe-poberezhe",
         "orcs/solonchaki",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/zarechenskiy-monastyr-skrytaya-lokaciya"
       ],
-      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер, Каратели, Миссионеры"
+      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер, Каратели, Миссионеры, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Кровавые Перчатки",
@@ -65,9 +67,10 @@
         "orcs/solonchaki",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/stoybische_hodyaschih_po_ognyu",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/topi"
       ],
-      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги, Стражи Подземелий"
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги, Стражи Подземелий, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Перчатки Везунчика",
@@ -79,9 +82,10 @@
         "demons/uohatumh",
         "humans/amissvud",
         "orcs/solonchaki",
-        "orcs/stoybische_gryzuschih_kosti"
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Каратели, Волк, Злые Кочевники, Кабан"
+      "m": "Каратели, Волк, Злые Кочевники, Кабан, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Пернатые Перчатки",

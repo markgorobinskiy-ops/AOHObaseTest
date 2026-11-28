@@ -29,9 +29,10 @@
         "demons/uohatumh",
         "humans/sredinnoe-poberezhe",
         "orcs/solonchaki",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/zarechenskiy-monastyr-skrytaya-lokaciya"
       ],
-      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер, Каратели, Миссионеры"
+      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер, Каратели, Миссионеры, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Ритуальный Клинок",

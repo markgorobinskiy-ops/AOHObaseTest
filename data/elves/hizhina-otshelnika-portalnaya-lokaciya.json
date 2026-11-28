@@ -50,9 +50,10 @@
       "locs": [
         "elves/hizhina-otshelnika-portalnaya-lokaciya",
         "humans/amissvud",
-        "orcs/stoybische_gryzuschih_kosti"
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Энт, Страж Души, Варг"
+      "m": "Энт, Страж Души, Варг, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Шляпа Чернокнижника",

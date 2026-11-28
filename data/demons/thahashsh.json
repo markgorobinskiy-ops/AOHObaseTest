@@ -17,9 +17,10 @@
         "humans/amissvud",
         "humans/tannervill",
         "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера"
+      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Меховые Перчатки",
@@ -33,9 +34,10 @@
         "demons/uohatumh",
         "humans/sredinnoe-poberezhe",
         "orcs/solonchaki",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/zarechenskiy-monastyr-skrytaya-lokaciya"
       ],
-      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер, Каратели, Миссионеры"
+      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер, Каратели, Миссионеры, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Кафтан Академика",
@@ -47,9 +49,10 @@
         "demons/thahashsh",
         "humans/amissvud",
         "humans/hizhina-lesnika",
-        "orcs/stoybische_gryzuschih_kosti"
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Зверь, Энт, Дикий Варг, Варг"
+      "m": "Зверь, Энт, Дикий Варг, Варг, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Перчатки Вечной Зимы",
@@ -80,9 +83,10 @@
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/tannervill",
-        "orcs/stoybische_gryzuschih_kosti"
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени, Кабан"
+      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени, Кабан, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Колчан из Рога",
@@ -128,9 +132,10 @@
         "demons/thahashsh",
         "dwarves/koldstoun-post",
         "elves/montsilvar",
-        "humans/amissvud"
+        "humans/amissvud",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Медведь, Волк, Дикий Варг, Зверь"
+      "m": "Медведь, Волк, Дикий Варг, Зверь, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Дьяволовы Стопы",

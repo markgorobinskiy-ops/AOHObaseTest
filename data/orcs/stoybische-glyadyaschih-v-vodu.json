@@ -149,9 +149,10 @@
       "rarity": "Особый",
       "img": "Orocja_Steganka.jpg",
       "locs": [
-        "orcs/stoybische-glyadyaschih-v-vodu"
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Глядящий в Воду"
+      "m": "Глядящий в Воду, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Красный Кафтан",

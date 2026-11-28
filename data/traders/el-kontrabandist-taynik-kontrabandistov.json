@@ -19,6 +19,359 @@
         "undead/topi"
       ],
       "m": "Тень, Мёртвый Рудокоп, Проклятые Големы, Голем, Дух Огня, Болотные Шаманы, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Белый Лук",
+      "name": "Белый Лук",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "beliy_luk.png",
+      "locs": [
+        "demons/uohatumh",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Каратели, Миссионеры, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Железный Лук",
+      "name": "Железный Лук",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "jelezniy_luk.png",
+      "locs": [
+        "demons/uohatumh",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Каратели, Миссионеры, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Сумеречный Плащ",
+      "name": "Сумеречный Плащ",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sumerechniy_Plasch.jpg",
+      "locs": [
+        "demons/unkhu",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Рейдер, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Перчатки из Скальпа Барда",
+      "name": "Перчатки из Скальпа Барда",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_iz_Skalp_Bard.jpg",
+      "locs": [
+        "demons/podzemele-marinii",
+        "demons/thahashsh",
+        "dwarves/yuzhnyy_pik",
+        "elves/koldovskoy-ostrov-portalnaya-lokaciya",
+        "humans/amissvud",
+        "humans/tannervill",
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
+        "undead/nizhnee-boloto-skrytaya-lokaciya"
+      ],
+      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Кафтан Академика",
+      "name": "Кафтан Академика",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kaftan_Akademika.jpg",
+      "locs": [
+        "demons/thahashsh",
+        "humans/amissvud",
+        "humans/hizhina-lesnika",
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Зверь, Энт, Дикий Варг, Варг, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Перчатки Архимага",
+      "name": "Перчатки Архимага",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Archmage.jpg",
+      "locs": [
+        "demons/podzemele-marinii",
+        "dwarves/yuzhnyy_pik",
+        "humans/amissvud",
+        "orcs/solonchaki",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Волк, Злые Кочевники, Горный Кабан, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Шепчущие Перчатки",
+      "name": "Шепчущие Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Shepchushie_Perchatki.jpg",
+      "locs": [
+        "demons/podzemele-marinii",
+        "dwarves/medvezhiy-les",
+        "elves/montsilvar",
+        "humans/amissvud",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Энт, Волк, Медведь, Зверь, Кабан, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Меховые Перчатки",
+      "name": "Меховые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Meh_Perchatki.jpg",
+      "locs": [
+        "demons/podzemele-marinii",
+        "demons/thahashsh",
+        "demons/uohatumh",
+        "humans/sredinnoe-poberezhe",
+        "orcs/solonchaki",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
+        "undead/zarechenskiy-monastyr-skrytaya-lokaciya"
+      ],
+      "m": "Медведь, Дикий Варг, Злые Кочевники, Снеговик, Аскер, Каратели, Миссионеры, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Малахитовая Сфера",
+      "name": "Малахитовая Сфера",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Malahit_Sphere.jpg",
+      "locs": [
+        "demons/ashtumh",
+        "demons/khoraat",
+        "demons/uohatumh",
+        "demons/utahatt",
+        "dwarves/hvoynik-rognevalda-skrytaya-lokaciya",
+        "dwarves/malye-tonneli",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "dwarves/yuzhnyy_pik",
+        "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
+        "undead/topi"
+      ],
+      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник, Минотавры, Исчадие Ада, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Сфера Шепотов",
+      "name": "Сфера Шепотов",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Sphere_Shopot.jpg",
+      "locs": [
+        "demons/uohatumh",
+        "dwarves/sangard_post/kilmaat-13-yarus",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "orcs/zabroshennaya-stoyanka-orkov",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
+        "undead/topi"
+      ],
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп, Миссионеры, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Атласный Кафтан",
+      "name": "Атласный Кафтан",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Atlas_Kaftan.jpg",
+      "locs": [
+        "demons/thahashsh",
+        "dwarves/yuzhnyy_pik",
+        "humans/amissvud",
+        "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
+        "humans/tannervill",
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени, Кабан, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Куртка Ворона",
+      "name": "Куртка Ворона",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kurtka_Vorona.jpg",
+      "locs": [
+        "dwarves/ubezhische-zortana",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Охрана, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Полумесяц",
+      "name": "Полумесяц",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Polumesjac.jpg",
+      "locs": [
+        "humans/lok-tarian/podzemele-lok-tarian",
+        "humans/sredinnoe-poberezhe",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Гора Трупов, Снеговик, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Камзол Придворного",
+      "name": "Камзол Придворного",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamzol_Pridvornogo.jpg",
+      "locs": [
+        "dwarves/yuzhnyy_pik",
+        "humans/amissvud",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Горный Кабан, Волк, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Камзол с Кружевами",
+      "name": "Камзол с Кружевами",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Kamzol_s_Kruhevami.jpg",
+      "locs": [
+        "demons/thahashsh",
+        "dwarves/koldstoun-post",
+        "elves/montsilvar",
+        "humans/amissvud",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Медведь, Волк, Дикий Варг, Зверь, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Перчатки Везунчика",
+      "name": "Перчатки Везунчика",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Perchatki_Vezunchika.jpg",
+      "locs": [
+        "demons/uohatumh",
+        "humans/amissvud",
+        "orcs/solonchaki",
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Каратели, Волк, Злые Кочевники, Кабан, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Кровавые Перчатки",
+      "name": "Кровавые Перчатки",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Blood_Glowes.jpg",
+      "locs": [
+        "elves/lordeleyn",
+        "elves/razboynichya-puscha-skrytaya-lokaciya",
+        "humans/amissvud",
+        "humans/kromelvud",
+        "orcs/solonchaki",
+        "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
+        "orcs/stoybische_hodyaschih_po_ognyu",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
+        "undead/topi"
+      ],
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги, Стражи Подземелий, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Опалённая Туника",
+      "name": "Опалённая Туника",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Opalennaja_Tunika.jpg",
+      "locs": [
+        "elves/hizhina-otshelnika-portalnaya-lokaciya",
+        "humans/amissvud",
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Энт, Страж Души, Варг, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Орочья Стёганка",
+      "name": "Орочья Стёганка",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Orocja_Steganka.jpg",
+      "locs": [
+        "orcs/stoybische-glyadyaschih-v-vodu",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Глядящий в Воду, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Гоблинский Лук",
+      "name": "Гоблинский Лук",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Goblin_Luk.png",
+      "locs": [
+        "demons/podzemele-marinii",
+        "demons/uohatumh",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Бес, Каратели, Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Жезл Утренней",
+      "name": "Жезл Утренней",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Jezl_Utrenney_Zvezdy.jpg",
+      "locs": [
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Нагината",
+      "name": "Нагината",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Naginata.png",
+      "locs": [
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Нагината Летящий Сокол",
+      "name": "Нагината Летящий Сокол",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Naginata_Flying_Sokol.png",
+      "locs": [
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Жемчужный Посох",
+      "name": "Жемчужный Посох",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "",
+      "locs": [
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Эль Контрабандист (Тайник Контрабандистов)"
+    },
+    {
+      "n": "Плащ из Кожи Келпи",
+      "name": "Плащ из Кожи Келпи",
+      "r": "Особый",
+      "rarity": "Особый",
+      "img": "Plasch_iz_Koji_Kelpi.png",
+      "locs": [
+        "traders/el-kontrabandist-taynik-kontrabandistov"
+      ],
+      "m": "Эль Контрабандист (Тайник Контрабандистов)"
     }
   ]
 }

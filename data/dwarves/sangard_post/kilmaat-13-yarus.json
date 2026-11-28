@@ -306,9 +306,10 @@
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/zabroshennaya-stoyanka-orkov",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/topi"
       ],
-      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп, Миссионеры"
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп, Миссионеры, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Костяной Нож",
@@ -429,9 +430,10 @@
         "dwarves/sangard_post/kilmaat-13-yarus",
         "dwarves/yuzhnyy_pik",
         "elves/nael_tae/perehod_ot_elfov_k_demonidam__unhda",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/topi"
       ],
-      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник, Минотавры, Исчадие Ада"
+      "m": "Болотные Шаманы, Дух Огня, Викарии, Голем, Каратели, Демоны, Цербер Тени, Тень, Страж, Привратник, Минотавры, Исчадие Ада, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Амулет Лекаря",

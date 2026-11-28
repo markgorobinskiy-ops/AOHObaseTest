@@ -32,9 +32,10 @@
         "demons/thahashsh",
         "humans/amissvud",
         "humans/hizhina-lesnika",
-        "orcs/stoybische_gryzuschih_kosti"
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Зверь, Энт, Дикий Варг, Варг"
+      "m": "Зверь, Энт, Дикий Варг, Варг, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Перчатки с Серебрянными Шипами",

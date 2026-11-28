@@ -118,9 +118,10 @@
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/zabroshennaya-stoyanka-orkov",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/topi"
       ],
-      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп, Миссионеры"
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп, Миссионеры, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Молот Бедствий",
@@ -220,9 +221,10 @@
         "orcs/solonchaki",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/stoybische_hodyaschih_po_ognyu",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/topi"
       ],
-      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги, Стражи Подземелий"
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги, Стражи Подземелий, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Янтарный Кинжал",

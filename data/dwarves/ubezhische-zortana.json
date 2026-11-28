@@ -29,9 +29,10 @@
       "rarity": "Особый",
       "img": "Kurtka_Vorona.jpg",
       "locs": [
-        "dwarves/ubezhische-zortana"
+        "dwarves/ubezhische-zortana",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Охрана"
+      "m": "Охрана, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Ледяной Панцирь",

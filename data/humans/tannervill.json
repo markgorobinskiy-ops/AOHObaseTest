@@ -32,9 +32,10 @@
         "humans/amissvud",
         "humans/tannervill",
         "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера"
+      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Атласный Кафтан",
@@ -48,9 +49,10 @@
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/tannervill",
-        "orcs/stoybische_gryzuschih_kosti"
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени, Кабан"
+      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени, Кабан, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Лиственная Туника",

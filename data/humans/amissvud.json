@@ -36,9 +36,10 @@
         "humans/amissvud",
         "humans/tannervill",
         "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера"
+      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Перчатки Архимага",
@@ -50,9 +51,10 @@
         "demons/podzemele-marinii",
         "dwarves/yuzhnyy_pik",
         "humans/amissvud",
-        "orcs/solonchaki"
+        "orcs/solonchaki",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Волк, Злые Кочевники, Горный Кабан"
+      "m": "Волк, Злые Кочевники, Горный Кабан, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Шепчущие Перчатки",
@@ -64,9 +66,10 @@
         "demons/podzemele-marinii",
         "dwarves/medvezhiy-les",
         "elves/montsilvar",
-        "humans/amissvud"
+        "humans/amissvud",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Энт, Волк, Медведь, Зверь, Кабан"
+      "m": "Энт, Волк, Медведь, Зверь, Кабан, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Дьяволовы Стопы",
@@ -114,9 +117,10 @@
         "demons/thahashsh",
         "humans/amissvud",
         "humans/hizhina-lesnika",
-        "orcs/stoybische_gryzuschih_kosti"
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Зверь, Энт, Дикий Варг, Варг"
+      "m": "Зверь, Энт, Дикий Варг, Варг, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Перчатки Вечной Зимы",
@@ -147,9 +151,10 @@
         "humans/amissvud",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/zabroshennaya-stoyanka-orkov",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/topi"
       ],
-      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп, Миссионеры"
+      "m": "Энт, Болотные Шаманы, Гидра, Тень, Страж, Привратник, Пещеры Наг (Наги), Труп, Миссионеры, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Атласный Кафтан",
@@ -163,9 +168,10 @@
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/tannervill",
-        "orcs/stoybische_gryzuschih_kosti"
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени, Кабан"
+      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени, Кабан, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Лиственная Туника",
@@ -329,9 +335,10 @@
         "orcs/solonchaki",
         "orcs/stoybische_gryzuschih_kosti/zabroshennaya-shahta/zaly-pustoty",
         "orcs/stoybische_hodyaschih_po_ognyu",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/topi"
       ],
-      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги, Стражи Подземелий"
+      "m": "Энт, Злые Кочевники, Изгнанники, Разбойники, Кабан, Болотные Шаманы, Черные Варги, Стражи Подземелий, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Цветочный Орб",
@@ -358,9 +365,10 @@
         "demons/thahashsh",
         "dwarves/koldstoun-post",
         "elves/montsilvar",
-        "humans/amissvud"
+        "humans/amissvud",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Медведь, Волк, Дикий Варг, Зверь"
+      "m": "Медведь, Волк, Дикий Варг, Зверь, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Опалённая Туника",
@@ -371,9 +379,10 @@
       "locs": [
         "elves/hizhina-otshelnika-portalnaya-lokaciya",
         "humans/amissvud",
-        "orcs/stoybische_gryzuschih_kosti"
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Энт, Страж Души, Варг"
+      "m": "Энт, Страж Души, Варг, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Колчан Аристократа",
@@ -438,9 +447,10 @@
         "demons/uohatumh",
         "humans/amissvud",
         "orcs/solonchaki",
-        "orcs/stoybische_gryzuschih_kosti"
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Каратели, Волк, Злые Кочевники, Кабан"
+      "m": "Каратели, Волк, Злые Кочевники, Кабан, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Камзол Придворного",
@@ -450,9 +460,10 @@
       "img": "Kamzol_Pridvornogo.jpg",
       "locs": [
         "dwarves/yuzhnyy_pik",
-        "humans/amissvud"
+        "humans/amissvud",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Горный Кабан, Волк"
+      "m": "Горный Кабан, Волк, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Сфера Фей",

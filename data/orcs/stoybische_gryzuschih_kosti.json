@@ -74,9 +74,10 @@
         "humans/amissvud",
         "humans/tannervill",
         "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov",
         "undead/nizhnee-boloto-skrytaya-lokaciya"
       ],
-      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера"
+      "m": "Энт, Дикий Варг, Дикий Кабан, Вепрь, Кабан, Болотник, Грифоны, Единорог, Питомец Эстера, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Камзол с Языками Пламени",
@@ -107,9 +108,10 @@
         "demons/thahashsh",
         "humans/amissvud",
         "humans/hizhina-lesnika",
-        "orcs/stoybische_gryzuschih_kosti"
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Зверь, Энт, Дикий Варг, Варг"
+      "m": "Зверь, Энт, Дикий Варг, Варг, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Перчатки Вечной Зимы",
@@ -140,9 +142,10 @@
         "humans/amissvud",
         "humans/grimgoldskaya-tryasina-skrytaya-lokaciya",
         "humans/tannervill",
-        "orcs/stoybische_gryzuschih_kosti"
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени, Кабан"
+      "m": "Волк, Вепрь Гримгольда, Вепрь, Дикий Варг, Цербер Тени, Кабан, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Перчатки Везунчика",
@@ -154,9 +157,10 @@
         "demons/uohatumh",
         "humans/amissvud",
         "orcs/solonchaki",
-        "orcs/stoybische_gryzuschih_kosti"
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Каратели, Волк, Злые Кочевники, Кабан"
+      "m": "Каратели, Волк, Злые Кочевники, Кабан, Эль Контрабандист (Тайник Контрабандистов)"
     },
     {
       "n": "Опалённая Туника",
@@ -167,9 +171,10 @@
       "locs": [
         "elves/hizhina-otshelnika-portalnaya-lokaciya",
         "humans/amissvud",
-        "orcs/stoybische_gryzuschih_kosti"
+        "orcs/stoybische_gryzuschih_kosti",
+        "traders/el-kontrabandist-taynik-kontrabandistov"
       ],
-      "m": "Энт, Страж Души, Варг"
+      "m": "Энт, Страж Души, Варг, Эль Контрабандист (Тайник Контрабандистов)"
     }
   ]
 }
